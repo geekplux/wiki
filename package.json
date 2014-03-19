@@ -10,5 +10,9 @@
   "license": "MIT",
   "outputSourceFiles": false,
   "copyright": "@GeekPlux",
-  "repository": { "type": "git", "url": "git@github.com:geekplux/wiki.git" }
+  "disqus": "GeekPlux",
+  "repository": { 
+    "type": "git",
+    "url": "git@github.com:geekplux/wiki.git"
+  }
 }

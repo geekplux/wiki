@@ -22,12 +22,56 @@
 
 -----------------
 
+## 已读书籍
+- [黑客与画家](http://book.douban.com/subject/6021440/)
+- [JavaScript DOM编程艺术 （第2版）](http://book.douban.com/subject/6038371/)
+- [孵化Twitter](http://book.douban.com/subject/25763770/)
+
+-----------------
+
+
+## Development
+
+### HTML&CSS
+
+#### 技巧：
+
+- [CSS使用技巧](http://www.ruanyifeng.com/blog/2010/03/css_cookbook.html)
+- [CSS3常用功能的写法](http://www.ruanyifeng.com/blog/2010/03/cross-browser_css3_features.html)
+- [CSS动画简介](http://www.ruanyifeng.com/blog/2014/02/css_transition_and_animation.html)
+- [CSS选择器笔记](http://www.ruanyifeng.com/blog/2009/03/css_selectors.html)
+
+#### 学习CSS：
+
+- [学习CSS布局](http://zh.learnlayout.com/)
+- [w3school](http://www.w3school.com.cn/)
+- [CSS禅意花园](http://www.csszengarden.com/tr/chinese/)
+
+#### 手册：
+
+- [CSS参考手册](http://css.doyoe.com/)
+
+
+#### Tools：
+
+- [CSS Lint](http://csslint.net/)
+- [css_doc](https://github.com/tkadauke/css_doc) 写注释用
+- [kss](https://github.com/kneath/kss) 写注释用
+
+### JavaScript
+
+- [JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/)
+- [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
+
+-----------------
+
 ## Tools
 - [Cmd Makrdown](http://www.zybuluo.com/mdeditor)
 - [StackEdit](http://benweet.github.io/stackedit/)
 - [虾米](http://www.xiami.com/)
 - [番茄土豆](https://pomotodo.com/)
 - [聪明的梯子](https://code.google.com/p/smartladder/)
+- [Shadowsocks](http://www.shadowsocks.com/)
 
 ------------------
 
