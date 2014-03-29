@@ -1,11 +1,17 @@
 # Development
 
+- [程序员技术练级攻略](http://coolshell.cn/articles/4990.html)
+- [知道创宇研发技能表](http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html)
+
 ## Web
 
 - [学习如何制作网站](https://developer.mozilla.org/zh-CN/learn#)
 - [浏览器的工作原理](http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
+- [关于浏览器和网络的20项须知](http://www.20thingsilearned.com/zh-CN)
 
 ### HTML&CSS
+
+- [编码规范 by @mdo](http://codeguide.bootcss.com/) - 编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范
 
 #### 技巧：
 
@@ -24,12 +30,6 @@
 
 - [CSS参考手册](http://css.doyoe.com/)
 
-
-#### Tools：
-
-- [CSS Lint](http://csslint.net/)
-- [css_doc](https://github.com/tkadauke/css_doc) 写注释用
-- [kss](https://github.com/kneath/kss) 写注释用
 
 ### JavaScript
 
