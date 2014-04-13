@@ -1,12 +1,19 @@
 
 # Tools
 
-## 效率
+### 效率
 
 - [番茄土豆](https://pomotodo.com/)
+- [白噪音](http://www.calm.com/)
+- [白噪音](http://www.rainymood.com/)
 
+### 生活
 
-## 在线编辑器
+- [Github简历生成](http://resume.github.io/)
+- [简历生成](https://cvmkr.com/)
+- [简历大厨](http://jianlidachu.com/welcome/)
+
+### 在线编辑器
 
 - [Cmd Makrdown](http://www.zybuluo.com/mdeditor)
 - [StackEdit](http://benweet.github.io/stackedit/)
@@ -15,22 +22,23 @@
 - [Slides](http://slid.es/) - 制作在线PPT
 - [马克飞象](http://maxiang.info/) - 一款专为印象笔记打造的Markdown编辑器
 
-## Music
+### Music
 
 - [虾米](http://www.xiami.com/)
 - [Listen Later](http://ll.geli.org/user/login)
+- [落网](http://www.luoo.net/)
 
 
-## 这是什么
+### 这是什么
 
 - [聪明的梯子](https://code.google.com/p/smartladder/)
 - [Shadowsocks](http://www.shadowsocks.com/)
 
-## 下载
+### 下载
 
 - [Torrent Kitty](http://www.torrentkitty.com/)
 
-## 其他
+### 其他
 
 - [知乎助手](http://zhihuhelpbyyzy.sinaapp.com/)
 
@@ -43,14 +51,14 @@
 - [CodePen](http://codepen.io/) - 同上
 - [iBox](http://tool.lu/) - 一系列在线小工具
 
-## JavaScript
+### JavaScript
 
 - [Js2coffee](http://js2coffee.org/) - JS 转换为 CoffeeScript
 - [JSHint](http://www.jshint.com/)
 - [JSLint](http://www.jslint.com/)
 
 
-## CSS
+### CSS
 
 - [CSS Lint](http://csslint.net/)
 - [css_doc](https://github.com/tkadauke/css_doc) 写注释用
@@ -60,7 +68,7 @@
 
 
 
-# OS X's tool
+# OS X tool
 
 - [Alfred](http://www.alfredapp.com/) - 替换系统Spotlight的免费软件，更美观更强大
 - [alfredworkflow](http://www.alfredworkflow.com/) - 超多的alfredworkflow
@@ -77,3 +85,7 @@
 - [Evernote](https://www.yinxiang.com/?from=evernote) - 个人知识管理
 
 ---------------
+
+# Windows tool
+
+- [2014年软件推荐](http://typeof.net/c/cn-scott-hanselmans-2014-ultimate-developer-and-power-user-s-tool-list-for-windows.html) - 写的太全了
