@@ -49,10 +49,7 @@
 - [黑客与画家](http://book.douban.com/subject/6021440/)
 - [JavaScript DOM编程艺术 （第2版）](http://book.douban.com/subject/6038371/)
 - [孵化Twitter](http://book.douban.com/subject/25763770/)
-- [国王 武士 祭司 诗人](http://www.douban.com/note/261927909/)
-- [拆掉思维里的墙](http://book.douban.com/subject/4953695/)
-- [了凡四训](http://book.douban.com/subject/2083981/)
-- [韩寒五年文集](http://book.douban.com/subject/1733250/)
-- [金庸作品集](http://book.douban.com/subject/2218216/)
+- [Node.js 开发指南](http://book.douban.com/subject/10789820/)
+- [CoffeeScript 程序设计](http://book.douban.com/subject/20509115/)
 
 -----------------

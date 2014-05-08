@@ -11,6 +11,7 @@
 - [浏览器的工作原理](http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
 - [关于浏览器和网络的20项须知](http://www.20thingsilearned.com/zh-CN)
 - [前端知识体系](http://ecomfe.duapp.com/)
+- [Google Web Fundamentals](https://developers.google.com/web/fundamentals/)
 
 ### HTML&CSS
 
@@ -45,6 +46,12 @@
 - [jQuery Coding Standards & Best Practices](http://lab.abhinayrathore.com/jquery-standards/)
 - [jQuery Deconstructed](http://www.keyframesandcode.com/resources/javascript/deconstructed/jquery/)
 - [深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
+
+### CoffeeScript
+
+- [CoffeeScript中文手册](http://island205.github.io/tlboc/)
+- [CoffeeScript Cookbook](http://island205.github.io/coffeescript-cookbook.github.com/)
+
 
 -----------------
 
