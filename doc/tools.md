@@ -1,19 +1,19 @@
 
 # Tools
 
-### 效率
+#### 效率
 
 - [番茄土豆](https://pomotodo.com/)
 - [白噪音](http://www.calm.com/)
 - [白噪音](http://www.rainymood.com/)
 
-### 生活
+#### 生活
 
 - [Github简历生成](http://resume.github.io/)
 - [简历生成](https://cvmkr.com/)
 - [简历大厨](http://jianlidachu.com/welcome/)
 
-### 在线编辑器
+#### 在线编辑器
 
 - [Cmd Makrdown](http://www.zybuluo.com/mdeditor)
 - [StackEdit](http://benweet.github.io/stackedit/)
@@ -22,23 +22,23 @@
 - [Slides](http://slid.es/) - 制作在线PPT
 - [马克飞象](http://maxiang.info/) - 一款专为印象笔记打造的Markdown编辑器
 
-### Music
+#### Music
 
 - [虾米](http://www.xiami.com/)
 - [Listen Later](http://ll.geli.org/user/login)
 - [落网](http://www.luoo.net/)
 
 
-### 这是什么
+#### 这是什么
 
 - [聪明的梯子](https://code.google.com/p/smartladder/)
 - [Shadowsocks](http://www.shadowsocks.com/)
 
-### 下载
+#### 下载
 
 - [Torrent Kitty](http://www.torrentkitty.com/)
 
-### 其他
+#### 其他
 
 - [知乎助手](http://zhihuhelpbyyzy.sinaapp.com/)
 
@@ -56,6 +56,7 @@
 - [Js2coffee](http://js2coffee.org/) - JS 转换为 CoffeeScript
 - [JSHint](http://www.jshint.com/)
 - [JSLint](http://www.jslint.com/)
+- [A List of Foundational JavaScript Tools](https://www.codefellows.org/blogs/complete-list-of-javascript-tools)
 
 
 ### CSS
