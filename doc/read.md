@@ -5,6 +5,7 @@
 - [Rework](http://www.v2ex.com/rework)
 - [iFindBook](http://www.ifindbook.net/)
 - [E书家](http://www.chm-pdf.com/)
+- [提问的智慧](http://www.wapm.cn/smart-questions/smart-questions-zh.html)
 
 -----------------
 

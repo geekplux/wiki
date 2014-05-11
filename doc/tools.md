@@ -50,6 +50,7 @@
 - [JSFiddle](http://jsfiddle.net/) - 在线展示 Web 代码效果
 - [CodePen](http://codepen.io/) - 同上
 - [iBox](http://tool.lu/) - 一系列在线小工具
+- [VIEWPORT RESIZER](http://lab.maltewassermann.com/viewport-resizer/) - 响应式开发测试
 
 ### JavaScript
 
@@ -90,3 +91,5 @@
 # Windows tool
 
 - [2014年软件推荐](http://typeof.net/c/cn-scott-hanselmans-2014-ultimate-developer-and-power-user-s-tool-list-for-windows.html) - 写的太全了
+
+---------------
