@@ -12,6 +12,7 @@
 - [Github简历生成](http://resume.github.io/)
 - [简历生成](https://cvmkr.com/)
 - [简历大厨](http://jianlidachu.com/welcome/)
+- [Resume template for Chinese programmers](https://github.com/geekcompany/ResumeSample)
 
 #### 在线编辑器
 

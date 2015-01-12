@@ -35,6 +35,7 @@
 - [李笑来的博客](http://lixiaolai.com/)
 - [西乔的九卦](http://blog.xiqiao.info/)
 - [酷壳 – CoolShell](http://coolshell.cn/)
+- [学而时嘻之](http://www.geekonomics10000.com/) - 用理工科思维理解世界
 
 --------------------
 
@@ -47,10 +48,14 @@
 
 # 已读书单
 
+
 - [黑客与画家](http://book.douban.com/subject/6021440/)
 - [JavaScript DOM编程艺术 （第2版）](http://book.douban.com/subject/6038371/)
 - [孵化Twitter](http://book.douban.com/subject/25763770/)
 - [Node.js 开发指南](http://book.douban.com/subject/10789820/)
 - [CoffeeScript 程序设计](http://book.douban.com/subject/20509115/)
+
+
+- [其余：我的豆瓣已读书单](http://book.douban.com/people/44921319/collect)
 
 -----------------

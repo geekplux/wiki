@@ -1,0 +1,16 @@
+{
+  "name": "GeekPlux's wiki",
+  "version": "0.1",
+  "description": "Stay hungry Stay foolish",
+  "keywords": [
+    "GeekPlux",
+    "wiki"
+  ],
+  "author": "GeekPlux",
+  "license": "MIT",
+  "copyright": "@GeekPlux",
+  "repository": { 
+    "type": "git",
+    "url": "git@github.com:geekplux/wiki.git"
+  }
+}

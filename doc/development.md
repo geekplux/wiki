@@ -12,10 +12,14 @@
 - [关于浏览器和网络的20项须知](http://www.20thingsilearned.com/zh-CN)
 - [前端知识体系](http://ecomfe.duapp.com/)
 - [Google Web Fundamentals](https://developers.google.com/web/fundamentals/)
+- [一大波前端资源](https://github.com/dypsilon/frontend-dev-bookmarks)
+- [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
 
 ### HTML&CSS
 
 - [编码规范 by @mdo](http://codeguide.bootcss.com/) - 编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范
+- [CSS Guidelines](http://cssguidelin.es/) - High-level advice and guidelines for writing sane, manageable, scalable CSS
+- [网易前端规范](http://nec.netease.com/) - 真心不错
 
 #### 技巧：
 
