@@ -55,9 +55,24 @@
 
 - [CoffeeScript中文手册](http://island205.github.io/tlboc/)
 - [CoffeeScript Cookbook](http://island205.github.io/coffeescript-cookbook.github.com/)
+- [CoffeeScript 最佳实践和编码惯例](https://github.com/geekplux/coffeescript-style-guide)
+- [Smooth CoffeeScript](http://autotelicum.github.io/Smooth-CoffeeScript/)
 
 
 -----------------
+
+## Node
+
+- [Node入门](http://www.nodebeginner.org/index-zh-cn.html)
+- [七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs/)
+- [Node.js 包教不包会](https://github.com/alsotang/node-lessons)
+- [Node.js API 中文版](http://nodeapi.ucdok.com/#/api/)
+- [nodeschool](http://nodeschool.io/)
+- [the NodeJS](http://0532.gitbooks.io/nodejs/) - 一本关于nodejs的文档
+- [从零开始nodejs系列文章](http://blog.fens.me/series-nodejs/)
+
+
+
 
 ## Android
 

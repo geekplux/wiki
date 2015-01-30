@@ -13,6 +13,7 @@
 - [简历生成](https://cvmkr.com/)
 - [简历大厨](http://jianlidachu.com/welcome/)
 - [Resume template for Chinese programmers](https://github.com/geekcompany/ResumeSample)
+- [最好用的MarkDown在线简历工具](https://github.com/geekcompany/DeerResume) - 可在线预览、编辑、设置访问密码和生成PDF
 
 #### 在线编辑器
 
