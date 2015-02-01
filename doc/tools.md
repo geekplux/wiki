@@ -47,7 +47,32 @@
 ------------------
 
 
-# Web Tools
+# Development Tools
+
+## Git
+
+- [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html) - 助你入门 git 的简明指南，木有高深内容 ;)
+- [pro git（中文版）](http://git-scm.com/book/zh/v1)
+- [Git 教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+- [Git 参考手册](http://gitref.org/zh/index.html)
+- [Git 指南](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/)
+- [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+
+## Vim
+
+- [简明 Vim 练级攻略](http://coolshell.cn/articles/5426.html)
+- [笨方法学Vimscript](http://learnvimscriptthehardway.onefloweroneworld.com/)
+- [What is your most productive shortcut with Vim?](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim?page=1&tab=votes#tab-top)
+- [Vim Awesome](http://vimawesome.com/) - a directory of Vim plugins sourced from GitHub
+- [vim 推荐配置](https://github.com/wklken/k-vim)
+
+## Sublime Text
+
+- [Sublime Text 全程指南](http://zh.lucida.me/blog/sublime-text-complete-guide/)
+- [Sublime Text 3 文档](http://feliving.github.io/Sublime-Text-3-Documentation/)
+- [Sublime Text 手冊](http://docs.sublimetext.tw/)
+
+## Web Tools
 
 - [JSFiddle](http://jsfiddle.net/) - 在线展示 Web 代码效果
 - [CodePen](http://codepen.io/) - 同上
