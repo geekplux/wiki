@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="assets/base.css" />
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-static-top top-navbar" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -52,6 +52,7 @@
         </p>
       </div>
     </header>
+
 <div class="container content">
   <div class="row">
   	<div class="col-md-3">
@@ -72,6 +73,12 @@
   <li class="level_2">
     <a href="#index_Git" title="Git">
       <i class="icon-chevron-right"></i>Git
+    </a>
+  </li>
+
+  <li class="level_2">
+    <a href="#index_Emacs" title="Emacs">
+      <i class="icon-chevron-right"></i>Emacs
     </a>
   </li>
 
@@ -106,6 +113,18 @@
   </li>
 
   <li class="level_1">
+    <a href="#index_浏览器" title="浏览器">
+      <i class="icon-chevron-right"></i>浏览器
+    </a>
+  </li>
+
+  <li class="level_2">
+    <a href="#index_Chrome" title="Chrome">
+      <i class="icon-chevron-right"></i>Chrome
+    </a>
+  </li>
+
+  <li class="level_1">
     <a href="#index_OS X tool" title="OS X tool">
       <i class="icon-chevron-right"></i>OS X tool
     </a>
@@ -118,6 +137,7 @@
   </li>
 
 </ul>
+
     </div>
     <div class="col-md-9">
       <section>
@@ -175,6 +195,12 @@
 <li><a href="http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/">Git 指南</a></li>
 <li><a href="http://pcottle.github.io/learnGitBranching/">Learn Git Branching</a></li>
 </ul>
+<h2>Emacs</h2>
+<ul>
+<li><a href="https://github.com/syl20bnr/spacemacs">spacemacs</a></li>
+<li><a href="http://smacs.github.io/elisp/">Emacs Lisp 简明教程</a></li>
+<li><a href="http://emacsist.com">Emacsist</a></li>
+</ul>
 <h2>Vim</h2>
 <ul>
 <li><a href="http://coolshell.cn/articles/5426.html">简明 Vim 练级攻略</a></li>
@@ -208,8 +234,17 @@
 <li><a href="http://csslint.net/">CSS Lint</a></li>
 <li><a href="https://github.com/tkadauke/css_doc">css_doc</a> 写注释用</li>
 <li><a href="https://github.com/kneath/kss">kss</a> 写注释用</li>
+<li><a href="http://www.getmarkman.com/">马克鳗</a> - 高效的设计稿标注、测量工具</li>
 </ul>
 <hr>
+<h1>浏览器</h1>
+<h2>Chrome</h2>
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb">Vimium</a></li>
+<li><a href="http://markdown-here.com/">Markdown Here</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall">One Tab</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/new-tong-wen-tang/ldmgbgaoglmaiblpnphffibpbfchjaeg">新同文堂</a> - 繁简转换</li>
+</ul>
 <h1>OS X tool</h1>
 <ul>
 <li><a href="http://www.alfredapp.com/">Alfred</a> - 替换系统Spotlight的免费软件，更美观更强大</li>
@@ -238,7 +273,7 @@
     </div>
   </div>
 </div>
-<footer class="footer">
+      <footer class="footer">
         <div class="container">
           <p class="pull-right">
             <a href="#">Back to top</a>
@@ -258,22 +293,32 @@
         $('td pre').removeClass('prettyprint');
         prettyPrint();
         var $window = $(window);
-        $('.bs-docs-sidenav').affix({
-          offset: {
-            top: function () {
-              return $window.width() <= 980 ? 290 : 210
-            },
-            bottom: 270
-          }
-        });
+        var sidenav = $('.bs-docs-sidenav');
+        if (sidenav.height() < window.innerHeight) {
+          sidenav.affix({
+            offset: {
+              top: function () {
+                return $window.width() <= 980 ? 290 : 210
+              },
+              bottom: 200
+            }
+          });
+        } else {
+          sidenav.removeClass('affix');
+        }
         $(".content").find('h1, h2, h3, h4, h5, h6').each(function () {
           var node = $(this);
           // 总是设置id
           node.attr("id", node.data('id') || "index_" + node.text());
-          node.css("paddingTop", 50);
+        });
+
+        $('.bs-docs-sidenav .accordion-marker').on('click', function(event) {
+          var current = $(event.currentTarget);
+          current.find('.glyphicon').toggleClass('glyphicon-chevron-right glyphicon-chevron-down');
         });
       });
     </script>
   
   </body>
 </html>
+

@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="assets/base.css" />
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-static-top top-navbar" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -52,6 +52,7 @@
         </p>
       </div>
     </header>
+
 <div class="container content">
   <div class="row">
   	<div class="col-md-3">
@@ -94,6 +95,18 @@
   </li>
 
   <li class="level_2">
+    <a href="#index_Ruby" title="Ruby">
+      <i class="icon-chevron-right"></i>Ruby
+    </a>
+  </li>
+
+  <li class="level_2">
+    <a href="#index_Shell" title="Shell">
+      <i class="icon-chevron-right"></i>Shell
+    </a>
+  </li>
+
+  <li class="level_2">
     <a href="#index_Android" title="Android">
       <i class="icon-chevron-right"></i>Android
     </a>
@@ -118,6 +131,7 @@
   </li>
 
 </ul>
+
     </div>
     <div class="col-md-9">
       <section>
@@ -171,6 +185,7 @@
 <li><a href="http://lab.abhinayrathore.com/jquery-standards/">jQuery Coding Standards &amp; Best Practices</a></li>
 <li><a href="http://www.keyframesandcode.com/resources/javascript/deconstructed/jquery/">jQuery Deconstructed</a></li>
 <li><a href="http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html">深入理解JavaScript系列</a></li>
+<li><a href="http://es6.ruanyifeng.com/">ECMAScript 6入门</a></li>
 </ul>
 <h3>CoffeeScript</h3>
 <ul>
@@ -189,6 +204,16 @@
 <li><a href="http://nodeschool.io/">nodeschool</a></li>
 <li><a href="http://0532.gitbooks.io/nodejs/">the NodeJS</a> - 一本关于nodejs的文档</li>
 <li><a href="http://blog.fens.me/series-nodejs/">从零开始nodejs系列文章</a></li>
+</ul>
+<h2>Ruby</h2>
+<ul>
+<li><a href="http://saito.im/slide/ruby-new.html">Ruby 语言新手教程</a></li>
+<li><a href="https://ihower.tw/rails4/index.html">Ruby on Rails 實戰聖經</a></li>
+<li><a href="http://guides.ruby-china.org">Ruby on Rails 指南</a></li>
+</ul>
+<h2>Shell</h2>
+<ul>
+<li><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md">命令行的艺术</a></li>
 </ul>
 <h2>Android</h2>
 <ul>
@@ -227,7 +252,7 @@
     </div>
   </div>
 </div>
-<footer class="footer">
+      <footer class="footer">
         <div class="container">
           <p class="pull-right">
             <a href="#">Back to top</a>
@@ -247,22 +272,32 @@
         $('td pre').removeClass('prettyprint');
         prettyPrint();
         var $window = $(window);
-        $('.bs-docs-sidenav').affix({
-          offset: {
-            top: function () {
-              return $window.width() <= 980 ? 290 : 210
-            },
-            bottom: 270
-          }
-        });
+        var sidenav = $('.bs-docs-sidenav');
+        if (sidenav.height() < window.innerHeight) {
+          sidenav.affix({
+            offset: {
+              top: function () {
+                return $window.width() <= 980 ? 290 : 210
+              },
+              bottom: 200
+            }
+          });
+        } else {
+          sidenav.removeClass('affix');
+        }
         $(".content").find('h1, h2, h3, h4, h5, h6').each(function () {
           var node = $(this);
           // 总是设置id
           node.attr("id", node.data('id') || "index_" + node.text());
-          node.css("paddingTop", 50);
+        });
+
+        $('.bs-docs-sidenav .accordion-marker').on('click', function(event) {
+          var current = $(event.currentTarget);
+          current.find('.glyphicon').toggleClass('glyphicon-chevron-right glyphicon-chevron-down');
         });
       });
     </script>
   
   </body>
 </html>
+
