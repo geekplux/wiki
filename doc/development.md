@@ -74,6 +74,18 @@
 
 
 
+## Ruby
+
+- [Ruby 语言新手教程](http://saito.im/slide/ruby-new.html)
+- [Ruby on Rails 實戰聖經](https://ihower.tw/rails4/index.html)
+- [Ruby on Rails 指南](http://guides.ruby-china.org)
+
+
+## Shell
+
+- [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+
+
 
 ## Android
 

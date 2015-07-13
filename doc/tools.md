@@ -24,6 +24,7 @@
 - [Slides](http://slid.es/) - 制作在线PPT
 - [马克飞象](http://maxiang.info/) - 一款专为印象笔记打造的Markdown编辑器
 
+
 #### Music
 
 - [虾米](http://www.xiami.com/)
@@ -57,6 +58,14 @@
 - [Git 参考手册](http://gitref.org/zh/index.html)
 - [Git 指南](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/)
 - [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+
+
+## Emacs
+
+- [spacemacs](https://github.com/syl20bnr/spacemacs)
+- [Emacs Lisp 简明教程](http://smacs.github.io/elisp/)
+- [Emacsist](http://emacsist.com)
+
 
 ## Vim
 
@@ -92,9 +101,19 @@
 - [CSS Lint](http://csslint.net/)
 - [css_doc](https://github.com/tkadauke/css_doc) 写注释用
 - [kss](https://github.com/kneath/kss) 写注释用
+- [马克鳗](http://www.getmarkman.com/) - 高效的设计稿标注、测量工具
 
 ------------------
 
+
+# 浏览器
+
+## Chrome
+
+- [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+- [Markdown Here](http://markdown-here.com/)
+- [One Tab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+- [新同文堂](https://chrome.google.com/webstore/detail/new-tong-wen-tang/ldmgbgaoglmaiblpnphffibpbfchjaeg) - 繁简转换
 
 
 # OS X tool
