@@ -8,6 +8,16 @@
 #+HTML_HEAD: <script type="text/javascript" src="assets/jquery.stickytableheaders.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="assets/readtheorg.js"></script>
 
+#+TITLE: GeekPlux's Wiki
+#+AUTHOR: GeekPlux
+# #+DATE: 2015-11-28 02:07:42
+#+EMAIL: geekplux@gmail.com
+#+DESCRIPTION: GeekPlux's wiki
+#+KEYWORDS: wiki geekplux developer development code skill programmer programming
+#+TEXT: Some descriptive text to be inserted at the beginning.
+#+TEXT: Several lines may be given.
+#+LINK_UP: the ``up'' link of an exported page #+LINK_HOME: the ``home'' link of an exported page
+#+LATEX_HEADER: extra line(s) for the LaTeX header, like \usepackage{xyz}
 
 * Development
 
