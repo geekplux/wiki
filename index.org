@@ -14,10 +14,6 @@
 #+EMAIL: geekplux@gmail.com
 #+DESCRIPTION: GeekPlux's wiki
 #+KEYWORDS: wiki geekplux developer development code skill programmer programming
-#+TEXT: Some descriptive text to be inserted at the beginning.
-#+TEXT: Several lines may be given.
-#+LINK_UP: the ``up'' link of an exported page #+LINK_HOME: the ``home'' link of an exported page
-#+LATEX_HEADER: extra line(s) for the LaTeX header, like \usepackage{xyz}
 
 * Development
 
@@ -32,18 +28,14 @@
 -  [[http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/][浏览器的工作原理]]
 -  [[http://www.20thingsilearned.com/zh-CN][关于浏览器和网络的 20 项须知]]
 -  [[http://ecomfe.duapp.com/][前端知识体系]]
--  [[https://developers.google.com/web/fundamentals/][Google Web
-   Fundamentals]]
+-  [[https://developers.google.com/web/fundamentals/][Google Web Fundamentals]]
 -  [[https://github.com/dypsilon/frontend-dev-bookmarks][一大波前端资源]]
--  [[http://coderlmn.github.io/code-standards/][前端代码规范 及
-   最佳实践]]
+-  [[http://coderlmn.github.io/code-standards/][前端代码规范 及 最佳实践]]
 
 *** HTML&CSS
 
--  [编码规范 by @mdo](http://codeguide.bootcss.com/) -
-   编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范
--  [[http://cssguidelin.es/][CSS Guidelines]] - High-level advice and
-   guidelines for writing sane, manageable, scalable CSS
+-  [[http://codeguide.bootcss.com/][编码规范 by @mdo]] - 编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范
+-  [[http://cssguidelin.es/][CSS Guidelines]] - High-level advice and guidelines for writing sane, manageable, scalable CSS
 -  [[http://nec.netease.com/][网易前端规范]] - 真心不错
 
 **** 技巧：

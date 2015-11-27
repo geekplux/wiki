@@ -37,6 +37,15 @@ $( document ).ready(function() {
     $('body').scrollspy({target: '#text-table-of-contents'});
 });
 
+
+// replace the 'Created' to 'Updated'
+$(document).ready(function () {
+  var $date = $('#postamble').find('.date');
+  var date = $date.text();
+  var updateDate = date.replace('Created', 'Updated');
+  $date.text(updateDate);
+});
+
 window.SphinxRtdTheme = (function (jquery) {
     var stickyNav = (function () {
         var navBar,
