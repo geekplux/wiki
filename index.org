@@ -1,0 +1,47 @@
+# -*- mode: org; -*-
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="assets/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="assets/readtheorg.css"/>
+
+#+HTML_HEAD: <script type="text/javascript" src="assets/jquery-2.1.4.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="assets/bootstrap.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="assets/jquery.stickytableheaders.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="assets/readtheorg.js"></script>
+
+
+
+* 日语学习
+Entered on [2015-09-21 Mon 15:27]
+
+日语由两部分构成：假名、真名（汉字）
+假名又有两部分构成：平假名、片假名
+
+平假名是由汉字草书简化演变而来，平时用的最多
+片假名的发音和平假名一一对应，由汉字楷体偏旁演化而来，但是字形相对简单，主要用于：外来语、动植物、拟声词
+
+还有一类：罗马字，即用英文表达日语发音
+
+五十音前十个 あいうえお
+* Vim 操作
+Entered on [2015-10-17 Sat 15:51]
+
+ [[file:~/.emacs.d/.cache/.tutor/evil-tutor-17102015.txt::===============================================================================]]
+
+#+BEGIN_EXAMPLE
+
+    % 在对应括号跳转
+    :s/old/new 替换
+    c change
+    A 直接到行尾
+    s 修改
+    * 搜索
+    . 重复上一条命令
+    >G 缩进一格
+    q 记录宏
+    @ 提取宏
+
+#+END_EXAMPLE
+* Redis
+Entered on [2015-11-27 Fri 00:54]
+
+del 命令不支持通配符，但我们可以结合 Linux 的管道和 xargs 命令自己实现删除所有符合规则的键。比如要删除所有以“user:”开头的键，就可以执行 redis-cli keys "user:*" | xargs redis-cli del   。另外由于 del 命令支持多个键作为参数，所以还可以执行 redis-cli del `redis-cli keys "user:*"` 来达到同样的效果，但是性能更好。
