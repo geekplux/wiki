@@ -22,19 +22,20 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 
 #+END_CENTER
 
-* Development
+* Programming
 
--  [[http://coolshell.cn/articles/4990.html][程序员技术练级攻略]]
--  [[http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html][知道创宇研发技能表]]
+- [[http://coolshell.cn/articles/4990.html][程序员技术练级攻略]]
+
+看看这篇文章的发布日期，在对比现在的技术潮流，就知道这篇文章还没有过时，所以按照这篇文章修炼是不会错的。
+技术越学到最后越偏底层。
+
+- [[http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html][知道创宇研发技能表]]
 
 ** Code Game
 
 -  [[http://www.codewars.com/][codewars]]
 -  [[http://www.topcoder.com/][Top Coder]]
 -  [[http://codetank.alloyteam.com/][codetank]]
-
---------------
-
 
 * Web
 -  [[https://developer.mozilla.org/zh-CN/learn#][学习如何制作网站]]
@@ -82,12 +83,35 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 -  [[http://es6.ruanyifeng.com/][ECMAScript 6 入门]]
 
 ** CoffeeScript
+CoffeeScript 作为一个可编译为 JS 的语言，在 ES2015 发布的时候就完成了它的历史使命。虽然我推荐在项目中直接用 ES2015，不过多了解一下 CoffeeScript 还是不错的。
 
 -  [[http://island205.github.io/tlboc/][CoffeeScript 中文手册]]
 -  [[http://island205.github.io/coffeescript-cookbook.github.com/][CoffeeScript Cookbook]]
 -  [[https://github.com/geekplux/coffeescript-style-guide][CoffeeScript 最佳实践和编码惯例]]
 -  [[http://autotelicum.github.io/Smooth-CoffeeScript/][Smooth CoffeeScript]]
 
+** Angular
+如果用了 Angular，那么你的代码和项目规划就必须「Angular 化」。
+
+要尽可能的符合 Angular 的实践方案，表面上 AMD 规范非常好用，其实存在很多弊端。比如你用一个不符合 AMD 规范的库，得先封装成一个 Angular Module
+Data-Binding 同样是有利有弊，不过这个还算可以避免。
+但 Angular 总是有些小坑。。（不是黑）
+
+*** ui-router
+Angular 本身的 Router 还好，但是 ui-router 用 state 方式来管理路由更加方便
+
+ui-router 的 url 设计，最好和后台 API 接口统一。如果是 RESTful 的接口，则更加直观和方便。
+*** Controller 之间通信
+- 不习惯用 RootScope，把要变的东西绑在全局变量上总不是什么好事
+- 习惯用事件来传递数据。=$emit, $broadcast, $watch=
+- 特殊情况用 Service
+** Backbone
+和 CoffeeScript 是同一个作者，代码总共 1000 多行，非常简洁优美。典型的 MVC 框架，其实通过 Backbone 就可以实现 Web Components。
+
+collecction 和 model 非常好用。但由于过于轻量，很多东西需要自己来写，不过对于喜欢自己动手或喜欢「按需」搭配所需要功能的同学非常方便。
+** Vue
+半小时入门，可以做出实际应用。结合了 Angular 和 React 两者的优点，写起来非常漂亮。
+** React
 ** Node
 
 - [[http://www.nodebeginner.org/index-zh-cn.html][Node 入门]]
@@ -121,14 +145,22 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 
 --------------
 
-
 * Android
+当年我开发 Android 的时候，还没有统一的设计规范，设备的屏幕也是大小不一很难适配。开发环境还是 Eclipse+Android SDK，看到现在完备的开发工具真是羡慕。
 
 -  [[http://developer.android.com/index.html][Android Developers]]
 -  [[http://www.androidviews.net/][AndroidViews]]
 -  [[http://www.apkbus.com/design/index.html][Android Design]]
 
 * Python
+Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面。
+
+Web 方面有 Flask, Django 等成熟的框架。
+科研方面有很多完备的科学计算库和绘图工具：
+
+- Numpy
+- Matplotlib
+
 * Ruby
 
 -  [[http://saito.im/slide/ruby-new.html][Ruby 语言新手教程]]
@@ -262,19 +294,36 @@ Chrome develop tool 有很多小技巧，之后整理一下
 -  [[https://www.yinxiang.com/?from=evernote][Evernote]] - 个人知识管理
 
 * Windows
-
 -  [[http://typeof.net/c/cn-scott-hanselmans-2014-ultimate-developer-and-power-user-s-tool-list-for-windows.html][2014 年软件推荐]] - 写的太全了
-* 日本语学习
-
-日语由两部分构成：假名、真名（汉字）
-假名又有两部分构成：平假名、片假名
-
-平假名是由汉字草书简化演变而来，平时用的最多
-片假名的发音和平假名一一对应，由汉字楷体偏旁演化而来，但是字形相对简单，主要用于：外来语、动植物、拟声词
-
-还有一类：罗马字，即用英文表达日语发音
-
 * Redis
+
+推荐《Redis 入门指南》一书入门。
+
+Redis 是一个开源、高性能、基于键值对的缓存与存储系统，通过提供多种键值数据类型来适应不同场景下的缓存与存储需求。
+
+** 数据类型
+不论何种数据类型，它的字段值都只能为字符串类型。
+*** 字符串类型
+一般实践以=对象类型.对象 ID.对象属性=命名
+*** 散列类型
+适合存储的对象：使用对象类别和 ID 构成键名，使用字段表示对象的属性，而字段值则存储属性值
+*** 列表类型
+可以存储一个有序的字符串列表，常用的操作是向列表两端添加元素，或者获得列表的某一个片段。
+
+列表类型内部是使用双向链表（double linked list）实现的，所以向两端添加元素很快，时间复杂度为 O(1)。但通过索引来访问元素比较慢。
+
+所以适合获取最新内容或两端插入内容的场景
+*** 集合类型
+最常用的操作是向集合中加入或删除元素，判断是否存在等。可以方便的和多个集合间进行并集、交集、差集的计算。
+*** 有序集合类型
+比集合类型多了一个「分数」，所以有序。
+
+- 有序集合是使用散列表和跳跃表实现的，所以读取位于中间部分的数据也很快，时间复杂度是 O(log(N))
+- 可通过调整「分数」来调整元素的位置
+- 比列表类型更耗内存
+** 技巧
+*** 删除键技巧
+=DEL key [key...]=
 
 del 命令不支持通配符，但我们可以结合 Linux 的管道和 xargs 命令自己实现删除所有符合规则的键。比如要删除所有以“user:”开头的键，就可以执行
 
@@ -293,6 +342,80 @@ redis-cli del `redis-cli keys "user:*"
 #+END_EXAMPLE
 
 来达到同样的效果，但是性能更好。
+* Link Prediction
+** 概念
+*** *网络*
+描述某物与某物之间联系的一种方式。一般由点和边构成。
+*** 如何刻画网络
+图论
+*** 两个节点间的距离
+连接这两个节点的最短路径所包含的边的数目
+*** 平均距离
+公式 1
+*** 度
+
+- 无向图中：与节点相连的边的数目
+- 有向图中：出度是从该节点指向其他节点的边的数目，入度与出度相反。
+
+平均度：网络中所有节点的度的平均值
+度分布：网络中度为 k 的节点数占节点总数的比例
+*** 小世界效应
+如果网络的平均度固定，平均距离随网络节点数以对数的速度或者慢于对数的速度增长
+*** 无标度特性
+很多真实网络的分布，都近似的遵从幂函数的形式
+*** 局部结构
+*** 节点与链路的中心性
+
+度中心性：节点的度
+
+- 一般而言，一个节点的度越大，则这个节点越重要
+- 节点的传播影响力与其所处的网络的位置有关
+- 节点的重要性与其网络的结构和功能有关
+
+介数：用于衡量某节点在基于最短路径的路由策略下信息的吞吐量
+介数中心性：网络中节点对最短路径中经过该节点的数目占所有最短路径数的比例
+接近中心性：节点与网络中其他节点最短距离的平均值
+
+其他还有：
+
+- 特征向量中心性
+- 路由中心性
+- 子图中心性
+- 环中心性
+
+*** 群落结构
+群落内部连边密集，群落之间连边很少
+*** 关联性
+一条边所连接的两个节点度之间的关联
+
+- 正相关：度大的节点倾向于和度小的节点相连
+- 负相关：度大的节点倾向于和度小的节点相连
+*** 熵
+
+** 图的类型
+
+- 加权有向图
+- 加权无向图
+- 无权有向图
+- 无权无向图（简单图）
+
+** 基本的网络模型
+
+* 日本语学习
+
+日语由两部分构成：假名、真名（汉字）
+假名又有两部分构成：平假名、片假名
+
+平假名是由汉字草书简化演变而来，平时用的最多
+片假名的发音和平假名一一对应，由汉字楷体偏旁演化而来，但是字形相对简单，主要用于：外来语、动植物、拟声词
+
+还有一类：罗马字，即用英文表达日语发音
+
+学习书目：
+
+- 《别笑，我是日语学习书》
+- 《我的第一本日语学习书》
+
 * Life
 ** Music
 
@@ -348,7 +471,6 @@ Mac 上有款软件也非常好用：
 ** 其他
 
 -  [[http://zhihuhelpbyyzy.sinaapp.com/][知乎助手]]
-
 
 * Reading
 
