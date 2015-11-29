@@ -22,16 +22,22 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 
 #+END_CENTER
 
-* Development Resources
+* Development
 
 -  [[http://coolshell.cn/articles/4990.html][程序员技术练级攻略]]
 -  [[http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html][知道创宇研发技能表]]
 
+** Code Game
+
+-  [[http://www.codewars.com/][codewars]]
+-  [[http://www.topcoder.com/][Top Coder]]
+-  [[http://codetank.alloyteam.com/][codetank]]
+
 --------------
 
-** Web
 
--  [[https://developer.mozilla.org/zh-CN/learn#][学习如何制作网站]] 
+* Web
+-  [[https://developer.mozilla.org/zh-CN/learn#][学习如何制作网站]]
 -  [[http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/][浏览器的工作原理]]
 -  [[http://www.20thingsilearned.com/zh-CN][关于浏览器和网络的 20 项须知]]
 -  [[http://ecomfe.duapp.com/][前端知识体系]]
@@ -39,31 +45,31 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 -  [[https://github.com/dypsilon/frontend-dev-bookmarks][一大波前端资源]]
 -  [[http://coderlmn.github.io/code-standards/][前端代码规范 及 最佳实践]]
 
-*** HTML&CSS
+** HTML&CSS
 
 -  [[http://codeguide.bootcss.com/][编码规范 by @mdo]] - 编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范
 -  [[http://cssguidelin.es/][CSS Guidelines]] - High-level advice and guidelines for writing sane, manageable, scalable CSS
 -  [[http://nec.netease.com/][网易前端规范]] - 真心不错
 
-**** 技巧：
+*** 技巧：
 
 -  [[http://www.ruanyifeng.com/blog/2010/03/css_cookbook.html][CSS 使用技巧]]
 -  [[http://www.ruanyifeng.com/blog/2010/03/cross-browser_css3_features.html][CSS3 常用功能的写法]]
 -  [[http://www.ruanyifeng.com/blog/2014/02/css_transition_and_animation.html][CSS 动画简介]]
 -  [[http://www.ruanyifeng.com/blog/2009/03/css_selectors.html][CSS 选择器笔记]]
 
-**** 学习 CSS：
+*** 学习 CSS：
 
 -  [[http://zh.learnlayout.com/][学习 CSS 布局]]
 -  [[http://www.w3school.com.cn/][w3school]]
 -  [[http://www.csszengarden.com/tr/chinese/][CSS 禅意花园]]
 -  [[http://css.yukir.net/][编写易于管理及维护的 CSS 指导纲要]]
 
-**** 手册：
+*** 手册：
 
 -  [[http://css.doyoe.com/][CSS 参考手册]]
 
-*** JavaScript
+** JavaScript
 
 -  [[http://javascript.ruanyifeng.com/][JavaScript 标准参考教程（alpha）]]
 -  [[http://bonsaiden.github.io/JavaScript-Garden/zh/][JavaScript 秘密花园]]
@@ -75,172 +81,36 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 -  [[http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html][深入理解 JavaScript 系列]]
 -  [[http://es6.ruanyifeng.com/][ECMAScript 6 入门]]
 
-*** CoffeeScript
+** CoffeeScript
 
 -  [[http://island205.github.io/tlboc/][CoffeeScript 中文手册]]
 -  [[http://island205.github.io/coffeescript-cookbook.github.com/][CoffeeScript Cookbook]]
 -  [[https://github.com/geekplux/coffeescript-style-guide][CoffeeScript 最佳实践和编码惯例]]
 -  [[http://autotelicum.github.io/Smooth-CoffeeScript/][Smooth CoffeeScript]]
 
---------------
-
 ** Node
 
--  [[http://www.nodebeginner.org/index-zh-cn.html][Node 入门]]
--  [[http://nqdeng.github.io/7-days-nodejs/][七天学会 NodeJS]]
--  [[https://github.com/alsotang/node-lessons][Node.js 包教不包会]]
--  [[http://nodeapi.ucdok.com/#/api/][Node.js API 中文版]]
--  [[http://nodeschool.io/][nodeschool]]
--  [[http://0532.gitbooks.io/nodejs/][the NodeJS]] - 一本关于 nodejs 的文档
--  [[http://blog.fens.me/series-nodejs/][从零开始 nodejs 系列文章]]
-
-** Ruby
-
--  [[http://saito.im/slide/ruby-new.html][Ruby 语言新手教程]]
--  [[https://ihower.tw/rails4/index.html][Ruby on Rails 實戰聖經]]
--  [[http://guides.ruby-china.org][Ruby on Rails 指南]]
-
-** Shell
-
--  [[https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md][命令行的艺术]]
-
-** Android
-
--  [[http://developer.android.com/index.html][Android Developers]]
--  [[http://www.androidviews.net/][AndroidViews]]
--  [[http://www.apkbus.com/design/index.html][Android Design]]
-
---------------
-
-** PHP
-
--  [[http://wulijun.github.io/php-the-right-way/][PHP 之道]]
--  [[http://www.php.net/manual/zh/][PHP 手册]]
--  [[https://phpbestpractices.org/][PHP Best Practices]]
--  [[http://phpbestpractices.justjavac.com/][PHP 最佳实践（译）]]
-
---------------
-
-** Linux
-
--  [[http://vbird.dic.ksu.edu.tw/][鸟哥的 Linux 私房菜]]
--  [[http://hyperpolyglot.org/unix-shells#top][Unix Shells: Bash, Fish, Ksh, Tcsh, Zsh]]
--  [[http://www.commandlinefu.com/commands/browse][命令大全（commandlinefu）]]
--  [[http://linux.chinaitlab.com/special/linuxcom/Index.html][常用命令全集（chinaitlab）]]
--  [[http://www.waterlab.cn/hpc/upload/2010/6/LinuxCommand.pdf][常用命令]]
-
---------------
-
-** Code Game
-
--  [[http://www.codewars.com/][codewars]]
--  [[http://www.topcoder.com/][Top Coder]]
--  [[http://codetank.alloyteam.com/][codetank]]
-
---------------
-
-* Tools
-** General Tools
-**** 效率
-
--  [[https://pomotodo.com/][番茄土豆]]
--  [[http://www.calm.com/][白噪音]]
--  [[http://www.rainymood.com/][白噪音]]
-
-**** 生活
-
--  [[http://resume.github.io/][Github 简历生成]]
--  [[https://cvmkr.com/][简历生成]]
--  [[http://jianlidachu.com/welcome/][简历大厨]]
--  [[https://github.com/geekcompany/ResumeSample][Resume template for
-   Chinese programmers]]
--  [[https://github.com/geekcompany/DeerResume][最好用的 MarkDown 在线简历工具]]
-   - 可在线预览、编辑、设置访问密码和生成 PDF
-
-**** 在线编辑器
-
--  [[http://www.zybuluo.com/mdeditor][Cmd Makrdown]]
--  [[http://benweet.github.io/stackedit/][StackEdit]]
--  [[http://notepad.cc][notepad.cc]] - 特别好用
--  [[https://www.office.com/start/default.aspx][Office Online]]
--  [[http://slid.es/][Slides]] - 制作在线 PPT
--  [[http://maxiang.info/][马克飞象]] -
-   一款专为印象笔记打造的 Markdown 编辑器
-
-**** Music
-
--  [[http://www.xiami.com/][虾米]]
--  [[http://ll.geli.org/user/login][Listen Later]]
--  [[http://www.luoo.net/][落网]]
-
-**** 这是什么
-
--  [[https://code.google.com/p/smartladder/][聪明的梯子]]
--  [[http://www.shadowsocks.com/][Shadowsocks]]
-
-**** 下载
-
--  [[http://www.torrentkitty.com/][Torrent Kitty]]
-
-**** 其他
-
--  [[http://zhihuhelpbyyzy.sinaapp.com/][知乎助手]]
-
---------------
-
-** Development Tools
-
-** Git
-
--  [[http://rogerdudler.github.io/git-guide/index.zh.html][git -
-   简明指南]] - 助你入门 git 的简明指南，木有高深内容 ;)
--  [[http://git-scm.com/book/zh/v1][pro git（中文版）]]
--  [[http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000][Git
-   教程]]
--  [[http://gitref.org/zh/index.html][Git 参考手册]]
--  [[http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/][Git
-   指南]]
--  [[http://pcottle.github.io/learnGitBranching/][Learn Git Branching]]
-
-** Emacs
-
--  [[https://github.com/syl20bnr/spacemacs][spacemacs]]
--  [[http://smacs.github.io/elisp/][Emacs Lisp 简明教程]]
--  [[http://emacsist.com][Emacsist]]
-
-** Vim
-
--  [[http://coolshell.cn/articles/5426.html][简明 Vim 练级攻略]]
--  [[http://learnvimscriptthehardway.onefloweroneworld.com/][笨方法学 Vimscript]]
--  [[http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim?page=1&tab=votes#tab-top][What
-   is your most productive shortcut with Vim?]]
--  [[http://vimawesome.com/][Vim Awesome]] - a directory of Vim plugins
-   sourced from GitHub
--  [[https://github.com/wklken/k-vim][vim 推荐配置]]
-
-** Sublime Text
-
--  [[http://zh.lucida.me/blog/sublime-text-complete-guide/][Sublime Text
-   全程指南]]
--  [[http://feliving.github.io/Sublime-Text-3-Documentation/][Sublime
-   Text 3 文档]]
--  [[http://docs.sublimetext.tw/][Sublime Text 手冊]]
+- [[http://www.nodebeginner.org/index-zh-cn.html][Node 入门]]
+- [[http://nqdeng.github.io/7-days-nodejs/][七天学会 NodeJS]]
+- [[https://github.com/alsotang/node-lessons][Node.js 包教不包会]]
+- [[http://nodeapi.ucdok.com/#/api/][Node.js API 中文版]]
+- [[http://nodeschool.io/][nodeschool]]
+- [[http://0532.gitbooks.io/nodejs/][the NodeJS]] - 一本关于 nodejs 的文档
+- [[http://blog.fens.me/series-nodejs/][从零开始 nodejs 系列文章]]
 
 ** Web Tools
 
 -  [[http://jsfiddle.net/][JSFiddle]] - 在线展示 Web 代码效果
 -  [[http://codepen.io/][CodePen]] - 同上
 -  [[http://tool.lu/][iBox]] - 一系列在线小工具
--  [[http://lab.maltewassermann.com/viewport-resizer/][VIEWPORT
-   RESIZER]] - 响应式开发测试
+-  [[http://lab.maltewassermann.com/viewport-resizer/][VIEWPORT RESIZER]] - 响应式开发测试
 
 *** JavaScript
 
 -  [[http://js2coffee.org/][Js2coffee]] - JS 转换为 CoffeeScript
 -  [[http://www.jshint.com/][JSHint]]
 -  [[http://www.jslint.com/][JSLint]]
--  [[https://www.codefellows.org/blogs/complete-list-of-javascript-tools][A
-   List of Foundational JavaScript Tools]]
+-  [[https://www.codefellows.org/blogs/complete-list-of-javascript-tools][A List of Foundational JavaScript Tools]]
 
 *** CSS
 
@@ -251,100 +121,83 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 
 --------------
 
-** 浏览器
 
-** Chrome
+* Android
 
--  [[https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb][Vimium]]
--  [[http://markdown-here.com/][Markdown Here]]
--  [[https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall][One
-   Tab]]
--  [[https://chrome.google.com/webstore/detail/new-tong-wen-tang/ldmgbgaoglmaiblpnphffibpbfchjaeg][新同文堂]]
-   - 繁简转换
+-  [[http://developer.android.com/index.html][Android Developers]]
+-  [[http://www.androidviews.net/][AndroidViews]]
+-  [[http://www.apkbus.com/design/index.html][Android Design]]
 
-** OS X tool
+* Python
+* Ruby
 
--  [[http://www.alfredapp.com/][Alfred]] -
-   替换系统 Spotlight 的免费软件，更美观更强大
--  [[http://www.alfredworkflow.com/][alfredworkflow]] -
-   超多的 alfredworkflow
--  [[http://www.dropbox.com][Dropbox]] - 文件同步工具
--  [[http://www.google.cn/Chrome][Chrome]] - 跨平台可替代 safari
--  [[http://brew.sh/][Homebrew]] - 软件包管理工具
--  [[https://github.com/phinze/homebrew-cask][homebrew-cask]] -
-   使用命令行方式安装软件
--  [[https://github.com/robbyrussell/oh-my-zsh][oh-my-zsh]] -
-   zsh 的安装配置文件
--  [[http://www.trankynam.com/xtrafinder/][XtraFinder]] - 文件管理器
--  [[http://mplayerx.org/][MplayerX]] - 强大的视频播放器
--  [[https://github.com/gnachman/iTerm2][iTerm2]] - 第三方终端
--  [[http://mouapp.com/][Mou]] - Markdown 写作工具
--  [[http://justgetflux.com/][F.liux]] - 护眼
--  [[https://www.yinxiang.com/?from=evernote][Evernote]] - 个人知识管理
+-  [[http://saito.im/slide/ruby-new.html][Ruby 语言新手教程]]
+-  [[https://ihower.tw/rails4/index.html][Ruby on Rails 實戰聖經]]
+-  [[http://guides.ruby-china.org][Ruby on Rails 指南]]
 
---------------
+* Shell
+-  [[https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md][命令行的艺术]]
+* PHP
 
-** Windows tool
+-  [[http://wulijun.github.io/php-the-right-way/][PHP 之道]]
+-  [[http://www.php.net/manual/zh/][PHP 手册]]
+-  [[https://phpbestpractices.org/][PHP Best Practices]]
+-  [[http://phpbestpractices.justjavac.com/][PHP 最佳实践（译）]]
 
--  [[http://typeof.net/c/cn-scott-hanselmans-2014-ultimate-developer-and-power-user-s-tool-list-for-windows.html][2014 年软件推荐]]
-   - 写的太全了
+* Git
 
---------------
+多人协作的时候要商定协作流程。[[http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html][git-flow]] 是个不错的实践。
 
-* 阅读
-** 书籍资源
+如何使用 github：
+[[http://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/][The beginner's guide to contributing to a GitHub project]]
 
--  [[https://github.com/vhf/free-programming-books][List of Free Learning Resources]]
--  [[https://github.com/justjavac/free-programming-books-zh_CN][免费的编程中文书籍索引]]
--  [[http://www.v2ex.com/rework][Rework]]
--  [[http://www.ifindbook.net/][iFindBook]]
--  [[http://www.chm-pdf.com/][E 书家]]
--  [[http://www.wapm.cn/smart-questions/smart-questions-zh.html][提问的智慧]]
+学习资源：
 
---------------
+-  [[http://rogerdudler.github.io/git-guide/index.zh.html][git - 简明指南]] - 助你入门 git 的简明指南，木有高深内容 ;)
+-  [[http://git-scm.com/book/zh/v1][pro git（中文版）]]
+-  [[http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000][Git 教程]]
+-  [[http://gitref.org/zh/index.html][Git 参考手册]]
+-  [[http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/][Git 指南]]
+-  [[http://pcottle.github.io/learnGitBranching/][Learn Git Branching]]
 
-** News
+* Vim
 
--  [[https://news.ycombinator.com/][Hacker News]]
--  [[http://news.dbanotes.net/][Startup News]]
+《Practice Vim》是一本非常棒的书，以下几个命令是从中学到的基本技巧：
 
---------------
+#+BEGIN_EXAMPLE
 
-** 社区
+    % 在对应括号跳转
+    :s/old/new 替换
+    c change
+    A 直接到行尾
+    s 修改
+    * 搜索
+    . 重复上一条命令
+    >G 缩进一格
+    q 记录宏
+    @ 提取宏
 
--  [[http://www.v2ex.com/?r=Geeker][V2EX]]
--  [[http://ruby-china.org/][Ruby China]]
--  [[http://cnodejs.org/][CNode]]
--  [[http://www.zhihu.com/][知乎]]
--  [[http://dota.uuu9.com/][DOTA]]
+#+END_EXAMPLE
 
---------------
+一些资源：
 
-** 必看的博客
+-  [[http://coolshell.cn/articles/5426.html][简明 Vim 练级攻略]]
+-  [[http://learnvimscriptthehardway.onefloweroneworld.com/][笨方法学 Vimscript]]
+-  [[http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim?page=1&tab=votes#tab-top][What is your most productive shortcut with Vim?]]
+-  [[http://vimawesome.com/][Vim Awesome]] - a directory of Vim plugins sourced from GitHub
+-  [[https://github.com/wklken/k-vim][vim 推荐配置]]
 
--  [[http://mindhacks.cn/][刘未鹏 | MIND HACKS]]
--  [[http://www.ruanyifeng.com/home.html][Ruan YiFeng's Personal Website - 阮一峰的个人网站]]
--  [[http://tianchunbinghe.blog.163.com/][冰河]]
--  [[http://www.yangzhiping.com/][阳志平的个人网站]]
--  [[http://lixiaolai.com/][李笑来的博客]]
--  [[http://blog.xiqiao.info/][西乔的九卦]]
--  [[http://coolshell.cn/][酷壳 -- CoolShell]]
--  [[http://www.geekonomics10000.com/][学而时嘻之]] - 用理工科思维理解世界
+* Spacemacs
 
---------------
+[[https://github.com/syl20bnr/spacemacs][spacemacs]] 是一款社区维护的 Emacs 配置，结合了 vim 和 Emacs 两者的优点。
 
-** 我是死较真
+Elisp 教程：
+- [[http://learnxinyminutes.com/docs/elisp/][Learn elisp in Y minutes]]
+- [[http://smacs.github.io/elisp/][Emacs Lisp 简明教程]]
 
--  [[http://www.guokr.com/][果壳]]
--  [[http://songshuhui.net/][科学松鼠会]]
+一些相关网站：
+- [[http://emacsist.com][Emacsist]]
 
---------------
-
-** 已读书单
-
--  [[http://book.douban.com/people/44921319/collect][我的豆瓣已读书单]]
-
---------------
 * Org Mode
 
 [[http://orgmode.org][Org mode]] is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
@@ -368,7 +221,50 @@ You may also optionally bind a key to activate the link grabber menu, like this:
 
 #+END_SRC
 
-* 日语学习
+* Sublime Text
+
+Material Theme 比 Monokai 更好看。。
+
+-  [[http://zh.lucida.me/blog/sublime-text-complete-guide/][Sublime Text 全程指南]]
+-  [[http://feliving.github.io/Sublime-Text-3-Documentation/][Sublime Text 3 文档]]
+-  [[http://docs.sublimetext.tw/][Sublime Text 手冊]]
+
+* Chrome
+
+Chrome develop tool 有很多小技巧，之后整理一下
+
+-  [[https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh][cVim]]
+-  [[http://markdown-here.com/][Markdown Here]]
+-  [[https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall][One Tab]]
+-  [[https://chrome.google.com/webstore/detail/new-tong-wen-tang/ldmgbgaoglmaiblpnphffibpbfchjaeg][新同文堂]] - 繁简转换
+
+* Linux
+
+- [[http://vbird.dic.ksu.edu.tw/][鸟哥的 Linux 私房菜]]
+- [[http://hyperpolyglot.org/unix-shells#top][Unix Shells: Bash, Fish, Ksh, Tcsh, Zsh]]
+- [[http://www.commandlinefu.com/commands/browse][命令大全（commandlinefu）]]
+- [[http://linux.chinaitlab.com/special/linuxcom/Index.html][常用命令全集（chinaitlab）]]
+- [[http://www.waterlab.cn/hpc/upload/2010/6/LinuxCommand.pdf][常用命令]]
+* OS X
+
+-  [[http://www.alfredapp.com/][Alfred]] - 替换系统 Spotlight 的免费软件，更美观更强大
+-  [[http://www.alfredworkflow.com/][alfredworkflow]] - 超多的 alfredworkflow
+-  [[http://www.dropbox.com][Dropbox]] - 文件同步工具
+-  [[http://www.google.cn/Chrome][Chrome]] - 跨平台可替代 safari
+-  [[http://brew.sh/][Homebrew]] - 软件包管理工具
+-  [[https://github.com/phinze/homebrew-cask][homebrew-cask]] - 使用命令行方式安装软件
+-  [[https://github.com/robbyrussell/oh-my-zsh][oh-my-zsh]] - zsh 的安装配置文件
+-  [[http://www.trankynam.com/xtrafinder/][XtraFinder]] - 文件管理器
+-  [[http://mplayerx.org/][MplayerX]] - 强大的视频播放器
+-  [[https://github.com/gnachman/iTerm2][iTerm2]] - 第三方终端
+-  [[http://mouapp.com/][Mou]] - Markdown 写作工具
+-  [[http://justgetflux.com/][F.liux]] - 护眼
+-  [[https://www.yinxiang.com/?from=evernote][Evernote]] - 个人知识管理
+
+* Windows
+
+-  [[http://typeof.net/c/cn-scott-hanselmans-2014-ultimate-developer-and-power-user-s-tool-list-for-windows.html][2014 年软件推荐]] - 写的太全了
+* 日本语学习
 
 日语由两部分构成：假名、真名（汉字）
 假名又有两部分构成：平假名、片假名
@@ -377,23 +273,6 @@ You may also optionally bind a key to activate the link grabber menu, like this:
 片假名的发音和平假名一一对应，由汉字楷体偏旁演化而来，但是字形相对简单，主要用于：外来语、动植物、拟声词
 
 还有一类：罗马字，即用英文表达日语发音
-
-* Vim 操作
-
-#+BEGIN_EXAMPLE
-
-    % 在对应括号跳转
-    :s/old/new 替换
-    c change
-    A 直接到行尾
-    s 修改
-    * 搜索
-    . 重复上一条命令
-    >G 缩进一格
-    q 记录宏
-    @ 提取宏
-
-#+END_EXAMPLE
 
 * Redis
 
@@ -414,3 +293,110 @@ redis-cli del `redis-cli keys "user:*"
 #+END_EXAMPLE
 
 来达到同样的效果，但是性能更好。
+* Life
+** Music
+
+由于版权的问题，国内的软件现在很多曲库都不太全了
+iTunes 还不错，唯一缺点是通过 iCloud 同步 My Music 较慢
+
+- [[http://music.163.com][网易云音乐]]
+- [[http://www.xiami.com/][虾米]]
+- [[http://ll.geli.org/user/login][Listen Later]]
+- [[http://www.luoo.net/][落网]]
+** Podcast
+IT 类：
+
+- 内核恐慌
+- IT 公论
+- teahour.FM
+
+其余的：
+
+- 聆听古典
+** Download Resources
+- [[http://www.torrentkitty.com/][Torrent Kitty]]
+** 科学上网
+- [[https://code.google.com/p/smartladder/][聪明的梯子]]
+- [[http://www.shadowsocks.com/][Shadowsocks]]
+
+** Job
+
+- [[http://resume.github.io/][Github 简历生成]]
+- [[https://cvmkr.com/][简历生成]]
+- [[http://jianlidachu.com/welcome/][简历大厨]]
+- [[https://github.com/geekcompany/ResumeSample][Resume template for Chinese programmers]]
+- [[https://github.com/geekcompany/DeerResume][最好用的 MarkDown 在线简历工具]] - 可在线预览、编辑、设置访问密码和生成 PDF
+** 白噪音
+
+在线版：
+
+- [[http://www.calm.com/][白噪音]]
+- [[http://www.rainymood.com/][白噪音]]
+
+Mac 上有款软件也非常好用：
+
+- Noizio
+** 在线编辑器
+
+-  [[http://www.zybuluo.com/mdeditor][Cmd Makrdown]]
+-  [[http://benweet.github.io/stackedit/][StackEdit]]
+-  [[http://notepad.cc][notepad.cc]] - 特别好用
+-  [[https://www.office.com/start/default.aspx][Office Online]]
+-  [[http://slid.es/][Slides]] - 制作在线 PPT
+-  [[http://maxiang.info/][马克飞象]] - 一款专为印象笔记打造的 Markdown 编辑器
+
+** 其他
+
+-  [[http://zhihuhelpbyyzy.sinaapp.com/][知乎助手]]
+
+
+* Reading
+
+阅读工具：
+
+Kindle 的墨水屏确实很舒服，但感觉没 iPad Mini 看书爽，尤其是 PDF。
+我一直用=多看阅读=来看书，因为在上面买了很多书，而且可以用 Evernote 同步笔记。
+
+** 书籍资源
+
+-  [[https://github.com/vhf/free-programming-books][List of Free Learning Resources]]
+-  [[https://github.com/justjavac/free-programming-books-zh_CN][免费的编程中文书籍索引]]
+-  [[http://www.v2ex.com/rework][Rework]]
+-  [[http://www.ifindbook.net/][iFindBook]]
+-  [[http://www.chm-pdf.com/][E 书家]]
+-  [[http://www.wapm.cn/smart-questions/smart-questions-zh.html][提问的智慧]]
+
+** Paper
+- [[https://github.com/papers-we-love/papers-we-love][Paper we love]] -- Papers from the computer science community to read and discuss.
+** News
+
+-  [[https://news.ycombinator.com/][Hacker News]]
+-  [[http://news.dbanotes.net/][Startup News]]
+
+** 社区
+
+-  [[http://www.v2ex.com/?r=Geeker][V2EX]]
+-  [[http://ruby-china.org/][Ruby China]]
+-  [[http://cnodejs.org/][CNode]]
+-  [[http://www.zhihu.com/][知乎]]
+-  [[http://dota.uuu9.com/][DOTA]]
+
+** 必看的博客
+
+-  [[http://mindhacks.cn/][刘未鹏 | MIND HACKS]]
+-  [[http://www.ruanyifeng.com/home.html][Ruan YiFeng's Personal Website - 阮一峰的个人网站]]
+-  [[http://tianchunbinghe.blog.163.com/][冰河]]
+-  [[http://www.yangzhiping.com/][阳志平的个人网站]]
+-  [[http://lixiaolai.com/][李笑来的博客]]
+-  [[http://blog.xiqiao.info/][西乔的九卦]]
+-  [[http://coolshell.cn/][酷壳 -- CoolShell]]
+-  [[http://www.geekonomics10000.com/][学而时嘻之]] - 用理工科思维理解世界
+
+** 我是死较真
+
+-  [[http://www.guokr.com/][果壳]]
+-  [[http://songshuhui.net/][科学松鼠会]]
+
+** 已读书单
+
+-  [[http://book.douban.com/people/44921319/collect][我的豆瓣已读书单]]
