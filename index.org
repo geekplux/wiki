@@ -15,7 +15,14 @@
 #+DESCRIPTION: GeekPlux's wiki
 #+KEYWORDS: wiki geekplux developer development code skill programmer programming
 
-* Development
+
+#+BEGIN_CENTER
+
+This document, my personal wiki which shares my skills mastered and knowledges learned, is built by org-mode with the [[https://github.com/fniessen/org-html-themes][ReadTheOrg]] theme. I used to organize my knowledges by Evernote or other mind management APP, until I met [[https://github.com/syl20bnr/spacemacs][Spacemacs]] and discovered the [[http://orgmode.org][Org mode]], life became more wonderful.
+
+#+END_CENTER
+
+* Development Resources
 
 -  [[http://coolshell.cn/articles/4990.html][程序员技术练级攻略]]
 -  [[http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html][知道创宇研发技能表]]
@@ -58,29 +65,22 @@
 
 *** JavaScript
 
--  [[http://javascript.ruanyifeng.com/][JavaScript
-   标准参考教程（alpha）]]
+-  [[http://javascript.ruanyifeng.com/][JavaScript 标准参考教程（alpha）]]
 -  [[http://bonsaiden.github.io/JavaScript-Garden/zh/][JavaScript 秘密花园]]
 -  [[http://ejohn.org/apps/learn/][Learning Advanced JavaScript]]
--  [[http://eloquentjavascript.net/2nd_edition/preview/][Eloquent
-   JavaScript]]
+-  [[http://eloquentjavascript.net/2nd_edition/preview/][Eloquent JavaScript]]
 -  [[http://speakingjs.com/es5/index.html][Speaking JavaScript]]
--  [[http://lab.abhinayrathore.com/jquery-standards/][jQuery Coding
-   Standards & Best Practices]]
--  [[http://www.keyframesandcode.com/resources/javascript/deconstructed/jquery/][jQuery
-   Deconstructed]]
+-  [[http://lab.abhinayrathore.com/jquery-standards/][jQuery Coding Standards & Best Practices]]
+-  [[http://www.keyframesandcode.com/resources/javascript/deconstructed/jquery/][jQuery Deconstructed]]
 -  [[http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html][深入理解 JavaScript 系列]]
 -  [[http://es6.ruanyifeng.com/][ECMAScript 6 入门]]
 
 *** CoffeeScript
 
 -  [[http://island205.github.io/tlboc/][CoffeeScript 中文手册]]
--  [[http://island205.github.io/coffeescript-cookbook.github.com/][CoffeeScript
-   Cookbook]]
--  [[https://github.com/geekplux/coffeescript-style-guide][CoffeeScript
-   最佳实践和编码惯例]]
--  [[http://autotelicum.github.io/Smooth-CoffeeScript/][Smooth
-   CoffeeScript]]
+-  [[http://island205.github.io/coffeescript-cookbook.github.com/][CoffeeScript Cookbook]]
+-  [[https://github.com/geekplux/coffeescript-style-guide][CoffeeScript 最佳实践和编码惯例]]
+-  [[http://autotelicum.github.io/Smooth-CoffeeScript/][Smooth CoffeeScript]]
 
 --------------
 
@@ -91,8 +91,7 @@
 -  [[https://github.com/alsotang/node-lessons][Node.js 包教不包会]]
 -  [[http://nodeapi.ucdok.com/#/api/][Node.js API 中文版]]
 -  [[http://nodeschool.io/][nodeschool]]
--  [[http://0532.gitbooks.io/nodejs/][the NodeJS]] -
-   一本关于 nodejs 的文档
+-  [[http://0532.gitbooks.io/nodejs/][the NodeJS]] - 一本关于 nodejs 的文档
 -  [[http://blog.fens.me/series-nodejs/][从零开始 nodejs 系列文章]]
 
 ** Ruby
@@ -125,8 +124,7 @@
 ** Linux
 
 -  [[http://vbird.dic.ksu.edu.tw/][鸟哥的 Linux 私房菜]]
--  [[http://hyperpolyglot.org/unix-shells#top][Unix Shells: Bash, Fish,
-   Ksh, Tcsh, Zsh]]
+-  [[http://hyperpolyglot.org/unix-shells#top][Unix Shells: Bash, Fish, Ksh, Tcsh, Zsh]]
 -  [[http://www.commandlinefu.com/commands/browse][命令大全（commandlinefu）]]
 -  [[http://linux.chinaitlab.com/special/linuxcom/Index.html][常用命令全集（chinaitlab）]]
 -  [[http://www.waterlab.cn/hpc/upload/2010/6/LinuxCommand.pdf][常用命令]]
@@ -141,42 +139,6 @@
 
 --------------
 
-* 日语学习
-Entered on [2015-09-21 Mon 15:27]
-
-日语由两部分构成：假名、真名（汉字）
-假名又有两部分构成：平假名、片假名
-
-平假名是由汉字草书简化演变而来，平时用的最多
-片假名的发音和平假名一一对应，由汉字楷体偏旁演化而来，但是字形相对简单，主要用于：外来语、动植物、拟声词
-
-还有一类：罗马字，即用英文表达日语发音
-
-五十音前十个 あいうえお
-* Vim 操作
-Entered on [2015-10-17 Sat 15:51]
-
- [[file:~/.emacs.d/.cache/.tutor/evil-tutor-17102015.txt::===============================================================================]]
-
-#+BEGIN_EXAMPLE
-
-    % 在对应括号跳转
-    :s/old/new 替换
-    c change
-    A 直接到行尾
-    s 修改
-    * 搜索
-    . 重复上一条命令
-    >G 缩进一格
-    q 记录宏
-    @ 提取宏
-
-#+END_EXAMPLE
-* Redis
-
-Entered on [2015-11-27 Fri 00:54]
-
-del 命令不支持通配符，但我们可以结合 Linux 的管道和 xargs 命令自己实现删除所有符合规则的键。比如要删除所有以“user:”开头的键，就可以执行 redis-cli keys "user:*" | xargs redis-cli del   。另外由于 del 命令支持多个键作为参数，所以还可以执行 redis-cli del `redis-cli keys "user:*"` 来达到同样的效果，但是性能更好。
 * Tools
 ** General Tools
 **** 效率
@@ -332,8 +294,7 @@ del 命令不支持通配符，但我们可以结合 Linux 的管道和 xargs �
 * 阅读
 ** 书籍资源
 
--  [[https://github.com/vhf/free-programming-books][List of Free
-   Learning Resources]]
+-  [[https://github.com/vhf/free-programming-books][List of Free Learning Resources]]
 -  [[https://github.com/justjavac/free-programming-books-zh_CN][免费的编程中文书籍索引]]
 -  [[http://www.v2ex.com/rework][Rework]]
 -  [[http://www.ifindbook.net/][iFindBook]]
@@ -362,15 +323,13 @@ del 命令不支持通配符，但我们可以结合 Linux 的管道和 xargs �
 ** 必看的博客
 
 -  [[http://mindhacks.cn/][刘未鹏 | MIND HACKS]]
--  [[http://www.ruanyifeng.com/home.html][Ruan YiFeng's Personal Website
-   - 阮一峰的个人网站]]
+-  [[http://www.ruanyifeng.com/home.html][Ruan YiFeng's Personal Website - 阮一峰的个人网站]]
 -  [[http://tianchunbinghe.blog.163.com/][冰河]]
 -  [[http://www.yangzhiping.com/][阳志平的个人网站]]
 -  [[http://lixiaolai.com/][李笑来的博客]]
 -  [[http://blog.xiqiao.info/][西乔的九卦]]
 -  [[http://coolshell.cn/][酷壳 -- CoolShell]]
--  [[http://www.geekonomics10000.com/][学而时嘻之]] -
-   用理工科思维理解世界
+-  [[http://www.geekonomics10000.com/][学而时嘻之]] - 用理工科思维理解世界
 
 --------------
 
@@ -386,3 +345,53 @@ del 命令不支持通配符，但我们可以结合 Linux 的管道和 xargs �
 -  [[http://book.douban.com/people/44921319/collect][我的豆瓣已读书单]]
 
 --------------
+* org
+
+- [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]] 参考这份文档来配置
+
+* 日语学习
+
+日语由两部分构成：假名、真名（汉字）
+假名又有两部分构成：平假名、片假名
+
+平假名是由汉字草书简化演变而来，平时用的最多
+片假名的发音和平假名一一对应，由汉字楷体偏旁演化而来，但是字形相对简单，主要用于：外来语、动植物、拟声词
+
+还有一类：罗马字，即用英文表达日语发音
+
+* Vim 操作
+
+#+BEGIN_EXAMPLE
+
+    % 在对应括号跳转
+    :s/old/new 替换
+    c change
+    A 直接到行尾
+    s 修改
+    * 搜索
+    . 重复上一条命令
+    >G 缩进一格
+    q 记录宏
+    @ 提取宏
+
+#+END_EXAMPLE
+
+* Redis
+
+del 命令不支持通配符，但我们可以结合 Linux 的管道和 xargs 命令自己实现删除所有符合规则的键。比如要删除所有以“user:”开头的键，就可以执行
+
+#+BEGIN_EXAMPLE
+
+redis-cli keys "user:*" | xargs redis-cli del
+
+#+END_EXAMPLE
+
+另外由于 del 命令支持多个键作为参数，所以还可以执行
+
+#+BEGIN_EXAMPLE
+
+redis-cli del `redis-cli keys "user:*"
+
+#+END_EXAMPLE
+
+来达到同样的效果，但是性能更好。
