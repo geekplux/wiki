@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2015-11-29 Sun 17:21 -->
+<!-- 2015-11-29 Sun 18:16 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>GeekPlux's Wiki</title>
@@ -205,10 +205,18 @@ for the JavaScript code in this tag.
 <li><a href="#orgheadline42">3.6. 已读书单</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline44">4. org</a></li>
-<li><a href="#orgheadline45">5. 日语学习</a></li>
-<li><a href="#orgheadline46">6. Vim 操作</a></li>
-<li><a href="#orgheadline47">7. Redis</a></li>
+<li><a href="#orgheadline46">4. Org Mode</a>
+<ul>
+<li><a href="#orgheadline45">4.1. useful package:</a>
+<ul>
+<li><a href="#orgheadline44">4.1.1. org-mac-link</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline47">5. 日语学习</a></li>
+<li><a href="#orgheadline48">6. Vim 操作</a></li>
+<li><a href="#orgheadline49">7. Redis</a></li>
 </ul>
 </div>
 </div>
@@ -724,17 +732,51 @@ zsh 的安装配置文件</li>
 </div>
 </div>
 </div>
-<div id="outline-container-orgheadline44" class="outline-2">
-<h2 id="orgheadline44"><span class="section-number-2">4</span> org</h2>
+<div id="outline-container-orgheadline46" class="outline-2">
+<h2 id="orgheadline46"><span class="section-number-2">4</span> Org Mode</h2>
 <div class="outline-text-2" id="text-4">
+<p>
+<a href="http://orgmode.org/">Org mode</a> is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
+</p>
+
 <ul class="org-ul">
-<li><a href="http://doc.norang.ca/org-mode.html">Org Mode - Organize Your Life In Plain Text!</a> 参考这份文档来配置</li>
+<li><a href="http://doc.norang.ca/org-mode.html">Org Mode - Organize Your Life In Plain Text!</a> &#x2013; 参考这份文档来配置</li>
 </ul>
+</div>
+
+<div id="outline-container-orgheadline45" class="outline-3">
+<h3 id="orgheadline45"><span class="section-number-3">4.1</span> useful package:</h3>
+<div class="outline-text-3" id="text-4-1">
+</div><div id="outline-container-orgheadline44" class="outline-4">
+<h4 id="orgheadline44"><span class="section-number-4">4.1.1</span> org-mac-link</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+<b>Installation</b>
+</p>
+
+<p>
+Customize the org group by typing M-x customize-group RET org RET, then expand the Modules section, and enable mac-link.
+</p>
+
+<p>
+You may also optionally bind a key to activate the link grabber menu, like this:
+</p>
+
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp"><span style="color: #AE81FF;">(</span>add-hook 'org-mode-hook <span style="color: #66D9EF;">(</span><span style="color: #F92672;">lambda</span> <span style="color: #A6E22E;">()</span>
+  <span style="color: #A6E22E;">(</span>define-key org-mode-map <span style="color: #E6DB74;">(</span>kbd <span style="color: #E6DB74;">"C-c g"</span><span style="color: #E6DB74;">)</span> 'org-mac-grab-link<span style="color: #A6E22E;">)</span><span style="color: #66D9EF;">)</span><span style="color: #AE81FF;">)</span>
+</pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 
-<div id="outline-container-orgheadline45" class="outline-2">
-<h2 id="orgheadline45"><span class="section-number-2">5</span> 日语学习</h2>
+
+<div id="outline-container-orgheadline47" class="outline-2">
+<h2 id="orgheadline47"><span class="section-number-2">5</span> 日语学习</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 日语由两部分构成：假名、真名（汉字）假名又有两部分构成：平假名、片假名
@@ -750,8 +792,8 @@ zsh 的安装配置文件</li>
 </div>
 </div>
 
-<div id="outline-container-orgheadline46" class="outline-2">
-<h2 id="orgheadline46"><span class="section-number-2">6</span> Vim 操作</h2>
+<div id="outline-container-orgheadline48" class="outline-2">
+<h2 id="orgheadline48"><span class="section-number-2">6</span> Vim 操作</h2>
 <div class="outline-text-2" id="text-6">
 <pre class="example">
 % 在对应括号跳转
@@ -768,8 +810,8 @@ q 记录宏
 </div>
 </div>
 
-<div id="outline-container-orgheadline47" class="outline-2">
-<h2 id="orgheadline47"><span class="section-number-2">7</span> Redis</h2>
+<div id="outline-container-orgheadline49" class="outline-2">
+<h2 id="orgheadline49"><span class="section-number-2">7</span> Redis</h2>
 <div class="outline-text-2" id="text-7">
 <p>
 del 命令不支持通配符，但我们可以结合 Linux 的管道和 xargs 命令自己实现删除所有符合规则的键。比如要删除所有以“user:”开头的键，就可以执行
@@ -795,7 +837,7 @@ redis-cli del `redis-cli keys "user:*"
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: GeekPlux</p>
-<p class="date">Created: 2015-11-29 Sun 17:21</p>
+<p class="date">Created: 2015-11-29 Sun 18:16</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

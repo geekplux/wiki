@@ -31,7 +31,7 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 
 ** Web
 
--  [[https://developer.mozilla.org/zh-CN/learn#][学习如何制作网站]]
+-  [[https://developer.mozilla.org/zh-CN/learn#][学习如何制作网站]] 
 -  [[http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/][浏览器的工作原理]]
 -  [[http://www.20thingsilearned.com/zh-CN][关于浏览器和网络的 20 项须知]]
 -  [[http://ecomfe.duapp.com/][前端知识体系]]
@@ -345,9 +345,28 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 -  [[http://book.douban.com/people/44921319/collect][我的豆瓣已读书单]]
 
 --------------
-* org
+* Org Mode
 
-- [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]] 参考这份文档来配置
+[[http://orgmode.org][Org mode]] is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
+
+- [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]] -- 参考这份文档来配置
+
+** useful package:
+*** org-mac-link
+
+*Installation*
+
+Customize the org group by typing M-x customize-group RET org RET, then expand the Modules section, and enable mac-link.
+
+You may also optionally bind a key to activate the link grabber menu, like this:
+
+
+#+BEGIN_SRC emacs-lisp
+
+(add-hook 'org-mode-hook (lambda ()
+  (define-key org-mode-map (kbd "C-c g") 'org-mac-grab-link)))
+
+#+END_SRC
 
 * 日语学习
 
