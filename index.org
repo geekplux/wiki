@@ -71,6 +71,7 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 -  [[http://css.doyoe.com/][CSS 参考手册]]
 
 ** JavaScript
+当年我是通过《Javascript DOM 编程艺术》入门的，非常基础，循序渐进，一天就能看完
 
 -  [[http://javascript.ruanyifeng.com/][JavaScript 标准参考教程（alpha）]]
 -  [[http://bonsaiden.github.io/JavaScript-Garden/zh/][JavaScript 秘密花园]]
@@ -159,7 +160,9 @@ Web 方面有 Flask, Django 等成熟的框架。
 科研方面有很多完备的科学计算库和绘图工具：
 
 - Numpy
+  学习资源：[[http://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html][Numpy tutorial]]
 - Matplotlib
+  学习资源：[[http://www.labri.fr/perso/nrougier/teaching/matplotlib/][Matplotlib tutorial]]
 
 * Ruby
 
@@ -211,6 +214,8 @@ Web 方面有 Flask, Django 等成熟的框架。
 
 #+END_EXAMPLE
 
+Vim 的宏在进行批量修改时，是神器
+
 一些资源：
 
 -  [[http://coolshell.cn/articles/5426.html][简明 Vim 练级攻略]]
@@ -222,6 +227,53 @@ Web 方面有 Flask, Django 等成熟的框架。
 * Spacemacs
 
 [[https://github.com/syl20bnr/spacemacs][spacemacs]] 是一款社区维护的 Emacs 配置，结合了 vim 和 Emacs 两者的优点。
+
+安装 Spacemacs 可以直接 git clone Spacemacs 的 repo 到 Dropbox（或其他云盘）中，然后 ln -s 到 home 目录的 `.emacs.d` 文件夹下。此处可以选择用 master 还是 develop 分支。
+然后新建 `.spacemacs` 文件夹，在.spacemacs 中的 init.el 为 Spacemacs 的启动配置文件（这个文件可自动生成，用 dotspacemacs/copy-template 命令），其余的配置写进自己的 layer 里。Layer 这个概念和 package 不一样，Spacemacs 基于 layer 来配置。
+
+我个人的配置在 [[https://github.com/geekplux/dotfiles][dotfiles]] 这个库中，也可以参考子龙山人的[[https://github.com/zilongshanren/spacemacs-private][个人配置]]
+
+** Shortcuts
+
+#+BEGIN_EXAMPLE
+
+C-h f & C-h C-f : Find Function definition
+C-h v & C-h C-v : Find variable definition
+SPC s l : Navigation functions in current file
+SPC f e d : Go to your .spacemacs file
+SPC f e i : Go to .emacs.d/init.el
+SPC h L : Find an elpa library
+SPC f e h : Find Spacemacs layers, docs and package configuration
+
+SPC b b & SPC b B(i) : show all opened buffer
+SPC b h : Open spacemacs home buffer
+SPC b s : Open scratch buffer
+SPC b f : Reveal in finder
+SPC b w : Read only mode.
+SPC b n/p : previous or next buffer
+SPC b TAB : to switch back and forth.
+
+SPC f f : hel:mfin:dfile
+SPC f r : open recent file
+SPC f R : rename file
+SPC f c : copy file
+SPC f j : jump to dired
+SPC f t : open neo tree
+SPC f o : open in external application
+
+SPC p f / SPC p b : open project file or buffer
+SPC p t : open project neotree
+
+SPC l o : custom layout
+SPC l L/s : load or save layout
+SPC l l : switch bewteen layout
+SPC l TAB : quick way to switch
+SPC l ? : open up the help.
+SPC p l : switch to project and create a layout
+
+#+END_EXAMPLE
+
+** Resources
 
 Elisp 教程：
 - [[http://learnxinyminutes.com/docs/elisp/][Learn elisp in Y minutes]]
@@ -423,6 +475,11 @@ redis-cli del `redis-cli keys "user:*"
 - Precision
 - AUC
 - Ranking Score
+**** 算法
+- CN
+- AA
+- RA
+- PA
 * 日本语学习
 
 日语由两部分构成：假名、真名（汉字）
