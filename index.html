@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2015-11-30 Mon 02:16 -->
+<!-- 2015-11-30 Mon 15:23 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>GeekPlux's Wiki</title>
@@ -231,7 +231,7 @@ for the JavaScript code in this tag.
 </li>
 </ul>
 </li>
-<li><a href="#orgheadline60">18. Link Prediction</a>
+<li><a href="#orgheadline69">18. Link Prediction</a>
 <ul>
 <li><a href="#orgheadline57">18.1. 概念</a>
 <ul>
@@ -250,31 +250,44 @@ for the JavaScript code in this tag.
 </ul>
 </li>
 <li><a href="#orgheadline58">18.2. 图的类型</a></li>
-<li><a href="#orgheadline59">18.3. 基本的网络模型</a></li>
+<li><a href="#orgheadline63">18.3. 基本的网络模型</a>
+<ul>
+<li><a href="#orgheadline59">18.3.1. 规则网络</a></li>
+<li><a href="#orgheadline60">18.3.2. 随机网络</a></li>
+<li><a href="#orgheadline61">18.3.3. 小世界网络</a></li>
+<li><a href="#orgheadline62">18.3.4. 无标度网络</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline61">19. 日本语学习</a></li>
-<li><a href="#orgheadline70">20. Life</a>
+<li><a href="#orgheadline68">18.4. 链路预测的基本方法</a>
 <ul>
-<li><a href="#orgheadline62">20.1. Music</a></li>
-<li><a href="#orgheadline63">20.2. Podcast</a></li>
-<li><a href="#orgheadline64">20.3. Download Resources</a></li>
-<li><a href="#orgheadline65">20.4. 科学上网</a></li>
-<li><a href="#orgheadline66">20.5. Job</a></li>
-<li><a href="#orgheadline67">20.6. 白噪音</a></li>
-<li><a href="#orgheadline68">20.7. 在线编辑器</a></li>
-<li><a href="#orgheadline69">20.8. 其他</a></li>
+<li><a href="#orgheadline64">18.4.1. 概念</a></li>
+<li><a href="#orgheadline67">18.4.2. 方法</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline78">21. Reading</a>
+</ul>
+</li>
+<li><a href="#orgheadline70">19. 日本语学习</a></li>
+<li><a href="#orgheadline79">20. Life</a>
 <ul>
-<li><a href="#orgheadline71">21.1. 书籍资源</a></li>
-<li><a href="#orgheadline72">21.2. Paper</a></li>
-<li><a href="#orgheadline73">21.3. News</a></li>
-<li><a href="#orgheadline74">21.4. 社区</a></li>
-<li><a href="#orgheadline75">21.5. 必看的博客</a></li>
-<li><a href="#orgheadline76">21.6. 我是死较真</a></li>
-<li><a href="#orgheadline77">21.7. 已读书单</a></li>
+<li><a href="#orgheadline71">20.1. Music</a></li>
+<li><a href="#orgheadline72">20.2. Podcast</a></li>
+<li><a href="#orgheadline73">20.3. Download Resources</a></li>
+<li><a href="#orgheadline74">20.4. 科学上网</a></li>
+<li><a href="#orgheadline75">20.5. Job</a></li>
+<li><a href="#orgheadline76">20.6. 白噪音</a></li>
+<li><a href="#orgheadline77">20.7. 在线编辑器</a></li>
+<li><a href="#orgheadline78">20.8. 其他</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline87">21. Reading</a>
+<ul>
+<li><a href="#orgheadline80">21.1. 书籍资源</a></li>
+<li><a href="#orgheadline81">21.2. Paper</a></li>
+<li><a href="#orgheadline82">21.3. News</a></li>
+<li><a href="#orgheadline83">21.4. 社区</a></li>
+<li><a href="#orgheadline84">21.5. 必看的博客</a></li>
+<li><a href="#orgheadline85">21.6. 我是死较真</a></li>
+<li><a href="#orgheadline86">21.7. 已读书单</a></li>
 </ul>
 </li>
 </ul>
@@ -298,7 +311,7 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 </ul>
 
 <p>
-看看这篇文章的发布日期，在对比现在的技术潮流，就知道这篇文章还没有过时，所以按照这篇文章修炼是不会错的。技术越学到最后越偏底层。
+看看这篇文章的发布日期，再对比现在的技术潮流，就知道这篇文章还没有过时，所以按照这篇文章修炼是不会错的。技术越学到最后越偏底层。
 </p>
 
 <ul class="org-ul">
@@ -892,8 +905,8 @@ redis-cli del `redis-cli keys "user:*"
 </div>
 </div>
 </div>
-<div id="outline-container-orgheadline60" class="outline-2">
-<h2 id="orgheadline60"><span class="section-number-2">18</span> Link Prediction</h2>
+<div id="outline-container-orgheadline69" class="outline-2">
+<h2 id="orgheadline69"><span class="section-number-2">18</span> Link Prediction</h2>
 <div class="outline-text-2" id="text-18">
 </div><div id="outline-container-orgheadline57" class="outline-3">
 <h3 id="orgheadline57"><span class="section-number-3">18.1</span> 概念</h3>
@@ -1030,13 +1043,73 @@ redis-cli del `redis-cli keys "user:*"
 </div>
 </div>
 
-<div id="outline-container-orgheadline59" class="outline-3">
-<h3 id="orgheadline59"><span class="section-number-3">18.3</span> 基本的网络模型</h3>
+<div id="outline-container-orgheadline63" class="outline-3">
+<h3 id="orgheadline63"><span class="section-number-3">18.3</span> 基本的网络模型</h3>
+<div class="outline-text-3" id="text-18-3">
+</div><div id="outline-container-orgheadline59" class="outline-4">
+<h4 id="orgheadline59"><span class="section-number-4">18.3.1</span> 规则网络</h4>
+<div class="outline-text-4" id="text-18-3-1">
+<p>
+定义：每个节点的度都相同
+</p>
 </div>
 </div>
-
-<div id="outline-container-orgheadline61" class="outline-2">
-<h2 id="orgheadline61"><span class="section-number-2">19</span> 日本语学习</h2>
+<div id="outline-container-orgheadline60" class="outline-4">
+<h4 id="orgheadline60"><span class="section-number-4">18.3.2</span> 随机网络</h4>
+<div class="outline-text-4" id="text-18-3-2">
+<p>
+两点之间的连边与否根据概率得出
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline61" class="outline-4">
+<h4 id="orgheadline61"><span class="section-number-4">18.3.3</span> 小世界网络</h4>
+</div>
+<div id="outline-container-orgheadline62" class="outline-4">
+<h4 id="orgheadline62"><span class="section-number-4">18.3.4</span> 无标度网络</h4>
+</div>
+</div>
+<div id="outline-container-orgheadline68" class="outline-3">
+<h3 id="orgheadline68"><span class="section-number-3">18.4</span> 链路预测的基本方法</h3>
+<div class="outline-text-3" id="text-18-4">
+</div><div id="outline-container-orgheadline64" class="outline-4">
+<h4 id="orgheadline64"><span class="section-number-4">18.4.1</span> 概念</h4>
+<div class="outline-text-4" id="text-18-4-1">
+<p>
+定义：指如何通过已知的网络节点以及网络结构等信息，预测网络中尚未产生连边的两个节点之间产生连接的可能性。这种预测包含了对未知链接（在网络中实际存在但未被探测到）和未来链接的预测
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline67" class="outline-4">
+<h4 id="orgheadline67"><span class="section-number-4">18.4.2</span> 方法</h4>
+<div class="outline-text-4" id="text-18-4-2">
+<p>
+为每对没有连边的节点赋予一个分数值，再将已知的连边分为两部分：训练集和测试集。最后通过算法算出分数值再进行排序，如果测试集中的边更多的排在前面，则算法越精确
+</p>
+</div>
+<ol class="org-ol"><li><a id="orgheadline65"></a>数据集划分方法<br  /><div class="outline-text-5" id="text-18-4-2-1">
+<ul class="org-ul">
+<li>随机抽样</li>
+<li>逐项遍历</li>
+<li>k-折叠交叉检验</li>
+<li>滚雪球抽样</li>
+<li>熟识者抽样</li>
+<li>随机游走抽样</li>
+<li>基于路径抽样</li>
+</ul>
+</div></li>
+<li><a id="orgheadline66"></a>评价指标<br  /><div class="outline-text-5" id="text-18-4-2-2">
+<ul class="org-ul">
+<li>Precision</li>
+<li>AUC</li>
+<li>Ranking Score</li>
+</ul>
+</div></li></ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline70" class="outline-2">
+<h2 id="orgheadline70"><span class="section-number-2">19</span> 日本语学习</h2>
 <div class="outline-text-2" id="text-19">
 <p>
 日语由两部分构成：假名、真名（汉字）假名又有两部分构成：平假名、片假名
@@ -1061,11 +1134,11 @@ redis-cli del `redis-cli keys "user:*"
 </div>
 </div>
 
-<div id="outline-container-orgheadline70" class="outline-2">
-<h2 id="orgheadline70"><span class="section-number-2">20</span> Life</h2>
+<div id="outline-container-orgheadline79" class="outline-2">
+<h2 id="orgheadline79"><span class="section-number-2">20</span> Life</h2>
 <div class="outline-text-2" id="text-20">
-</div><div id="outline-container-orgheadline62" class="outline-3">
-<h3 id="orgheadline62"><span class="section-number-3">20.1</span> Music</h3>
+</div><div id="outline-container-orgheadline71" class="outline-3">
+<h3 id="orgheadline71"><span class="section-number-3">20.1</span> Music</h3>
 <div class="outline-text-3" id="text-20-1">
 <p>
 由于版权的问题，国内的软件现在很多曲库都不太全了
@@ -1080,8 +1153,8 @@ iTunes 还不错，唯一缺点是通过 iCloud 同步 My Music 较慢
 </ul>
 </div>
 </div>
-<div id="outline-container-orgheadline63" class="outline-3">
-<h3 id="orgheadline63"><span class="section-number-3">20.2</span> Podcast</h3>
+<div id="outline-container-orgheadline72" class="outline-3">
+<h3 id="orgheadline72"><span class="section-number-3">20.2</span> Podcast</h3>
 <div class="outline-text-3" id="text-20-2">
 <p>
 IT 类：
@@ -1102,16 +1175,16 @@ IT 类：
 </ul>
 </div>
 </div>
-<div id="outline-container-orgheadline64" class="outline-3">
-<h3 id="orgheadline64"><span class="section-number-3">20.3</span> Download Resources</h3>
+<div id="outline-container-orgheadline73" class="outline-3">
+<h3 id="orgheadline73"><span class="section-number-3">20.3</span> Download Resources</h3>
 <div class="outline-text-3" id="text-20-3">
 <ul class="org-ul">
 <li><a href="http://www.torrentkitty.com/">Torrent Kitty</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgheadline65" class="outline-3">
-<h3 id="orgheadline65"><span class="section-number-3">20.4</span> 科学上网</h3>
+<div id="outline-container-orgheadline74" class="outline-3">
+<h3 id="orgheadline74"><span class="section-number-3">20.4</span> 科学上网</h3>
 <div class="outline-text-3" id="text-20-4">
 <ul class="org-ul">
 <li><a href="https://code.google.com/p/smartladder/">聪明的梯子</a></li>
@@ -1120,8 +1193,8 @@ IT 类：
 </div>
 </div>
 
-<div id="outline-container-orgheadline66" class="outline-3">
-<h3 id="orgheadline66"><span class="section-number-3">20.5</span> Job</h3>
+<div id="outline-container-orgheadline75" class="outline-3">
+<h3 id="orgheadline75"><span class="section-number-3">20.5</span> Job</h3>
 <div class="outline-text-3" id="text-20-5">
 <ul class="org-ul">
 <li><a href="http://resume.github.io/">Github 简历生成</a></li>
@@ -1132,8 +1205,8 @@ IT 类：
 </ul>
 </div>
 </div>
-<div id="outline-container-orgheadline67" class="outline-3">
-<h3 id="orgheadline67"><span class="section-number-3">20.6</span> 白噪音</h3>
+<div id="outline-container-orgheadline76" class="outline-3">
+<h3 id="orgheadline76"><span class="section-number-3">20.6</span> 白噪音</h3>
 <div class="outline-text-3" id="text-20-6">
 <p>
 在线版：
@@ -1153,8 +1226,8 @@ Mac 上有款软件也非常好用：
 </ul>
 </div>
 </div>
-<div id="outline-container-orgheadline68" class="outline-3">
-<h3 id="orgheadline68"><span class="section-number-3">20.7</span> 在线编辑器</h3>
+<div id="outline-container-orgheadline77" class="outline-3">
+<h3 id="orgheadline77"><span class="section-number-3">20.7</span> 在线编辑器</h3>
 <div class="outline-text-3" id="text-20-7">
 <ul class="org-ul">
 <li><a href="http://www.zybuluo.com/mdeditor">Cmd Makrdown</a></li>
@@ -1167,8 +1240,8 @@ Mac 上有款软件也非常好用：
 </div>
 </div>
 
-<div id="outline-container-orgheadline69" class="outline-3">
-<h3 id="orgheadline69"><span class="section-number-3">20.8</span> 其他</h3>
+<div id="outline-container-orgheadline78" class="outline-3">
+<h3 id="orgheadline78"><span class="section-number-3">20.8</span> 其他</h3>
 <div class="outline-text-3" id="text-20-8">
 <ul class="org-ul">
 <li><a href="http://zhihuhelpbyyzy.sinaapp.com/">知乎助手</a></li>
@@ -1177,8 +1250,8 @@ Mac 上有款软件也非常好用：
 </div>
 </div>
 
-<div id="outline-container-orgheadline78" class="outline-2">
-<h2 id="orgheadline78"><span class="section-number-2">21</span> Reading</h2>
+<div id="outline-container-orgheadline87" class="outline-2">
+<h2 id="orgheadline87"><span class="section-number-2">21</span> Reading</h2>
 <div class="outline-text-2" id="text-21">
 <p>
 阅读工具：
@@ -1189,8 +1262,8 @@ Kindle 的墨水屏确实很舒服，但感觉没 iPad Mini 看书爽，尤其�
 </p>
 </div>
 
-<div id="outline-container-orgheadline71" class="outline-3">
-<h3 id="orgheadline71"><span class="section-number-3">21.1</span> 书籍资源</h3>
+<div id="outline-container-orgheadline80" class="outline-3">
+<h3 id="orgheadline80"><span class="section-number-3">21.1</span> 书籍资源</h3>
 <div class="outline-text-3" id="text-21-1">
 <ul class="org-ul">
 <li><a href="https://github.com/vhf/free-programming-books">List of Free Learning Resources</a></li>
@@ -1203,16 +1276,16 @@ Kindle 的墨水屏确实很舒服，但感觉没 iPad Mini 看书爽，尤其�
 </div>
 </div>
 
-<div id="outline-container-orgheadline72" class="outline-3">
-<h3 id="orgheadline72"><span class="section-number-3">21.2</span> Paper</h3>
+<div id="outline-container-orgheadline81" class="outline-3">
+<h3 id="orgheadline81"><span class="section-number-3">21.2</span> Paper</h3>
 <div class="outline-text-3" id="text-21-2">
 <ul class="org-ul">
 <li><a href="https://github.com/papers-we-love/papers-we-love">Paper we love</a> &#x2013; Papers from the computer science community to read and discuss.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgheadline73" class="outline-3">
-<h3 id="orgheadline73"><span class="section-number-3">21.3</span> News</h3>
+<div id="outline-container-orgheadline82" class="outline-3">
+<h3 id="orgheadline82"><span class="section-number-3">21.3</span> News</h3>
 <div class="outline-text-3" id="text-21-3">
 <ul class="org-ul">
 <li><a href="https://news.ycombinator.com/">Hacker News</a></li>
@@ -1221,8 +1294,8 @@ Kindle 的墨水屏确实很舒服，但感觉没 iPad Mini 看书爽，尤其�
 </div>
 </div>
 
-<div id="outline-container-orgheadline74" class="outline-3">
-<h3 id="orgheadline74"><span class="section-number-3">21.4</span> 社区</h3>
+<div id="outline-container-orgheadline83" class="outline-3">
+<h3 id="orgheadline83"><span class="section-number-3">21.4</span> 社区</h3>
 <div class="outline-text-3" id="text-21-4">
 <ul class="org-ul">
 <li><a href="http://www.v2ex.com/?r=Geeker">V2EX</a></li>
@@ -1234,8 +1307,8 @@ Kindle 的墨水屏确实很舒服，但感觉没 iPad Mini 看书爽，尤其�
 </div>
 </div>
 
-<div id="outline-container-orgheadline75" class="outline-3">
-<h3 id="orgheadline75"><span class="section-number-3">21.5</span> 必看的博客</h3>
+<div id="outline-container-orgheadline84" class="outline-3">
+<h3 id="orgheadline84"><span class="section-number-3">21.5</span> 必看的博客</h3>
 <div class="outline-text-3" id="text-21-5">
 <ul class="org-ul">
 <li><a href="http://mindhacks.cn/">刘未鹏 | MIND HACKS</a></li>
@@ -1250,8 +1323,8 @@ Kindle 的墨水屏确实很舒服，但感觉没 iPad Mini 看书爽，尤其�
 </div>
 </div>
 
-<div id="outline-container-orgheadline76" class="outline-3">
-<h3 id="orgheadline76"><span class="section-number-3">21.6</span> 我是死较真</h3>
+<div id="outline-container-orgheadline85" class="outline-3">
+<h3 id="orgheadline85"><span class="section-number-3">21.6</span> 我是死较真</h3>
 <div class="outline-text-3" id="text-21-6">
 <ul class="org-ul">
 <li><a href="http://www.guokr.com/">果壳</a></li>
@@ -1260,8 +1333,8 @@ Kindle 的墨水屏确实很舒服，但感觉没 iPad Mini 看书爽，尤其�
 </div>
 </div>
 
-<div id="outline-container-orgheadline77" class="outline-3">
-<h3 id="orgheadline77"><span class="section-number-3">21.7</span> 已读书单</h3>
+<div id="outline-container-orgheadline86" class="outline-3">
+<h3 id="orgheadline86"><span class="section-number-3">21.7</span> 已读书单</h3>
 <div class="outline-text-3" id="text-21-7">
 <ul class="org-ul">
 <li><a href="http://book.douban.com/people/44921319/collect">我的豆瓣已读书单</a></li>
@@ -1272,7 +1345,7 @@ Kindle 的墨水屏确实很舒服，但感觉没 iPad Mini 看书爽，尤其�
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: GeekPlux</p>
-<p class="date">Created: 2015-11-30 Mon 02:16</p>
+<p class="date">Created: 2015-11-30 Mon 15:23</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
