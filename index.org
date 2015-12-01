@@ -48,9 +48,76 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 
 ** HTML&CSS
 
--  [[http://codeguide.bootcss.com/][编码规范 by @mdo]] - 编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范
--  [[http://cssguidelin.es/][CSS Guidelines]] - High-level advice and guidelines for writing sane, manageable, scalable CSS
--  [[http://nec.netease.com/][网易前端规范]] - 真心不错
+- [[http://codeguide.bootcss.com/][编码规范 by @mdo]] - 编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范
+- [[http://cssguidelin.es/][CSS Guidelines]] - High-level advice and guidelines for writing sane, manageable, scalable CSS
+- [[http://nec.netease.com/][网易前端规范]] - 真心不错
+
+*** Meta tag
+`<meta>` 提供关于 HTML 文档的元数据。元数据不会显示在页面上，但对于浏览器、搜索引擎和其他 Web 服务都非常有用。
+
+#+BEGIN_SRC html
+申明编码
+<meta charset='utf-8' />
+
+优先使用 IE 最新版本和 Chrome
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<!-- 关于 X-UA-Compatible -->
+<meta http-equiv="X-UA-Compatible" content="IE=6" ><!-- 使用 IE6 -->
+<meta http-equiv="X-UA-Compatible" content="IE=7" ><!-- 使用 IE7 -->
+<meta http-equiv="X-UA-Compatible" content="IE=8" ><!-- 使用 IE8 -->
+#+END_SRC
+
+有两个主要的属性可定义：
+
+**** name
+可自定义属性名，如：`<meta name="keywords" content="HTML,META">`
+
+常见的`name`：
+
+- keywords  关键词，方便人们和 SEO
+- description
+- author
+- robots 搜索引擎的索引方式
+
+***** viewport
+
+viewport 应用于响应式网站的开发
+
+#+BEGIN_SRC html
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+#+END_SRC
+
+- width：宽度（数值 / device-width）（范围从 200 到 10,000，默认为 980 像素）
+- height：高度（数值 / device-height）（范围从 223 到 10,000）
+- initial-scale：初始的缩放比例 （范围从>0 到 10）
+- minimum-scale：允许用户缩放到的最小比例
+- maximum-scale：允许用户缩放到的最大比例
+- user-scalable：用户是否可以手动缩 (no,yes)
+- minimal-ui：可以在页面加载时最小化上下状态栏。（已弃用）
+
+注意，很多人使用 initial-scale=1 到非响应式网站上，这会让网站以 100%宽度渲染，用户需要手动移动页面或者缩放。如果和 initial-scale=1 同时使用 user-scalable=no 或 maximum-scale=1，则用户将不能放大/缩小网页来看到全部的内容。
+
+**** http-equiv
+服务器在收发文档时的属性/值
+
+虽然有些服务器会发送许多这种名称/值对，但是所有服务器都至少要发送一个：content-type:text/html。这将告诉浏览器准备接受一个 HTML 文档。
+
+使用带有 http-equiv 属性的 <meta> 标签时，服务器将把名称/值对添加到发送给浏览器的内容头部。例如，添加：
+
+#+BEGIN_SRC html
+<meta http-equiv="charset" content="iso-8859-1">
+<meta http-equiv="expires" content="31 Dec 2008">
+#+END_SRC
+
+这样发送到浏览器的头部就应该包含：
+
+#+BEGIN_EXAMPLE
+content-type: text/html
+charset:iso-8859-1
+expires:31 Dec 2008
+#+END_EXAMPLE
+
+当然，只有浏览器可以接受这些附加的头部字段，并能以适当的方式使用它们时，这些字段才有意义。
 
 *** 技巧：
 
@@ -158,6 +225,8 @@ Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面�
 
 Web 方面有 Flask, Django 等成熟的框架。
 科研方面有很多完备的科学计算库和绘图工具：
+
+[[http://www.rafekettler.com/magicmethods.html?utm_campaign=CodeTengu&utm_medium=email&utm_source=CodeTengu_18][A Guide to Python's Magic Methods « rafekettler.com]]
 
 - Numpy
   学习资源：[[http://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html][Numpy tutorial]]
@@ -305,6 +374,9 @@ You may also optionally bind a key to activate the link grabber menu, like this:
 
 #+END_SRC
 
+*** Org-IO Slide
+[[https://github.com/coldnew/org-ioslide][coldnew/org-ioslide]]
+
 * Sublime Text
 
 Material Theme 比 Monokai 更好看。。
@@ -394,6 +466,9 @@ redis-cli del `redis-cli keys "user:*"
 #+END_EXAMPLE
 
 来达到同样的效果，但是性能更好。
+* Research
+** Paper
+[[https://github.com/papers-we-love/papers-we-love][papers-we-love/papers-we-love]]
 * Link Prediction
 ** 概念
 *** *网络*
