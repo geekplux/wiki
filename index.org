@@ -140,15 +140,20 @@ expires:31 Dec 2008
 ** JavaScript
 当年我是通过《Javascript DOM 编程艺术》入门的，非常基础，循序渐进，一天就能看完
 
--  [[http://javascript.ruanyifeng.com/][JavaScript 标准参考教程（alpha）]]
--  [[http://bonsaiden.github.io/JavaScript-Garden/zh/][JavaScript 秘密花园]]
--  [[http://ejohn.org/apps/learn/][Learning Advanced JavaScript]]
--  [[http://eloquentjavascript.net/2nd_edition/preview/][Eloquent JavaScript]]
--  [[http://speakingjs.com/es5/index.html][Speaking JavaScript]]
--  [[http://lab.abhinayrathore.com/jquery-standards/][jQuery Coding Standards & Best Practices]]
--  [[http://www.keyframesandcode.com/resources/javascript/deconstructed/jquery/][jQuery Deconstructed]]
--  [[http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html][深入理解 JavaScript 系列]]
--  [[http://es6.ruanyifeng.com/][ECMAScript 6 入门]]
+- [[http://javascript.ruanyifeng.com/][JavaScript 标准参考教程（alpha）]]
+- [[http://bonsaiden.github.io/JavaScript-Garden/zh/][JavaScript 秘密花园]]
+- [[http://ejohn.org/apps/learn/][Learning Advanced JavaScript]]
+- [[http://eloquentjavascript.net/2nd_edition/preview/][Eloquent JavaScript]]
+- [[http://speakingjs.com/es5/index.html][Speaking JavaScript]]
+- [[http://lab.abhinayrathore.com/jquery-standards/][jQuery Coding Standards & Best Practices]]
+- [[http://www.keyframesandcode.com/resources/javascript/deconstructed/jquery/][jQuery Deconstructed]]
+- [[http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html][深入理解 JavaScript 系列]]
+
+*** ES2015
+
+- [[http://es6.ruanyifeng.com/][ECMAScript 6 入门]]
+
+babel 的开发者才 16 岁，令人汗颜[[http://babeljs.io/][Babel · The compiler for writing next generation JavaScript]]
 
 ** CoffeeScript
 CoffeeScript 作为一个可编译为 JS 的语言，在 ES2015 发布的时候就完成了它的历史使命。虽然我推荐在项目中直接用 ES2015，不过多了解一下 CoffeeScript 还是不错的。
@@ -178,7 +183,12 @@ ui-router 的 url 设计，最好和后台 API 接口统一。如果是 RESTful 
 
 collecction 和 model 非常好用。但由于过于轻量，很多东西需要自己来写，不过对于喜欢自己动手或喜欢「按需」搭配所需要功能的同学非常方便。
 ** Vue
-半小时入门，可以做出实际应用。结合了 Angular 和 React 两者的优点，写起来非常漂亮。
+半小时入门，可以做出实际应用。结合了 Angular 和 React 两者的优点，写起来非常漂亮。语法和 Angular 差不多。
+*** vue-loader
+webpack 组件，可 load `.vue` 文件
+[[https://github.com/vuejs/vue-loader][vuejs/vue-loader]]
+*** vue-router
+[[http://vuejs.github.io/vue-router/zh-cn/basic.html][基本用法 | vue-router 文档]]
 ** React
 ** Node
 
@@ -190,29 +200,9 @@ collecction 和 model 非常好用。但由于过于轻量，很多东西需要�
 - [[http://0532.gitbooks.io/nodejs/][the NodeJS]] - 一本关于 nodejs 的文档
 - [[http://blog.fens.me/series-nodejs/][从零开始 nodejs 系列文章]]
 
-** Web Tools
-
--  [[http://jsfiddle.net/][JSFiddle]] - 在线展示 Web 代码效果
--  [[http://codepen.io/][CodePen]] - 同上
--  [[http://tool.lu/][iBox]] - 一系列在线小工具
--  [[http://lab.maltewassermann.com/viewport-resizer/][VIEWPORT RESIZER]] - 响应式开发测试
-
-*** JavaScript
-
--  [[http://js2coffee.org/][Js2coffee]] - JS 转换为 CoffeeScript
--  [[http://www.jshint.com/][JSHint]]
--  [[http://www.jslint.com/][JSLint]]
--  [[https://www.codefellows.org/blogs/complete-list-of-javascript-tools][A List of Foundational JavaScript Tools]]
-
-*** CSS
-
--  [[http://csslint.net/][CSS Lint]]
--  [[https://github.com/tkadauke/css_doc][css\_doc]] 写注释用
--  [[https://github.com/kneath/kss][kss]] 写注释用
--  [[http://www.getmarkman.com/][马克鳗]] - 高效的设计稿标注、测量工具
-
---------------
-
+** Webpack
+here a article [[http://survivejs.com/webpack_react/webpack_compared/][SurviveJS - Webpack Compared]]
+Webpack 最大的特点是可以打包一切资源，包括 css, html, 图片等等各种文件
 * Android
 当年我开发 Android 的时候，还没有统一的设计规范，设备的屏幕也是大小不一很难适配。开发环境还是 Eclipse+Android SDK，看到现在完备的开发工具真是羡慕。
 
