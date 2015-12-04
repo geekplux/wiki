@@ -211,8 +211,35 @@ Webpack 最大的特点是可以打包一切资源，包括 css, html, 图片等
 -  [[http://www.apkbus.com/design/index.html][Android Design]]
 
 * Python
-Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面。
+** Python Basic
+*** OS, System, File
+使用 glob 模块可以用通配符的方式搜索某个目录下的特定文件，返回结果是一个 list
 
+#+BEGIN_SRC python
+import glob
+flist=glob.glob('*.jpeg')
+#+END_SRC
+
+使用 os.getcwd()可以得到当前目录，如果想切换到其他目录，可以使用 os.chdir('str/to/path')，如果想执行 Shell 脚本，可以使用 os.system('mkdir newfolder')。
+
+对于日常文件和目录的管理, shutil 模块提供了更便捷、更高层次的接口
+
+#+BEGIN_SRC python
+import shutil
+shutil.copyfile('data.db', 'archive.db')
+shutil.move('/build/executables', 'installdir')
+#+END_SRC
+
+如果要在代码中添加中文注释的话，最好在文档开头加上下面的编码声明语句。关于 Python 中的字符串编码可见廖雪峰的 python 教程。若代码打算用在国际化的环境中, 那么不要使用奇特的编码。Python 默认的 UTF-8, 或者甚至是简单的 ASCII 在任何情况下工作得最好。同样地，如果代码的读者或维护者只有很小的概率使用不同的语言，那么不要在标识符里使用非 ASCII 字符。
+
+#+BEGIN_SRC python
+# coding=utf-8
+或者
+# -*- coding: utf-8 -*-
+#+END_SRC
+
+
+** Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面。
 Web 方面有 Flask, Django 等成熟的框架。
 科研方面有很多完备的科学计算库和绘图工具：
 
