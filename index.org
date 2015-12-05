@@ -206,11 +206,14 @@ Webpack 最大的特点是可以打包一切资源，包括 css, html, 图片等
 * Android
 当年我开发 Android 的时候，还没有统一的设计规范，设备的屏幕也是大小不一很难适配。开发环境还是 Eclipse+Android SDK，看到现在完备的开发工具真是羡慕。
 
+当初自己写的[[http://geekplux.com/2013/09/02/android_get_started.html][Android 开发如何入门 | GeekPlux]]
+
 -  [[http://developer.android.com/index.html][Android Developers]]
 -  [[http://www.androidviews.net/][AndroidViews]]
 -  [[http://www.apkbus.com/design/index.html][Android Design]]
 
 * Python
+- [[http://hujiaweibujidao.github.io/python/][HujiaweiBujidao Python]] 总结
 ** Python Basic
 *** OS, System, File
 使用 glob 模块可以用通配符的方式搜索某个目录下的特定文件，返回结果是一个 list
@@ -237,7 +240,6 @@ shutil.move('/build/executables', 'installdir')
 或者
 # -*- coding: utf-8 -*-
 #+END_SRC
-
 
 ** Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面。
 Web 方面有 Flask, Django 等成熟的框架。
@@ -317,7 +319,7 @@ Vim 的宏在进行批量修改时，是神器
 安装 Spacemacs 可以直接 git clone Spacemacs 的 repo 到 Dropbox（或其他云盘）中，然后 ln -s 到 home 目录的 `.emacs.d` 文件夹下。此处可以选择用 master 还是 develop 分支。
 然后新建 `.spacemacs` 文件夹，在.spacemacs 中的 init.el 为 Spacemacs 的启动配置文件（这个文件可自动生成，用 dotspacemacs/copy-template 命令），其余的配置写进自己的 layer 里。Layer 这个概念和 package 不一样，Spacemacs 基于 layer 来配置。
 
-我个人的配置在 [[https://github.com/geekplux/dotfiles][dotfiles]] 这个库中，也可以参考子龙山人的[[https://github.com/zilongshanren/spacemacs-private][个人配置]]
+我个人的配置在 [[https://github.com/geekplux/dotfiles][dotfiles]] 这个库中，也可以参考[[https://github.com/zilongshanren/spacemacs-private][子龙山人的个人配置]]
 
 ** Shortcuts
 
@@ -483,6 +485,66 @@ redis-cli del `redis-cli keys "user:*"
 #+END_EXAMPLE
 
 来达到同样的效果，但是性能更好。
+* Algorithm
+** 图
+*** 定义
+图是由顶点的有穷非空集合和顶点之间边的集合组成，通过表示为 G(V,E)，其中，G 标示一个图，V 是图 G 中顶点的集合，E 是图 G 中边的集合。
+
+- 无向图 / 有向图
+- 稀疏图 / 稠密图
+- 完全图 / 有向完全图
+- 度 / 入度 / 出度
+- 连通图 / 强连通图
+- 连通分量 / 强连通分量
+
+[[http://images.cnitblog.com/blog/380281/201307/13102548-05ebe5498c9a4954ae1625ef22d19889.png]]
+
+*** 存储结构
+
+常用邻接矩阵
+
+**** 邻接矩阵
+用两个数组来存储图。一个一维数组存储图顶点的信息，一个二维数组（称为邻接矩阵）存储图中边或者弧的信息。
+无向图的邻接矩阵是对称矩阵
+
+[[http://images.cnitblog.com/blog/380281/201307/13102739-ae381b43e0124cc7908c055f350dc03a.png]]
+
+**** 邻接表
+用数组和链表结合的存储方式来标示图的方法称为邻接表。
+
+[[http://images.cnitblog.com/blog/380281/201307/13103212-bec29eec5fda4044a93ee18ee4c10607.png]]
+
+**** 十字链表
+十字链表可以看作是邻接表与逆邻接表结合起来的，是一种稀疏矩阵。
+*** 遍历
+**** 定义
+从图中某个顶点出发访遍图中其余顶点，且使每个顶点仅被访问依次，这一过程叫做图的遍历
+**** 深度优先遍历（DFS）
+[[http://www.wikiwand.com/zh-hans/%25E6%25B7%25B1%25E5%25BA%25A6%25E4%25BC%2598%25E5%2585%2588%25E6%2590%259C%25E7%25B4%25A2][深度优先搜索 - Wikiwand]]
+**** 广度优先遍历（BFS）
+[[http://www.wikiwand.com/zh-hans/%25E5%25B9%25BF%25E5%25BA%25A6%25E4%25BC%2598%25E5%2585%2588%25E6%2590%259C%25E7%25B4%25A2][广度优先搜索 - Wikiwand]]
+*** 最小生成树
+**** 定义
+把构造连通图的最小代价生成树称为最小生成树
+**** Prim
+[[http://www.wikiwand.com/zh-hans/%25E6%2599%25AE%25E6%259E%2597%25E5%25A7%2586%25E7%25AE%2597%25E6%25B3%2595][普里姆算法 - Wikiwand]]
+[[http://images.cnitblog.com/blog/380281/201307/13104655-5d74ad92af464504abfbd8dc80358e31.png]]
+**** Kruskal
+[[http://www.wikiwand.com/zh-hans/%25E5%2585%258B%25E9%25B2%2581%25E6%2596%25AF%25E5%2585%258B%25E5%25B0%2594%25E6%25BC%2594%25E7%25AE%2597%25E6%25B3%2595][克鲁斯克尔演算法 - Wikiwand]]
+[[http://images.cnitblog.com/blog/380281/201307/13104933-0903774afe234b9796a1b66a9a4f1ed3.png]]
+*** 拓扑排序
+**** 定义
+在一个表示工程的有向图中，用顶点表示活动，用弧表示活动之间的优先关系，这样的有向图为顶点表示活动的网，我们称为 AOV 网(Activity On Vertex)。
+
+设 G=(V,E)是一个具有 n 个顶点的有向图，V 中的顶点序列 V1,V2…,Vn 满足若从顶点 Vi 到顶点 Vj 有一条路径，则在顶点序列中 Vi 必在 Vj 顶点之前。则我们称这样的顶点序列为拓扑序列。
+
+所谓拓扑排序，其实就是对一个有向图构造拓扑序列的过程。
+*** 关键路径
+**** 定义
+在一个表示工程的带权有向图中，用顶点表示事件，用有向图表示活动，用边上的权值表示活动的持续事件，这种这种有向图的边表示活动图，我们称之为 AOE 网(Activity On Edge Network)。
+
+我们把路径上各个活动所持续的时间之和称为路径的长度，从原点到汇点具有最大长度的路径叫做关键路径，在关键路径上的活动叫 *关键活动* 。
+*** 最短路径
 * Research
 ** Paper
 [[https://github.com/papers-we-love/papers-we-love][papers-we-love/papers-we-love]]
@@ -572,6 +634,8 @@ redis-cli del `redis-cli keys "user:*"
 - AA
 - RA
 - PA
+* Latex
+[[http://www.mohu.org/info/lshort-cn.pdf][‎www.mohu.org/info/lshort-cn.pdf]]
 * 日本语学习
 
 日语由两部分构成：假名、真名（汉字）
