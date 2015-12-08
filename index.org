@@ -241,6 +241,30 @@ shutil.move('/build/executables', 'installdir')
 # -*- coding: utf-8 -*-
 #+END_SRC
 
+*** List
+#+BEGIN_SRC python
+>>> a = [0,[1,2]]
+>>> b = a
+>>> b[0] = 88
+>>> b[1][0] = 99
+>>> b
+[88, [99, 2]]
+>>> a
+[88, [99, 2]]
+>>> # 并未真正生成一个新的列表，b 指向的仍然是 a 所指向的对象。这样，如果对 a 或 b 的元素进行修改，a,b 的值同时发生变化。
+
+>>> # 好吧，用[:]试试看
+>>> a = [0,[1,2]]
+>>> b = a[:]
+>>> b[0] = 88
+>>> b[1][0]=99
+>>> b
+[88, [99, 2]]
+>>> a
+[0, [99, 2]]
+>>> # 这种方法只适用于简单列表，也就是列表中的元素都是基本类型，如果列表元素还存在列表的话，这种方法就不适用了，原因就是，像 a[:]这种处理，只是将列表元素的值生成一个新的列表，如果列表元素也是一个列表，如：a = [0,[1,2]]，那么这种复制 对于元素[]的处理只是复制[1，2]的引用，而并未生成 [1，2]的一个新的列表复制。
+#+END_SRC
+
 ** Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面。
 Web 方面有 Flask, Django 等成熟的框架。
 科研方面有很多完备的科学计算库和绘图工具：
@@ -251,6 +275,9 @@ Web 方面有 Flask, Django 等成熟的框架。
   学习资源：[[http://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html][Numpy tutorial]]
 - Matplotlib
   学习资源：[[http://www.labri.fr/perso/nrougier/teaching/matplotlib/][Matplotlib tutorial]]
+
+python 在大数据方面的武器列表：
+[[http://7b1evr.com1.z0.glb.clouddn.com/WvfC-nxDTMqJ-97899.png]]
 
 * Ruby
 
@@ -273,6 +300,8 @@ Web 方面有 Flask, Django 等成熟的框架。
 
 如何使用 github：
 [[http://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/][The beginner's guide to contributing to a GitHub project]]
+
+这个[[https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md][github 秘籍]] 里面有一些奇技淫巧
 
 学习资源：
 
@@ -634,6 +663,8 @@ redis-cli del `redis-cli keys "user:*"
 - AA
 - RA
 - PA
+** Networkx
+[[http://networkx.github.io/documentation/latest/index.html][NetworkX documentation — NetworkX 1.10 documentation]]
 * Latex
 [[http://www.mohu.org/info/lshort-cn.pdf][‎www.mohu.org/info/lshort-cn.pdf]]
 * 日本语学习
