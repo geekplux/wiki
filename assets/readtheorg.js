@@ -40,10 +40,15 @@ $( document ).ready(function() {
 
 // replace the 'Created' to 'Updated'
 $(document).ready(function () {
-  var $date = $('#postamble').find('.date');
+  var $postamble = $('#postamble');
+  var $date = $postamble.find('.date');
   var date = $date.text();
   var updateDate = date.replace('Created', 'Updated');
   $date.text(updateDate);
+
+
+  var $tableOfContents = $('#table-of-contents');
+  $tableOfContents.height($tableOfContents.height() - $postamble.height());
 });
 
 window.SphinxRtdTheme = (function (jquery) {
