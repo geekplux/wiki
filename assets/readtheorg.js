@@ -48,7 +48,7 @@ $(document).ready(function () {
 
 
   var $tableOfContents = $('#table-of-contents');
-  $tableOfContents.height($tableOfContents.height() - $postamble.height());
+  $tableOfContents.height($tableOfContents.height() - $postamble.outerHeight());
 });
 
 window.SphinxRtdTheme = (function (jquery) {

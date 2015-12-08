@@ -298,12 +298,19 @@ python 在大数据方面的武器列表：
 
 多人协作的时候要商定协作流程。[[http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html][git-flow]] 是个不错的实践。
 
-如何使用 github：
-[[http://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/][The beginner's guide to contributing to a GitHub project]]
-
 这个[[https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md][github 秘籍]] 里面有一些奇技淫巧
 
-学习资源：
+** Pull-Request steps
+
+[[http://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/][The beginner's guide to contributing to a GitHub project]]
+
+- git clone git@github xxx
+- git remote add upstream git@github (original repo)
+- git checkout -b new_branch  AND do something
+- git push -u origin new_branch
+- git pull --rebase upstream master (sync with origin repo)
+
+** 学习资源：
 
 -  [[http://rogerdudler.github.io/git-guide/index.zh.html][git - 简明指南]] - 助你入门 git 的简明指南，木有高深内容 ;)
 -  [[http://git-scm.com/book/zh/v1][pro git（中文版）]]
