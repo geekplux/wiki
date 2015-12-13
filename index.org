@@ -281,6 +281,14 @@ python 在大数据方面的武器列表：
 
 * Ruby
 
+Ruby 是解释执行的，且每条 Ruby 代码都会返回某个值。
+Ruby 是一门纯面向对象语言。在 Ruby 中，一切皆为对象。
+
+** tips
+- 除了 nil 和 false 之外，其他值都代表 true
+- 每个函数都会返回结果。如果你没有显式指定某个返回值，函数就将返回退出函数前最后处理的表达式的值。
+** links
+
 -  [[http://saito.im/slide/ruby-new.html][Ruby 语言新手教程]]
 -  [[https://ihower.tw/rails4/index.html][Ruby on Rails 實戰聖經]]
 -  [[http://guides.ruby-china.org][Ruby on Rails 指南]]
