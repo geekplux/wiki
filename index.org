@@ -657,6 +657,8 @@ k-d 树是每个节点都为 k 维点的二叉树。所有非叶子节点可以�
 http://blog.crackcell.com/posts/2013/03/31/machine_learning_note_1_knn//kdtree_space_spliting.png
 
 * Design
+** Sketch
+[[https://github.com/geekplux/sketch-learning][geekplux/sketch-learning]]
 ** 贝塞尔曲线
 Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲线。曲线定义：起始点、终止点（也称锚点）、控制点。通过调整控制点，贝塞尔曲线的形状会发生变化。1962 年，法国数学家 Pierre Bézier 第一个研究了这种矢量绘制曲线的方法，并给出了详细的计算公式，因此按照这样的公式绘制出来的曲线就用他的姓氏来命名，称为贝塞尔曲线。
 
