@@ -184,11 +184,29 @@ ui-router 的 url 设计，最好和后台 API 接口统一。如果是 RESTful 
 collecction 和 model 非常好用。但由于过于轻量，很多东西需要自己来写，不过对于喜欢自己动手或喜欢「按需」搭配所需要功能的同学非常方便。
 ** Vue
 半小时入门，可以做出实际应用。结合了 Angular 和 React 两者的优点，写起来非常漂亮。语法和 Angular 差不多。
+*** tips
+自定义组件可以像普通元素一样直接使用 `v-for`：
+
+#+BEGIN_SRC html
+<my-component v-for="item in items"></my-component>
+但是，不能传递数据给组件，因为组件的作用域是孤立的。为了传递数据给组件，应当使用 props：
+
+<my-component
+  v-for="item in items"
+  :item="item"
+  :index="$index">
+</my-component>
+不自动把 item 注入组件的原因是这会导致组件跟当前 v-for 紧密耦合。显式声明数据来自哪里可以让组件复用在其它地方。
+#+END_SRC
+
 *** vue-loader
 webpack 组件，可 load `.vue` 文件
 [[https://github.com/vuejs/vue-loader][vuejs/vue-loader]]
 *** vue-router
 [[http://vuejs.github.io/vue-router/zh-cn/basic.html][基本用法 | vue-router 文档]]
+*** vue-resource
+[[https://github.com/vuejs/vue-resource][vuejs/vue-resource]]
+
 ** React
 ** Node
 
