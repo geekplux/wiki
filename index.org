@@ -283,6 +283,91 @@ shutil.move('/build/executables', 'installdir')
 >>> # 这种方法只适用于简单列表，也就是列表中的元素都是基本类型，如果列表元素还存在列表的话，这种方法就不适用了，原因就是，像 a[:]这种处理，只是将列表元素的值生成一个新的列表，如果列表元素也是一个列表，如：a = [0,[1,2]]，那么这种复制 对于元素[]的处理只是复制[1，2]的引用，而并未生成 [1，2]的一个新的列表复制。
 #+END_SRC
 
+** Cheat Sheet
+*** Naming Styles
+#+BEGIN_SRC python
+# see: PEP8
+# for public use
+var
+
+# for internal use
+_var
+
+# convention to avoid conflict keyword
+var_
+
+# for private use in class
+__var
+
+# for protect use in class
+_var_
+
+# "magic" method or attributes
+# ex: __init__, __file__, __main__
+__var__
+
+# for "internal" use throwaway variable
+# usually used in loop
+# ex: [_ for _ in range(10)]
+# or variable not used
+# for _, a in [(1,2),(3,4)]: print a
+_
+#+END_SRC
+*** for: exp else: exp
+#+BEGIN_SRC python
+# see document: More Control Flow Tools
+# forloop’s else clause runs when no break occurs
+>>> for _ in range(5):
+...   print _,
+... else:
+...   print "\nno break occur"
+...
+0 1 2 3 4
+no break occur
+>>> for _ in range(5):
+...   if _ % 2 ==0:
+...     print "break occur"
+...     break
+... else:
+...   print "else not occur"
+...
+break occur
+# above statement equivalent to
+flag = False
+for _ in range(5):
+  if _ % 2 == 0:
+    flag = True
+    print "break occur"
+    break
+if flag == False:
+  print "else not occur"
+#+END_SRC
+*** Check object attributes
+#+BEGIN_SRC python
+# example of check list attributes
+>>> dir(list)
+['__add__', '__class__', ...]
+#+END_SRC
+*** Define a function __doc__
+#+BEGIN_SRC python
+# Define a function document
+>>> def Example():
+...   """ This is an example function """
+...   print "Example function"
+...
+>>> Example.__doc__
+' This is an example function '
+
+# Or using help function
+>>> help(Example)
+#+END_SRC
+*** Check all global variables
+#+BEGIN_SRC python
+# globals() return a dictionary
+# {'variable name': variable value}
+>>> globals()
+{'args': (1, 2, 3, 4, 5), ...}
+#+END_SRC
 ** Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面。
 Web 方面有 Flask, Django 等成熟的框架。
 科研方面有很多完备的科学计算库和绘图工具：
