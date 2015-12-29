@@ -38,13 +38,13 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 -  [[http://codetank.alloyteam.com/][codetank]]
 
 * Web
--  [[https://developer.mozilla.org/zh-CN/learn#][学习如何制作网站]]
--  [[http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/][浏览器的工作原理]]
--  [[http://www.20thingsilearned.com/zh-CN][关于浏览器和网络的 20 项须知]]
--  [[http://ecomfe.duapp.com/][前端知识体系]]
--  [[https://developers.google.com/web/fundamentals/][Google Web Fundamentals]]
--  [[https://github.com/dypsilon/frontend-dev-bookmarks][一大波前端资源]]
--  [[http://coderlmn.github.io/code-standards/][前端代码规范 及 最佳实践]]
+- [[https://developer.mozilla.org/zh-CN/learn#][学习如何制作网站]]
+- [[http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/][浏览器的工作原理]]
+- [[http://www.20thingsilearned.com/zh-CN][关于浏览器和网络的 20 项须知]]
+- [[http://ecomfe.duapp.com/][前端知识体系]]
+- [[https://developers.google.com/web/fundamentals/][Google Web Fundamentals]]
+- [[https://github.com/dypsilon/frontend-dev-bookmarks][一大波前端资源]]
+- [[http://coderlmn.github.io/code-standards/][前端代码规范 及 最佳实践]]
 
 ** HTML&CSS
 
@@ -221,6 +221,10 @@ webpack 组件，可 load `.vue` 文件
 ** Webpack
 here a article [[http://survivejs.com/webpack_react/webpack_compared/][SurviveJS - Webpack Compared]]
 Webpack 最大的特点是可以打包一切资源，包括 css, html, 图片等等各种文件
+** Tools
+*** Can I use
+[[http://caniuse.com/][Can I use... Support tables for HTML5, CSS3, etc]]
+查看浏览器的兼容情况
 * Android
 当年我开发 Android 的时候，还没有统一的设计规范，设备的屏幕也是大小不一很难适配。开发环境还是 Eclipse+Android SDK，看到现在完备的开发工具真是羡慕。
 
