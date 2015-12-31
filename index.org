@@ -170,6 +170,20 @@ Flexbox 布局比较适合 Web 应用程序的一些小组件和小规模的布�
 - [[http://www.keyframesandcode.com/resources/javascript/deconstructed/jquery/][jQuery Deconstructed]]
 - [[http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html][深入理解 JavaScript 系列]]
 
+*** JSON
+**** JSON.stringify()
+接收三个参数（对象，过滤器，缩进格式）
+
+- 过滤器可以是数组或函数
+- 缩进格式可以是数字或字符串，如果是字符串，则会用作缩进字符（如"--"）
+
+***** 执行顺序
+- 如果对象中存在 toJSON()方法而且能取得有效的值，则调用该方法
+- 如果存在第二个参数，则对第一步的结果应用过滤器
+- 对第二步返回的每个值进行序列化
+- 如果存在第三个参数，则执行格式化
+**** JSON.parse()
+接收一个参数，是一个函数，一般被称作还原函数（reviver）
 *** ES2015
 
 - [[http://es6.ruanyifeng.com/][ECMAScript 6 入门]]
@@ -1059,6 +1073,10 @@ Mac 上有款软件也非常好用：
 -  [[http://slid.es/][Slides]] - 制作在线 PPT
 -  [[http://maxiang.info/][马克飞象]] - 一款专为印象笔记打造的 Markdown 编辑器
 
+** 壁纸
+- [[http://simpledesktops.com/][Simple Desktops]]
+- [[https://interfacelift.com/][interfacelift — wallpapers, icons, themes, and iOS apps]]
+- [[http://poolga.com/][Poolga. iPhone, iPad and iPod Touch wallpapers for the rest of us.]]
 ** 其他
 
 -  [[http://zhihuhelpbyyzy.sinaapp.com/][知乎助手]]
