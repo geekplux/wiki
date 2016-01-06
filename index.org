@@ -881,7 +881,12 @@ http://blog.crackcell.com/posts/2013/03/31/machine_learning_note_1_knn//kdtree_s
 
 * Design
 ** Sketch
+- [[http://www.sketchcn.com/][Sketch 中文网]]
+- [[http://sketchshortcuts.com/][Keyboard Shortcuts for Sketch App]]
+ 
 [[https://github.com/geekplux/sketch-learning][geekplux/sketch-learning]]
+
+「共享样式」和「符号」功能很棒
 ** 贝塞尔曲线
 Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲线。曲线定义：起始点、终止点（也称锚点）、控制点。通过调整控制点，贝塞尔曲线的形状会发生变化。1962 年，法国数学家 Pierre Bézier 第一个研究了这种矢量绘制曲线的方法，并给出了详细的计算公式，因此按照这样的公式绘制出来的曲线就用他的姓氏来命名，称为贝塞尔曲线。
 
@@ -999,6 +1004,15 @@ Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲�
 - 《我的第一本日语学习书》
 
 * Life
+** Guitar & Ukulele
+弹的时候要注意坐姿，手势。好的姿势帮助你更好的演奏
+*** 吉他基础
+**** 分类
+吉他一般分为木吉他和电吉他两种，其中木吉他又分为民谣吉他和古典吉他两种
+**** 弦
+吉他共六根弦：一弦 E，二弦 B，三弦 G，四弦 D，五弦 A，六弦 E
+*** Ukulele
+这篇是我自己写的教程：[[http://geekplux.com/2015/01/05/play-ukulele.html][轻松玩转 Ukulele | GeekPlux]]
 ** Music
 
 由于版权的问题，国内的软件现在很多曲库都不太全了
