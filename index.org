@@ -436,7 +436,121 @@ Ruby 是一门纯面向对象语言。在 Ruby 中，一切皆为对象。
 -  [[http://guides.ruby-china.org][Ruby on Rails 指南]]
 
 * Shell
--  [[https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md][命令行的艺术]]
+** Shell 编程
+Shell 脚本是解释型的,而不是编译型的。
+符号`#!`用来告诉系统这个脚本用什么程序执行
+#+BEGIN_SRC shell
+#!/bin/sh
+#+END_SRC
+
+*** 变量
+- 定义变量时，变量名不加美元符号（$）
+- 使用一个已定义的变量，只需在变量名前面加美元符号即可
+- 变量名外面的花括号是可选的，加不加都行，加花括号是为了帮助解释器识别变量的边界
+- 用`local`可将函数内的变量定义为局部变量
+- 用`declare`声明变量可以限定其使用范围，常用的两个：
+
+#+BEGIN_SRC shell
+-a	变量为数组。
+-r	使得变量变为只读。这些变量不能被后来的赋值与语句赋值，同样也不可以 unset。
+#+END_SRC
+
+- `readonly` 可以定义常量，感觉和 declare -r 差不多
+*** 流程控制
+**** 条件
+#+BEGIN_SRC shell
+if ...; then
+...
+elif ...; then
+...
+else
+...
+fi
+#+END_SRC
+
+if 中常用的测试表达式：
+[ -d FILE ]	如果 FILE 存在且是一个目录则为真。
+[ -e FILE ]	如果 FILE 存在则为真。
+[ -f FILE ]	如果 FILE 存在且是一个普通文件则为真。
+[ -h FILE ]	如果 FILE 存在且是一个符号连接则为真。
+[ -p FILE ]	如果 FILE 存在且是一个名字管道(F 如果 O)则为真。
+[ -r FILE ]	如果 FILE 存在且是可读的则为真。
+[ -s FILE ]	如果 FILE 存在且大小不为 0 则为真。
+[ -w FILE ]	如果 FILE 如果 FILE 存在且是可写的则为真。
+[ -x FILE ]	如果 FILE 存在且是可执行的则为真。
+[ -O FILE ]	如果 FILE 存在且属有效用户 ID 则为真。
+[ -G FILE ]	如果 FILE 存在且属有效用户组则为真。
+[ -L FILE ]	如果 FILE 存在且是一个符号连接则为真。
+[ -S FILE ]	如果 FILE 存在且是一个套接字则为真。
+[ -z STRING ]	“STRING” 的长度为零则为真。
+[ -n STRING ] “STRING” 的长度为非零则为真。
+**** 循环
+#+BEGIN_SRC shell
+for .. in ...; do
+...
+done
+
+for 
+
+while ...; do
+...
+done
+
+还有：
+until 
+select
+shift
+
+break 语句用来在正常结束之前退出当前循环
+continue 语句继续 for, while, until or select 内的循环
+#+END_SRC
+*** 参数
+- 位置参数 $1， $2,..., $N 来作参数
+- $# 代表了命令行的参数数量
+- $0 当前脚本文件名
+- $? 上一个命令的退出码
+- $$ 当前 Shell 进程 ID
+- $@ 所有参数的列表
+- $* 和$@相同都是所有参数，但"$*" 和 "$@"(加引号)并不同，"$*"将所有的参数解释成一个字符串，而"$@"是一个参数数组
+*** I/O
+#+BEGIN_SRC shell
+echo 输出
+read 读取用户输入
+管道 `|` 将一个命令的输出作为另外一个命令的输入
+重定向：将命令的结果输出到文件，而不是标准输出（屏幕）
+#+END_SRC
+***  tips
+获取当前脚本运行的目录：
+#+BEGIN_SRC shell
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# 具体含义 
+${BASH_SOURCE[0]}  取得执行 shell 命令例如  tmp/test.sh 
+dirname 取得前面的路径 
+cd 进到目录里 
+&& pwd 打印当前路径
+#+END_SRC
+
+获取当前系统名：
+#+BEGIN_SRC shell
+OS="$(get_os)"
+#+END_SRC
+
+判断命令是否存在：
+#+BEGIN_SRC shell
+cmd_exists() {
+    command -v "$1" &> /dev/null
+    return $?
+}
+#+END_SRC
+
+** Resources
+- [[http://www.tldp.org/LDP/abs/html/index.html][Advanced Bash-Scripting Guide]]
+- [[http://www.freeos.com/guides/lsst/index.html][Linux Shell Scripting Tutorial - A Beginner's handbook]]
+- [[http://www.yeolar.com/media/doc/bgb-cn/html/index.html][Bash 新手指南]] 
+- [[https://github.com/qinjx/30min_guides/blob/master/shell.md][Shell 脚本编程 30 分钟入门]]
+- [[https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md][命令行的艺术]]
+- [[https://github.com/alrra/dotfiles][alrra/dotfiles]] 这个 repo 的 shell 写的很棒
 * PHP
 
 -  [[http://wulijun.github.io/php-the-right-way/][PHP 之道]]
@@ -588,6 +702,11 @@ Vim 的宏在进行批量修改时，是神器
 
 我个人的配置在 [[https://github.com/geekplux/dotfiles][dotfiles]] 这个库中，也可以参考[[https://github.com/zilongshanren/spacemacs-private][子龙山人的个人配置]]
 
+** Tips
+If you get an error regarding package downloads then you may try to disable HTTPS protocol by starting Emacs with 
+#+BEGIN_SRC shell
+emacs --insecure
+#+END_SRC
 ** Shortcuts
 
 #+BEGIN_EXAMPLE
