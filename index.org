@@ -243,7 +243,46 @@ webpack 组件，可 load `.vue` 文件
 [[https://github.com/vuejs/vue-resource][vuejs/vue-resource]]
 
 ** React
-** Node
+** Webpack
+here a article [[http://survivejs.com/webpack_react/webpack_compared/][SurviveJS - Webpack Compared]]
+Webpack 最大的特点是可以打包一切资源，包括 css, html, 图片等等各种文件
+** Canvas
+[[http://joshondesign.com/p/books/canvasdeepdive/toc.html][‎joshondesign.com/p/books/canvasdeepdive/toc.html]]
+** cookie & session
+cookie 和 session 都用来保存状态
+
+参考：[[https://github.com/alsotang/node-lessons/tree/master/lesson16][node-lessons/lesson16 at master · alsotang/node-lessons]]
+
+*** cookie
+cookie 是 http 协议的一部分，它的处理分为如下几步：
+
+- 服务器向客户端发送 cookie。
+    + 通常使用 HTTP 协议规定的 set-cookie 头操作。
+    + 规范规定 cookie 的格式为 name = value 格式，且必须包含这部分。
+- 浏览器将 cookie 保存。
+- 每次请求浏览器都会将 cookie 发向服务器。
+ 
+其他可选的 cookie 参数会影响将 cookie 发送给服务器端的过程，主要有以下几种：
+
+- path：表示 cookie 影响到的路径，匹配该路径才发送这个 cookie。
+- expires 和 maxAge：告诉浏览器这个 cookie 什么时候过期，expires 是 UTC 格式时间，maxAge 是 cookie 多久后过期的相对时间。当不设置这两个选项时，会产生 session cookie，session cookie 是 transient 的，当用户关闭浏览器时，就被清除。一般用来保存 session 的 session_id。
+- secure：当 secure 值为 true 时，cookie 在 HTTP 中是无效，在 HTTPS 中才有效。
+- httpOnly：浏览器不允许脚本操作 document.cookie 去更改 cookie。一般情况下都应该设置这个为 true，这样可以避免被 xss 攻击拿到 cookie。
+
+*** session
+
+cookie 虽然很方便，但是使用 cookie 有一个很大的弊端，cookie 中的所有数据在客户端就可以被修改，数据非常容易被伪造，那么一些重要的数据就不能存放在 cookie 中了，而且如果 cookie 中数据字段太多会影响传输效率。为了解决这些问题，就产生了 session，session 中的数据是保留在服务器端的。
+
+session 的运作通过一个 session_id 来进行。session_id 通常是存放在客户端的 cookie 中，比如在 express 中，默认是 connect.sid 这个字段，当请求到来时，服务端检查 cookie 中保存的 session_id 并通过这个 session_id 与服务器端的 session data 关联起来，进行数据的保存和修改。
+
+这意思就是说，当你浏览一个网页时，服务端随机产生一个 1024 比特长的字符串，然后存在你 cookie 中的 connect.sid 字段中。当你下次访问时，cookie 会带有这个字符串，然后浏览器就知道你是上次访问过的某某某，然后从服务器的存储中取出上次记录在你身上的数据。由于字符串是随机产生的，而且位数足够多，所以也不担心有人能够伪造。伪造成功的概率很低。
+
+session 可以存放在 1）内存、2）cookie 本身、3）redis 或 memcached 等缓存中，或者 4）数据库中。
+** Tools
+*** Can I use
+[[http://caniuse.com/][Can I use... Support tables for HTML5, CSS3, etc]]
+查看浏览器的兼容情况
+* Node
 
 - [[http://www.nodebeginner.org/index-zh-cn.html][Node 入门]]
 - [[http://nqdeng.github.io/7-days-nodejs/][七天学会 NodeJS]]
@@ -253,13 +292,6 @@ webpack 组件，可 load `.vue` 文件
 - [[http://0532.gitbooks.io/nodejs/][the NodeJS]] - 一本关于 nodejs 的文档
 - [[http://blog.fens.me/series-nodejs/][从零开始 nodejs 系列文章]]
 
-** Webpack
-here a article [[http://survivejs.com/webpack_react/webpack_compared/][SurviveJS - Webpack Compared]]
-Webpack 最大的特点是可以打包一切资源，包括 css, html, 图片等等各种文件
-** Tools
-*** Can I use
-[[http://caniuse.com/][Can I use... Support tables for HTML5, CSS3, etc]]
-查看浏览器的兼容情况
 * Android
 当年我开发 Android 的时候，还没有统一的设计规范，设备的屏幕也是大小不一很难适配。开发环境还是 Eclipse+Android SDK，看到现在完备的开发工具真是羡慕。
 
