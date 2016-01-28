@@ -292,6 +292,12 @@ session 可以存放在 1）内存、2）cookie 本身、3）redis 或 memcached
 - [[http://0532.gitbooks.io/nodejs/][the NodeJS]] - 一本关于 nodejs 的文档
 - [[http://blog.fens.me/series-nodejs/][从零开始 nodejs 系列文章]]
 
+** Koa
+koa 和 express 都是基于 connect 的，koa 比 express 稍微轻量一点（其实我觉得差不多），但 koa 最大的两点是 generator。然而随着 ES6 和 ES7 的推出，koa 中这种依靠 generator 的异步方式也渐渐式微，于是推出了 koa2。
+
+koa 和 express 的开发更像是中间件的堆砌
+** Loopback
+
 * Android
 当年我开发 Android 的时候，还没有统一的设计规范，设备的屏幕也是大小不一很难适配。开发环境还是 Eclipse+Android SDK，看到现在完备的开发工具真是羡慕。
 
@@ -856,6 +862,13 @@ Chrome develop tool 有很多小技巧，之后整理一下
 
 * Windows
 -  [[http://typeof.net/c/cn-scott-hanselmans-2014-ultimate-developer-and-power-user-s-tool-list-for-windows.html][2014 年软件推荐]] - 写的太全了
+* Mongo
+#+BEGIN_SRC javascript
+use database
+
+添加用户
+db.createUser({user: "username", pwd: "password", roles: []})
+#+END_SRC
 * Redis
 
 推荐《Redis 入门指南》一书入门。
