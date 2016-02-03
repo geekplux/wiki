@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-01-28 Thu 23:37 -->
+<!-- 2016-02-04 Thu 03:20 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>GeekPlux's Wiki</title>
@@ -289,7 +289,7 @@ for the JavaScript code in this tag.
 <li><a href="#orgheadline83">15. Linux</a></li>
 <li><a href="#orgheadline84">16. OS X</a></li>
 <li><a href="#orgheadline85">17. Windows</a></li>
-<li><a href="#orgheadline86">18. Mongo</a></li>
+<li><a href="#orgheadline86">18. MongoDB</a></li>
 <li><a href="#orgheadline95">19. Redis</a>
 <ul>
 <li><a href="#orgheadline92">19.1. 数据类型</a>
@@ -649,7 +649,7 @@ Flexbox 布局比较适合 Web 应用程序的一些小组件和小规模的布�
 
 <pre class="src src-css">- flex-grow: &lt;number&gt;; <span style="color: #75715E;">/* </span><span style="color: #75715E;">default 0 </span><span style="color: #75715E;">*/</span> Item &#25193;&#22823;&#27604;&#20363;
 - flex-shrink: &lt;number&gt;; <span style="color: #75715E;">/* </span><span style="color: #75715E;">default 1 </span><span style="color: #75715E;">*/</span> Item &#32553;&#23567;&#27604;&#20363;
-- flex-basis: &lt;length&gt; | auto; <span style="color: #75715E;">/* </span><span style="color: #75715E;">default auto </span><span style="color: #75715E;">*/</span>  Item &#22312; Comtainer &#21097;&#20313;&#31354;&#38388;&#20043;&#21069;&#30340;&#19968;&#20010;&#40664;&#35748;&#23610;&#23544;
+- flex-basis: &lt;length&gt; | auto; <span style="color: #75715E;">/* </span><span style="color: #75715E;">default auto </span><span style="color: #75715E;">*/</span>  Item &#22312; Container &#21097;&#20313;&#31354;&#38388;&#20043;&#21069;&#30340;&#19968;&#20010;&#40664;&#35748;&#23610;&#23544;
 - align-self: auto | flex-start | flex-end | center | baseline | stretch;  &#35206;&#30422;&#40664;&#35748;&#30340;&#23545;&#40784;&#26041;&#24335;
 </pre>
 </div>
@@ -843,16 +843,55 @@ webpack 组件，可 load `.vue` 文件
 
 <div id="outline-container-orgheadline30" class="outline-3">
 <h3 id="orgheadline30"><span class="section-number-3">2.7</span> React</h3>
+<div class="outline-text-3" id="text-2-7">
+<p>
+关于 React 中使用 ES6 遇到的若干问题：<a href="https://facebook.github.io/react/docs/reusable-components.html">Reusable Components | React</a>
+</p>
+
+<p>
+关于 React-router 使用 ES6 遇到的问题，参考下列三个 issues:
+<a href="https://github.com/rackt/react-router/issues/1059">https://github.com/rackt/react-router/issues/1059</a>
+<a href="https://github.com/rackt/react-router/issues/975">https://github.com/rackt/react-router/issues/975</a>
+<a href="https://github.com/react-bootstrap/react-router-bootstrap/issues/91">https://github.com/react-bootstrap/react-router-bootstrap/issues/91</a>
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-javascript">&#22312;&#20320;&#30340; Compontes &#21518;&#38754;&#21152;&#36825;&#21477;&#65306;
+YourClass.contextTypes = <span style="color: #AE81FF;">{</span>
+  <span style="color: #A6E22E;">router</span>: <span style="color: #F92672;">function</span><span style="color: #66D9EF;">()</span> <span style="color: #66D9EF;">{</span> <span style="color: #F92672;">return</span> React.PropTypes.func.isRequired <span style="color: #66D9EF;">}</span>
+<span style="color: #AE81FF;">}</span>
+
+&#21516;&#26102;&#65292;constructor &#36825;&#26679;&#20889;&#65306;
+
+constructor<span style="color: #AE81FF;">(</span>props, context<span style="color: #AE81FF;">){</span>
+  <span style="color: #F92672;">super</span><span style="color: #66D9EF;">(</span>props<span style="color: #66D9EF;">)</span>
+  context.router
+<span style="color: #AE81FF;">}</span>
+</pre>
+</div>
+
+<p>
+（其实都是因为 ES6 的 Class 不支持直接定义属性。
+</p>
+</div>
 </div>
 <div id="outline-container-orgheadline31" class="outline-3">
 <h3 id="orgheadline31"><span class="section-number-3">2.8</span> Webpack</h3>
 <div class="outline-text-3" id="text-2-8">
 <p>
 here a article <a href="http://survivejs.com/webpack_react/webpack_compared/">SurviveJS - Webpack Compared</a>
-Webpack 最大的特点是可以打包一切资源，包括 css, html, 图片等等各种文件
+Webpack 最大的特点是可以打包一切资源，包括 css, html, 图片等等各种文件基本要素就 3 个：
 </p>
+
+<ul class="org-ul">
+<li>entry</li>
+<li>output</li>
+<li>module</li>
+</ul>
 </div>
 </div>
+
 <div id="outline-container-orgheadline32" class="outline-3">
 <h3 id="orgheadline32"><span class="section-number-3">2.9</span> Canvas</h3>
 <div class="outline-text-3" id="text-2-9">
@@ -1328,14 +1367,14 @@ if 中常用的测试表达式：
 ...
 <span style="color: #F92672;">done</span>
 
-<span style="color: #F92672;">for</span> 
+<span style="color: #F92672;">for</span>
 
 <span style="color: #F92672;">while</span> ...; <span style="color: #F92672;">do</span>
 ...
 <span style="color: #F92672;">done</span>
 
 &#36824;&#26377;&#65306;
-<span style="color: #F92672;">until</span> 
+<span style="color: #F92672;">until</span>
 <span style="color: #F92672;">select</span>
 <span style="color: #F92672;">shift</span>
 
@@ -1382,10 +1421,10 @@ if 中常用的测试表达式：
 
 <pre class="src src-shell"><span style="color: #FD971F;">DIR</span>=<span style="color: #E6DB74;">"$( cd "$( dirname "${BASH_SOURCE[0]}" )" &amp;&amp; pwd )"</span>
 
-<span style="color: #75715E;"># </span><span style="color: #75715E;">&#20855;&#20307;&#21547;&#20041; </span>
-$<span style="color: #AE81FF;">{</span><span style="color: #FD971F;">BASH_SOURCE</span><span style="color: #66D9EF;">[</span><span style="color: #AE81FF;">0</span><span style="color: #66D9EF;">]</span><span style="color: #AE81FF;">}</span>  &#21462;&#24471;&#25191;&#34892; shell &#21629;&#20196;&#20363;&#22914;  tmp/test.sh 
-dirname &#21462;&#24471;&#21069;&#38754;&#30340;&#36335;&#24452; 
-<span style="color: #F92672;">cd</span> &#36827;&#21040;&#30446;&#24405;&#37324; 
+<span style="color: #75715E;"># </span><span style="color: #75715E;">&#20855;&#20307;&#21547;&#20041;</span>
+$<span style="color: #AE81FF;">{</span><span style="color: #FD971F;">BASH_SOURCE</span><span style="color: #66D9EF;">[</span><span style="color: #AE81FF;">0</span><span style="color: #66D9EF;">]</span><span style="color: #AE81FF;">}</span>  &#21462;&#24471;&#25191;&#34892; shell &#21629;&#20196;&#20363;&#22914;  tmp/test.sh
+dirname &#21462;&#24471;&#21069;&#38754;&#30340;&#36335;&#24452;
+<span style="color: #F92672;">cd</span> &#36827;&#21040;&#30446;&#24405;&#37324;
 &amp;&amp; <span style="color: #F92672;">pwd</span> &#25171;&#21360;&#24403;&#21069;&#36335;&#24452;
 </pre>
 </div>
@@ -1633,7 +1672,7 @@ Vim 的宏在进行批量修改时，是神器
 <h3 id="orgheadline73"><span class="section-number-3">11.1</span> Tips</h3>
 <div class="outline-text-3" id="text-11-1">
 <p>
-If you get an error regarding package downloads then you may try to disable HTTPS protocol by starting Emacs with 
+If you get an error regarding package downloads then you may try to disable HTTPS protocol by starting Emacs with
 </p>
 <div class="org-src-container">
 
@@ -1828,7 +1867,7 @@ Chrome develop tool 有很多小技巧，之后整理一下
 </div>
 </div>
 <div id="outline-container-orgheadline86" class="outline-2">
-<h2 id="orgheadline86"><span class="section-number-2">18</span> Mongo</h2>
+<h2 id="orgheadline86"><span class="section-number-2">18</span> MongoDB</h2>
 <div class="outline-text-2" id="text-18">
 <div class="org-src-container">
 
@@ -2844,7 +2883,7 @@ Kindle 的墨水屏确实很舒服，但感觉没 iPad Mini 看书爽，尤其�
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: GeekPlux</p>
-<p class="date">Created: 2016-01-28 Thu 23:37</p>
+<p class="date">Created: 2016-02-04 Thu 03:20</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

@@ -154,7 +154,7 @@ Flexbox 布局比较适合 Web 应用程序的一些小组件和小规模的布�
 #+BEGIN_SRC css
 - flex-grow: <number>; /* default 0 */ Item 扩大比例
 - flex-shrink: <number>; /* default 1 */ Item 缩小比例
-- flex-basis: <length> | auto; /* default auto */  Item 在 Comtainer 剩余空间之前的一个默认尺寸
+- flex-basis: <length> | auto; /* default auto */  Item 在 Container 剩余空间之前的一个默认尺寸
 - align-self: auto | flex-start | flex-end | center | baseline | stretch;  覆盖默认的对齐方式
 #+END_SRC
 =flex= 是 =flex-grow=，=flex-shrink= 和 =flex-basis= 三个属性的缩写
@@ -243,9 +243,38 @@ webpack 组件，可 load `.vue` 文件
 [[https://github.com/vuejs/vue-resource][vuejs/vue-resource]]
 
 ** React
+关于 React 中使用 ES6 遇到的若干问题：[[https://facebook.github.io/react/docs/reusable-components.html][Reusable Components | React]]
+
+关于 React-router 使用 ES6 遇到的问题，参考下列三个 issues:
+https://github.com/rackt/react-router/issues/1059
+https://github.com/rackt/react-router/issues/975
+https://github.com/react-bootstrap/react-router-bootstrap/issues/91
+
+#+BEGIN_SRC javascript
+在你的 Compontes 后面加这句：
+YourClass.contextTypes = {
+  router: function() { return React.PropTypes.func.isRequired }
+}
+
+同时，constructor 这样写：
+
+constructor(props, context){
+  super(props)
+  context.router
+}
+
+#+END_SRC
+
+（其实都是因为 ES6 的 Class 不支持直接定义属性。
 ** Webpack
 here a article [[http://survivejs.com/webpack_react/webpack_compared/][SurviveJS - Webpack Compared]]
 Webpack 最大的特点是可以打包一切资源，包括 css, html, 图片等等各种文件
+基本要素就 3 个：
+
+- entry
+- output
+- module
+
 ** Canvas
 [[http://joshondesign.com/p/books/canvasdeepdive/toc.html][‎joshondesign.com/p/books/canvasdeepdive/toc.html]]
 ** cookie & session
@@ -261,7 +290,7 @@ cookie 是 http 协议的一部分，它的处理分为如下几步：
     + 规范规定 cookie 的格式为 name = value 格式，且必须包含这部分。
 - 浏览器将 cookie 保存。
 - 每次请求浏览器都会将 cookie 发向服务器。
- 
+
 其他可选的 cookie 参数会影响将 cookie 发送给服务器端的过程，主要有以下几种：
 
 - path：表示 cookie 影响到的路径，匹配该路径才发送这个 cookie。
@@ -528,14 +557,14 @@ for .. in ...; do
 ...
 done
 
-for 
+for
 
 while ...; do
 ...
 done
 
 还有：
-until 
+until
 select
 shift
 
@@ -562,10 +591,10 @@ read 读取用户输入
 #+BEGIN_SRC shell
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# 具体含义 
-${BASH_SOURCE[0]}  取得执行 shell 命令例如  tmp/test.sh 
-dirname 取得前面的路径 
-cd 进到目录里 
+# 具体含义
+${BASH_SOURCE[0]}  取得执行 shell 命令例如  tmp/test.sh
+dirname 取得前面的路径
+cd 进到目录里
 && pwd 打印当前路径
 #+END_SRC
 
@@ -585,7 +614,7 @@ cmd_exists() {
 ** Resources
 - [[http://www.tldp.org/LDP/abs/html/index.html][Advanced Bash-Scripting Guide]]
 - [[http://www.freeos.com/guides/lsst/index.html][Linux Shell Scripting Tutorial - A Beginner's handbook]]
-- [[http://www.yeolar.com/media/doc/bgb-cn/html/index.html][Bash 新手指南]] 
+- [[http://www.yeolar.com/media/doc/bgb-cn/html/index.html][Bash 新手指南]]
 - [[https://github.com/qinjx/30min_guides/blob/master/shell.md][Shell 脚本编程 30 分钟入门]]
 - [[https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md][命令行的艺术]]
 - [[https://github.com/alrra/dotfiles][alrra/dotfiles]] 这个 repo 的 shell 写的很棒
@@ -741,7 +770,7 @@ Vim 的宏在进行批量修改时，是神器
 我个人的配置在 [[https://github.com/geekplux/dotfiles][dotfiles]] 这个库中，也可以参考[[https://github.com/zilongshanren/spacemacs-private][子龙山人的个人配置]]
 
 ** Tips
-If you get an error regarding package downloads then you may try to disable HTTPS protocol by starting Emacs with 
+If you get an error regarding package downloads then you may try to disable HTTPS protocol by starting Emacs with
 #+BEGIN_SRC shell
 emacs --insecure
 #+END_SRC
@@ -862,7 +891,7 @@ Chrome develop tool 有很多小技巧，之后整理一下
 
 * Windows
 -  [[http://typeof.net/c/cn-scott-hanselmans-2014-ultimate-developer-and-power-user-s-tool-list-for-windows.html][2014 年软件推荐]] - 写的太全了
-* Mongo
+* MongoDB
 #+BEGIN_SRC javascript
 use database
 
@@ -1047,7 +1076,7 @@ http://blog.crackcell.com/posts/2013/03/31/machine_learning_note_1_knn//kdtree_s
 ** Sketch
 - [[http://www.sketchcn.com/][Sketch 中文网]]
 - [[http://sketchshortcuts.com/][Keyboard Shortcuts for Sketch App]]
- 
+
 [[https://github.com/geekplux/sketch-learning][geekplux/sketch-learning]]
 
 「共享样式」和「符号」功能很棒
