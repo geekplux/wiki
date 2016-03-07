@@ -266,6 +266,9 @@ constructor(props, context){
 #+END_SRC
 
 （其实都是因为 ES6 的 Class 不支持直接定义属性。
+
+react-router nest url worked need webpack-dev-server setting: `historyApiFallback: true` , and `/bundle.js` not `bundle.js`
+
 ** Webpack
 here a article [[http://survivejs.com/webpack_react/webpack_compared/][SurviveJS - Webpack Compared]]
 Webpack 最大的特点是可以打包一切资源，包括 css, html, 图片等等各种文件
@@ -326,6 +329,9 @@ koa 和 express 都是基于 connect 的，koa 比 express 稍微轻量一点（
 
 koa 和 express 的开发更像是中间件的堆砌
 ** Loopback
+Loopback is based Express.
+
+- using 'z-' prefix to boot scripts ensure that these scripts are run last when the application boots.
 
 * Android
 当年我开发 Android 的时候，还没有统一的设计规范，设备的屏幕也是大小不一很难适配。开发环境还是 Eclipse+Android SDK，看到现在完备的开发工具真是羡慕。
@@ -769,6 +775,13 @@ Vim 的宏在进行批量修改时，是神器
 
 我个人的配置在 [[https://github.com/geekplux/dotfiles][dotfiles]] 这个库中，也可以参考[[https://github.com/zilongshanren/spacemacs-private][子龙山人的个人配置]]
 
+** Use-Package
+#+BEGIN_SRC
+(use-package foo)
+
+:init 加载 package 之前执行的命令
+:config 加载 package 之后执行的命令
+#+END_SRC
 ** Tips
 If you get an error regarding package downloads then you may try to disable HTTPS protocol by starting Emacs with
 #+BEGIN_SRC shell
@@ -1338,3 +1351,4 @@ Kindle 的墨水屏确实很舒服，但感觉没 iPad Mini 看书爽，尤其�
 ** 已读书单
 
 -  [[http://book.douban.com/people/44921319/collect][我的豆瓣已读书单]]
+* Note
