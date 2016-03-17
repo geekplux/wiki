@@ -776,7 +776,7 @@ Vim 的宏在进行批量修改时，是神器
 我个人的配置在 [[https://github.com/geekplux/dotfiles][dotfiles]] 这个库中，也可以参考[[https://github.com/zilongshanren/spacemacs-private][子龙山人的个人配置]]
 
 ** Use-Package
-#+BEGIN_SRC
+#+BEGIN_SRC elisp
 (use-package foo)
 
 :init 加载 package 之前执行的命令
@@ -905,6 +905,9 @@ Chrome develop tool 有很多小技巧，之后整理一下
 * Windows
 -  [[http://typeof.net/c/cn-scott-hanselmans-2014-ultimate-developer-and-power-user-s-tool-list-for-windows.html][2014 年软件推荐]] - 写的太全了
 * MongoDB
+
+Schema 设计原则：设计数据库 Schema 是在已知数据库系统特性、数据本质以及应用程序需求的情况下为数据集选择最佳表述的过程。
+
 #+BEGIN_SRC javascript
 use database
 
@@ -1299,7 +1302,11 @@ Mac 上有款软件也非常好用：
 - [[http://poolga.com/][Poolga. iPhone, iPad and iPod Touch wallpapers for the rest of us.]]
 ** 其他
 
--  [[http://zhihuhelpbyyzy.sinaapp.com/][知乎助手]]
+v2ex 的自定义 CSS：
+@import url("//dn-startplay.qbox.me/v2ex-material-theme2/v2ex.min.css");
+@import url("//jkjoke.b0.upaiyun.com/css/v2ex.css");
+
+[[http://zhihuhelpbyyzy.sinaapp.com/][知乎助手]]
 
 * Reading
 
