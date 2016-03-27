@@ -64,7 +64,7 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 最初的文档模式有两种：混杂模式和标准模式
 不声明 doctype 会导致浏览器会开启混杂模式
 *** Meta tag
-=<meta>= 提供关于 HTML 文档的元数据。元数据不会显示在页面上，但对于浏览器、搜索引擎和其他 Web 服务都非常有用。
+~<meta>~ 提供关于 HTML 文档的元数据。元数据不会显示在页面上，但对于浏览器、搜索引擎和其他 Web 服务都非常有用。
 
 #+BEGIN_SRC html
 申明编码
@@ -81,9 +81,9 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 有两个主要的属性可定义：
 
 **** name
-可自定义属性名，如：`<meta name="keywords" content="HTML,META">`
+可自定义属性名，如： ~<meta name="keywords" content="HTML,META">~
 
-常见的`name`：
+常见的 ~name~ ：
 
 - keywords  关键词，方便人们和 SEO
 - description
@@ -181,6 +181,13 @@ Flexbox 布局比较适合 Web 应用程序的一些小组件和小规模的布�
 - [[http://www.keyframesandcode.com/resources/javascript/deconstructed/jquery/][jQuery Deconstructed]]
 - [[http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html][深入理解 JavaScript 系列]]
 
+*** ECMAScript
+- Number 类型：parseInt() 最好写上第二个参数
+- String 类型：
+  - 转义序列表示一个字符
+  - ECMAScript 中字符串是不可变的。要改变字符串，首先得销毁原来的字符串，然后再创建一个包含新值的字符串来替换。（如字符串拼接）
+  - ~null~ 和 ~undefined~ 没有 toString() 方法
+- ~&~ 和 ~|~ 操作属于短路操作，即如果第一个操作数能决定结果，那么就不会对第二个操作数求值
 *** JSON
 **** JSON.stringify()
 接收三个参数（对象，过滤器，缩进格式）
