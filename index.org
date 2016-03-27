@@ -52,6 +52,17 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 - [[http://cssguidelin.es/][CSS Guidelines]] - High-level advice and guidelines for writing sane, manageable, scalable CSS
 - [[http://nec.netease.com/][网易前端规范]] - 真心不错
 
+*** <Script>
+如果<script>包含了 src 属性，那它中间再包含代码是不会执行的
+默认<script>在 HTML 中是按标签先后顺序加载的。除非有 defer 和 async 属性。
+
+- defer 脚本会延迟到页面解析完毕后再运行（只适用于外部文件，在现实中，延迟脚本不一定按照顺序执行，也不一定会在 DOMContentLoaded 事件触发前执行）
+- async 异步脚本同样不一定按照顺序执行。一定会在页面 load 事件前执行。
+*** <noscript>
+浏览器不支持脚本或脚本被禁用时显示该标签内的内容
+*** Doctype
+最初的文档模式有两种：混杂模式和标准模式
+不声明 doctype 会导致浏览器会开启混杂模式
 *** Meta tag
 =<meta>= 提供关于 HTML 文档的元数据。元数据不会显示在页面上，但对于浏览器、搜索引擎和其他 Web 服务都非常有用。
 
