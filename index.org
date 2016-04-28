@@ -649,6 +649,8 @@ cmd_exists() {
 -  [[https://phpbestpractices.org/][PHP Best Practices]]
 -  [[http://phpbestpractices.justjavac.com/][PHP 最佳实践（译）]]
 
+* C++
+[[http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-introduction][C++ Core Guidelines]]
 * Git
 
 多人协作的时候要商定协作流程。[[http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html][git-flow]] 是个不错的实践。
@@ -1125,6 +1127,24 @@ Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲�
 * Research
 ** Paper
 [[https://github.com/papers-we-love/papers-we-love][papers-we-love/papers-we-love]]
+* Computer Graphics
+** 图形学概念
+[[http://staff.ustc.edu.cn/~lgliu/Resources/CG/What_is_CG.htm][什么是计算机图形学？]]
+[[http://staff.ustc.edu.cn/~lgliu/Resources/CG/Math_for_CG_Turk_CN.htm][数学在计算机图形学中的应用]]
+** Confrence & Paper
+[[http://www.siggraph.org/][Home | ACM SIGGRAPH]]
+[[https://www.computer.org/web/tvcg][index • IEEE Computer Society]]
+** OpenGL
+[[http://www.scratchapixel.com/][Scratchapixel]]
+[[http://ogldev.atspace.co.uk/][OpenGL Step by Step - OpenGL Development]]
+[[http://www.opengl-tutorial.org/][openGL-tutorial Home]]
+* Complex Network
+** 2016 第十二届中国网络科学论坛
+*** 用散度理论观察网络（李幼平院士）
+用场论来思考网络建模，在关注边的时候，不要忽略点
+双结构
+Web 网络结构从最初的相互连接（泊松分布）到后来的大规模网络单向输出（幂率分布）
+
 * Link Prediction
 ** 概念
 *** *网络*
@@ -1215,6 +1235,8 @@ Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲�
 [[http://networkx.github.io/documentation/latest/index.html][NetworkX documentation — NetworkX 1.10 documentation]]
 * Latex
 [[http://www.mohu.org/info/lshort-cn.pdf][‎www.mohu.org/info/lshort-cn.pdf]]
+[[http://attach3.bdwm.net/attach/boards/MathTools/M.1364651898.A/tex_intro_talk.pdf][‎attach3.bdwm.net/attach/boards/MathTools/M.1364651898.A/tex_intro_talk.pdf]]
+[[http://math.nju.edu.cn/~meijq/tex/lnotes.pdf][‎math.nju.edu.cn/~meijq/tex/lnotes.pdf]]
 * 日本语学习
 
 日语由两部分构成：假名、真名（汉字）
