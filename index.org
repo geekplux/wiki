@@ -900,12 +900,16 @@ Chrome develop tool 有很多小技巧，之后整理一下
 -  [[https://chrome.google.com/webstore/detail/new-tong-wen-tang/ldmgbgaoglmaiblpnphffibpbfchjaeg][新同文堂]] - 繁简转换
 
 * Linux
-
+** 学习链接
 - [[http://vbird.dic.ksu.edu.tw/][鸟哥的 Linux 私房菜]]
 - [[http://hyperpolyglot.org/unix-shells#top][Unix Shells: Bash, Fish, Ksh, Tcsh, Zsh]]
 - [[http://www.commandlinefu.com/commands/browse][命令大全（commandlinefu）]]
 - [[http://linux.chinaitlab.com/special/linuxcom/Index.html][常用命令全集（chinaitlab）]]
 - [[http://www.waterlab.cn/hpc/upload/2010/6/LinuxCommand.pdf][常用命令]]
+** 实验室服务器搭建
+*** 用到的命令
+#+BEGIN_SRC shell
+#+END_SRC
 * OS X
 
 -  [[http://www.alfredapp.com/][Alfred]] - 替换系统 Spotlight 的免费软件，更美观更强大
@@ -1134,10 +1138,31 @@ Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲�
 ** Confrence & Paper
 [[http://www.siggraph.org/][Home | ACM SIGGRAPH]]
 [[https://www.computer.org/web/tvcg][index • IEEE Computer Society]]
+[[http://kesen.realtimerendering.com/][Resource for Computer Graphics - Ke-Sen Huang's Home Page]]
 ** OpenGL
 [[http://www.scratchapixel.com/][Scratchapixel]]
 [[http://ogldev.atspace.co.uk/][OpenGL Step by Step - OpenGL Development]]
 [[http://www.opengl-tutorial.org/][openGL-tutorial Home]]
+** WebGL
+** Three.js
+*** 概述
+*Three.js 是一个 3D JavaScript 库*
+
+- Three.js 封装了底层的图形接口，使得程序员能够在无需掌握繁冗的图形学知识的情况下，也能用简单的代码实现三维场景的渲染。
+- 可引入 3D 模型（多种格式）
+- 具备可拓展性（写原生 WebGL 代码）
+
+*** 核心概念
+- 渲染器（Renderer） ———— 绑定 canvas 元素
+- 场景（Scene） ———— 物体的容器
+- 照相机（Camera） ———— 观察的视角
+- 其他：在场景中创建的物体，物体的材质，光照，着色器等
+
+*** 照相机
+**** 投影
+- 透视投影
+- 正交投影
+
 * Complex Network
 ** 2016 第十二届中国网络科学论坛
 *** 用散度理论观察网络（李幼平院士）
@@ -1145,29 +1170,29 @@ Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲�
 双结构
 Web 网络结构从最初的相互连接（泊松分布）到后来的大规模网络单向输出（幂率分布）
 
-* Link Prediction
-** 概念
-*** *网络*
+** Link Prediction
+*** 概念
+**** *网络*
 描述某物与某物之间联系的一种方式。一般由点和边构成。
-*** 如何刻画网络
+**** 如何刻画网络
 图论
-*** 两个节点间的距离
+**** 两个节点间的距离
 连接这两个节点的最短路径所包含的边的数目
-*** 平均距离
+**** 平均距离
 公式 1
-*** 度
+**** 度
 
 - 无向图中：与节点相连的边的数目
 - 有向图中：出度是从该节点指向其他节点的边的数目，入度与出度相反。
 
 平均度：网络中所有节点的度的平均值
 度分布：网络中度为 k 的节点数占节点总数的比例
-*** 小世界效应
+**** 小世界效应
 如果网络的平均度固定，平均距离随网络节点数以对数的速度或者慢于对数的速度增长
-*** 无标度特性
+**** 无标度特性
 很多真实网络的分布，都近似的遵从幂函数的形式
-*** 局部结构
-*** 节点与链路的中心性
+**** 局部结构
+**** 节点与链路的中心性
 
 度中心性：节点的度
 
@@ -1186,35 +1211,35 @@ Web 网络结构从最初的相互连接（泊松分布）到后来的大规模�
 - 子图中心性
 - 环中心性
 
-*** 群落结构
+**** 群落结构
 群落内部连边密集，群落之间连边很少
-*** 关联性
+**** 关联性
 一条边所连接的两个节点度之间的关联
 
 - 正相关：度大的节点倾向于和度小的节点相连
 - 负相关：度大的节点倾向于和度小的节点相连
-*** 熵
+**** 熵
 
-** 图的类型
+*** 图的类型
 
 - 加权有向图
 - 加权无向图
 - 无权有向图
 - 无权无向图（简单图）
 
-** 基本的网络模型
-*** 规则网络
+*** 基本的网络模型
+**** 规则网络
 定义：每个节点的度都相同
-*** 随机网络
+**** 随机网络
 两点之间的连边与否根据概率得出
-*** 小世界网络
-*** 无标度网络
-** 链路预测的基本方法
-*** 概念
+**** 小世界网络
+**** 无标度网络
+*** 链路预测的基本方法
+**** 概念
 定义：指如何通过已知的网络节点以及网络结构等信息，预测网络中尚未产生连边的两个节点之间产生连接的可能性。这种预测包含了对未知链接（在网络中实际存在但未被探测到）和未来链接的预测
-*** 方法
+**** 方法
 为每对没有连边的节点赋予一个分数值，再将已知的连边分为两部分：训练集和测试集。最后通过算法算出分数值再进行排序，如果测试集中的边更多的排在前面，则算法越精确
-**** 数据集划分方法
+***** 数据集划分方法
 - 随机抽样
 - 逐项遍历
 - k-折叠交叉检验
@@ -1222,16 +1247,16 @@ Web 网络结构从最初的相互连接（泊松分布）到后来的大规模�
 - 熟识者抽样
 - 随机游走抽样
 - 基于路径抽样
-**** 评价指标
+***** 评价指标
 - Precision
 - AUC
 - Ranking Score
-**** 算法
+***** 算法
 - CN
 - AA
 - RA
 - PA
-** Networkx
+*** Networkx
 [[http://networkx.github.io/documentation/latest/index.html][NetworkX documentation — NetworkX 1.10 documentation]]
 * Latex
 [[http://www.mohu.org/info/lshort-cn.pdf][‎www.mohu.org/info/lshort-cn.pdf]]
@@ -1286,6 +1311,16 @@ IT 类：
 ** 科学上网
 - [[https://code.google.com/p/smartladder/][聪明的梯子]]
 - [[http://www.shadowsocks.com/][Shadowsocks]]
+
+*** VPS + docker + shadowsocks 自建工具
+[[http://liujin.me/blog/2015/05/27/Docker-DigitalOcean-Shadowsocks-5-%25E5%2588%2586%25E9%2592%259F%25E7%25A7%2591%25E5%25AD%25A6%25E4%25B8%258A%25E7%25BD%2591/][Docker + DigitalOcean + Shadowsocks 5 分钟科学上网 // Jin Liu]]
+
+#+BEGIN_SRC shell
+docker pull oddrationale/docker-shadowsocks
+
+docker run -d -p 1984:1984 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 1984 -k paaassswwword -m aes-256-cfb
+上述命令中的 paaassswwword 就是配置客户端需要的密码，你可以换成你自己的密码，1984 是端口。
+#+END_SRC
 
 ** Job
 
