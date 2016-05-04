@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-05-04 Wed 15:35 -->
+<!-- 2016-05-04 Wed 15:46 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>GeekPlux's Wiki</title>
@@ -239,7 +239,7 @@ for the JavaScript code in this tag.
 <li><a href="#orgheadline54">5.2.5. Check all global variables</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline56">5.3. Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面。</a></li>
+<li><a href="#orgheadline56">5.3. Python 的两大应用方向</a></li>
 </ul>
 </li>
 <li><a href="#orgheadline60">6. Ruby</a>
@@ -433,7 +433,6 @@ for the JavaScript code in this tag.
 <li><a href="#orgheadline212">29.7. 已读书单</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline214">30. Note</a></li>
 </ul>
 </div>
 </div>
@@ -1306,9 +1305,10 @@ no <span style="color: #F92672;">break</span> occur
 </div>
 </div>
 <div id="outline-container-orgheadline56" class="outline-3">
-<h3 id="orgheadline56"><span class="section-number-3">5.3</span> Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面。</h3>
+<h3 id="orgheadline56"><span class="section-number-3">5.3</span> Python 的两大应用方向</h3>
 <div class="outline-text-3" id="text-5-3">
 <p>
+Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面。
 Web 方面有 Flask, Django 等成熟的框架。科研方面有很多完备的科学计算库和绘图工具：
 </p>
 
@@ -1384,8 +1384,8 @@ Shell 脚本是解释型的,而不是编译型的。符号`#!`用来告诉系统
 <li>定义变量时，变量名不加美元符号（$）</li>
 <li>使用一个已定义的变量，只需在变量名前面加美元符号即可</li>
 <li>变量名外面的花括号是可选的，加不加都行，加花括号是为了帮助解释器识别变量的边界</li>
-<li>用`local`可将函数内的变量定义为局部变量</li>
-<li>用`declare`声明变量可以限定其使用范围，常用的两个：</li>
+<li>用 <code>local</code> 可将函数内的变量定义为局部变量</li>
+<li>用 <code>declare</code> 声明变量可以限定其使用范围，常用的两个：</li>
 </ul>
 
 <div class="org-src-container">
@@ -1396,7 +1396,7 @@ Shell 脚本是解释型的,而不是编译型的。符号`#!`用来告诉系统
 </div>
 
 <ul class="org-ul">
-<li>`readonly` 可以定义常量，感觉和 declare -r 差不多</li>
+<li><code>readonly</code> 可以定义常量，感觉和 declare -r 差不多</li>
 </ul>
 </div>
 </div>
@@ -1418,22 +1418,25 @@ Shell 脚本是解释型的,而不是编译型的。符号`#!`用来告诉系统
 
 <p>
 if 中常用的测试表达式：
-[ -d FILE ]  如果 FILE 存在且是一个目录则为真。
-[ -e FILE ]  如果 FILE 存在则为真。
-[ -f FILE ]  如果 FILE 存在且是一个普通文件则为真。
-[ -h FILE ]  如果 FILE 存在且是一个符号连接则为真。
-[ -p FILE ]  如果 FILE 存在且是一个名字管道(F 如果 O)则为真。
-[ -r FILE ]  如果 FILE 存在且是可读的则为真。
-[ -s FILE ]  如果 FILE 存在且大小不为 0 则为真。
-[ -w FILE ]  如果 FILE 如果 FILE 存在且是可写的则为真。
-[ -x FILE ]  如果 FILE 存在且是可执行的则为真。
-[ -O FILE ]  如果 FILE 存在且属有效用户 ID 则为真。
-[ -G FILE ]  如果 FILE 存在且属有效用户组则为真。
-[ -L FILE ]  如果 FILE 存在且是一个符号连接则为真。
-[ -S FILE ]  如果 FILE 存在且是一个套接字则为真。
-[ -z STRING ]  “STRING” 的长度为零则为真。
-[ -n STRING ] “STRING” 的长度为非零则为真。
 </p>
+
+<ul class="org-ul">
+<li>[ -d FILE ]  如果 FILE 存在且是一个目录则为真。</li>
+<li>[ -e FILE ]  如果 FILE 存在则为真。</li>
+<li>[ -f FILE ]  如果 FILE 存在且是一个普通文件则为真。</li>
+<li>[ -h FILE ]  如果 FILE 存在且是一个符号连接则为真。</li>
+<li>[ -p FILE ]  如果 FILE 存在且是一个名字管道(F 如果 O)则为真。</li>
+<li>[ -r FILE ]  如果 FILE 存在且是可读的则为真。</li>
+<li>[ -s FILE ]  如果 FILE 存在且大小不为 0 则为真。</li>
+<li>[ -w FILE ]  如果 FILE 如果 FILE 存在且是可写的则为真。</li>
+<li>[ -x FILE ]  如果 FILE 存在且是可执行的则为真。</li>
+<li>[ -O FILE ]  如果 FILE 存在且属有效用户 ID 则为真。</li>
+<li>[ -G FILE ]  如果 FILE 存在且属有效用户组则为真。</li>
+<li>[ -L FILE ]  如果 FILE 存在且是一个符号连接则为真。</li>
+<li>[ -S FILE ]  如果 FILE 存在且是一个套接字则为真。</li>
+<li>[ -z STRING ]  “STRING” 的长度为零则为真。</li>
+<li>[ -n STRING ] “STRING” 的长度为非零则为真。</li>
+</ul>
 </div></li>
 <li><a id="orgheadline63"></a>循环<br  /><div class="outline-text-5" id="text-7-1-2-2">
 <div class="org-src-container">
@@ -1463,13 +1466,13 @@ if 中常用的测试表达式：
 <h4 id="orgheadline65"><span class="section-number-4">7.1.3</span> 参数</h4>
 <div class="outline-text-4" id="text-7-1-3">
 <ul class="org-ul">
-<li>位置参数 $1， $2,&#x2026;, $N 来作参数</li>
-<li>$# 代表了命令行的参数数量</li>
-<li>$0 当前脚本文件名</li>
-<li>$? 上一个命令的退出码</li>
-<li>$$ 当前 Shell 进程 ID</li>
-<li>$@ 所有参数的列表</li>
-<li>$* 和$@相同都是所有参数，但"$*" 和 "$@"(加引号)并不同，"$*"将所有的参数解释成一个字符串，而"$@"是一个参数数组</li>
+<li>位置参数 <code>$1， $2,..., $N</code> 来作参数</li>
+<li><code>$#</code> 代表了命令行的参数数量</li>
+<li><code>$0</code> 当前脚本文件名</li>
+<li><code>$?</code> 上一个命令的退出码</li>
+<li><code>$$</code> 当前 Shell 进程 ID</li>
+<li><code>$@</code> 所有参数的列表</li>
+<li><code>$*</code> 和$@相同都是所有参数，但"$*" 和 "$@"(加引号)并不同，"$*"将所有的参数解释成一个字符串，而"$@"是一个参数数组</li>
 </ul>
 </div>
 </div>
@@ -3069,13 +3072,10 @@ Kindle 的墨水屏确实很舒服，但感觉没 iPad Mini 看书爽，尤其�
 </div>
 </div>
 </div>
-<div id="outline-container-orgheadline214" class="outline-2">
-<h2 id="orgheadline214"><span class="section-number-2">30</span> Note</h2>
-</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: GeekPlux</p>
-<p class="date">Created: 2016-05-04 Wed 15:35</p>
+<p class="date">Created: 2016-05-04 Wed 15:46</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
