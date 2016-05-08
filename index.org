@@ -911,6 +911,11 @@ Chrome develop tool 有很多小技巧，之后整理一下
 ** 实验室服务器搭建
 *** 用到的命令
 #+BEGIN_SRC shell
+
+uname -r   # display your kernel version
+
+sudo apt-get update   # Update package information
+sudo apt-get install apt-transport-https ca-certificates  # ensure that APT works with the https method, and that CA certificates are installed
 #+END_SRC
 * OS X
 
@@ -1164,6 +1169,7 @@ Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲�
 **** 投影
 - 透视投影
 - 正交投影
+[[file:images/camera.jpg]]
 
 * Complex Network
 ** 2016 第十二届中国网络科学论坛
