@@ -857,6 +857,7 @@ Elisp 教程：
 
 一些相关网站：
 - [[http://emacsist.com][Emacsist]]
+- [[https://simpletutorials.com/c/3036/Spacemacs+%2528Vim+mode%2529+Cheatsheet][Simple Tutorials]]
 
 * Org Mode
 
@@ -1138,6 +1139,15 @@ Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲�
 * Research
 ** Paper
 [[https://github.com/papers-we-love/papers-we-love][papers-we-love/papers-we-love]]
+*** 如何阅读论文
+When reading a research paper, the following is the essential information that is focused on and written down:
+1. The Concept: What, conceptually, are the authors trying to achieve? What is the goal of the work? This can also be reformulated as:What is the contribution of the paper? (What’s new here?)
+2. The Implementation: How is the concept realized? How do the authors support their hypothesis? How do they im- plement the concept?
+3. Related Work:What previous work does this paper build upon? Almost all research papers build heavily upon the work of one or two previous papers.What are these?
+4. other.e.g,visualization:
+   Data Characteristics:What are the characteristics of the data analyzed and visualized in the paper? What is the spatial dimensionality? (2D, surfaces, or 3D) What is the temporal dimensionality? (static or time-dependent) What is the resolution and size of the data set? Is the dataset multi-resolution or adaptive resolution? Are the data samples given on a structured or unstructured grid? Is it scalar, vector, or tensor data? Is itmulti-variate data?
+**** 参考文献：
+Laramee, R. S. (2011). How to read a visualization research paper: Extracting the essentials. IEEE Computer Graphics and Applications, 31(3), 78–82. http://doi.org/10.1109/MCG.2011.44
 * Computer Graphics
 ** 图形学概念
 [[http://staff.ustc.edu.cn/~lgliu/Resources/CG/What_is_CG.htm][什么是计算机图形学？]]
