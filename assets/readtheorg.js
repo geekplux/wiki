@@ -48,7 +48,14 @@ $(document).ready(function () {
 
 
   var $tableOfContents = $('#table-of-contents');
-  $tableOfContents.height($tableOfContents.height() - $postamble.outerHeight());
+  $tableOfContents.css({paddingBottom: $postamble.outerHeight()});
+
+  var toggleSidebar = $('<div id="toggle-sidebar"><a href="#table-of-contents"><h2>Table of Contents</h2></a></div>');
+  $('#content').prepend(toggleSidebar);
+  var closeBtn = $('<a class="close-sidebar" href="#">Close</a>');
+  var tocTitle = $('#table-of-contents').find('h2');
+  tocTitle.append(closeBtn);
+
 });
 
 window.SphinxRtdTheme = (function (jquery) {
