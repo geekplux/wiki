@@ -1145,29 +1145,30 @@ Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲�
 [[https://github.com/papers-we-love/papers-we-love][papers-we-love/papers-we-love]]
 *** 如何阅读论文
 When reading a research paper, the following is the essential information that is focused on and written down:
+
 1. The Concept: What, conceptually, are the authors trying to achieve? What is the goal of the work? This can also be reformulated as:What is the contribution of the paper? (What’s new here?)
-2. The Implementation: How is the concept realized? How do the authors support their hypothesis? How do they im- plement the concept?
-3. Related Work:What previous work does this paper build upon? Almost all research papers build heavily upon the work of one or two previous papers.What are these?
+2. The Implementation: How is the concept realized? How do the authors support their hypothesis? How do they implement the concept?
+3. Related Work: What previous work does this paper build upon? Almost all research papers build heavily upon the work of one or two previous papers.What are these?
 4. other.e.g,visualization:
    Data Characteristics:What are the characteristics of the data analyzed and visualized in the paper? What is the spatial dimensionality? (2D, surfaces, or 3D) What is the temporal dimensionality? (static or time-dependent) What is the resolution and size of the data set? Is the dataset multi-resolution or adaptive resolution? Are the data samples given on a structured or unstructured grid? Is it scalar, vector, or tensor data? Is itmulti-variate data?
 
 **** 阅读顺序：
 
-先看 Abstract 和 Introduction，重点看 Abstract，学会只看 Abstract 和 Introduction 便 可以判断出这篇论文的重点和你的研究有没有直接关连,从而决定要不要把它给读完。看完 Introduction 要搞清楚三个问题：
+先看 Abstract 和 Introduction，重点看 Abstract，学会只看 Abstract 和 Introduction 便可以判断出这篇论文的重点和你的研究有没有直接关连，从而决定要不要把它给读完。看完 Introduction 要搞清楚三个问题：
 
-1. 在这领域内最常被引述的方法有哪些?
-2. 这些方法可以分成哪些主要派别?
-3. 每个派别的主要特色(含优点和缺点)是什么?
+1. 在这领域内最常被引述的方法有哪些？
+2. 这些方法可以分成哪些主要派别？
+3. 每个派别的主要特色(含优点和缺点)是什么？
 
 
 接着读论文主体，要弄懂三个问题：
 
-1. 这篇论文的主要假设是什么(在什么条件下它是有效的),并且评估一下这些假设在现实条件下有多容易(或多难)成立。愈难成立的假设,愈不好用,参考价值也愈低。
-2. 在这些假设下,这篇论文主要有什么好处。
+1. 这篇论文的主要假设是什么（在什么条件下它是有效的），并且评估一下这些假设在现实条件下有多容易(或多难)成立。愈难成立的假设，愈不好用，参考价值也愈低。
+2. 在这些假设下，这篇论文主要有什么好处。
 3. 这些好处主要表现在哪些公式的哪些项目的简化上。
-   至于整篇论文详细的推导 过程,你不需要懂。除了三、五个关键的公式(最后在应用上要使用的公式, 你可以从这里评估出这个方法使用上的方便程度或计算效率,以 及在非理想情 境下这些公式使用起来的可靠度或稳定性)之外,其它公式都不懂也没关系, 公式之间的恒等式推导过程可以完全略过去。假如你要看公式,重点是看公式 推导过程中引入的假设条件,而不是恒等式的转换。
+   至于整篇论文详细的推导过程，你不需要懂。除了三、五个关键的公式（最后在应用上要使用的公式, 你可以从这里评估出这个方法使用上的方便程度或计算效率，以及在非理想情境下这些公式使用起来的可靠度或稳定性）之外，其它公式都不懂也没关系，公式之间的恒等式推导过程可以完全略过去。假如你要看公式，重点是看公式推导过程中引入的假设条件，而不是恒等式的转换。
 
-但是,在你开始根据前述问题念论文之前,你应该先把这派别所有的论文都拿出来,逐篇粗略地浏览过去(不要勉强自己每篇或每行都弄到懂,而是轻松地读,能懂就懂,不懂就不懂),从中挑出容易念懂的 papers,以及经常被引述的论文。然后把这些论文照时间先后次序依序念下去。
+但是，在你开始根据前述问题念论文之前，你应该先把这派别所有的论文都拿出来，逐篇粗略地浏览过去（不要勉强自己每篇或每行都弄到懂，而是轻松地读，能懂就懂，不懂就不懂），从中挑出容易念懂的 papers，以及经常被引述的论文。然后把这些论文照时间先后次序依序念下去。
 
 **** 补充：
 
@@ -1179,9 +1180,9 @@ When reading a research paper, the following is the essential information that i
 **** 为什么要坚持培养阅读与分析期刊论文的能力
 只要深入掌握到阅读与分析期刊论文的技巧, 就可以掌握到大学生不曾研习过的三种能力:
 
-1. 自己从无组织的 知识中检索、筛选、组织知识的能力
+1. 自己从无组织的知识中检索、筛选、组织知识的能力
 2. 对一切既有进行精确批判的独立自主判断能力
-3. 创造新知识的能力。
+3. 创造新知识的能力
 
 **** 参考文献：
 - Laramee, R. S. (2011). How to read a visualization research paper: Extracting the essentials. IEEE Computer Graphics and Applications, 31(3), 78–82. http://doi.org/10.1109/MCG.2011.44
