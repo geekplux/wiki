@@ -763,7 +763,8 @@ $ git revert [commit] # 新建一个 commit，用来撤销指定 commit，后者
 -  [[http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/][Git 指南]]
 -  [[http://pcottle.github.io/learnGitBranching/][Learn Git Branching]]
 
-* Vim
+* Text Editor
+** Vim
 
 《Practice Vim》是一本非常棒的书，以下几个命令是从中学到的基本技巧：
 
@@ -792,7 +793,7 @@ Vim 的宏在进行批量修改时，是神器
 -  [[http://vimawesome.com/][Vim Awesome]] - a directory of Vim plugins sourced from GitHub
 -  [[https://github.com/wklken/k-vim][vim 推荐配置]]
 
-* Spacemacs
+** Spacemacs
 
 [[https://github.com/syl20bnr/spacemacs][spacemacs]] 是一款社区维护的 Emacs 配置，结合了 vim 和 Emacs 两者的优点。
 
@@ -801,19 +802,19 @@ Vim 的宏在进行批量修改时，是神器
 
 我个人的配置在 [[https://github.com/geekplux/dotfiles][dotfiles]] 这个库中，也可以参考[[https://github.com/zilongshanren/spacemacs-private][子龙山人的个人配置]]
 
-** Use-Package
+*** Use-Package
 #+BEGIN_SRC elisp
 (use-package foo)
 
 :init 加载 package 之前执行的命令
 :config 加载 package 之后执行的命令
 #+END_SRC
-** Tips
+*** Tips
 If you get an error regarding package downloads then you may try to disable HTTPS protocol by starting Emacs with
 #+BEGIN_SRC shell
 emacs --insecure
 #+END_SRC
-** Shortcuts
+*** Shortcuts
 
 #+BEGIN_EXAMPLE
 
@@ -853,7 +854,7 @@ SPC p l : switch to project and create a layout
 
 #+END_EXAMPLE
 
-** Resources
+*** Resources
 
 Elisp 教程：
 - [[http://learnxinyminutes.com/docs/elisp/][Learn elisp in Y minutes]]
@@ -862,6 +863,14 @@ Elisp 教程：
 一些相关网站：
 - [[http://emacsist.com][Emacsist]]
 - [[https://simpletutorials.com/c/3036/Spacemacs+%2528Vim+mode%2529+Cheatsheet][Simple Tutorials]]
+
+** Sublime Text
+
+Material Theme 比 Monokai 更好看。。
+
+-  [[http://zh.lucida.me/blog/sublime-text-complete-guide/][Sublime Text 全程指南]]
+-  [[http://feliving.github.io/Sublime-Text-3-Documentation/][Sublime Text 3 文档]]
+-  [[http://docs.sublimetext.tw/][Sublime Text 手冊]]
 
 * Org Mode
 
@@ -889,14 +898,6 @@ You may also optionally bind a key to activate the link grabber menu, like this:
 *** Org-IO Slide
 [[https://github.com/coldnew/org-ioslide][coldnew/org-ioslide]]
 
-* Sublime Text
-
-Material Theme 比 Monokai 更好看。。
-
--  [[http://zh.lucida.me/blog/sublime-text-complete-guide/][Sublime Text 全程指南]]
--  [[http://feliving.github.io/Sublime-Text-3-Documentation/][Sublime Text 3 文档]]
--  [[http://docs.sublimetext.tw/][Sublime Text 手冊]]
-
 * Chrome
 
 Chrome develop tool 有很多小技巧，之后整理一下
@@ -906,15 +907,16 @@ Chrome develop tool 有很多小技巧，之后整理一下
 -  [[https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall][One Tab]]
 -  [[https://chrome.google.com/webstore/detail/new-tong-wen-tang/ldmgbgaoglmaiblpnphffibpbfchjaeg][新同文堂]] - 繁简转换
 
-* Linux
-** 学习链接
+* OS
+** Linux
+*** 学习链接
 - [[http://vbird.dic.ksu.edu.tw/][鸟哥的 Linux 私房菜]]
 - [[http://hyperpolyglot.org/unix-shells#top][Unix Shells: Bash, Fish, Ksh, Tcsh, Zsh]]
 - [[http://www.commandlinefu.com/commands/browse][命令大全（commandlinefu）]]
 - [[http://linux.chinaitlab.com/special/linuxcom/Index.html][常用命令全集（chinaitlab）]]
 - [[http://www.waterlab.cn/hpc/upload/2010/6/LinuxCommand.pdf][常用命令]]
-** 实验室服务器搭建
-*** 用到的命令
+*** 实验室服务器搭建
+**** 用到的命令
 #+BEGIN_SRC shell
 
 uname -r   # display your kernel version
@@ -922,7 +924,7 @@ uname -r   # display your kernel version
 sudo apt-get update   # Update package information
 sudo apt-get install apt-transport-https ca-certificates  # ensure that APT works with the https method, and that CA certificates are installed
 #+END_SRC
-* OS X
+** OS X
 
 -  [[http://www.alfredapp.com/][Alfred]] - 替换系统 Spotlight 的免费软件，更美观更强大
 -  [[http://www.alfredworkflow.com/][alfredworkflow]] - 超多的 alfredworkflow
@@ -938,9 +940,10 @@ sudo apt-get install apt-transport-https ca-certificates  # ensure that APT work
 -  [[http://justgetflux.com/][F.liux]] - 护眼
 -  [[https://www.yinxiang.com/?from=evernote][Evernote]] - 个人知识管理
 
-* Windows
+** Windows
 -  [[http://typeof.net/c/cn-scott-hanselmans-2014-ultimate-developer-and-power-user-s-tool-list-for-windows.html][2014 年软件推荐]] - 写的太全了
-* MongoDB
+* Database
+** MongoDB
 
 Schema 设计原则：设计数据库 Schema 是在已知数据库系统特性、数据本质以及应用程序需求的情况下为数据集选择最佳表述的过程。
 
@@ -950,34 +953,34 @@ use database
 添加用户
 db.createUser({user: "username", pwd: "password", roles: []})
 #+END_SRC
-* Redis
+** Redis
 
 推荐《Redis 入门指南》一书入门。
 
 Redis 是一个开源、高性能、基于键值对的缓存与存储系统，通过提供多种键值数据类型来适应不同场景下的缓存与存储需求。
 
-** 数据类型
+*** 数据类型
 不论何种数据类型，它的字段值都只能为字符串类型。
-*** 字符串类型
+**** 字符串类型
 一般实践以=对象类型.对象 ID.对象属性=命名
-*** 散列类型
+**** 散列类型
 适合存储的对象：使用对象类别和 ID 构成键名，使用字段表示对象的属性，而字段值则存储属性值
-*** 列表类型
+**** 列表类型
 可以存储一个有序的字符串列表，常用的操作是向列表两端添加元素，或者获得列表的某一个片段。
 
 列表类型内部是使用双向链表（double linked list）实现的，所以向两端添加元素很快，时间复杂度为 O(1)。但通过索引来访问元素比较慢。
 
 所以适合获取最新内容或两端插入内容的场景
-*** 集合类型
+**** 集合类型
 最常用的操作是向集合中加入或删除元素，判断是否存在等。可以方便的和多个集合间进行并集、交集、差集的计算。
-*** 有序集合类型
+**** 有序集合类型
 比集合类型多了一个「分数」，所以有序。
 
 - 有序集合是使用散列表和跳跃表实现的，所以读取位于中间部分的数据也很快，时间复杂度是 O(log(N))
 - 可通过调整「分数」来调整元素的位置
 - 比列表类型更耗内存
-** 技巧
-*** 删除键技巧
+*** 技巧
+**** 删除键技巧
 =DEL key [key...]=
 
 del 命令不支持通配符，但我们可以结合 Linux 的管道和 xargs 命令自己实现删除所有符合规则的键。比如要删除所有以“user:”开头的键，就可以执行
@@ -1187,6 +1190,8 @@ When reading a research paper, the following is the essential information that i
 **** 参考文献：
 - Laramee, R. S. (2011). How to read a visualization research paper: Extracting the essentials. IEEE Computer Graphics and Applications, 31(3), 78–82. http://doi.org/10.1109/MCG.2011.44
 - 彭明辉 研究所新生完全求生手册
+* Visualization
+[[http://www.cs.ubc.ca/~tmm/vadbook/][Visualization Analysis and Design]]
 * Computer Graphics
 ** 图形学概念
 [[http://staff.ustc.edu.cn/~lgliu/Resources/CG/What_is_CG.htm][什么是计算机图形学？]]
