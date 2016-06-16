@@ -31,6 +31,310 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 
 - [[http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html][知道创宇研发技能表]]
 
+** Language
+*** Lisp
+- [[https://github.com/DeathKing/Learning-SICP][DeathKing/Learning-SICP: 《计算机程序的构造和解释》公开课中文化项目]]
+- [[http://www.math.pku.edu.cn/teachers/qiuzy/progtech/slides/index.php][“程序设计技术和方法”幻灯片::裘宗燕]]
+- [[https://github.com/huangz1990/SICP-answers][huangz1990/SICP-answers: 我的 SICP 解题集]]
+- [[https://github.com/gregsexton/SICP-Clojure][gregsexton/SICP-Clojure: Solutions to the SICP exercises, in Clojure.]]
+- [[https://github.com/jiacai2050/sicp][jiacai2050/sicp: SICP 读书笔记，习题解答]]
+
+*** Python
+- [[http://hujiaweibujidao.github.io/python/][HujiaweiBujidao Python]] 总结
+- [[https://zhuanlan.zhihu.com/p/21332075][三天搞定 Python - Jiang 的金融窝 - 知乎专栏]]
+**** Python Basic
+***** OS, System, File
+使用 glob 模块可以用通配符的方式搜索某个目录下的特定文件，返回结果是一个 list
+
+#+BEGIN_SRC python
+import glob
+flist=glob.glob('*.jpeg')
+#+END_SRC
+
+使用 os.getcwd()可以得到当前目录，如果想切换到其他目录，可以使用 os.chdir('str/to/path')，如果想执行 Shell 脚本，可以使用 os.system('mkdir newfolder')。
+
+对于日常文件和目录的管理, shutil 模块提供了更便捷、更高层次的接口
+
+#+BEGIN_SRC python
+import shutil
+shutil.copyfile('data.db', 'archive.db')
+shutil.move('/build/executables', 'installdir')
+#+END_SRC
+
+如果要在代码中添加中文注释的话，最好在文档开头加上下面的编码声明语句。关于 Python 中的字符串编码可见廖雪峰的 python 教程。若代码打算用在国际化的环境中, 那么不要使用奇特的编码。Python 默认的 UTF-8, 或者甚至是简单的 ASCII 在任何情况下工作得最好。同样地，如果代码的读者或维护者只有很小的概率使用不同的语言，那么不要在标识符里使用非 ASCII 字符。
+
+#+BEGIN_SRC python
+# coding=utf-8
+或者
+# -*- coding: utf-8 -*-
+#+END_SRC
+
+***** List
+#+BEGIN_SRC python
+>>> a = [0,[1,2]]
+>>> b = a
+>>> b[0] = 88
+>>> b[1][0] = 99
+>>> b
+[88, [99, 2]]
+>>> a
+[88, [99, 2]]
+>>> # 并未真正生成一个新的列表，b 指向的仍然是 a 所指向的对象。这样，如果对 a 或 b 的元素进行修改，a,b 的值同时发生变化。
+
+>>> # 好吧，用[:]试试看
+>>> a = [0,[1,2]]
+>>> b = a[:]
+>>> b[0] = 88
+>>> b[1][0]=99
+>>> b
+[88, [99, 2]]
+>>> a
+[0, [99, 2]]
+>>> # 这种方法只适用于简单列表，也就是列表中的元素都是基本类型，如果列表元素还存在列表的话，这种方法就不适用了，原因就是，像 a[:]这种处理，只是将列表元素的值生成一个新的列表，如果列表元素也是一个列表，如：a = [0,[1,2]]，那么这种复制 对于元素[]的处理只是复制[1，2]的引用，而并未生成 [1，2]的一个新的列表复制。
+#+END_SRC
+
+**** Cheat Sheet
+***** Naming Styles
+#+BEGIN_SRC python
+# see: PEP8
+# for public use
+var
+
+# for internal use
+_var
+
+# convention to avoid conflict keyword
+var_
+
+# for private use in class
+__var
+
+# for protect use in class
+_var_
+
+# "magic" method or attributes
+# ex: __init__, __file__, __main__
+__var__
+
+# for "internal" use throwaway variable
+# usually used in loop
+# ex: [_ for _ in range(10)]
+# or variable not used
+# for _, a in [(1,2),(3,4)]: print a
+_
+#+END_SRC
+***** for: exp else: exp
+#+BEGIN_SRC python
+# see document: More Control Flow Tools
+# forloop’s else clause runs when no break occurs
+>>> for _ in range(5):
+...   print _,
+... else:
+...   print "\nno break occur"
+...
+0 1 2 3 4
+no break occur
+>>> for _ in range(5):
+...   if _ % 2 ==0:
+...     print "break occur"
+...     break
+... else:
+...   print "else not occur"
+...
+break occur
+# above statement equivalent to
+flag = False
+for _ in range(5):
+  if _ % 2 == 0:
+    flag = True
+    print "break occur"
+    break
+if flag == False:
+  print "else not occur"
+#+END_SRC
+***** Check object attributes
+#+BEGIN_SRC python
+# example of check list attributes
+>>> dir(list)
+['__add__', '__class__', ...]
+#+END_SRC
+***** Define a function __doc__
+#+BEGIN_SRC python
+# Define a function document
+>>> def Example():
+...   """ This is an example function """
+...   print "Example function"
+...
+>>> Example.__doc__
+' This is an example function '
+
+# Or using help function
+>>> help(Example)
+#+END_SRC
+***** Check all global variables
+#+BEGIN_SRC python
+# globals() return a dictionary
+# {'variable name': variable value}
+>>> globals()
+{'args': (1, 2, 3, 4, 5), ...}
+#+END_SRC
+**** Python 的两大应用方向
+Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面。
+Web 方面有 Flask, Django 等成熟的框架。
+科研方面有很多完备的科学计算库和绘图工具：
+
+[[http://www.rafekettler.com/magicmethods.html?utm_campaign=CodeTengu&utm_medium=email&utm_source=CodeTengu_18][A Guide to Python's Magic Methods « rafekettler.com]]
+
+- Numpy
+  学习资源：[[http://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html][Numpy tutorial]]
+- Matplotlib
+  学习资源：[[http://www.labri.fr/perso/nrougier/teaching/matplotlib/][Matplotlib tutorial]]
+
+python 在大数据方面的武器列表：
+[[http://7b1evr.com1.z0.glb.clouddn.com/WvfC-nxDTMqJ-97899.png]]
+
+*** Ruby
+
+Ruby 是解释执行的，且每条 Ruby 代码都会返回某个值。
+Ruby 是一门纯面向对象语言。在 Ruby 中，一切皆为对象。
+
+**** tips
+- 除了 nil 和 false 之外，其他值都代表 true
+- 每个函数都会返回结果。如果你没有显式指定某个返回值，函数就将返回退出函数前最后处理的表达式的值。
+**** links
+
+-  [[http://saito.im/slide/ruby-new.html][Ruby 语言新手教程]]
+-  [[https://ihower.tw/rails4/index.html][Ruby on Rails 實戰聖經]]
+-  [[http://guides.ruby-china.org][Ruby on Rails 指南]]
+
+*** Shell
+**** Shell 编程
+Shell 脚本是解释型的,而不是编译型的。
+符号`#!`用来告诉系统这个脚本用什么程序执行
+#+BEGIN_SRC shell
+#!/bin/sh
+#+END_SRC
+
+***** 变量
++ 定义变量时，变量名不加美元符号（$）
++ 使用一个已定义的变量，只需在变量名前面加美元符号即可
++ 变量名外面的花括号是可选的，加不加都行，加花括号是为了帮助解释器识别变量的边界
++ 用 =local= 可将函数内的变量定义为局部变量
++ 用 =declare= 声明变量可以限定其使用范围，常用的两个：
+
+#+BEGIN_SRC shell
+-a	变量为数组。
+-r	使得变量变为只读。这些变量不能被后来的赋值与语句赋值，同样也不可以 unset。
+#+END_SRC
+
+- =readonly= 可以定义常量，感觉和 declare -r 差不多
+***** 流程控制
+****** 条件
+#+BEGIN_SRC shell
+if ...; then
+...
+elif ...; then
+...
+else
+...
+fi
+#+END_SRC
+
+if 中常用的测试表达式：
+
+- [ -d FILE ]	如果 FILE 存在且是一个目录则为真。
+- [ -e FILE ]	如果 FILE 存在则为真。
+- [ -f FILE ]	如果 FILE 存在且是一个普通文件则为真。
+- [ -h FILE ]	如果 FILE 存在且是一个符号连接则为真。
+- [ -p FILE ]	如果 FILE 存在且是一个名字管道(F 如果 O)则为真。
+- [ -r FILE ]	如果 FILE 存在且是可读的则为真。
+- [ -s FILE ]	如果 FILE 存在且大小不为 0 则为真。
+- [ -w FILE ]	如果 FILE 如果 FILE 存在且是可写的则为真。
+- [ -x FILE ]	如果 FILE 存在且是可执行的则为真。
+- [ -O FILE ]	如果 FILE 存在且属有效用户 ID 则为真。
+- [ -G FILE ]	如果 FILE 存在且属有效用户组则为真。
+- [ -L FILE ]	如果 FILE 存在且是一个符号连接则为真。
+- [ -S FILE ]	如果 FILE 存在且是一个套接字则为真。
+- [ -z STRING ]	“STRING” 的长度为零则为真。
+- [ -n STRING ] “STRING” 的长度为非零则为真。
+****** 循环
+#+BEGIN_SRC shell
+for .. in ...; do
+...
+done
+
+for
+
+while ...; do
+...
+done
+
+还有：
+until
+select
+shift
+
+break 语句用来在正常结束之前退出当前循环
+continue 语句继续 for, while, until or select 内的循环
+#+END_SRC
+***** 参数
+- 位置参数 =$1， $2,..., $N= 来作参数
+- =$#= 代表了命令行的参数数量
+- =$0= 当前脚本文件名
+- =$?= 上一个命令的退出码
+- =$$= 当前 Shell 进程 ID
+- =$@= 所有参数的列表
+- =$*= 和$@相同都是所有参数，但"$*" 和 "$@"(加引号)并不同，"$*"将所有的参数解释成一个字符串，而"$@"是一个参数数组
+***** I/O
+#+BEGIN_SRC shell
+echo 输出
+read 读取用户输入
+管道 `|` 将一个命令的输出作为另外一个命令的输入
+重定向：将命令的结果输出到文件，而不是标准输出（屏幕）
+#+END_SRC
+*****  tips
+获取当前脚本运行的目录：
+#+BEGIN_SRC shell
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# 具体含义
+${BASH_SOURCE[0]}  取得执行 shell 命令例如  tmp/test.sh
+dirname 取得前面的路径
+cd 进到目录里
+&& pwd 打印当前路径
+#+END_SRC
+
+获取当前系统名：
+#+BEGIN_SRC shell
+OS="$(get_os)"
+#+END_SRC
+
+判断命令是否存在：
+#+BEGIN_SRC shell
+cmd_exists() {
+    command -v "$1" &> /dev/null
+    return $?
+}
+#+END_SRC
+
+**** Resources
+- [[http://www.tldp.org/LDP/abs/html/index.html][Advanced Bash-Scripting Guide]]
+- [[http://www.freeos.com/guides/lsst/index.html][Linux Shell Scripting Tutorial - A Beginner's handbook]]
+- [[http://www.yeolar.com/media/doc/bgb-cn/html/index.html][Bash 新手指南]]
+- [[https://github.com/qinjx/30min_guides/blob/master/shell.md][Shell 脚本编程 30 分钟入门]]
+- [[https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md][命令行的艺术]]
+- [[https://github.com/alrra/dotfiles][alrra/dotfiles]] 这个 repo 的 shell 写的很棒
+*** PHP
+
+-  [[http://wulijun.github.io/php-the-right-way/][PHP 之道]]
+-  [[http://www.php.net/manual/zh/][PHP 手册]]
+-  [[https://phpbestpractices.org/][PHP Best Practices]]
+-  [[http://phpbestpractices.justjavac.com/][PHP 最佳实践（译）]]
+
+*** C++
+[[http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-introduction][C++ Core Guidelines]]
+
+*** Make
 ** Code Game
 
 -  [[http://www.codewars.com/][codewars]]
@@ -364,299 +668,6 @@ Loopback is based Express.
 -  [[http://www.androidviews.net/][AndroidViews]]
 -  [[http://www.apkbus.com/design/index.html][Android Design]]
 
-* Python
-- [[http://hujiaweibujidao.github.io/python/][HujiaweiBujidao Python]] 总结
-** Python Basic
-*** OS, System, File
-使用 glob 模块可以用通配符的方式搜索某个目录下的特定文件，返回结果是一个 list
-
-#+BEGIN_SRC python
-import glob
-flist=glob.glob('*.jpeg')
-#+END_SRC
-
-使用 os.getcwd()可以得到当前目录，如果想切换到其他目录，可以使用 os.chdir('str/to/path')，如果想执行 Shell 脚本，可以使用 os.system('mkdir newfolder')。
-
-对于日常文件和目录的管理, shutil 模块提供了更便捷、更高层次的接口
-
-#+BEGIN_SRC python
-import shutil
-shutil.copyfile('data.db', 'archive.db')
-shutil.move('/build/executables', 'installdir')
-#+END_SRC
-
-如果要在代码中添加中文注释的话，最好在文档开头加上下面的编码声明语句。关于 Python 中的字符串编码可见廖雪峰的 python 教程。若代码打算用在国际化的环境中, 那么不要使用奇特的编码。Python 默认的 UTF-8, 或者甚至是简单的 ASCII 在任何情况下工作得最好。同样地，如果代码的读者或维护者只有很小的概率使用不同的语言，那么不要在标识符里使用非 ASCII 字符。
-
-#+BEGIN_SRC python
-# coding=utf-8
-或者
-# -*- coding: utf-8 -*-
-#+END_SRC
-
-*** List
-#+BEGIN_SRC python
->>> a = [0,[1,2]]
->>> b = a
->>> b[0] = 88
->>> b[1][0] = 99
->>> b
-[88, [99, 2]]
->>> a
-[88, [99, 2]]
->>> # 并未真正生成一个新的列表，b 指向的仍然是 a 所指向的对象。这样，如果对 a 或 b 的元素进行修改，a,b 的值同时发生变化。
-
->>> # 好吧，用[:]试试看
->>> a = [0,[1,2]]
->>> b = a[:]
->>> b[0] = 88
->>> b[1][0]=99
->>> b
-[88, [99, 2]]
->>> a
-[0, [99, 2]]
->>> # 这种方法只适用于简单列表，也就是列表中的元素都是基本类型，如果列表元素还存在列表的话，这种方法就不适用了，原因就是，像 a[:]这种处理，只是将列表元素的值生成一个新的列表，如果列表元素也是一个列表，如：a = [0,[1,2]]，那么这种复制 对于元素[]的处理只是复制[1，2]的引用，而并未生成 [1，2]的一个新的列表复制。
-#+END_SRC
-
-** Cheat Sheet
-*** Naming Styles
-#+BEGIN_SRC python
-# see: PEP8
-# for public use
-var
-
-# for internal use
-_var
-
-# convention to avoid conflict keyword
-var_
-
-# for private use in class
-__var
-
-# for protect use in class
-_var_
-
-# "magic" method or attributes
-# ex: __init__, __file__, __main__
-__var__
-
-# for "internal" use throwaway variable
-# usually used in loop
-# ex: [_ for _ in range(10)]
-# or variable not used
-# for _, a in [(1,2),(3,4)]: print a
-_
-#+END_SRC
-*** for: exp else: exp
-#+BEGIN_SRC python
-# see document: More Control Flow Tools
-# forloop’s else clause runs when no break occurs
->>> for _ in range(5):
-...   print _,
-... else:
-...   print "\nno break occur"
-...
-0 1 2 3 4
-no break occur
->>> for _ in range(5):
-...   if _ % 2 ==0:
-...     print "break occur"
-...     break
-... else:
-...   print "else not occur"
-...
-break occur
-# above statement equivalent to
-flag = False
-for _ in range(5):
-  if _ % 2 == 0:
-    flag = True
-    print "break occur"
-    break
-if flag == False:
-  print "else not occur"
-#+END_SRC
-*** Check object attributes
-#+BEGIN_SRC python
-# example of check list attributes
->>> dir(list)
-['__add__', '__class__', ...]
-#+END_SRC
-*** Define a function __doc__
-#+BEGIN_SRC python
-# Define a function document
->>> def Example():
-...   """ This is an example function """
-...   print "Example function"
-...
->>> Example.__doc__
-' This is an example function '
-
-# Or using help function
->>> help(Example)
-#+END_SRC
-*** Check all global variables
-#+BEGIN_SRC python
-# globals() return a dictionary
-# {'variable name': variable value}
->>> globals()
-{'args': (1, 2, 3, 4, 5), ...}
-#+END_SRC
-** Python 的两大应用方向
-Python 我个人觉得有两大方向，一是 Web 方面，一是科研方面。
-Web 方面有 Flask, Django 等成熟的框架。
-科研方面有很多完备的科学计算库和绘图工具：
-
-[[http://www.rafekettler.com/magicmethods.html?utm_campaign=CodeTengu&utm_medium=email&utm_source=CodeTengu_18][A Guide to Python's Magic Methods « rafekettler.com]]
-
-- Numpy
-  学习资源：[[http://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html][Numpy tutorial]]
-- Matplotlib
-  学习资源：[[http://www.labri.fr/perso/nrougier/teaching/matplotlib/][Matplotlib tutorial]]
-
-python 在大数据方面的武器列表：
-[[http://7b1evr.com1.z0.glb.clouddn.com/WvfC-nxDTMqJ-97899.png]]
-
-* Ruby
-
-Ruby 是解释执行的，且每条 Ruby 代码都会返回某个值。
-Ruby 是一门纯面向对象语言。在 Ruby 中，一切皆为对象。
-
-** tips
-- 除了 nil 和 false 之外，其他值都代表 true
-- 每个函数都会返回结果。如果你没有显式指定某个返回值，函数就将返回退出函数前最后处理的表达式的值。
-** links
-
--  [[http://saito.im/slide/ruby-new.html][Ruby 语言新手教程]]
--  [[https://ihower.tw/rails4/index.html][Ruby on Rails 實戰聖經]]
--  [[http://guides.ruby-china.org][Ruby on Rails 指南]]
-
-* Shell
-** Shell 编程
-Shell 脚本是解释型的,而不是编译型的。
-符号`#!`用来告诉系统这个脚本用什么程序执行
-#+BEGIN_SRC shell
-#!/bin/sh
-#+END_SRC
-
-*** 变量
-+ 定义变量时，变量名不加美元符号（$）
-+ 使用一个已定义的变量，只需在变量名前面加美元符号即可
-+ 变量名外面的花括号是可选的，加不加都行，加花括号是为了帮助解释器识别变量的边界
-+ 用 =local= 可将函数内的变量定义为局部变量
-+ 用 =declare= 声明变量可以限定其使用范围，常用的两个：
-
-#+BEGIN_SRC shell
--a	变量为数组。
--r	使得变量变为只读。这些变量不能被后来的赋值与语句赋值，同样也不可以 unset。
-#+END_SRC
-
-- =readonly= 可以定义常量，感觉和 declare -r 差不多
-*** 流程控制
-**** 条件
-#+BEGIN_SRC shell
-if ...; then
-...
-elif ...; then
-...
-else
-...
-fi
-#+END_SRC
-
-if 中常用的测试表达式：
-
-- [ -d FILE ]	如果 FILE 存在且是一个目录则为真。
-- [ -e FILE ]	如果 FILE 存在则为真。
-- [ -f FILE ]	如果 FILE 存在且是一个普通文件则为真。
-- [ -h FILE ]	如果 FILE 存在且是一个符号连接则为真。
-- [ -p FILE ]	如果 FILE 存在且是一个名字管道(F 如果 O)则为真。
-- [ -r FILE ]	如果 FILE 存在且是可读的则为真。
-- [ -s FILE ]	如果 FILE 存在且大小不为 0 则为真。
-- [ -w FILE ]	如果 FILE 如果 FILE 存在且是可写的则为真。
-- [ -x FILE ]	如果 FILE 存在且是可执行的则为真。
-- [ -O FILE ]	如果 FILE 存在且属有效用户 ID 则为真。
-- [ -G FILE ]	如果 FILE 存在且属有效用户组则为真。
-- [ -L FILE ]	如果 FILE 存在且是一个符号连接则为真。
-- [ -S FILE ]	如果 FILE 存在且是一个套接字则为真。
-- [ -z STRING ]	“STRING” 的长度为零则为真。
-- [ -n STRING ] “STRING” 的长度为非零则为真。
-**** 循环
-#+BEGIN_SRC shell
-for .. in ...; do
-...
-done
-
-for
-
-while ...; do
-...
-done
-
-还有：
-until
-select
-shift
-
-break 语句用来在正常结束之前退出当前循环
-continue 语句继续 for, while, until or select 内的循环
-#+END_SRC
-*** 参数
-- 位置参数 =$1， $2,..., $N= 来作参数
-- =$#= 代表了命令行的参数数量
-- =$0= 当前脚本文件名
-- =$?= 上一个命令的退出码
-- =$$= 当前 Shell 进程 ID
-- =$@= 所有参数的列表
-- =$*= 和$@相同都是所有参数，但"$*" 和 "$@"(加引号)并不同，"$*"将所有的参数解释成一个字符串，而"$@"是一个参数数组
-*** I/O
-#+BEGIN_SRC shell
-echo 输出
-read 读取用户输入
-管道 `|` 将一个命令的输出作为另外一个命令的输入
-重定向：将命令的结果输出到文件，而不是标准输出（屏幕）
-#+END_SRC
-***  tips
-获取当前脚本运行的目录：
-#+BEGIN_SRC shell
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
-# 具体含义
-${BASH_SOURCE[0]}  取得执行 shell 命令例如  tmp/test.sh
-dirname 取得前面的路径
-cd 进到目录里
-&& pwd 打印当前路径
-#+END_SRC
-
-获取当前系统名：
-#+BEGIN_SRC shell
-OS="$(get_os)"
-#+END_SRC
-
-判断命令是否存在：
-#+BEGIN_SRC shell
-cmd_exists() {
-    command -v "$1" &> /dev/null
-    return $?
-}
-#+END_SRC
-
-** Resources
-- [[http://www.tldp.org/LDP/abs/html/index.html][Advanced Bash-Scripting Guide]]
-- [[http://www.freeos.com/guides/lsst/index.html][Linux Shell Scripting Tutorial - A Beginner's handbook]]
-- [[http://www.yeolar.com/media/doc/bgb-cn/html/index.html][Bash 新手指南]]
-- [[https://github.com/qinjx/30min_guides/blob/master/shell.md][Shell 脚本编程 30 分钟入门]]
-- [[https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md][命令行的艺术]]
-- [[https://github.com/alrra/dotfiles][alrra/dotfiles]] 这个 repo 的 shell 写的很棒
-* PHP
-
--  [[http://wulijun.github.io/php-the-right-way/][PHP 之道]]
--  [[http://www.php.net/manual/zh/][PHP 手册]]
--  [[https://phpbestpractices.org/][PHP Best Practices]]
--  [[http://phpbestpractices.justjavac.com/][PHP 最佳实践（译）]]
-
-* C++
-[[http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-introduction][C++ Core Guidelines]]
 * Git
 
 多人协作的时候要商定协作流程。[[http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html][git-flow]] 是个不错的实践。
@@ -834,7 +845,7 @@ SPC b w : Read only mode.
 SPC b n/p : previous or next buffer
 SPC b TAB : to switch back and forth.
 
-SPC f f : hel:mfin:dfile
+SPC f f : helm find file
 SPC f r : open recent file
 SPC f R : rename file
 SPC f c : copy file
@@ -908,6 +919,9 @@ Chrome develop tool 有很多小技巧，之后整理一下
 -  [[https://chrome.google.com/webstore/detail/new-tong-wen-tang/ldmgbgaoglmaiblpnphffibpbfchjaeg][新同文堂]] - 繁简转换
 
 * OS
+
+[[http://tutorialsbynick.com/writing-an-os-baby-steps/][Writing an OS: Baby Steps]]
+
 ** Linux
 *** 学习链接
 - [[http://vbird.dic.ksu.edu.tw/][鸟哥的 Linux 私房菜]]
