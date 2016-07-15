@@ -35,6 +35,7 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 - 程序设计的主流是命令式程序设计，计算基于一组基本操作，在一个环境里进行。操作效果是改变环境的状态，体现在所创建和修改的状态中。
 - 函数式程序设计中计算过程被看成是数据的变换，程序的行为就是对数据的一系列变换。
 
+
 ** SICP notes
 *** 第一章 构造过程抽象
 **** 程序设计的基本元素
@@ -362,12 +363,19 @@ cmd_exists() {
 [[http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-introduction][C++ Core Guidelines]]
 
 *** Make
+*** Haskell
+- [[http://book.realworldhaskell.org/read/][Real World Haskell]]
+- [[https://www.gitbook.com/book/mno2/learnyouahaskell-zh/details][Haskell 趣學指南 - GitBook]]
 ** Code Game
 
 -  [[http://www.codewars.com/][codewars]]
 -  [[http://www.topcoder.com/][Top Coder]]
 -  [[http://codetank.alloyteam.com/][codetank]]
 
+** Regex
+[[http://deerchao.net/tutorials/regex/regex.htm][正则表达式 30 分钟入门教程]]
+[[http://regexone.com/][RegexOne - Learn Regular Expressions - Lesson 1: An Introduction, and the ABCs]]
+[[https://msdn.microsoft.com/zh-cn/library/az24scfc.aspx][正则表达式语言 - 快速参考]]
 * Web
 - [[https://developer.mozilla.org/zh-CN/learn#][学习如何制作网站]]
 - [[http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/][浏览器的工作原理]]
@@ -517,12 +525,16 @@ z-index 只在设置了 postion（即不是 static）的元素上起作用。
 - [[http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html][深入理解 JavaScript 系列]]
 
 *** ECMAScript
+
 - Number 类型：parseInt() 最好写上第二个参数
 - String 类型：
   - 转义序列表示一个字符
   - ECMAScript 中字符串是不可变的。要改变字符串，首先得销毁原来的字符串，然后再创建一个包含新值的字符串来替换。（如字符串拼接）
   - ~null~ 和 ~undefined~ 没有 toString() 方法
 - ~&~ 和 ~|~ 操作属于短路操作，即如果第一个操作数能决定结果，那么就不会对第二个操作数求值
+
+**** Closure
+[[http://stackoverflow.com/questions/111102/how-do-javascript-closures-work][scope - How do JavaScript closures work? - Stack Overflow]]
 *** JSON
 **** JSON.stringify()
 接收三个参数（对象，过滤器，缩进格式）
@@ -540,6 +552,7 @@ z-index 只在设置了 postion（即不是 static）的元素上起作用。
 *** ES2015
 
 - [[http://es6.ruanyifeng.com/][ECMAScript 6 入门]]
+- [[https://github.com/metagrover/ES6-for-humans][metagrover/ES6-for-humans: A kickstarter guide to writing ES6.]]
 
 babel 的开发者才 16 岁，令人汗颜[[http://babeljs.io/][Babel · The compiler for writing next generation JavaScript]]
 
@@ -663,10 +676,14 @@ session 的运作通过一个 session_id 来进行。session_id 通常是存放�
 这意思就是说，当你浏览一个网页时，服务端随机产生一个 1024 比特长的字符串，然后存在你 cookie 中的 connect.sid 字段中。当你下次访问时，cookie 会带有这个字符串，然后浏览器就知道你是上次访问过的某某某，然后从服务器的存储中取出上次记录在你身上的数据。由于字符串是随机产生的，而且位数足够多，所以也不担心有人能够伪造。伪造成功的概率很低。
 
 session 可以存放在 1）内存、2）cookie 本身、3）redis 或 memcached 等缓存中，或者 4）数据库中。
+** Server
+[[http://openresty.org/download/agentzh-nginx-tutorials-zhcn.html][agentzh 的 Nginx 教程（版本 2015.03.19）]]
 ** Tools
 *** Can I use
 [[http://caniuse.com/][Can I use... Support tables for HTML5, CSS3, etc]]
 查看浏览器的兼容情况
+** Security
+[[http://brutelogic.com.br/blog/cheat-sheet/][XSS Cheat Sheet - Fooling the Interpreter]]
 * Node
 
 - [[http://www.nodebeginner.org/index-zh-cn.html][Node 入门]]
@@ -676,6 +693,8 @@ session 可以存放在 1）内存、2）cookie 本身、3）redis 或 memcached
 - [[http://nodeschool.io/][nodeschool]]
 - [[http://0532.gitbooks.io/nodejs/][the NodeJS]] - 一本关于 nodejs 的文档
 - [[http://blog.fens.me/series-nodejs/][从零开始 nodejs 系列文章]]
+
+[[https://medium.com/yet-another-node-js-blog/architecture-of-node-js-internal-codebase-57cd8376b71f#.1n8qdrg8b][Architecture of Node.js’ Internal Codebase — Yet Another Node.js Blog — Medium]]
 
 ** Koa
 koa 和 express 都是基于 connect 的，koa 比 express 稍微轻量一点（其实我觉得差不多），但 koa 最大的两点是 generator。然而随着 ES6 和 ES7 的推出，koa 中这种依靠 generator 的异步方式也渐渐式微，于是推出了 koa2。
@@ -831,6 +850,9 @@ Vim 的宏在进行批量修改时，是神器
 -  [[http://vimawesome.com/][Vim Awesome]] - a directory of Vim plugins sourced from GitHub
 -  [[https://github.com/wklken/k-vim][vim 推荐配置]]
 
+** Emacs
+- [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org][mastering-emacs-in-one-year-guide/guide-zh.org at master · redguardtoo/mastering-emacs-in-one-year-guide]]
+- [[http://planet.emacsen.org/][Planet Emacsen]]
 ** Spacemacs
 
 [[https://github.com/syl20bnr/spacemacs][spacemacs]] 是一款社区维护的 Emacs 配置，结合了 vim 和 Emacs 两者的优点。
@@ -1233,6 +1255,7 @@ When reading a research paper, the following is the essential information that i
 - 彭明辉 研究所新生完全求生手册
 * Visualization
 [[http://www.cs.ubc.ca/~tmm/vadbook/][Visualization Analysis and Design]]
+[[http://jsdatav.is/intro.html][Data Visualization with JavaScript]]
 * Computer Graphics
 ** 图形学概念
 [[http://staff.ustc.edu.cn/~lgliu/Resources/CG/What_is_CG.htm][什么是计算机图形学？]]
