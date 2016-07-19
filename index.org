@@ -533,6 +533,24 @@ z-index 只在设置了 postion（即不是 static）的元素上起作用。
   - ~null~ 和 ~undefined~ 没有 toString() 方法
 - ~&~ 和 ~|~ 操作属于短路操作，即如果第一个操作数能决定结果，那么就不会对第二个操作数求值
 
+**** Function
+***** 函数的特点
+- 可以通过字面量进行创建
+- 可以赋值给变量或属性
+- 可以作为参数进行传递
+- 可以作为函数结果进行返回
+- 拥有属性和方法
+***** 函数的调用方式
+1. 作为普通函数调用（第二种的特例，相当于作为全局对象的方法调用），其上下文是全局对象
+2. 作为方法调用，其上下文是拥有该方法的对象
+3. 作为构造器进行调用，其上下文是一个新分配的对象
+4. 通过 apply 或 call 进行调用，上下文可以设定成任意值
+***** 函数的引用方式
+1. 通过名称进行引用
+2. 作为一个方法进行引用（对象的属性）
+3. 通过内联名称进行引用
+4. 通过 arguments 的 callee 属性进行引用
+
 **** Closure
 [[http://stackoverflow.com/questions/111102/how-do-javascript-closures-work][scope - How do JavaScript closures work? - Stack Overflow]]
 *** JSON
