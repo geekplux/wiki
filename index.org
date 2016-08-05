@@ -29,6 +29,7 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 看看这篇文章的发布日期，再对比现在的技术潮流，就知道这篇文章还没有过时，所以按照这篇文章修炼是不会错的。
 技术越学到最后越偏底层。
 
+- [[https://medium.freecodecamp.com/being-a-developer-after-40-3c5dd112210c#.u3lhh1vzr][Being A Developer After 40 — Free Code Camp]]
 - [[http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html][知道创宇研发技能表]]
 
 ** 命令式（imperative）与函数式（functional）语言
@@ -509,6 +510,8 @@ Flexbox 布局比较适合 Web 应用程序的一些小组件和小规模的布�
 #+END_SRC
 =flex= 是 =flex-grow=，=flex-shrink= 和 =flex-basis= 三个属性的缩写
 *** some tips
+**** 切图
+[[http://www.cutterman.cn/cutterman][Cutterman - 最好用的切图工具|切图神器]]
 **** z-index
 z-index 只在设置了 postion（即不是 static）的元素上起作用。
 具体可参考[[http://www.neoease.com/css-z-index-property-and-layering-tree/][CSS z-index 属性的使用方法和层级树的概念 - NeoEase]]
@@ -1005,7 +1008,8 @@ uname -r   # display your kernel version
 sudo apt-get update   # Update package information
 sudo apt-get install apt-transport-https ca-certificates  # ensure that APT works with the https method, and that CA certificates are installed
 #+END_SRC
-** OS X
+** Mac OS
+[[https://github.com/jaywcjlove/awesome-mac][jaywcjlove/awesome-mac:  This repo is a collection of awesome Mac applications and tools for developers and designers.]]
 
 -  [[http://www.alfredapp.com/][Alfred]] - 替换系统 Spotlight 的免费软件，更美观更强大
 -  [[http://www.alfredworkflow.com/][alfredworkflow]] - 超多的 alfredworkflow
@@ -1274,6 +1278,9 @@ When reading a research paper, the following is the essential information that i
 * Visualization
 [[http://www.cs.ubc.ca/~tmm/vadbook/][Visualization Analysis and Design]]
 [[http://jsdatav.is/intro.html][Data Visualization with JavaScript]]
+
+**  Video Visualization
+A video visualization pipeline is a data flow pipeline, consisting of a series of functional components, namely video capture ⇒ data communication⇒data management⇒video processing⇒video visualization.
 * Computer Graphics
 ** 图形学概念
 [[http://staff.ustc.edu.cn/~lgliu/Resources/CG/What_is_CG.htm][什么是计算机图形学？]]
@@ -1422,6 +1429,20 @@ Web 网络结构从最初的相互连接（泊松分布）到后来的大规模�
 - 《我的第一本日语学习书》
 
 * Life
+** Fitness
+一般而言，让肌肉最大化的发展方式是，使用单次能举起的最大重量的 75%进行训练。对于多数人，使用这种重量，可以针对上半身做 8-12 次反复动作，针对腿部做 12-15 次反复动作。
+你能举起的重量取决于三个因素：
+
+1. 你能征用的肌纤维的数量
+2. 单根纤维的强度
+3. 你所使用的技巧
+
+两种基本耐力：
+
+1. 肌肉耐力
+2. 心肺耐力
+** Music Theory
+[[http://www.cnblogs.com/devymex/p/3385179.html][写给理工科人看的乐理（一）声学基础 - Devymex - 博客园]]
 ** Guitar & Ukulele
 弹的时候要注意坐姿，手势。好的姿势帮助你更好的演奏
 *** 吉他基础
@@ -1431,6 +1452,15 @@ Web 网络结构从最初的相互连接（泊松分布）到后来的大规模�
 吉他共六根弦：一弦 E，二弦 B，三弦 G，四弦 D，五弦 A，六弦 E
 *** Ukulele
 这篇是我自己写的教程：[[http://geekplux.com/2015/01/05/play-ukulele.html][轻松玩转 Ukulele | GeekPlux]]
+
+** Blues Harmonica
+[[http://www.tenholes.com/][‎www.tenholes.com]]
+
+基本技巧：
+- 单音
+- 吐音
+- 颤音
+- 手哇音
 ** Music
 
 由于版权的问题，国内的软件现在很多曲库都不太全了
