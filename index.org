@@ -577,6 +577,20 @@ z-index 只在设置了 postion（即不是 static）的元素上起作用。
 
 babel 的开发者才 16 岁，令人汗颜[[http://babeljs.io/][Babel · The compiler for writing next generation JavaScript]]
 
+*** Tips
+tips 其实就是懒得整理的，遇到的各种坑。。。
+
+**** 判断是否 NaN
+isNaN() 只能判断 numbers
+== 也是只能判断 numbers
+>= 能判断各种类型
+
+#+BEGIN_SRC javascript
+var a = NaN;  a == a;  // false
+var a = new Number(NaN);  a == a;  // true
+var a = new Number(NaN);  a >= a;  // false
+#+END_SRC
+
 ** CoffeeScript
 CoffeeScript 作为一个可编译为 JS 的语言，在 ES2015 发布的时候就完成了它的历史使命。虽然我推荐在项目中直接用 ES2015，不过多了解一下 CoffeeScript 还是不错的。
 
@@ -1278,6 +1292,7 @@ When reading a research paper, the following is the essential information that i
 * Visualization
 [[http://www.cs.ubc.ca/~tmm/vadbook/][Visualization Analysis and Design]]
 [[http://jsdatav.is/intro.html][Data Visualization with JavaScript]]
+[[http://flowingdata.com/][FlowingData]]
 
 **  Video Visualization
 A video visualization pipeline is a data flow pipeline, consisting of a series of functional components, namely video capture ⇒ data communication⇒data management⇒video processing⇒video visualization.
