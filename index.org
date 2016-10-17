@@ -32,6 +32,18 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 - [[https://medium.freecodecamp.com/being-a-developer-after-40-3c5dd112210c#.u3lhh1vzr][Being A Developer After 40 — Free Code Camp]]
 - [[http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html][知道创宇研发技能表]]
 
+** Mooc courses
+*** Computer Science
+[[https://courses.cs.washington.edu/courses/cse351/16sp/index.html][CSE 351 - Spring 2016]]
+*** Programming Languages - University of Washington
+[[https://courses.cs.washington.edu/courses/cse341/16sp/][UW CSE341, Spring 2016 🔊]]
+[[https://www.coursera.org/learn/programming-languages#][Programming Languages, Part A - University of Washington | Coursera 🔊]]
+[[https://www.coursera.org/learn/programming-languages-part-b][Programming Languages, Part B - University of Washington | Coursera 🔊]]
+[[https://www.coursera.org/learn/programming-languages-part-c][Programming Languages, Part C - University of Washington | Coursera 🔊]]
+*** Algorithms
+[[https://www.coursera.org/learn/introduction-to-algorithms][Algorithms, Part I - Princeton University | Coursera 🔊]]
+[[https://www.coursera.org/learn/java-data-structures-algorithms-2][Algorithms, Part II - Princeton University | Coursera 🔊]]
+
 ** 命令式（imperative）与函数式（functional）语言
 - 程序设计的主流是命令式程序设计，计算基于一组基本操作，在一个环境里进行。操作效果是改变环境的状态，体现在所创建和修改的状态中。
 - 函数式程序设计中计算过程被看成是数据的变换，程序的行为就是对数据的一系列变换。
@@ -580,6 +592,11 @@ babel 的开发者才 16 岁，令人汗颜[[http://babeljs.io/][Babel · The co
 *** Tips
 tips 其实就是懒得整理的，遇到的各种坑。。。
 
+**** 创建二维数组
+let arr = new Array(10).fill(new Array(10));
+此方法会导致每个子元素的数组都指向同一份数组的引用。
+**** Promise race
+当 iterable 参数里的任意一个子 promise 被成功或失败后，父 promise 马上也会用子 promise 的成功返回值或失败详情作为参数调用父 promise 绑定的相应句柄，并返回该 promise 对象。
 **** 判断是否 NaN
 isNaN() 只能判断 numbers
 == 也是只能判断 numbers
@@ -854,6 +871,7 @@ $ git revert [commit] # 新建一个 commit，用来撤销指定 commit，后者
 -  [[http://gitref.org/zh/index.html][Git 参考手册]]
 -  [[http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/][Git 指南]]
 -  [[http://pcottle.github.io/learnGitBranching/][Learn Git Branching]]
+-  [[https://vimgifs.com/][vimgifs]] - 通过 Gif 展示 vim 快捷键的效果
 
 * Text Editor
 ** Vim
@@ -1444,6 +1462,9 @@ Web 网络结构从最初的相互连接（泊松分布）到后来的大规模�
 - 《我的第一本日语学习书》
 
 * Life
+** Finance
+[[https://news.ycombinator.com/item?id=12514971][Investing for Geeks | Hacker News]]
+[[https://training.kalzumeus.com/newsletters/archive/investing-for-geeks][Investing For Geeks]]
 ** Fitness
 一般而言，让肌肉最大化的发展方式是，使用单次能举起的最大重量的 75%进行训练。对于多数人，使用这种重量，可以针对上半身做 8-12 次反复动作，针对腿部做 12-15 次反复动作。
 你能举起的重量取决于三个因素：
@@ -1458,6 +1479,7 @@ Web 网络结构从最初的相互连接（泊松分布）到后来的大规模�
 2. 心肺耐力
 ** Music Theory
 [[http://www.cnblogs.com/devymex/p/3385179.html][写给理工科人看的乐理（一）声学基础 - Devymex - 博客园]]
+[[https://eev.ee/blog/2016/09/15/music-theory-for-nerds/][Music theory for nerds / fuzzy notepad]]
 ** Guitar & Ukulele
 弹的时候要注意坐姿，手势。好的姿势帮助你更好的演奏
 *** 吉他基础
