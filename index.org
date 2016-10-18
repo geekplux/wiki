@@ -26,11 +26,11 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 
 - [[http://coolshell.cn/articles/4990.html][程序员技术练级攻略]]
 
-看看这篇文章的发布日期，再对比现在的技术潮流，就知道这篇文章还没有过时，所以按照这篇文章修炼是不会错的。
-技术越学到最后越偏底层。
+  看看这篇文章的发布日期，再对比现在的技术潮流，就知道这篇文章还没有过时，所以按照这篇文章修炼是不会错的。
+  技术越学到最后越偏底层。
 
-- [[https://medium.freecodecamp.com/being-a-developer-after-40-3c5dd112210c#.u3lhh1vzr][Being A Developer After 40 — Free Code Camp]]
-- [[http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html][知道创宇研发技能表]]
+  - [[https://medium.freecodecamp.com/being-a-developer-after-40-3c5dd112210c#.u3lhh1vzr][Being A Developer After 40 — Free Code Camp]]
+  - [[http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html][知道创宇研发技能表]]
 
 ** Mooc courses
 *** Computer Science
@@ -56,11 +56,11 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 - *组合机制* ： 用于从较简单的表达式构造更复杂的表达式
 - *抽象机制* ： 为复杂的结构命名、抽象，构造各种操作
 
-以上三点对应到一般的程序语言则为：
+  以上三点对应到一般的程序语言则为：
 
-- 数和算术运算是基本的数据和过程
-- 组合式的嵌套提供了一种组织起多个操作的方法
-- 定义是一种受限的抽象手段，它为名字关联相应的值
+  - 数和算术运算是基本的数据和过程
+  - 组合式的嵌套提供了一种组织起多个操作的方法
+  - 定义是一种受限的抽象手段，它为名字关联相应的值
 
 ***** 计算过程
 1. 求出各参数表达式(子表达式)的值
@@ -231,8 +231,8 @@ Web 方面有 Flask, Django 等成熟的框架。
 - Matplotlib
   学习资源：[[http://www.labri.fr/perso/nrougier/teaching/matplotlib/][Matplotlib tutorial]]
 
-python 在大数据方面的武器列表：
-[[http://7b1evr.com1.z0.glb.clouddn.com/WvfC-nxDTMqJ-97899.png]]
+  python 在大数据方面的武器列表：
+  [[http://7b1evr.com1.z0.glb.clouddn.com/WvfC-nxDTMqJ-97899.png]]
 
 *** Ruby
 
@@ -263,12 +263,12 @@ Shell 脚本是解释型的,而不是编译型的。
 + 用 =local= 可将函数内的变量定义为局部变量
 + 用 =declare= 声明变量可以限定其使用范围，常用的两个：
 
-#+BEGIN_SRC shell
+  #+BEGIN_SRC shell
 -a	变量为数组。
 -r	使得变量变为只读。这些变量不能被后来的赋值与语句赋值，同样也不可以 unset。
-#+END_SRC
+  #+END_SRC
 
-- =readonly= 可以定义常量，感觉和 declare -r 差不多
+  - =readonly= 可以定义常量，感觉和 declare -r 差不多
 ***** 流程控制
 ****** 条件
 #+BEGIN_SRC shell
@@ -458,7 +458,7 @@ viewport 应用于响应式网站的开发
 - user-scalable：用户是否可以手动缩 (no,yes)
 - minimal-ui：可以在页面加载时最小化上下状态栏。（已弃用）
 
-注意，很多人使用 initial-scale=1 到非响应式网站上，这会让网站以 100%宽度渲染，用户需要手动移动页面或者缩放。如果和 initial-scale=1 同时使用 user-scalable=no 或 maximum-scale=1，则用户将不能放大/缩小网页来看到全部的内容。
+  注意，很多人使用 initial-scale=1 到非响应式网站上，这会让网站以 100%宽度渲染，用户需要手动移动页面或者缩放。如果和 initial-scale=1 同时使用 user-scalable=no 或 maximum-scale=1，则用户将不能放大/缩小网页来看到全部的内容。
 
 **** http-equiv
 服务器在收发文档时的属性/值
@@ -587,7 +587,7 @@ z-index 只在设置了 postion（即不是 static）的元素上起作用。
 - [[http://es6.ruanyifeng.com/][ECMAScript 6 入门]]
 - [[https://github.com/metagrover/ES6-for-humans][metagrover/ES6-for-humans: A kickstarter guide to writing ES6.]]
 
-babel 的开发者才 16 岁，令人汗颜[[http://babeljs.io/][Babel · The compiler for writing next generation JavaScript]]
+  babel 的开发者才 16 岁，令人汗颜[[http://babeljs.io/][Babel · The compiler for writing next generation JavaScript]]
 
 *** Tips
 tips 其实就是懒得整理的，遇到的各种坑。。。
@@ -707,17 +707,17 @@ cookie 和 session 都用来保存状态
 cookie 是 http 协议的一部分，它的处理分为如下几步：
 
 - 服务器向客户端发送 cookie。
-    + 通常使用 HTTP 协议规定的 set-cookie 头操作。
-    + 规范规定 cookie 的格式为 name = value 格式，且必须包含这部分。
+  + 通常使用 HTTP 协议规定的 set-cookie 头操作。
+  + 规范规定 cookie 的格式为 name = value 格式，且必须包含这部分。
 - 浏览器将 cookie 保存。
 - 每次请求浏览器都会将 cookie 发向服务器。
 
-其他可选的 cookie 参数会影响将 cookie 发送给服务器端的过程，主要有以下几种：
+  其他可选的 cookie 参数会影响将 cookie 发送给服务器端的过程，主要有以下几种：
 
-- path：表示 cookie 影响到的路径，匹配该路径才发送这个 cookie。
-- expires 和 maxAge：告诉浏览器这个 cookie 什么时候过期，expires 是 UTC 格式时间，maxAge 是 cookie 多久后过期的相对时间。当不设置这两个选项时，会产生 session cookie，session cookie 是 transient 的，当用户关闭浏览器时，就被清除。一般用来保存 session 的 session_id。
-- secure：当 secure 值为 true 时，cookie 在 HTTP 中是无效，在 HTTPS 中才有效。
-- httpOnly：浏览器不允许脚本操作 document.cookie 去更改 cookie。一般情况下都应该设置这个为 true，这样可以避免被 xss 攻击拿到 cookie。
+  - path：表示 cookie 影响到的路径，匹配该路径才发送这个 cookie。
+  - expires 和 maxAge：告诉浏览器这个 cookie 什么时候过期，expires 是 UTC 格式时间，maxAge 是 cookie 多久后过期的相对时间。当不设置这两个选项时，会产生 session cookie，session cookie 是 transient 的，当用户关闭浏览器时，就被清除。一般用来保存 session 的 session_id。
+  - secure：当 secure 值为 true 时，cookie 在 HTTP 中是无效，在 HTTPS 中才有效。
+  - httpOnly：浏览器不允许脚本操作 document.cookie 去更改 cookie。一般情况下都应该设置这个为 true，这样可以避免被 xss 攻击拿到 cookie。
 
 *** session
 
@@ -746,7 +746,7 @@ session 可以存放在 1）内存、2）cookie 本身、3）redis 或 memcached
 - [[http://0532.gitbooks.io/nodejs/][the NodeJS]] - 一本关于 nodejs 的文档
 - [[http://blog.fens.me/series-nodejs/][从零开始 nodejs 系列文章]]
 
-[[https://medium.com/yet-another-node-js-blog/architecture-of-node-js-internal-codebase-57cd8376b71f#.1n8qdrg8b][Architecture of Node.js’ Internal Codebase — Yet Another Node.js Blog — Medium]]
+  [[https://medium.com/yet-another-node-js-blog/architecture-of-node-js-internal-codebase-57cd8376b71f#.1n8qdrg8b][Architecture of Node.js’ Internal Codebase — Yet Another Node.js Blog — Medium]]
 
 ** Koa
 koa 和 express 都是基于 connect 的，koa 比 express 稍微轻量一点（其实我觉得差不多），但 koa 最大的两点是 generator。然而随着 ES6 和 ES7 的推出，koa 中这种依靠 generator 的异步方式也渐渐式微，于是推出了 koa2。
@@ -917,7 +917,7 @@ Vim 的宏在进行批量修改时，是神器
 
 *** Use-Package
 #+BEGIN_SRC elisp
-(use-package foo)
+    (use-package foo)
 
 :init 加载 package 之前执行的命令
 :config 加载 package 之后执行的命令
@@ -925,7 +925,7 @@ Vim 的宏在进行批量修改时，是神器
 *** Tips
 If you get an error regarding package downloads then you may try to disable HTTPS protocol by starting Emacs with
 #+BEGIN_SRC shell
-emacs --insecure
+    emacs --insecure
 #+END_SRC
 *** Shortcuts
 
@@ -973,9 +973,9 @@ Elisp 教程：
 - [[http://learnxinyminutes.com/docs/elisp/][Learn elisp in Y minutes]]
 - [[http://smacs.github.io/elisp/][Emacs Lisp 简明教程]]
 
-一些相关网站：
-- [[http://emacsist.com][Emacsist]]
-- [[https://simpletutorials.com/c/3036/Spacemacs+%2528Vim+mode%2529+Cheatsheet][Simple Tutorials]]
+  一些相关网站：
+  - [[http://emacsist.com][Emacsist]]
+  - [[https://simpletutorials.com/c/3036/Spacemacs+%2528Vim+mode%2529+Cheatsheet][Simple Tutorials]]
 
 ** Sublime Text
 
@@ -1031,14 +1031,22 @@ Chrome develop tool 有很多小技巧，之后整理一下
 - [[http://www.commandlinefu.com/commands/browse][命令大全（commandlinefu）]]
 - [[http://linux.chinaitlab.com/special/linuxcom/Index.html][常用命令全集（chinaitlab）]]
 - [[http://www.waterlab.cn/hpc/upload/2010/6/LinuxCommand.pdf][常用命令]]
+
 *** 实验室服务器搭建
+**** 修改网络
+修改 /etc/network/interfaces
+
 **** 用到的命令
 #+BEGIN_SRC shell
-
 uname -r   # display your kernel version
 
 sudo apt-get update   # Update package information
 sudo apt-get install apt-transport-https ca-certificates  # ensure that APT works with the https method, and that CA certificates are installed
+
+echo $SHELL  show default shell
+sudo chsh -s $(which zsh)      设置 zsh 为默认 shell
+
+sudo passwd 用户名       设置该用户密码
 #+END_SRC
 ** Mac OS
 [[https://github.com/jaywcjlove/awesome-mac][jaywcjlove/awesome-mac:  This repo is a collection of awesome Mac applications and tools for developers and designers.]]
@@ -1117,6 +1125,8 @@ redis-cli del `redis-cli keys "user:*"
 #+END_EXAMPLE
 
 来达到同样的效果，但是性能更好。
+** PostgreSQL
+http://blog.everlose.com/mac-homebrew-postgresql.html
 * Algorithm
 ** 经典论文
 - [[http://www.cs.umd.edu/~samir/498/10Algorithms-08.pdf][Top Ten Data Mining Algorithm]]
@@ -1124,14 +1134,14 @@ redis-cli del `redis-cli keys "user:*"
 *** 定义
 图是由顶点的有穷非空集合和顶点之间边的集合组成，通过表示为 G(V,E)，其中，G 标示一个图，V 是图 G 中顶点的集合，E 是图 G 中边的集合。
 
-- 无向图 / 有向图
-- 稀疏图 / 稠密图
-- 完全图 / 有向完全图
-- 度 / 入度 / 出度
-- 连通图 / 强连通图
-- 连通分量 / 强连通分量
+  - 无向图 / 有向图
+  - 稀疏图 / 稠密图
+  - 完全图 / 有向完全图
+  - 度 / 入度 / 出度
+  - 连通图 / 强连通图
+  - 连通分量 / 强连通分量
 
-[[http://images.cnitblog.com/blog/380281/201307/13102548-05ebe5498c9a4954ae1625ef22d19889.png]]
+    [[http://images.cnitblog.com/blog/380281/201307/13102548-05ebe5498c9a4954ae1625ef22d19889.png]]
 
 *** 存储结构
 
@@ -1218,10 +1228,10 @@ K 近邻算法的核心在于找到实例点的邻居，这个时候，问题就
 - 欧氏距离
 - 曼哈顿距离
 **** k 值的选取
-- 如果选择较小的 K 值，就相当于用较小的领域中的训练实例进行预测，“学习”近似误差会减小，只有与输入实例较近或相似的训练实例才会对预测结果起作用，与此同时带来的问题是“学习”的估计误差会增大，换句话说，K 值的减小就意味着整体模型变得复杂，容易发生过拟合；
-- 如果选择较大的 K 值，就相当于用较大领域中的训练实例进行预测，其优点是可以减少学习的估计误差，但缺点是学习的近似误差会增大。这时候，与输入实例较远（不相似的）训练实例也会对预测器作用，使预测发生错误，且 K 值的增大就意味着整体的模型变得简单。
+  - 如果选择较小的 K 值，就相当于用较小的领域中的训练实例进行预测，“学习”近似误差会减小，只有与输入实例较近或相似的训练实例才会对预测结果起作用，与此同时带来的问题是“学习”的估计误差会增大，换句话说，K 值的减小就意味着整体模型变得复杂，容易发生过拟合；
+  - 如果选择较大的 K 值，就相当于用较大领域中的训练实例进行预测，其优点是可以减少学习的估计误差，但缺点是学习的近似误差会增大。这时候，与输入实例较远（不相似的）训练实例也会对预测器作用，使预测发生错误，且 K 值的增大就意味着整体的模型变得简单。
 
-想想 k=1 和 k=N 时的样子
+    想想 k=1 和 k=N 时的样子
 
 **** 分类的方法
 一般用的是投票法（多数表决）
@@ -1249,9 +1259,9 @@ http://blog.crackcell.com/posts/2013/03/31/machine_learning_note_1_knn//kdtree_s
 - [[http://www.sketchcn.com/][Sketch 中文网]]
 - [[http://sketchshortcuts.com/][Keyboard Shortcuts for Sketch App]]
 
-[[https://github.com/geekplux/sketch-learning][geekplux/sketch-learning]]
+  [[https://github.com/geekplux/sketch-learning][geekplux/sketch-learning]]
 
-「共享样式」和「符号」功能很棒
+  「共享样式」和「符号」功能很棒
 ** 贝塞尔曲线
 Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲线。曲线定义：起始点、终止点（也称锚点）、控制点。通过调整控制点，贝塞尔曲线的形状会发生变化。1962 年，法国数学家 Pierre Bézier 第一个研究了这种矢量绘制曲线的方法，并给出了详细的计算公式，因此按照这样的公式绘制出来的曲线就用他的姓氏来命名，称为贝塞尔曲线。
 
@@ -1288,7 +1298,7 @@ When reading a research paper, the following is the essential information that i
 3. 这些好处主要表现在哪些公式的哪些项目的简化上。
    至于整篇论文详细的推导过程，你不需要懂。除了三、五个关键的公式（最后在应用上要使用的公式, 你可以从这里评估出这个方法使用上的方便程度或计算效率，以及在非理想情境下这些公式使用起来的可靠度或稳定性）之外，其它公式都不懂也没关系，公式之间的恒等式推导过程可以完全略过去。假如你要看公式，重点是看公式推导过程中引入的假设条件，而不是恒等式的转换。
 
-但是，在你开始根据前述问题念论文之前，你应该先把这派别所有的论文都拿出来，逐篇粗略地浏览过去（不要勉强自己每篇或每行都弄到懂，而是轻松地读，能懂就懂，不懂就不懂），从中挑出容易念懂的 papers，以及经常被引述的论文。然后把这些论文照时间先后次序依序念下去。
+   但是，在你开始根据前述问题念论文之前，你应该先把这派别所有的论文都拿出来，逐篇粗略地浏览过去（不要勉强自己每篇或每行都弄到懂，而是轻松地读，能懂就懂，不懂就不懂），从中挑出容易念懂的 papers，以及经常被引述的论文。然后把这些论文照时间先后次序依序念下去。
 
 **** 补充：
 
@@ -1343,9 +1353,9 @@ A video visualization pipeline is a data flow pipeline, consisting of a series o
 
 *** 照相机
 **** 投影
-- 透视投影
-- 正交投影
-[[file:images/camera.jpg]]
+  - 透视投影
+  - 正交投影
+    [[file:images/camera.jpg]]
 
 * Complex Network
 ** 2016 第十二届中国网络科学论坛
@@ -1369,8 +1379,8 @@ Web 网络结构从最初的相互连接（泊松分布）到后来的大规模�
 - 无向图中：与节点相连的边的数目
 - 有向图中：出度是从该节点指向其他节点的边的数目，入度与出度相反。
 
-平均度：网络中所有节点的度的平均值
-度分布：网络中度为 k 的节点数占节点总数的比例
+  平均度：网络中所有节点的度的平均值
+  度分布：网络中度为 k 的节点数占节点总数的比例
 **** 小世界效应
 如果网络的平均度固定，平均距离随网络节点数以对数的速度或者慢于对数的速度增长
 **** 无标度特性
@@ -1384,16 +1394,16 @@ Web 网络结构从最初的相互连接（泊松分布）到后来的大规模�
 - 节点的传播影响力与其所处的网络的位置有关
 - 节点的重要性与其网络的结构和功能有关
 
-介数：用于衡量某节点在基于最短路径的路由策略下信息的吞吐量
-介数中心性：网络中节点对最短路径中经过该节点的数目占所有最短路径数的比例
-接近中心性：节点与网络中其他节点最短距离的平均值
+  介数：用于衡量某节点在基于最短路径的路由策略下信息的吞吐量
+  介数中心性：网络中节点对最短路径中经过该节点的数目占所有最短路径数的比例
+  接近中心性：节点与网络中其他节点最短距离的平均值
 
-其他还有：
+  其他还有：
 
-- 特征向量中心性
-- 路由中心性
-- 子图中心性
-- 环中心性
+  - 特征向量中心性
+  - 路由中心性
+  - 子图中心性
+  - 环中心性
 
 **** 群落结构
 群落内部连边密集，群落之间连边很少
@@ -1473,10 +1483,10 @@ Web 网络结构从最初的相互连接（泊松分布）到后来的大规模�
 2. 单根纤维的强度
 3. 你所使用的技巧
 
-两种基本耐力：
+   两种基本耐力：
 
-1. 肌肉耐力
-2. 心肺耐力
+   1. 肌肉耐力
+   2. 心肺耐力
 ** Music Theory
 [[http://www.cnblogs.com/devymex/p/3385179.html][写给理工科人看的乐理（一）声学基础 - Devymex - 博客园]]
 [[https://eev.ee/blog/2016/09/15/music-theory-for-nerds/][Music theory for nerds / fuzzy notepad]]
@@ -1514,9 +1524,9 @@ IT 类：
 - IT 公论
 - teahour.FM
 
-其余的：
+  其余的：
 
-- 聆听古典
+  - 聆听古典
 ** Download Resources
 - [[http://www.torrentkitty.com/][Torrent Kitty]]
 ** 科学上网
@@ -1556,12 +1566,12 @@ docker run -d -p 1984:1984 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 1984 -k
 2. 变现路径二：被收购，通常你的期权也可以变现。当然这里也有几种不同的情况，被现金收购，差不多是可以直接变现的，被上市公司通过换股收购，你的期权变成上市公司的股票或者期权，基本也可以套现，如果是被未上市公司换股收购，那么就还有点曲折，你得等到那家公司的股票可以变现或自由买卖的时候才能变成钱了。
 3. 变现路径三：这种不太常见，所以知道的人不多，那就是公司在进行某一轮融资的时候，和投资人商量，投资人愿意支付一部分现金来收购公司现有的期权。通常投资人愿意这么做，一种可能是公司发展的很不错，为了对早期团队进行激励，回购部分期权；另一种可能是股权结构上的安排，某个投资人希望增大对于公司的持股比例，也会回购。但总之，被回购期权的持有人是套现了。上述套现即使发生，通常也是在公司的至少 C 轮以后的融资行为中，一般套现的比例比较小，覆盖范围是公司高管或是早期员工，因此不是期权变现的主要途径。
 **** 注意事项
-- 你到底拿了多少期权
-- 中途退出就拿不到的期权？
-- 是口头承诺，还是书面确认？
-- 能不能变现，怎么变现
+  - 你到底拿了多少期权
+  - 中途退出就拿不到的期权？
+  - 是口头承诺，还是书面确认？
+  - 能不能变现，怎么变现
 
-参考：[[http://mp.weixin.qq.com/s?__biz=MzIzNzAyNTc2OA==&mid=402875210&idx=1&sn=407a9d6575cbe4b9d1a53049c6e19b47&scene=1&srcid=12130uOjDNOo2CsGB3BVD3iv&key=ac89cba618d2d976c4faf398d872e283b83929d3d0a830161357bac2c160062bddd7194726adb9acdd6d61f22f9467b7&ascene=0&uin=Mzk3ODAxMjk1&devicetype=iMac+MacBookPro11%252C1+OSX+OSX+10.11.1+build(15B42)&version=11020201&pass_ticket=o5w%252FpEZDGDotQF9OORcwug%252BGnVdzt6m9eTj7cYZHBhtj7OqBcQ%252FxhtFjOvgm6NZ5][创业公司的期权陷阱：你到底拿了多少期权？]]
+    参考：[[http://mp.weixin.qq.com/s?__biz=MzIzNzAyNTc2OA==&mid=402875210&idx=1&sn=407a9d6575cbe4b9d1a53049c6e19b47&scene=1&srcid=12130uOjDNOo2CsGB3BVD3iv&key=ac89cba618d2d976c4faf398d872e283b83929d3d0a830161357bac2c160062bddd7194726adb9acdd6d61f22f9467b7&ascene=0&uin=Mzk3ODAxMjk1&devicetype=iMac+MacBookPro11%252C1+OSX+OSX+10.11.1+build(15B42)&version=11020201&pass_ticket=o5w%252FpEZDGDotQF9OORcwug%252BGnVdzt6m9eTj7cYZHBhtj7OqBcQ%252FxhtFjOvgm6NZ5][创业公司的期权陷阱：你到底拿了多少期权？]]
 
 ** 白噪音
 
@@ -1570,9 +1580,9 @@ docker run -d -p 1984:1984 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 1984 -k
 - [[http://www.calm.com/][白噪音]]
 - [[http://www.rainymood.com/][白噪音]]
 
-Mac 上有款软件也非常好用：
+  Mac 上有款软件也非常好用：
 
-- Noizio
+  - Noizio
 ** 在线编辑器
 
 -  [[http://www.zybuluo.com/mdeditor][Cmd Makrdown]]
