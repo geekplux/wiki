@@ -36,13 +36,13 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 *** Computer Science
 [[https://courses.cs.washington.edu/courses/cse351/16sp/index.html][CSE 351 - Spring 2016]]
 *** Programming Languages - University of Washington
-[[https://courses.cs.washington.edu/courses/cse341/16sp/][UW CSE341, Spring 2016 🔊]]
-[[https://www.coursera.org/learn/programming-languages#][Programming Languages, Part A - University of Washington | Coursera 🔊]]
-[[https://www.coursera.org/learn/programming-languages-part-b][Programming Languages, Part B - University of Washington | Coursera 🔊]]
-[[https://www.coursera.org/learn/programming-languages-part-c][Programming Languages, Part C - University of Washington | Coursera 🔊]]
+- [[https://courses.cs.washington.edu/courses/cse341/16sp/][UW CSE341, Spring 2016 🔊]]
+- [[https://www.coursera.org/learn/programming-languages#][Programming Languages, Part A - University of Washington | Coursera 🔊]]
+- [[https://www.coursera.org/learn/programming-languages-part-b][Programming Languages, Part B - University of Washington | Coursera 🔊]]
+- [[https://www.coursera.org/learn/programming-languages-part-c][Programming Languages, Part C - University of Washington | Coursera 🔊]]
 *** Algorithms
-[[https://www.coursera.org/learn/introduction-to-algorithms][Algorithms, Part I - Princeton University | Coursera 🔊]]
-[[https://www.coursera.org/learn/java-data-structures-algorithms-2][Algorithms, Part II - Princeton University | Coursera 🔊]]
+- [[https://www.coursera.org/learn/introduction-to-algorithms][Algorithms, Part I - Princeton University | Coursera 🔊]]
+- [[https://www.coursera.org/learn/java-data-structures-algorithms-2][Algorithms, Part II - Princeton University | Coursera 🔊]]
 
 ** 命令式（imperative）与函数式（functional）语言
 - 程序设计的主流是命令式程序设计，计算基于一组基本操作，在一个环境里进行。操作效果是改变环境的状态，体现在所创建和修改的状态中。
@@ -83,6 +83,7 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 *** Python
 - [[http://hujiaweibujidao.github.io/python/][HujiaweiBujidao Python]] 总结
 - [[https://zhuanlan.zhihu.com/p/21332075][三天搞定 Python - Jiang 的金融窝 - 知乎专栏]]
+- [[https://pythonguidecn.readthedocs.io/zh/latest/][Python 最佳实践指南]]
 **** Python Basic
 ***** OS, System, File
 使用 glob 模块可以用通配符的方式搜索某个目录下的特定文件，返回结果是一个 list
@@ -227,7 +228,9 @@ Web 方面有 Flask, Django 等成熟的框架。
 [[http://www.rafekettler.com/magicmethods.html?utm_campaign=CodeTengu&utm_medium=email&utm_source=CodeTengu_18][A Guide to Python's Magic Methods « rafekettler.com]]
 
 - Numpy
-  学习资源：[[http://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html][Numpy tutorial]]
+  学习资源：
+  - [[http://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html][Numpy tutorial]]
+  - [[http://cs231n.github.io/python-numpy-tutorial/][Python Numpy Tutorial]]
 - Matplotlib
   学习资源：[[http://www.labri.fr/perso/nrougier/teaching/matplotlib/][Matplotlib tutorial]]
 
@@ -1049,7 +1052,8 @@ sudo chsh -s $(which zsh)      设置 zsh 为默认 shell
 sudo passwd 用户名       设置该用户密码
 #+END_SRC
 ** Mac OS
-[[https://github.com/jaywcjlove/awesome-mac][jaywcjlove/awesome-mac:  This repo is a collection of awesome Mac applications and tools for developers and designers.]]
+- [[http://sourabhbajaj.com/mac-setup/index.html][Mac OS X Setup Guide]]
+- [[https://github.com/jaywcjlove/awesome-mac][jaywcjlove/awesome-mac:  This repo is a collection of awesome Mac applications and tools for developers and designers.]]
 
 -  [[http://www.alfredapp.com/][Alfred]] - 替换系统 Spotlight 的免费软件，更美观更强大
 -  [[http://www.alfredworkflow.com/][alfredworkflow]] - 超多的 alfredworkflow
@@ -1322,8 +1326,18 @@ When reading a research paper, the following is the essential information that i
 [[http://jsdatav.is/intro.html][Data Visualization with JavaScript]]
 [[http://flowingdata.com/][FlowingData]]
 
-**  Video Visualization
+** Basic
+*** Visual Process
+pipeline model
+
+data + domain ==> processing | mapping => image
+
+** Video Visualization
 A video visualization pipeline is a data flow pipeline, consisting of a series of functional components, namely video capture ⇒ data communication⇒data management⇒video processing⇒video visualization.
+* Machine Learning
+- [[http://machinelearningmastery.com/machine-learning-roadmap-your-self-study-guide-to-machine-learning/][The Missing Roadmap to Self-Study Machine Learning]]
+- [[https://github.com/ZuzooVn/machine-learning-for-software-engineers][Top-down learning path: Machine Learning for Software Engineers]]
+- [[https://medium.com/@suffiyanz/getting-started-with-machine-learning-f15df1c283ea#.4oun2ghlg][getting-started-with-machine-learning]]
 * Computer Graphics
 ** 图形学概念
 [[http://staff.ustc.edu.cn/~lgliu/Resources/CG/What_is_CG.htm][什么是计算机图形学？]]
