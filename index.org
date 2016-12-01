@@ -1072,6 +1072,41 @@ sudo passwd 用户名       设置该用户密码
 ** Windows
 -  [[http://typeof.net/c/cn-scott-hanselmans-2014-ultimate-developer-and-power-user-s-tool-list-for-windows.html][2014 年软件推荐]] - 写的太全了
 * Database
+** MySQL
+*** 导入 CSV 文件
+MySQL 导入 csv 可以用 LOAD DATA
+
+#+BEGIN_SRC sql
+mysql --local-infile -u user -p
+source <path>/loadcsv.sql
+
+
+LOAD DATA LOCAL INFILE "<file path>"
+INTO TABLE `<table name>`
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+(<col1, col2, col3...>);
+#+END_SRC
+
+之所以要加 =--local-infile= ，是因为会报错： =ERROR 1148 (42000): The used command is not allowed with this MySQL version=
+
+#+BEGIN_QUOTE
+可能原因（from mysql reference manual）：
+If LOAD DATA LOCAL is disabled, either in the server or the client, a client that attempts to issue such a statement receives the following error message:
+ERROR 1148: The used command is not allowed with this MySQL version
+可见，出于安全考虑，默认是不允许从 client host 远程通过 load data 命令导数据的
+解决办法：
+For the mysql command-line client, enable LOAD DATA LOCAL by specifying the --local-infile[=1]option, or disable it with the --local-infile=0 option
+也即，在需要从 client host 导数据的情况下，登陆 mysql 时，需用--local-infile[=1]显式指定参数，典型命令形式为：
+mysql --local-infile -u user -ppasswd
+登陆成功后，执行 load data infile 'filename' into table xxx.xxx 即可
+#+END_QUOTE
+
+导入脚本参考 MySQL 官方文档：
+
+http://dev.mysql.com/doc/refman/5.7/en/load-data.html
+
+
 ** MongoDB
 
 Schema 设计原则：设计数据库 Schema 是在已知数据库系统特性、数据本质以及应用程序需求的情况下为数据集选择最佳表述的过程。
