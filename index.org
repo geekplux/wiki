@@ -84,6 +84,7 @@ This document, my personal wiki which shares my skills mastered and knowledges l
 - [[http://hujiaweibujidao.github.io/python/][HujiaweiBujidao Python]] 总结
 - [[https://zhuanlan.zhihu.com/p/21332075][三天搞定 Python - Jiang 的金融窝 - 知乎专栏]]
 - [[https://pythonguidecn.readthedocs.io/zh/latest/][Python 最佳实践指南]]
+- [[https://pythonprogramming.net/][https://pythonprogramming.net/]]
 **** Python Basic
 ***** OS, System, File
 使用 glob 模块可以用通配符的方式搜索某个目录下的特定文件，返回结果是一个 list
@@ -1310,6 +1311,30 @@ Bézier curve(贝塞尔曲线)是应用于二维图形应用程序的数学曲�
 
 [[http://cubic-bezier.com/#.17,.67,.83,.67][cubic-bezier(.17,.67,.83,.67) ✿ cubic-bezier.com]] 这个网站是用来计算动画中用到的贝塞尔曲线数值的。
 * Research
+** 研究者的任务
+1. 探索和构思新的想法
+2. 将想法付诸实验，检验其是否具有可行性
+3. 将任务 1、2 中得到的研究结果撰写成文稿或者论文，提交给期刊、会议、图书或其他媒介
+4. 评审来自其他研究者的论文或文稿
+5. 管理学术起开的运转，组织学术会议
+6. 参加学术会议，向大会报告论文，学习最新的研究成果，与其他研究者进行讨论，交换想法
+7. 向政府或其他机构申请研究经费，用来支持科研工作的开展和研究生的培养
+8. 指导研究生尤其是博士生的研究，以便他们能在不久的将来成为独立的研究者
+9. 教授研究生和本科生课程
+10. 为所属院系部门和机构做些行政工作
+11. 技术转让或创业
+** 研究者类型
+1. 学术和基础性研究类型
+2. 实验性研究类型
+3. 应用方向和创业类型
+** 博士目标
+1. 成为最好
+2. 成为独立的研究者
+** 一个好的研究问题应具备以下几个条件：
+1. 明显的益处
+2. 描述简单
+3. 尚不具有明确的解法
+4. 解决方案具备可测试性，大问题可以拆分成若干个子问题，能观察到每个子问题的进程
 ** Paper
 [[https://github.com/papers-we-love/papers-we-love][papers-we-love/papers-we-love]]
 *** 如何阅读论文
