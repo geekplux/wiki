@@ -248,9 +248,14 @@ Ruby 是一门纯面向对象语言。在 Ruby 中，一切皆为对象。
 - 每个函数都会返回结果。如果你没有显式指定某个返回值，函数就将返回退出函数前最后处理的表达式的值。
 **** links
 
--  [[http://saito.im/slide/ruby-new.html][Ruby 语言新手教程]]
--  [[https://ihower.tw/rails4/index.html][Ruby on Rails 實戰聖經]]
--  [[http://guides.ruby-china.org][Ruby on Rails 指南]]
+- [[http://saito.im/slide/ruby-new.html][Ruby 语言新手教程]]
+- [[https://ihower.tw/rails4/index.html][Ruby on Rails 實戰聖經]]
+- [[http://guides.ruby-china.org][Ruby on Rails 指南]]
+
+**** 导入 CSV 文件
+刚开始用了 ruby 自带的 CSV 库，后来用了 [[https://github.com/tilo/smarter_csv][tilo/smarter_csv: Ruby Gem for smarter importing of CSV Files as Array(s) of Hashes, with optional features for processing large files in parallel, embedded comments, unusual field- and record-separators, flexible mapping of CSV-headers to Hash-keys]]
+然而还是特别慢（可能因为我数据量巨大，一个 CSV 文件大概 1G），不过后者比前者的速度确实快了不少。
+另外 ruby-china 有个帖子对导入大文件有过分析，挺不错的：[[https://ruby-china.org/topics/31444][使用 Ruby 处理大型 CSV 文件 · Ruby China]]
 
 *** Shell
 **** Shell 编程
@@ -383,6 +388,9 @@ cmd_exists() {
 *** Haskell
 - [[http://book.realworldhaskell.org/read/][Real World Haskell]]
 - [[https://www.gitbook.com/book/mno2/learnyouahaskell-zh/details][Haskell 趣學指南 - GitBook]]
+*** Go
+- [[https://gobyexample.com/][Go by Example]]
+- [[https://gowebexamples.github.io/][Go Web Examples]]
 ** Code Game
 
 -  [[http://www.codewars.com/][codewars]]
@@ -393,6 +401,8 @@ cmd_exists() {
 [[http://deerchao.net/tutorials/regex/regex.htm][正则表达式 30 分钟入门教程]]
 [[http://regexone.com/][RegexOne - Learn Regular Expressions - Lesson 1: An Introduction, and the ABCs]]
 [[https://msdn.microsoft.com/zh-cn/library/az24scfc.aspx][正则表达式语言 - 快速参考]]
+** Design Patterns
+- [[https://github.com/kamranahmedse/design-patterns-for-humans][kamranahmedse/design-patterns-for-humans: Design Patterns for Humans™ - An ultra-simplified explanation]]
 * Web
 - [[https://developer.mozilla.org/zh-CN/learn#][学习如何制作网站]]
 - [[http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/][浏览器的工作原理]]
@@ -401,6 +411,7 @@ cmd_exists() {
 - [[https://developers.google.com/web/fundamentals/][Google Web Fundamentals]]
 - [[https://github.com/dypsilon/frontend-dev-bookmarks][一大波前端资源]]
 - [[http://coderlmn.github.io/code-standards/][前端代码规范 及 最佳实践]]
+- [[http://taobaofed.org/blog/2017/02/16/a-guide-to-api-design/][从达标到卓越 —— API 设计之道 | Taobao FED | 淘宝前端团队]]
 
 ** HTML&CSS
 
@@ -1381,16 +1392,19 @@ When reading a research paper, the following is the essential information that i
 **** 参考文献：
 - Laramee, R. S. (2011). How to read a visualization research paper: Extracting the essentials. IEEE Computer Graphics and Applications, 31(3), 78–82. http://doi.org/10.1109/MCG.2011.44
 - 彭明辉 研究所新生完全求生手册
+** Math
+- [[http://students.brown.edu/seeing-theory/][Seeing Theory]]
 * Visualization
-[[http://www.cs.ubc.ca/~tmm/vadbook/][Visualization Analysis and Design]]
-[[http://jsdatav.is/intro.html][Data Visualization with JavaScript]]
-[[http://flowingdata.com/][FlowingData]]
+- [[http://courses.cs.washington.edu/courses/cse512/16sp/][CSE512: Data Visualization]]
+- [[http://www.cs.ubc.ca/~tmm/vadbook/][Visualization Analysis and Design]]
+- [[http://jsdatav.is/intro.html][Data Visualization with JavaScript]]
+- [[http://flowingdata.com/][FlowingData]]
+
 
 ** Basic
-*** Visual Process
-pipeline model
-
-data + domain ==> processing | mapping => image
+- [[http://geekplux.com/2017/01/01/basics-of-data-visualization-the-process-model.html][数据可视化基础——可视化流程 | GeekPlux]]
+- [[http://geekplux.com/2017/01/02/basics-of-data-visualization-data-model.html][数据可视化基础——数据模型 | GeekPlux]]
+- [[http://geekplux.com/2017/01/03/basics-of-data-visualization-visual-encoding-principles.html][数据可视化基础——视觉编码 | GeekPlux]]
 
 ** Video Visualization
 A video visualization pipeline is a data flow pipeline, consisting of a series of functional components, namely video capture ⇒ data communication⇒data management⇒video processing⇒video visualization.
@@ -1399,6 +1413,7 @@ A video visualization pipeline is a data flow pipeline, consisting of a series o
 - [[https://github.com/ZuzooVn/machine-learning-for-software-engineers][Top-down learning path: Machine Learning for Software Engineers]]
 - [[https://medium.com/@suffiyanz/getting-started-with-machine-learning-f15df1c283ea#.4oun2ghlg][getting-started-with-machine-learning]]
 * Computer Graphics
+- [[http://www.cppblog.com/lai3d/archive/2008/12/30/70796.html][图形学扫盲--(4)3D 图形学的学习策略 - 重剑无锋，大巧不工 - C++博客]]
 ** 图形学概念
 [[http://staff.ustc.edu.cn/~lgliu/Resources/CG/What_is_CG.htm][什么是计算机图形学？]]
 [[http://staff.ustc.edu.cn/~lgliu/Resources/CG/Math_for_CG_Turk_CN.htm][数学在计算机图形学中的应用]]
