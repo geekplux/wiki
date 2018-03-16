@@ -711,6 +711,65 @@ Webpack 最大的特点是可以打包一切资源，包括 css, html, 图片等
 - output
 - module
 
+** SVG
+**** 版本解析
+目前大多用的是 SVG 1.1，SVG 2.0 还在制作中（https://www.w3.org/TR/SVG2/）。Svg 的 version 属性可以声明版本，类似 html 的 doctype。
+
+**** 使用方式
+Svg 在 html 文件声明 类型为 application/xhtml+xml 时可以直接插入 html 代码中。还可以用 object，iframe，img（firefox 4.0 版本以下不支持） 标签来嵌入
+
+**** 文件格式
+Svg 文件一般以 .svg 结尾，压缩版为.svgz
+
+**** 网格
+[[https://developer.mozilla.org/@api/deki/files/78/=Canvas_default_grid.png][https://developer.mozilla.org/@api/deki/files/78/=Canvas_default_grid.png]]
+左上角为(0,0)，像素为单位
+用户单位和屏幕单位的映射关系被称为用户坐标系统。除了缩放之外，坐标系统还可以旋转、倾斜、翻转。默认的用户坐标系统 1 用户像素等于设备上的 1 像素（但是设备上可能会自己定义 1 像素到底是多大）。
+
+**** 像素
+Svg 中的 1 像素默认是对应输出设备的 1 像素，svg 也能用绝对单位比如 cm，pt，in 等。
+Viewbox 属性是改变 svg 的显示区域
+http://www.zhangxinxu.com/wordpress/2014/08/svg-viewport-viewbox-preserveaspectratio/
+
+
+**** 基本形状
+
+#+BEGIN_SRC html
+<?xml version="1.0" standalone="no"?>
+<svg width="200" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+  <rect x="10" y="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5"/>
+  <rect x="60" y="10" rx="10" ry="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5"/>
+
+  <circle cx="25" cy="75" r="20" stroke="red" fill="transparent" stroke-width="5"/>
+  <ellipse cx="75" cy="75" rx="20" ry="5" stroke="red" fill="transparent" stroke-width="5"/>
+
+  <line x1="10" x2="50" y1="110" y2="150" stroke="orange" fill="transparent" stroke-width="5"/>
+  <polyline points="60 110 65 120 70 115 75 130 80 125 85 140 90 135 95 150 100 145"
+      stroke="orange" fill="transparent" stroke-width="5"/>
+
+  <polygon points="50 160 55 180 70 180 60 190 65 205 50 195 35 205 40 190 30 180 45 180"
+      stroke="green" fill="transparent" stroke-width="5"/>
+
+  <path d="M20,230 Q40,205 50,230 T90,230" fill="none" stroke="blue" stroke-width="5"/>
+</svg>
+#+END_SRC
+
+
+<path> 比较复杂，具体看
+https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial/Paths
+https://www.w3cplus.com/svg/svg-path.html
+
+path 元素的形状是通过属性 d 定义的，属性 d 的值是一个“命令+参数”的序列，我们将讲解这些可用的命令，并且展示一些示例。
+每一个命令都用一个关键字母来表示，比如，字母“M”表示的是“Move to”命令，当解析器读到这个命令时，它就知道你是打算移动到某个点。跟在命令字母后面的，是你需要移动到的那个点的 x 和 y 轴坐标。比如移动到(10,10)这个点的命令，应该写成“M 10 10”。这一段字符结束后，解析器就会去读下一段命令。每一个命令都有两种表示方式，一种是用大写字母，表示采用绝对定位。另一种是用小写字母，表示采用相对定位（例如：从上一个点开始，向上移动 10px，向左移动 7px）。
+因为属性 d 采用的是用户坐标系统，所以不需标明单位。在后面的教程中，我们会学到如何让变换路径，以满足更多需求。
+
+
+**** fill 和 stroke
+关于填充和边框的属性，包括 fill-rule，用于定义如何给图形重叠的区域上色；stroke-miterlimit，定义什么情况下绘制或不绘制边框连接的 miter 效果；还有 stroke-dashoffset，定义虚线开始的位置
+
+**** 坐标系
+http://www.zhangxinxu.com/wordpress/2015/10/understand-svg-transform/
 ** Canvas
 [[http://joshondesign.com/p/books/canvasdeepdive/toc.html][‎joshondesign.com/p/books/canvasdeepdive/toc.html]]
 ** cookie & session
@@ -1545,6 +1604,49 @@ Web 网络结构从最初的相互连接（泊松分布）到后来的大规模�
 [[http://www.mohu.org/info/lshort-cn.pdf][‎www.mohu.org/info/lshort-cn.pdf]]
 [[http://attach3.bdwm.net/attach/boards/MathTools/M.1364651898.A/tex_intro_talk.pdf][‎attach3.bdwm.net/attach/boards/MathTools/M.1364651898.A/tex_intro_talk.pdf]]
 [[http://math.nju.edu.cn/~meijq/tex/lnotes.pdf][‎math.nju.edu.cn/~meijq/tex/lnotes.pdf]]
+
+#+BEGIN_SRC latex
+\setmainfont{Times New Roman}%缺省英文字体.serif 是有衬线字体 sans serif 无衬线字体
+\setCJKmainfont[ItalicFont={Kai}, BoldFont={Hei}]{STSong}%衬线字体 缺省中文字体为
+\setCJKsansfont{STSong}
+\setCJKmonofont{STFangsong}%中文等宽字体
+%-----------------------xeCJK 下设置中文字体------------------------------%
+\setCJKfamilyfont{song}{SimSun}                             %宋体 song
+\newcommand{\song}{\CJKfamily{song}}
+\setCJKfamilyfont{fs}{FangSong_GB2312}                      %仿宋 2312 fs
+\newcommand{\fs}{\CJKfamily{fs}}
+\setCJKfamilyfont{yh}{Microsoft YaHei}                    %微软雅黑 yh
+\newcommand{\yh}{\CJKfamily{yh}}
+\setCJKfamilyfont{hei}{SimHei}                              %黑体  hei
+\newcommand{\hei}{\CJKfamily{hei}}
+\setCJKfamilyfont{hwxh}{STXihei}                                %华文细黑  hwxh
+\newcommand{\hwxh}{\CJKfamily{hwxh}}
+\setCJKfamilyfont{asong}{Adobe Song Std}                        %Adobe 宋体  asong
+\newcommand{\asong}{\CJKfamily{asong}}
+\setCJKfamilyfont{ahei}{Adobe Heiti Std}                            %Adobe 黑体  ahei
+\newcommand{\ahei}{\CJKfamily{ahei}}
+\setCJKfamilyfont{akai}{Adobe Kaiti Std}                            %Adobe 楷体  akai
+\newcommand{\akai}{\CJKfamily{akai}}
+
+
+
+
+
+
+%------------------------------设置字体大小------------------------%
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}     %初号
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont} %小初号
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}      %一号
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}      %二号
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}  %小二号
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}  %三号
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}         %四号
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}  %小四号
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}    %五号
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}   %小五号
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}  %六号
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}    %七号
+#+END_SRC
 * 日本语学习
 
 日语由两部分构成：假名、真名（汉字）
