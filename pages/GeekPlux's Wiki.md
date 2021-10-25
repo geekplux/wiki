@@ -1,2 +1,0 @@
-- [[Howto]]
-- [[Wiki (archive version)]]

@@ -167,7 +167,7 @@
  :ref/linked-references-collapsed-threshold 50
  :publishing/all-pages-public? true
  :feature/enable-journals? false
- :default-home {:page "GeekPlux's Wiki"}
+ :default-home {:page "GeekPlux Wiki"}
  :favorites []
  :preferred-format :markdown
 
