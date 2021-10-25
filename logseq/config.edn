@@ -167,8 +167,9 @@
  :ref/linked-references-collapsed-threshold 50
  :publishing/all-pages-public? true
  :feature/enable-journals? false
- :default-home {:page "GeekPlux's Wiki" :sidebar "Contents"}
+ :default-home {:page "GeekPlux's Wiki"}
  :favorites []
+ :preferred-format :markdown
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
