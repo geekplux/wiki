@@ -1,5 +1,3 @@
-- {{youtube https://youtu.be/QV-x1tK7U4w}} Ankle Exercises for Strength & Mobility (Bulletproof Ankles)
-  {{youtube-timestamp 88}} STRETCH
 - Draft 写于爬山途中
   热身睡眠充足
   吃饱 防止低血糖

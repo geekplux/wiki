@@ -1,0 +1,3 @@
+- English is a contextual language whereas many Eastern Languages are tonal languages. English is not a phonetic language.
+  **So listening is like pattern recognition.**
+- It is beneficial for you to keep listening to many different accents. Familiarity will help fine-tune your listening skills for understanding different cultures. You will be able to improve your understanding of similar-sounding or mispronounced words by knowing the context of the conversation. As you know  You need to listen to audio podcasts, audiobooks, or native English speakers as often as possible, preferably for at least 15 to 30 minutes each day.
