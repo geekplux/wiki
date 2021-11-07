@@ -1,8 +1,10 @@
 - **Blog** https://geekplux.com
-  **Bio** https://geekplux.bio.link
 -
-- [[Howto]]
-- [[Running]]
+- [[Web]]
+- [[Running & Hike]]
 - [[English]]
 - [[Algorithm]]
+- [[Emigration]]
+- [[Weekly]]
+- [[Podcasts]]
 - [[Wiki (archive version)]]
