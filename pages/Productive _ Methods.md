@@ -1,0 +1,3 @@
+- [[Learning Method]]
+- [[Information]]
+- [[Luck]]

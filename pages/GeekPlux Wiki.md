@@ -1,5 +1,10 @@
-- **Blog** https://geekplux.com
+- **Blog** https://geekplux.me
+- **中文博客** https://geekplux.com
+- bio https://geekplux.bio.link
 -
+-
+- [[Productive | Methods]]
+- [[Knowledge]]
 - [[Web]]
 - [[Running & Hike]]
 - [[English]]
@@ -7,4 +12,5 @@
 - [[Emigration]]
 - [[Weekly]]
 - [[Podcasts]]
+-
 - [[Wiki (archive version)]]
