@@ -3,7 +3,7 @@
 - bio https://geekplux.bio.link
 -
 -
-- [[Productive | Methods]]
+- [[Productive]]
 - [[Knowledge]]
 - [[Web]]
 - [[Running & Hike]]
@@ -14,5 +14,5 @@
 - [[Emigration]]
 - [[Weekly]]
 - [[Podcasts]]
--
+- [[Design]]
 - [[Wiki (archive version)]]

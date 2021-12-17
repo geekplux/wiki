@@ -1,0 +1,24 @@
+- ### Phone
+	- iPhone (currently using iPhone 12 mini)
+	- Nokia 800 tough
+	- Mi CC9
+- ### Working
+  id:: 61bcaa34-067f-4613-b634-02167ba23dd1
+	- Computer
+		- Macbook Pro 13-inch 2020
+	- Mouse: Logitech Master 3
+	- Keyboard
+		- HHKB
+		- Logitech K380
+	- Screens:
+		- KOIOS 2721UD
+	- Charger
+		- ZMI GaN 65W
+- ### Photography
+	- Insta360 Go 2
+	- DJI mini 2
+	- DJI pocket 2
+	- Canon 200D
+- ### Reading
+	- iPad
+	- Kindle

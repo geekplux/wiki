@@ -1,0 +1,16 @@
+- ### Why
+	- Writing is a process of thinking
+	- Teaching is the best way to learn
+- ### What
+	- Write evergreen content
+	- Write something you can later use as a reference
+- ### How
+	- Share the learning at a sustainable pace
+		- Show the growth process on your blog
+			- This digital garden mindset can be helpful for getting comfortable with sharing more content without getting too caught up in details and never being quite ready to hit publish. [My blog is a digital garden, not a blog](https://joelhooks.com/digital-garden)
+		- The beginner's perspective is usually novel, so don't be afraid to write when you're beginner.
+	- [The Ultimate Guide to Writing Online](https://perell.com/essay/the-ultimate-guide-to-writing-online/)
+		- Two things your blog should have:
+			- A Start Here page
+			- A curated list of your favorite articles
+		- Re-package your existing work
