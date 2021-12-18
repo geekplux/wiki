@@ -1,11 +1,14 @@
 - ### Why
 	- Writing is a process of thinking
 	- Teaching is the best way to learn
+	- [为什么你应该（从现在开始就）写博客](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)
+	- [为什么文章写得好的人都很厉害](https://geekplux.com/posts/why-those-who-write-great-articles-is-so-powerful)
 - ### What
 	- Write evergreen content
 	- Write something you can later use as a reference
 - ### How
-	- Share the learning at a sustainable pace
+	- Share the learning at a **sustainable pace**
+		- Keep writing, regularly, consistently [How To Achieve Ultimate Blog Success In One Easy Step](https://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/)
 		- Show the growth process on your blog
 			- This digital garden mindset can be helpful for getting comfortable with sharing more content without getting too caught up in details and never being quite ready to hit publish. [My blog is a digital garden, not a blog](https://joelhooks.com/digital-garden)
 		- The beginner's perspective is usually novel, so don't be afraid to write when you're beginner.
@@ -14,3 +17,8 @@
 			- A Start Here page
 			- A curated list of your favorite articles
 		- Re-package your existing work
+	- Rules and Tips
+		- Shorter sentences, simpler words.
+		- Pretend to write to one person.
+		- Edit after writing with different layout, format, or environment.
+	- [写文章的小技巧](https://geekplux.com/posts/writing-skills)
