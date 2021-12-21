@@ -7,3 +7,5 @@
   {{youtube-timestamp 88}} STRETCH #running
 - Pose Running
   ^^**Pose -> Fall -> Pull**^^
+- ### Measurement
+  {{embed ((61c1d421-e709-44d4-a77e-c686731f6cb5)) }}

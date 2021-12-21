@@ -8,17 +8,23 @@
 		- Macbook Pro 13-inch 2020
 	- Mouse: Logitech Master 3
 	- Keyboard
-		- HHKB
+		- [HHKB](https://youtu.be/K2GN_LY3Jjw)
 		- Logitech K380
 	- Screens:
 		- KOIOS 2721UD
 	- Charger
 		- ZMI GaN 65W
+	- Router
+		- LINKSYS mesh
 - ### Photography
-	- Insta360 Go 2
-	- DJI mini 2
+	- [Insta360 Go 2](https://youtu.be/gzycSGDScfQ)
+	- [DJI mini 2](https://youtu.be/ykj3ZToXRMA)
 	- DJI pocket 2
 	- Canon 200D
 - ### Reading
 	- iPad
 	- Kindle
+- ### Performance
+  id:: 61c1d421-e709-44d4-a77e-c686731f6cb5
+	- Apple Watch
+	- Garmin Enduro

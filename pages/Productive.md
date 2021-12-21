@@ -1,5 +1,7 @@
 - [[Learning Method]]
+- [[Reading Method]]
 - [[Information]]
 - [[Luck]]
 - [[Writing]]
 - [[Tools]]
+- [[Digital Devices]]

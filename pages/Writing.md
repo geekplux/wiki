@@ -1,7 +1,13 @@
 - ### Why
 	- Writing is a process of thinking
 	- Teaching is the best way to learn
-	- [为什么你应该（从现在开始就）写博客](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)
+	- Writing is the most scalable professional networking activity
+	  > Writing is the most scalable professional networking activity – stay home, don’t go to events/conferences, and just put ideas down -[10 years of professional blogging – what I’ve learned](https://andrewchen.com/professional-blogging/)
+	- You don't need to be ready
+		- Show the growth process on your blog
+			- This digital garden mindset can be helpful for getting comfortable with sharing more content without getting too caught up in details and never being quite ready to hit publish. [My blog is a digital garden, not a blog](https://joelhooks.com/digital-garden)
+		- The beginner's perspective is usually novel, so don't be afraid to write when you're beginner.
+		- [为什么你应该（从现在开始就）写博客](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)
 	- [为什么文章写得好的人都很厉害](https://geekplux.com/posts/why-those-who-write-great-articles-is-so-powerful)
 - ### What
 	- Write evergreen content
@@ -9,9 +15,6 @@
 - ### How
 	- Share the learning at a **sustainable pace**
 		- Keep writing, regularly, consistently [How To Achieve Ultimate Blog Success In One Easy Step](https://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/)
-		- Show the growth process on your blog
-			- This digital garden mindset can be helpful for getting comfortable with sharing more content without getting too caught up in details and never being quite ready to hit publish. [My blog is a digital garden, not a blog](https://joelhooks.com/digital-garden)
-		- The beginner's perspective is usually novel, so don't be afraid to write when you're beginner.
 	- [The Ultimate Guide to Writing Online](https://perell.com/essay/the-ultimate-guide-to-writing-online/)
 		- Two things your blog should have:
 			- A Start Here page
@@ -21,4 +24,6 @@
 		- Shorter sentences, simpler words.
 		- Pretend to write to one person.
 		- Edit after writing with different layout, format, or environment.
+		- Edit by reading out loud
+		  > The other benefit of reading out loud is to render the rhythm of your writing audible. Where in a block of text can you pause to take a breath, and where do you go breathless? The cadence of breathing and speaking tends to mimic the frequency of the brain's ability to process words and sentences.  -[The rhythm of writing](https://www.eugenewei.com/blog/2017/7/20/the-rhythm-of-writing)
 	- [写文章的小技巧](https://geekplux.com/posts/writing-skills)

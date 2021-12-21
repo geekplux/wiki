@@ -4,3 +4,5 @@
 - [[English]]
 - [[Computer Graphics]]
 - [[vlog]]
+- [[newsletter platform]]
+- [[Social]]
