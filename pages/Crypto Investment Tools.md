@@ -1,0 +1,7 @@
+- https://app.1inch.io
+- https://autofarm.network/
+- https://compound.finance/
+- https://coinlist.co/
+- https://pancakeswap.finance/
+- https://uniswap.org/
+- https://coinmarketcap.com/

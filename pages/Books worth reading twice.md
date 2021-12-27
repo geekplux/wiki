@@ -1,0 +1,2 @@
+- Show Your Work!
+- Principles
