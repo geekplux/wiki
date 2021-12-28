@@ -1,7 +1,7 @@
 - **Blog** https://geekplux.me
 - **中文博客** https://geekplux.com
 - bio https://geekplux.bio.link
-- 我自己写的周刊 - [点此订阅](https://geekplux.zhubai.love)
+- 我自己写的[周刊](https://geekplux.com/newsletters) - [点此订阅](https://geekplux.zhubai.love)
 -
 -
 - [[Productive]]
