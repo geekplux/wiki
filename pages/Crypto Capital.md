@@ -1,2 +1,3 @@
 - [[Crypto Investment Tools]]
 - [[BlockChain]]
+- [[Crypto Investment]]

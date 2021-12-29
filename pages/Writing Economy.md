@@ -1,0 +1,2 @@
+- [The Rise of Media-First Investors](https://neckar.substack.com/p/the-rise-of-media-first-investors-6b0)
+- [Million Dollar Newsletter](https://theflywheel.substack.com/p/not-boring-packy-m) - An analysis of creator economy through [Not Boring](https://www.notboring.co)

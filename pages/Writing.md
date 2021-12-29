@@ -1,3 +1,4 @@
+- [[Writing Economy]]
 - ### Why
 	- Writing is a process of thinking
 	- Teaching is the best way to learn

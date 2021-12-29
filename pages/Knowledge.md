@@ -7,3 +7,4 @@
 - [[newsletter platform]]
 - [[Social]]
 - [[BlockChain]]
+- [[Economy]]

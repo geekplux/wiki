@@ -1,2 +1,2 @@
-- [[Web3.0]]
+- [[Web3]]
 - [[BlockChain Programming]]
