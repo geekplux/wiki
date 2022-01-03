@@ -12,3 +12,7 @@
 	- https://github.com/microlinkhq/cards
 	  id:: 61890b71-0a24-42ba-b030-d49d734694b8
 	- https://github.com/vercel/og-image
+- ### Resources
+	- [CSS Layout Generator](https://layout.bradwoods.io)
+	- [Free Landing Page Templates for Startups](https://uisual.com)
+	- [Whirl](https://whirl.netlify.app) - CSS loading animation lib

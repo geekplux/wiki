@@ -1,0 +1,17 @@
+- ## Entertainment
+	- Netflix
+	- Disney+
+	- PS Plus
+	- YouTube Premium
+	- Spotify
+- ## Storage
+	- iCloud (max)
+	- Google One (max)
+- ## Create
+	- Adobe Lightroom + Photoshop
+	- Procreate
+	- Drafts Pro
+	- Day One
+	- Office 365
+- ## Utils
+	- 1Password

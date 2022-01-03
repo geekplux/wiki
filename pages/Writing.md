@@ -1,19 +1,20 @@
 - [[Writing Economy]]
-- ### Why
-	- Writing is a process of thinking
+- ## Why
+	- Writing is a process of thinking, writing well is thinking well
 	- Teaching is the best way to learn
 	- Writing is the most scalable professional networking activity
 	  > Writing is the most scalable professional networking activity – stay home, don’t go to events/conferences, and just put ideas down -[10 years of professional blogging – what I’ve learned](https://andrewchen.com/professional-blogging/)
+	- Remix or reuse. The words you publish now are the seeds of your future projects
 	- You don't need to be ready
 		- Show the growth process on your blog
 			- This digital garden mindset can be helpful for getting comfortable with sharing more content without getting too caught up in details and never being quite ready to hit publish. [My blog is a digital garden, not a blog](https://joelhooks.com/digital-garden)
 		- The beginner's perspective is usually novel, so don't be afraid to write when you're beginner.
 		- [为什么你应该（从现在开始就）写博客](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)
 	- [为什么文章写得好的人都很厉害](https://geekplux.com/posts/why-those-who-write-great-articles-is-so-powerful)
-- ### What
+- ## What
 	- Write evergreen content
 	- Write something you can later use as a reference
-- ### How
+- ## How
 	- Share the learning at a **sustainable pace**
 		- Keep writing, regularly, consistently [How To Achieve Ultimate Blog Success In One Easy Step](https://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/)
 	- [The Ultimate Guide to Writing Online](https://perell.com/essay/the-ultimate-guide-to-writing-online/)
@@ -27,4 +28,10 @@
 		- Edit after writing with different layout, format, or environment.
 		- Edit by reading out loud
 		  > The other benefit of reading out loud is to render the rhythm of your writing audible. Where in a block of text can you pause to take a breath, and where do you go breathless? The cadence of breathing and speaking tends to mimic the frequency of the brain's ability to process words and sentences.  -[The rhythm of writing](https://www.eugenewei.com/blog/2017/7/20/the-rhythm-of-writing)
-	- [写文章的小技巧](https://geekplux.com/posts/writing-skills)
+		- [写文章的小技巧](https://geekplux.com/posts/writing-skills)
+	- #### How to write fast
+		- Build a note-taking system. Having a second brain is the best way to leverage the thinking you have done. Instead of writing from scratch, you can create an outline by your notes.
+		- Talking several minutes before writing, which forces you structure your ideas.
+	- #### How to get ideas
+		- Pull from old and under-valued ideas instead of newest or latest hot points
+		- Find things that don't make sense, unintentionally
