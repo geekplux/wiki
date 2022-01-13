@@ -1,2 +1,1 @@
-- https://danwang.co/2021-letter/
--
+- {{embed ((61dd0d97-d4fa-4ae4-9ada-9a79bd5a1420))}}

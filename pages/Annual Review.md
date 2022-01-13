@@ -1,0 +1,1 @@
+- How to write annual review https://twitter.com/daretorant/status/1472721834839724035

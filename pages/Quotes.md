@@ -21,3 +21,4 @@ id:: 61c20156-a97e-4e34-861e-a096be2f239e
   If you want to know more, you are alive. 
   
   https://www.goodreads.com/quotes/413221-if-you-are-you-breathe-if-you-breathe-you-talk
+- > Don’t tell anybody what your next move is. Just do it and shock them. And after shocking them, stay silent and plan your next move. And make it happen. Just keep shocking. Keep Enjoying. Keep Repeating it.

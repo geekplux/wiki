@@ -9,3 +9,4 @@
 - [[BlockChain]]
 - [[Economy]]
 - [[China]]
+- [[Second Brain]]

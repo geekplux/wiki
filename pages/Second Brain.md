@@ -1,0 +1,1 @@
+- [Building a Second Brain: An Overview](https://fortelabs.co/blog/basboverview/)
