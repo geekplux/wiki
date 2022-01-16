@@ -10,3 +10,4 @@
 - [[Economy]]
 - [[China]]
 - [[Second Brain]]
+- [[Medical]]
