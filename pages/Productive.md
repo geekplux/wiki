@@ -9,3 +9,6 @@
 - [[Service I subscribed]]
 - [[Summary]]
 - [[Twitter Operating]]
+- [[Weekly]]
+- [[Podcasts]]
+- [[Design]]

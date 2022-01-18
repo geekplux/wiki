@@ -15,4 +15,5 @@
 - ### Resources
 	- [CSS Layout Generator](https://layout.bradwoods.io)
 	- [Free Landing Page Templates for Startups](https://uisual.com)
+	- [CSS Gradient Generator](https://www.joshwcomeau.com/gradient-generator/)
 	- [Whirl](https://whirl.netlify.app) - CSS loading animation lib

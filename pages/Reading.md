@@ -3,3 +3,4 @@
 - [[Poetry 诗]]
 - [[Reading Method]]
 - [[Worthwhile Read]]
+- [[Weekly]]

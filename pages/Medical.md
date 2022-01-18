@@ -1,1 +1,1 @@
-- [[Eczema 湿疹]]
+- [[Eczema]]

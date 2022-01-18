@@ -11,3 +11,8 @@
 - [[China]]
 - [[Second Brain]]
 - [[Medical]]
+- [[Courses]]
+- [[Finance]]
+- [[Emigration]]
+- [[Business]]
+- [[Philosophy]]

@@ -1,4 +1,5 @@
 - [[超跑笔记]]
+- [超跑笔记 | 词汇表](https://hupili.net/article/ultra-notes-taxonomy/)
 - {{embed [[Barefoot Running]]}}
 - [[Running Shoes]]
 - [[how to hike like a pro]]
