@@ -1,0 +1,21 @@
+- ## Preparation
+	- ### Gear
+		- Running vest/ Trail Running Bag
+		- Head lamp
+		- Sports Watch
+		- Charger
+		- Trekking Pole
+		- Water bladder
+		- Energy Gel / Energy Bar
+		- Emergency blanket
+		- Junk bag
+		- Sunscreen
+		- ID Card
+		- #### Clothes
+			- Visor、cap
+			- Sunglasses
+			- Gloves
+			- Wind breaker
+			- Waterproof running jacket
+			- Sweatshirt
+			- Running shorts

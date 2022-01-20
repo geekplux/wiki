@@ -1,4 +1,6 @@
 - ## Online (MOOC)
+	- https://online.stanford.edu
+	- https://ocw.mit.edu/index.htm
 - ## By Newsletter
 	- [Write of Passage Course](https://perell.com/write-of-passage-course/) - Accelerate Your Career By Writing Online
 	- [30 Days to Better Habits](https://jamesclear.com/30-days) - A course by James Clear, the author of Atomic Habits.  A simple step-by-step guide for forming habits that stick. - [The Thinner Book: Atomic Habits by James Clear](https://www.chrisbehan.ca/posts/atomic-habits)
