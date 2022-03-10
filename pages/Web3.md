@@ -10,3 +10,5 @@
 		- 无法篡改所有权，就是东西一旦被记录在案（写到了区块链上），就没办法再改，谁都不能改
 		- 映射，以前的东西，例如文字、音频、视频都是存在数据库里的，未来可能存在某种链上或新技术上，然后用区块链将其映射起来（因为存储和计算可能是不同的链）。
 	- [web3 is Centralized](https://blog.wesleyac.com/posts/web3-centralized) - and the [discussion](https://news.ycombinator.com/item?id=29766497) on HackerNews for this article.
+- ### Web3 and Creator
+	- [Web3 如何影响创作者](https://thequibbler.zhubai.love/posts/2097264094846414848)

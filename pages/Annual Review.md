@@ -1,1 +1,2 @@
 - How to write annual review https://twitter.com/daretorant/status/1472721834839724035
+- ![2021-reflection-guide.pdf](../assets/2021-reflection-guide_1644128892481_0.pdf) - how to reflect your past year

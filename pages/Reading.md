@@ -4,3 +4,4 @@
 - [[Reading Method]]
 - [[Worthwhile Read]]
 - [[Weekly]]
+- [[What I read Daily]]

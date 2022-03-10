@@ -684,10 +684,6 @@ video {
 /** endregion **/
 
 /** region App utilities **/
-.page {
-  margin-top: 24px;
-}
-
 .ls-center {
   position: absolute;
   top: 50%;
@@ -857,28 +853,6 @@ h1.title {
 
 .title .page-icon {
   margin-right: 12px;
-}
-
-.left-sidebar-inner .recent .page-icon,
-.left-sidebar-inner .favorites .page-icon {
-  margin-right: 8px;
-  width: 1.1em;
-  text-align: center;
-  display: inline-block;
-  color: #aaa;
-}
-
-.favorites li.favorite-item,
-.recent    li.recent-item {
-  margin: 0.1rem 0;
-}
-
-.left-sidebar-inner > .wrap {
-  height: 100%;
-}
-
-.left-sidebar-inner .flex-column-spacer {
-  flex: 1 1 0%;
 }
 
 .block-highlight,
@@ -1075,6 +1049,7 @@ a.navigation {
 mark {
   background: #fef3ac;
   color: #262626;
+  padding: 2px 4px;
   border-radius: 3px;
 }
 

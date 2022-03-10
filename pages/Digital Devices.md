@@ -10,8 +10,10 @@
 	- Keyboard
 		- [HHKB](https://youtu.be/K2GN_LY3Jjw)
 		- Logitech K380
-	- Screens:
+	- Monitor:
+		- Dell U2421E
 		- KOIOS 2721UD
+		- Portable 15.6" IPS Monitor
 	- Charger
 		- ZMI GaN 65W
 	- Router

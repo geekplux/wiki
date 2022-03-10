@@ -16,7 +16,7 @@
  ;; When creating the new journal page, the app will use your template if there is one.
  ;; You only need to input your template name here.
  :default-templates
- {:journals ""}
+ {:journals "daily"}
 
  ;; Whether to enable hover on tooltip preview feature
  ;; Default is true, you can also toggle this via setting page
@@ -166,10 +166,11 @@
 
  :ref/linked-references-collapsed-threshold 50
  :publishing/all-pages-public? true
- :feature/enable-journals? false
+ :feature/enable-journals? true
  :default-home {:page "GeekPlux Wiki"}
- :favorites []
+ :favorites ["What I read Daily"]
  :preferred-format :markdown
+ :journal/page-title-format "yyyy-MM-dd"
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

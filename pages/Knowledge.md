@@ -16,3 +16,6 @@
 - [[Emigration]]
 - [[Business]]
 - [[Philosophy]]
+- [[Career]]
+- [[Poker]]
+- [[Photography]]
