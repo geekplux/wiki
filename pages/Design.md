@@ -1,3 +1,5 @@
+alias:: 设计
+
 - [Digital City](https://exp-digital-city.lusion.co) - 数字城市设计
 - ## Visualization
 	- [2021数据可视化获奖作品大赏：艺术设计篇](https://mp.weixin.qq.com/s/Nyhnf51p_pvdkrd-YWCPeA)

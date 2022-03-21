@@ -1,3 +1,5 @@
+alias:: 图形学
+
 - [[Shader]]
 - ## Learning Resource
 	- https://www.scratchapixel.com/

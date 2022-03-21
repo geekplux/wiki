@@ -1,4 +1,4 @@
 - Finding information is easier than ever, but filtering information is harder than ever. Whenever we open our phones, we are bombarded with irrelevant data and unsolicited stimulation. Like a buffet, choosing what to ignore is as important as choosing what to pay attention to.
 - [我获取信息的渠道](https://geekplux.com/posts/the-ways-to-get-information)
-- [[Weekly]]
+- [[Newsletters]]
 - [[Podcasts]]

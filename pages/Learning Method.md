@@ -1,3 +1,5 @@
+alias:: 学习方法
+
 - 一些我自己总结的学习方法：
 	- [建立索引式的学习方法](https://geekplux.com/posts/learning-by-index)
 	- [舍本逐末的学习方式](https://geekplux.com/posts/learning-without-hesitate)
