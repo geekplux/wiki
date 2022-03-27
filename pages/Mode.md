@@ -1,0 +1,3 @@
+- Unimodal
+- Bimodal
+- Trimodal

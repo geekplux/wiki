@@ -1,0 +1,4 @@
+- [[Quartile]] 四分位
+- [[Quintile]] 五分位
+- [[Decile]] 十分位
+- [[Percentile]] 百分位

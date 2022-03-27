@@ -1,0 +1,3 @@
+- [[Median]]
+- [[Mode]]
+- [[Mean]]

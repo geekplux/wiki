@@ -1,0 +1,4 @@
+- [[Arithmetic Mean]]
+- [[Weighted Mean]]
+- [[Geometric Mean]] 几何平均数
+- [[Harmonic Mean]] 调和平均数

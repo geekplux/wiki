@@ -37,6 +37,18 @@
  {:block/name "2022-03-21",
   :block/created-at 1647792000986,
   :block/updated-at 1647792000986}
+ {:block/name "2022-03-22",
+  :block/created-at 1647878449692,
+  :block/updated-at 1647878449692}
+ {:block/name "2022-03-23",
+  :block/created-at 1647964804481,
+  :block/updated-at 1648049770954}
+ {:block/name "2022-03-24",
+  :block/created-at 1648051203081,
+  :block/updated-at 1648113945666}
+ {:block/name "2022-03-25",
+  :block/created-at 1648137601636,
+  :block/updated-at 1648137601636}
  {:block/name "61bcaa34-067f-4613-b634-02167ba23dd1",
   :block/created-at 1640065814402,
   :block/updated-at 1640065814402}
@@ -58,6 +70,9 @@
  {:block/name "apps",
   :block/created-at 1646889541851,
   :block/updated-at 1646889541851}
+ {:block/name "arithmetic mean",
+  :block/created-at 1647956959973,
+  :block/updated-at 1647957504470}
  {:block/name "article worthwhile read",
   :block/created-at 1641876890964,
   :block/updated-at 1641877061961}
@@ -130,6 +145,9 @@
  {:block/name "crypto investment tools",
   :block/created-at 1640667298474,
   :block/updated-at 1640667298474}
+ {:block/name "decile",
+  :block/created-at 1647957265163,
+  :block/updated-at 1647957265163}
  {:block/name "design",
   :block/created-at 1640065814402,
   :block/updated-at 1647501570282}
@@ -166,12 +184,18 @@
  {:block/name "geekplux wiki",
   :block/created-at 1635170480779,
   :block/updated-at 1642045128213}
+ {:block/name "geometric mean",
+  :block/created-at 1647956973002,
+  :block/updated-at 1647956973002}
  {:block/name "habit",
   :block/created-at 1640850203788,
   :block/updated-at 1640850323384}
  {:block/name "happiness",
   :block/created-at 1642956353273,
   :block/updated-at 1642956353273}
+ {:block/name "harmonic mean",
+  :block/created-at 1647956982847,
+  :block/updated-at 1647956982847}
  {:block/name "how to hike like a pro",
   :block/created-at 1635167522944,
   :block/updated-at 1635346585598}
@@ -214,12 +238,30 @@
  {:block/name "luck",
   :block/created-at 1637054378094,
   :block/updated-at 1637054463095}
+ {:block/name "management",
+  :block/created-at 1648049763239,
+  :block/updated-at 1648049763239}
+ {:block/name "math",
+  :block/created-at 1647956832916,
+  :block/updated-at 1647957233561}
+ {:block/name "mean",
+  :block/created-at 1647956909928,
+  :block/updated-at 1647957305837}
+ {:block/name "measures of central tendency",
+  :block/created-at 1647956854437,
+  :block/updated-at 1647956909929}
+ {:block/name "median",
+  :block/created-at 1647956900055,
+  :block/updated-at 1647956900055}
  {:block/name "medical",
   :block/created-at 1642331851964,
   :block/updated-at 1642331851964}
  {:block/name "minimalist shoes",
   :block/created-at 1639149509115,
   :block/updated-at 1639149978442}
+ {:block/name "mode",
+  :block/created-at 1647956902728,
+  :block/updated-at 1647956927037}
  {:block/name "money",
   :block/created-at 1641123789265,
   :block/updated-at 1641123912004}
@@ -238,6 +280,9 @@
  {:block/name "opengl",
   :block/created-at 1640065814401,
   :block/updated-at 1640065814402}
+ {:block/name "percentile",
+  :block/created-at 1647957271859,
+  :block/updated-at 1647957271859}
  {:block/name "philosophy",
   :block/created-at 1642956353273,
   :block/updated-at 1642956353273}
@@ -256,6 +301,15 @@
  {:block/name "productive",
   :block/created-at 1639754006782,
   :block/updated-at 1641876732186}
+ {:block/name "quantiles",
+  :block/created-at 1647957233557,
+  :block/updated-at 1647957289318}
+ {:block/name "quartile",
+  :block/created-at 1647957254476,
+  :block/updated-at 1647957254476}
+ {:block/name "quintile",
+  :block/created-at 1647957260969,
+  :block/updated-at 1647957260969}
  {:block/name "quotes",
   :block/created-at 1640667298474,
   :block/updated-at 1641394895923}
@@ -328,6 +382,9 @@
  {:block/name "web3",
   :block/created-at 1640767759954,
   :block/updated-at 1641701606774}
+ {:block/name "weighted mean",
+  :block/created-at 1647956966276,
+  :block/updated-at 1647956966276}
  {:block/name "what i found out daily",
   :block/created-at 1646906090106,
   :block/updated-at 1646906199289}
