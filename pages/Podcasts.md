@@ -1,5 +1,5 @@
 - Random Sorted
-#### Tech & Programmer
+- ### Tech & Programmer
 	- [Changelog](https://changelog.com/podcasts)  
 	  Weekly shows about software development, developer culture, open source, building startups, artificial intelligence, shipping code to production, and the people involved.
 	  There are some podcast series under [Changelog](https://changelog.com/podcasts) like: [JS Party](https://changelog.com/jsparty), [Brain Science](https://changelog.com/brainscience)
@@ -10,8 +10,12 @@
 	- [Fork It](https://forkit.fm) - 第一个聊区块链技术的中文播客
 	- [捕蛇者说](https://pythonhunter.org) - 聊聊编程、程序员和 Python
 	  id:: 61878e02-b6fc-472e-b597-b7db0683c478
-	- [内核恐慌](https://pan.icu) - 沦为年更节目了
+	- [内核恐慌](https://pan.icu) - 沦为年更节目了，之前每期必听
 	- [硅谷叨B叨](https://www.xiaoyuzhoufm.com/podcast/5eba46f5418a84a0461e0bf4)
+	- [ByteTalk](https://bytetalk.fm) - 程序员的故事
+	- [二分电台](https://binary.2bab.me)
+	- [The Data Wranglers](https://www.trifacta.com/podcast/) - Data Science 相关
+	- [Software Engineering Radio](https://www.se-radio.net)
 ### Business
 	- [How I Built This with Guy Raz](https://www.npr.org/podcasts/510313/how-i-built-this)
 	  id:: 61878ef9-ebad-412f-9486-b11812f0b2c7
@@ -32,3 +36,5 @@
 	- [从零道一](http://0011.one)
 	- [牛油果烤面包](https://avocadotoast.live)
 	- [黑水公园](https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fba0d)
+	- [得意忘形](https://podcasts.apple.com/us/podcast/得意忘形播客/id1200767928)
+	- [枫言枫语](https://fyfy.fm)

@@ -32,17 +32,17 @@ da=(async()=>{await h(R);return Y})()};
 $APP.$frontend$extensions$age_encryption$keygen$$ = function() {
   return $module$node_modules$$kanru$rage_wasm$dist$index$$.keygen();
 };
-$APP.$frontend$extensions$age_encryption$encrypt_with_x25519$$ = function($public_key$jscomp$2$$, $content$jscomp$291$$, $armor$$) {
-  return $module$node_modules$$kanru$rage_wasm$dist$index$$.encrypt_with_x25519($public_key$jscomp$2$$, $content$jscomp$291$$, $armor$$);
+$APP.$frontend$extensions$age_encryption$encrypt_with_x25519$$ = function($public_key$jscomp$2$$, $content$jscomp$290$$, $armor$$) {
+  return $module$node_modules$$kanru$rage_wasm$dist$index$$.encrypt_with_x25519($public_key$jscomp$2$$, $content$jscomp$290$$, $armor$$);
 };
-$APP.$frontend$extensions$age_encryption$decrypt_with_x25519$$ = function($secret_key$jscomp$1$$, $content$jscomp$292$$) {
-  return $module$node_modules$$kanru$rage_wasm$dist$index$$.decrypt_with_x25519($secret_key$jscomp$1$$, $content$jscomp$292$$);
+$APP.$frontend$extensions$age_encryption$decrypt_with_x25519$$ = function($secret_key$jscomp$1$$, $content$jscomp$291$$) {
+  return $module$node_modules$$kanru$rage_wasm$dist$index$$.decrypt_with_x25519($secret_key$jscomp$1$$, $content$jscomp$291$$);
 };
-$APP.$frontend$extensions$age_encryption$encrypt_with_user_passphrase$$ = function($passphrase$jscomp$2$$, $content$jscomp$293$$, $armor$jscomp$1$$) {
-  return $module$node_modules$$kanru$rage_wasm$dist$index$$.encrypt_with_user_passphrase($passphrase$jscomp$2$$, $content$jscomp$293$$, $armor$jscomp$1$$);
+$APP.$frontend$extensions$age_encryption$encrypt_with_user_passphrase$$ = function($passphrase$jscomp$2$$, $content$jscomp$292$$, $armor$jscomp$1$$) {
+  return $module$node_modules$$kanru$rage_wasm$dist$index$$.encrypt_with_user_passphrase($passphrase$jscomp$2$$, $content$jscomp$292$$, $armor$jscomp$1$$);
 };
-$APP.$frontend$extensions$age_encryption$decrypt_with_user_passphrase$$ = function($passphrase$jscomp$3$$, $content$jscomp$294$$) {
-  return $module$node_modules$$kanru$rage_wasm$dist$index$$.decrypt_with_user_passphrase($passphrase$jscomp$3$$, $content$jscomp$294$$);
+$APP.$frontend$extensions$age_encryption$decrypt_with_user_passphrase$$ = function($passphrase$jscomp$3$$, $content$jscomp$293$$) {
+  return $module$node_modules$$kanru$rage_wasm$dist$index$$.decrypt_with_user_passphrase($passphrase$jscomp$3$$, $content$jscomp$293$$);
 };
 $APP.$JSCompiler_StaticMethods_beforeLoadModuleCode$$("age-encryption");
 $APP.$shadow$js$require$$(580);

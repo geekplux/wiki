@@ -1,7 +1,93 @@
 - The following is the newsletters I've subscribed, random sorted. 
   title:: Newsletters
+  alias:: 周刊
   The frequency of some is not weekly.
   UPDATE AT ANYTIME
 -
-- [Workspaces](https://www.workspaces.xyz) - 分享自己桌面的 setup
-- https://www.devopsweekly.com
+- ### Tech
+	- [Hacker News Digest](https://www.hndigest.com)
+	- [Programming Digest](https://programmingdigest.net)
+	- [Software Lead Weekly](https://softwareleadweekly.com) - 适合 Tech Lead #techlead
+	- [Level Up](https://levelup.patkua.com) - 适合Tech Lead 看 #techlead
+	- [tech lead digest](https://techleaddigest.net) - #techlead
+	- [The Weekly Hagakure](https://hagakure.substack.com) - #techlead
+	- [Awesome Self Hosted](https://selfhosted.libhunt.com/newsletter)
+	- [Mobile Dev Weekly](https://mobiledevweekly.com)
+	- [Golang Weekly](https://golangweekly.com)
+	- [Haskell Weekly](https://haskellweekly.news/)
+	- [Node Weekly](https://nodeweekly.com)
+	- [remotive](https://remotive.com) - #远程工作 [[Remote Work]]
+	- [swyx.io](https://www.swyx.io/subscribe) - 技术人 swyx 的 newsletter
+	- [Swift Weekly Brief](https://swiftweeklybrief.com/)
+	- [StatusCode Weekly](https://weekly.statuscode.com/)
+	- [iOS Dev Weekly](https://iosdevweekly.com/)
+	- [Python Weekly](https://www.pythonweekly.com/)
+	- [Devops Weekly](https://www.devopsweekly.com/)
+	- [Serverless Status](https://serverless.email/)
+	- [platformer](https://www.platformer.news) - 各湾区大厂的新闻评论
+	- [The Overflow](https://stackoverflow.blog/newsletter/) - StackOverflow 官方的 newsletter
+	- #### Web
+		- [CSS Weekly](https://css-weekly.com)
+		- [Web Tools Weekly](https://webtoolsweekly.com/)
+		- [React Status](https://react.statuscode.com/) - 每期必看，主要我比较偏好 React
+		- [This Week In React](https://www.getrevue.co/profile/thisweekinreact)
+		- [Frontend Focus](https://frontendfoc.us/)
+		- [JavaScript Weekly](https://javascriptweekly.com)
+		- [Sidebar](https://sidebar.io)
+		- [ES.next News](http://esnextnews.com/)
+		- [Josh Comeau](https://www.joshwcomeau.com) - Josh Comeau 的 newsletter，技术文章写得很好
+		- [Kent C. Dodds](https://kentcdodds.com/blog) - 大佬 Kent C 的 newsletter
+	- #### Computer Graphics (CG)
+		- [Graphics Programming weekly](https://www.jendrikillner.com/tags/weekly/)
+- ### Design
+	- [DEX 周刊](https://newsletter.dex.group)
+	- [Dine News](https://news.dinehq.net)
+	- [Anyway.News 安妮薇时报](https://anyway.fm/news/)
+- ### Data
+	- [Data Science Simplified](https://mathdatasimplified.com/)
+	- [DB Weekly](https://dbweekly.com/)
+	- [Towards Data Science](https://towardsdatascience.com)
+	- [Data Science Weekly](https://www.datascienceweekly.org)
+- ### Indie Developer
+	- [Alyssa X](https://newsletter.alyssax.com) - 很能折腾的美女，设计开发，经常做很多小 app 创业
+	- [Indie Hackers Newsletter](https://www.indiehackers.com/newsletter)
+	- [Product Hunt](https://www.producthunt.com/newsletter)
+- ### Investment
+	- [ARK](https://ark-invest.com)
+	- [AVC](https://avc.com/)
+	- [CheaperThanGuru](https://cheaperthanguru.com/) - 看世界顶级投资大师们的持仓和操作
+	- [This Week in Fintech](https://thisweekinfintech.substack.com)
+	- [The Bear Cave](https://thebearcave.substack.com) - 做空的世界
+	- [Market Sentiment](https://marketsentiment.substack.com) - 投资策略
+	- [PETITION](https://petition.substack.com)
+- ### Crypto 币圈
+	- [bankless](https://newsletter.banklesshq.com)
+	- [Not Boring](https://www.notboring.co) - 写过一篇文章介绍这个 newsletter：[创作者经济-实例篇](https://geekplux.com/newsletters/8)
+	- [Odyssey](https://odysseydao.substack.com)
+- ### Run 跑步
+	- [Fastest Known Time newsletter](https://fastestknowntime.com/newsletter) - 各种路线跑的最快的人的记录
+	- [The Half Marathoner](https://www.thehalfmarathoner.com)
+	- [Colorado Mountain Running & Living](https://sarahrunning.substack.com)
+	- [Monday Musings](https://adharanand.substack.com)
+- ### Other
+	- [Workspaces](https://www.workspaces.xyz) - 分享自己桌面的 setup，每期必看，喜欢看看别人是怎么布置自己的工作空间的
+	- [Dense Discovery](https://www.densediscovery.com/) - 每期必看，是我觉得做的最好的 newsletter
+	- [The Quibbler](https://thequibbler.zhubai.pub/) - 产品经理李奇的 newsletter
+	- [Austin Kleon](https://austinkleon.substack.com) - 《show your work》作者的 newsletter
+	- [The 3-2-1 Newsletter](https://jamesclear.com/3-2-1) - 《Atomic Habit》作者 James Clear 的 newsletter
+	- [Chinese Characteristics](https://lillianli.substack.com)
+	- [ChinAI](https://chinai.substack.com)
+	- [Quanta Magazine](https://www.quantamagazine.org/)
+	- [Visual Capitalist](https://www.visualcapitalist.com) - 各种可视化
+	- [David Perell newsletter](https://perell.com/newsletter/) - 在线写作大 V David Perell 的 newsletter，有三个可以订
+	- [Free Weekly Productivity Insights](https://aliabdaal.com/newsletter/) - 网红 Ali Abdaal 的 newsletter，效率类
+	- [marshall](https://www.marshallhaas.com) - 创业成功人生赢家的 newsletter
+	- [Derek Sivers](https://sive.rs) - 音乐家、程序员、作家 Derek 的 newsletter
+	- [Tim Ferriss](https://go.tim.blog/5-bullet-friday-1/) - 畅销书作家 Tim 每周五个 podcast 或文章
+	- [Platform Thinking](https://pt.plus) - 前知乎战略副总裁张宁的 newsletter
+	- [Jiayuan Thoughts](https://jiayuan.zhubai.love)
+	- [生活奇旅](https://weichen.zhubai.love) - Weichen 的文章很静心
+	- [好工具周刊](https://bestxtools.zhubai.love) - 一些效率小工具
+- ### No longer updated
+	- [Data Science Weekly](https://www.datascienceweekly.org/)
+	- [Responsive Design Weekly](https://responsivedesign.is)
