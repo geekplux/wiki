@@ -1,3 +1,5 @@
+alias:: 我每天发现了什么
+
 - query-table:: false
   #+BEGIN_QUERY
   {:title "What I found out Daily"

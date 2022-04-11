@@ -78,6 +78,7 @@
 	- [Chinese Characteristics](https://lillianli.substack.com)
 	- [ChinAI](https://chinai.substack.com)
 	- [Quanta Magazine](https://www.quantamagazine.org/)
+	- [Construction Physics](https://constructionphysics.substack.com)
 	- [Visual Capitalist](https://www.visualcapitalist.com) - 各种可视化
 	- [David Perell newsletter](https://perell.com/newsletter/) - 在线写作大 V David Perell 的 newsletter，有三个可以订
 	- [Free Weekly Productivity Insights](https://aliabdaal.com/newsletter/) - 网红 Ali Abdaal 的 newsletter，效率类
@@ -88,6 +89,7 @@
 	- [Jiayuan Thoughts](https://jiayuan.zhubai.love)
 	- [生活奇旅](https://weichen.zhubai.love) - Weichen 的文章很静心
 	- [好工具周刊](https://bestxtools.zhubai.love) - 一些效率小工具
+	- [GeekPlux Lab](https://geekplux.zhubai.love) - 我自己写的 newsletter...
 - ### No longer updated
 	- [Data Science Weekly](https://www.datascienceweekly.org/)
 	- [Responsive Design Weekly](https://responsivedesign.is)
