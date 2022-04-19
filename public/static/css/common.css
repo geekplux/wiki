@@ -52,6 +52,7 @@ html[data-theme='dark'] {
   );
   --ls-border-color: #0e5263;
   --ls-secondary-border-color: #126277;
+  --ls-tertiary-border-color: rgba(0, 2, 0, 0.10);
   --ls-guideline-color: #0b4a5a;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #a4b5b6;
@@ -92,21 +93,26 @@ html[data-theme='dark'] {
   --color-level-6: #3a7e8e;
 }
 
+/* You should always use .light-theme for light mode, the .white-theme is just for backword compatibility.
+
+See: https://github.com/logseq/logseq/pull/4652. */
 .white-theme,
+.light-theme,
 html[data-theme='light'] {
   --ls-primary-background-color: #ffffff;
   --ls-secondary-background-color: #f7f7f7;
   --ls-tertiary-background-color: #f1eee8;
   --ls-quaternary-background-color: #e8e5de;
   --ls-table-tr-even-background-color: #f7f7f7;
-  --ls-active-primary-color: rgb(4, 85, 145);
-  --ls-active-secondary-color: #003761;
+  --ls-active-primary-color: rgb(0, 105, 182);
+  --ls-active-secondary-color: #00477c;
   --ls-block-properties-background-color: #f7f7f7;
   --ls-page-properties-background-color: #f7f7f7;
   --ls-block-ref-link-text-color: #d8e1e8;
   --ls-search-background-color: var(--ls-primary-background-color);
   --ls-border-color: #ccc;
   --ls-secondary-border-color: #e2e2e2;
+  --ls-tertiary-border-color: rgba(200, 200, 200, 0.30);
   --ls-guideline-color: rgba(46, 27, 5, 0.08);
   --ls-menu-hover-color: var(--ls-a-chosen-bg);
   --ls-primary-text-color: #433f38;
@@ -737,6 +743,7 @@ li p:last-child,
 }
 
 .canceled,
+.cancelled,
 .done {
   text-decoration: line-through;
   opacity: 0.6;
@@ -776,7 +783,8 @@ li p:last-child,
 }
 
 .done,
-.canceled {
+.canceled,
+.cancelled {
   opacity: 0.7;
 }
 
@@ -898,6 +906,7 @@ button.menu:focus {
 .menu-link {
   background-color: var(--ls-primary-background-color, #fff);
   color: var(--ls-primary-text-color);
+  user-select: none;
 }
 
 .menu-link:first-of-type {
