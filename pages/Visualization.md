@@ -1,0 +1,37 @@
+alias:: 可视化, 数据可视化, Data Visualization, vis
+
+- ## Visualization Library
+	- ### General
+		- [plotly](https://plotly.com)
+	- ### JS
+		- [d3](https://d3js.org)
+		- [vega-lite](https://vega.github.io/vega-lite/)
+		- [Highcharts](https://www.highcharts.com) - super comprehensive, too many companies use this
+		- [Recharts](https://recharts.org) - React d3
+		- [Echarts](https://echarts.apache.org/en/index.html)
+		- [visx](https://github.com/airbnb/visx) - expose low-level API of d3 at React eco
+		- [Chart.js](https://www.chartjs.org)
+		- [AntV](https://antv.vision) - includes [g2](https://g2.antv.vision), [g6](https://g6.antv.vision) for network vis, [l7](https://l7.antv.vision) for GIS vis
+	- ### Python
+		- [Dash](https://dash.plotly.com)
+		- [Apache Superset](https://superset.apache.org)
+		- [Streamlit](https://streamlit.io)
+		- [Altair](https://altair-viz.github.io/index.html) - python's [vega-lite](https://vega.github.io/vega-lite/)
+	- ### GIS
+		- [mapbox](https://docs.mapbox.com)
+		- [Leaflet](https://leafletjs.com)
+		- [vis.gl](https://vis.gl/frameworks/) - includes [Kepler.gl](https://kepler.gl), [Deck.gl](https://deck.gl), [Luma.gl](https://luma.gl), [react-map-gl](http://visgl.github.io/react-map-gl/)
+		- [CesiumJS](https://cesium.com/platform/cesiumjs/)
+	- ### Network (Graph)
+		- [sigma.js](https://www.sigmajs.org) - good performance
+		- [Cytoscape](https://cytoscape.org)
+	- ### 3D
+		- [Three.js](https://threejs.org)
+		- [react-three-fiber](https://github.com/pmndrs/react-three-fiber) - A React renderer for Three.js
+		- [babylon.js](https://www.babylonjs.com) - you don't need this unless performance matters
+- ## Data Analytics Library
+	- [numpy](https://numpy.org)
+	- [pandas](https://pandas.pydata.org)
+	- [NetworkX](https://networkx.org) - Network data analysis in python
+	- [tidy.js](https://pbeshai.github.io/tidy/)
+	- [Apache Arrow](https://arrow.apache.org)
