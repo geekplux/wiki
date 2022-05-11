@@ -19,3 +19,4 @@
 - [[Career]]
 - [[Poker]]
 - [[Photography]]
+- [[Visualization]]

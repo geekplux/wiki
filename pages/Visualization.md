@@ -10,13 +10,15 @@ alias:: 可视化, 数据可视化, Data Visualization, vis
 		- [Recharts](https://recharts.org) - React d3
 		- [Echarts](https://echarts.apache.org/en/index.html)
 		- [visx](https://github.com/airbnb/visx) - expose low-level API of d3 at React eco
+		- [p5.js](https://p5js.org)
 		- [Chart.js](https://www.chartjs.org)
 		- [AntV](https://antv.vision) - includes [g2](https://g2.antv.vision), [g6](https://g6.antv.vision) for network vis, [l7](https://l7.antv.vision) for GIS vis
 	- ### Python
+		- [Matplotlib](https://matplotlib.org)
 		- [Dash](https://dash.plotly.com)
+		- [Altair](https://altair-viz.github.io/index.html) - python's [vega-lite](https://vega.github.io/vega-lite/)
 		- [Apache Superset](https://superset.apache.org)
 		- [Streamlit](https://streamlit.io)
-		- [Altair](https://altair-viz.github.io/index.html) - python's [vega-lite](https://vega.github.io/vega-lite/)
 	- ### GIS
 		- [mapbox](https://docs.mapbox.com)
 		- [Leaflet](https://leafletjs.com)
