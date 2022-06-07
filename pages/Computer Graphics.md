@@ -1,6 +1,7 @@
 alias:: 图形学
 
 - [[Shader]]
+- [[WebGL]]
 - ## Learning Resource
 	- https://www.scratchapixel.com/
 	  http://ogldev.atspace.co.uk/
