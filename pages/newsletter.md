@@ -1,1 +1,3 @@
 - [[Newsletters]] I subscribed
+- [写 newsletter 二十期之后的后台数据分享](https://geekplux.zhubai.love/posts/2147972475794604032)
+- [[Make a living from writing a newsletter]]
