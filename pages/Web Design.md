@@ -1,0 +1,2 @@
+- [Awwwards - Website Awards - Best Web Design Trends](https://www.awwwards.com)
+- [CSS Design Awards - Website Awards - Best Web Design Inspiration - CSS Awards](https://www.cssdesignawards.com)

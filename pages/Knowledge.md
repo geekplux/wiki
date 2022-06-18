@@ -20,3 +20,5 @@
 - [[Poker]]
 - [[Photography]]
 - [[Visualization]]
+- [[Design Docs]]
+- [[Computer Science]]

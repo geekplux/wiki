@@ -12,3 +12,4 @@
 - [[Newsletters]]
 - [[Podcasts]]
 - [[Design]]
+- [[Personal Development]]

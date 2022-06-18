@@ -1,6 +1,15 @@
-[{:block/name "2022-03-09",
+[{:block/name "1-1",
+  :block/created-at 1655264882739,
+  :block/updated-at 1655264882739}
+ {:block/name "1:1",
+  :block/created-at 1655264874022,
+  :block/updated-at 1655264874022}
+ {:block/name "1on1",
+  :block/created-at 1655264882740,
+  :block/updated-at 1655264882740}
+ {:block/name "2022-03-09",
   :block/created-at 1646897162119,
-  :block/updated-at 1646906407120}
+  :block/updated-at 1655265672558}
  {:block/name "2022-03-10",
   :block/created-at 1646891552166,
   :block/updated-at 1646906435234}
@@ -66,16 +75,16 @@
   :block/updated-at 1651397256986}
  {:block/name "2022-05-01",
   :block/created-at 1651334406333,
-  :block/updated-at 1651478572101}
+  :block/updated-at 1655265604930}
  {:block/name "2022-05-04",
   :block/created-at 1651593600949,
   :block/updated-at 1651720069088}
  {:block/name "2022-05-05",
   :block/created-at 1651680004612,
-  :block/updated-at 1651722615309}
+  :block/updated-at 1655265646524}
  {:block/name "2022-05-07",
   :block/created-at 1651893195989,
-  :block/updated-at 1654578642153}
+  :block/updated-at 1655265656450}
  {:block/name "2022-05-08",
   :block/created-at 1651939200993,
   :block/updated-at 1651939200993}
@@ -136,6 +145,24 @@
  {:block/name "2022-06-11",
   :block/created-at 1654876801315,
   :block/updated-at 1654876801315}
+ {:block/name "2022-06-13",
+  :block/created-at 1655083839810,
+  :block/updated-at 1655083839810}
+ {:block/name "2022-06-14",
+  :block/created-at 1655204005590,
+  :block/updated-at 1655265553620}
+ {:block/name "2022-06-15",
+  :block/created-at 1655222409623,
+  :block/updated-at 1655255157189}
+ {:block/name "2022-06-16",
+  :block/created-at 1655308804359,
+  :block/updated-at 1655365045775}
+ {:block/name "2022-06-17",
+  :block/created-at 1655395202878,
+  :block/updated-at 1655395202878}
+ {:block/name "3d visualization",
+  :block/created-at 1655204429823,
+  :block/updated-at 1655204429823}
  {:block/name "61bcaa34-067f-4613-b634-02167ba23dd1",
   :block/created-at 1640065814402,
   :block/updated-at 1640065814402}
@@ -148,6 +175,9 @@
  {:block/name "a",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
+ {:block/name "acquisition",
+  :block/created-at 1655265595969,
+  :block/updated-at 1655265595969}
  {:block/name "algorithm",
   :block/created-at 1635346772652,
   :block/updated-at 1647501732716}
@@ -214,12 +244,18 @@
  {:block/name "china",
   :block/created-at 1641109437673,
   :block/updated-at 1641876913477}
+ {:block/name "collaboration",
+  :block/created-at 1655206107680,
+  :block/updated-at 1655206107680}
  {:block/name "complexity analysis",
   :block/created-at 1647501732714,
   :block/updated-at 1647501732714}
  {:block/name "computer graphics",
   :block/created-at 1637336144913,
   :block/updated-at 1654515527724}
+ {:block/name "computer science",
+  :block/created-at 1655365074103,
+  :block/updated-at 1655365097473}
  {:block/name "contents",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
@@ -253,6 +289,9 @@
  {:block/name "design",
   :block/created-at 1640065814402,
   :block/updated-at 1651721378197}
+ {:block/name "design docs",
+  :block/created-at 1655205506150,
+  :block/updated-at 1655206069101}
  {:block/name "digital devices",
   :block/created-at 1639754052852,
   :block/updated-at 1639982095796}
@@ -295,6 +334,9 @@
  {:block/name "geometric mean",
   :block/created-at 1647956973002,
   :block/updated-at 1647956973002}
+ {:block/name "gis",
+  :block/created-at 1655204429823,
+  :block/updated-at 1655204429823}
  {:block/name "github",
   :block/created-at 1654578432475,
   :block/updated-at 1654578432475}
@@ -325,12 +367,18 @@
  {:block/name "html",
   :block/created-at 1650265853560,
   :block/updated-at 1650265853560}
+ {:block/name "hustle",
+  :block/created-at 1655255016773,
+  :block/updated-at 1655255034961}
  {:block/name "in-progress",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
  {:block/name "information",
   :block/created-at 1637054259332,
   :block/updated-at 1649614993210}
+ {:block/name "information visualization",
+  :block/created-at 1655265646523,
+  :block/updated-at 1655265646523}
  {:block/name "interview",
   :block/created-at 1647500312802,
   :block/updated-at 1647500687369}
@@ -348,7 +396,7 @@
   :block/updated-at 1650272380490}
  {:block/name "knowledge",
   :block/created-at 1637054500355,
-  :block/updated-at 1651729862635}
+  :block/updated-at 1655365074103}
  {:block/name "l1 visa",
   :block/created-at 1636271614940,
   :block/updated-at 1636271623787}
@@ -376,12 +424,15 @@
  {:block/name "luck",
   :block/created-at 1637054378094,
   :block/updated-at 1637054463095}
+ {:block/name "make a living from writing a newsletter",
+  :block/created-at 1655093604496,
+  :block/updated-at 1655093621102}
  {:block/name "management",
   :block/created-at 1648049763239,
   :block/updated-at 1648049763239}
  {:block/name "math",
   :block/created-at 1647956832916,
-  :block/updated-at 1647957233561}
+  :block/updated-at 1655084013337}
  {:block/name "mean",
   :block/created-at 1647956909928,
   :block/updated-at 1647957305837}
@@ -405,7 +456,7 @@
   :block/updated-at 1641123912004}
  {:block/name "newsletter",
   :block/created-at 1654579153687,
-  :block/updated-at 1654579163179}
+  :block/updated-at 1655093627094}
  {:block/name "newsletter platform",
   :block/created-at 1639848981152,
   :block/updated-at 1639849179327}
@@ -417,7 +468,7 @@
   :block/updated-at 1635168671576}
  {:block/name "one-on-one",
   :block/created-at 1644498235050,
-  :block/updated-at 1644498241288}
+  :block/updated-at 1655264882745}
  {:block/name "opengl",
   :block/created-at 1640065814401,
   :block/updated-at 1640065814402}
@@ -445,12 +496,18 @@
  {:block/name "poker",
   :block/created-at 1643815416493,
   :block/updated-at 1643816037995}
+ {:block/name "process design",
+  :block/created-at 1655206123921,
+  :block/updated-at 1655206123921}
  {:block/name "product",
   :block/created-at 1649686407595,
   :block/updated-at 1649686407595}
  {:block/name "productive",
   :block/created-at 1639754006782,
   :block/updated-at 1641876732186}
+ {:block/name "psychology",
+  :block/created-at 1655265672558,
+  :block/updated-at 1655265672558}
  {:block/name "quantiles",
   :block/created-at 1647957233557,
   :block/updated-at 1647957289318}
@@ -517,6 +574,9 @@
  {:block/name "summary",
   :block/created-at 1641220446819,
   :block/updated-at 1641220446819}
+ {:block/name "system design",
+  :block/created-at 1655365045774,
+  :block/updated-at 1655365045774}
  {:block/name "techlead",
   :block/created-at 1648973067609,
   :block/updated-at 1648973067609}
@@ -546,7 +606,7 @@
   :block/updated-at 1651721549262}
  {:block/name "visualization",
   :block/created-at 1651721389690,
-  :block/updated-at 1651742667924}
+  :block/updated-at 1655204457633}
  {:block/name "vlog",
   :block/created-at 1639645062490,
   :block/updated-at 1641951832556}
@@ -591,7 +651,7 @@
   :block/updated-at 1648971990029}
  {:block/name "words i like",
   :block/created-at 1640667298474,
-  :block/updated-at 1640667298474}
+  :block/updated-at 1655264321549}
  {:block/name "worthwhile read",
   :block/created-at 1641876791114,
   :block/updated-at 1641876885772}
