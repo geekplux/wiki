@@ -1,0 +1,2 @@
+- 1 Python Data Model
+	- > special methods is that they are meant to be called by the Python interpreter, `__getitem__` , `__len__`

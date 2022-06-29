@@ -1,2 +1,4 @@
 - [[《我与地坛》]]
 - [[《当我谈跑步时,我谈些什么》]]
+- [[The Pragmatic Programmer]]
+- [[Fluent Python]]

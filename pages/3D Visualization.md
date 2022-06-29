@@ -1,8 +1,18 @@
 - ## Examples
-	- [Bruno Simon](https://bruno-simon.com)
 	- [ARK Starmap | Roberts Space Industries | Follow the development of Star Citizen and Squadron 42](https://robertsspaceindustries.com/starmap)
+	- [Lusion](https://lusion.co/)
+	- [zenly world](https://zenly.com/)
+	- [Prior](https://prior.co.jp/discover/en)
+	- [MIDWAM](https://midwam.com/en)
+	- [Chartogne-Taillet](https://chartogne-taillet.com/en)
 - ### 3D Portfolio
+	- [Bruno Simon](https://bruno-simon.com)
 	- [Patrick Heng - Creative Developer Portfolio](https://patrickheng.com)
 	- [Martin Laxenaire | Creative front-end developer](https://www.martin-laxenaire.fr)
+	- [Richard Mattka | Portfolio](https://richardmattka.com/)
+- ### Game
+	- https://www.oculus.com/medal-of-honor/
+	- http://letsplay.ouigo.com/
+	- https://heraclosgame.com/
 - ## Lib
 	- [curtains.js | Home](https://www.curtainsjs.com)

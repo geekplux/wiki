@@ -1,0 +1,8 @@
+- #[[Data Analytics]] #python
+- ## Basic
+	- [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
+	- [Essential basic functionality](https://pandas.pydata.org/pandas-docs/stable/user_guide/basics.html)
+- ### Performance
+	- [Enhancing performance](https://pandas.pydata.org/pandas-docs/stable/user_guide/enhancingperf.html)
+	- [python - Are for-loops in pandas really bad? When should I care? - Stack Overflow](https://stackoverflow.com/questions/54028199/are-for-loops-in-pandas-really-bad-when-should-i-care) #python
+	- [python - When should I (not) want to use pandas apply() in my code? - Stack Overflow](https://stackoverflow.com/questions/54432583/when-should-i-not-want-to-use-pandas-apply-in-my-code)
