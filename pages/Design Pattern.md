@@ -1,0 +1,2 @@
+- > A pattern is a reusable solution that can be applied to commonly occurring problems in software design https://www.patterns.dev/posts/classic-design-patterns/
+- > **Patterns add to a developer's vocabulary, which makes communication faster.** https://www.patterns.dev/posts/classic-design-patterns/

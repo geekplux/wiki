@@ -1,6 +1,6 @@
 - [[Writing Economy]]
 - ## Why
-	- Writing is a process of thinking, writing well is thinking well
+	- Writing is a process of [[thinking]], writing well is thinking well
 	- Teaching is the best way to learn
 	- Writing is the most scalable professional networking activity
 	  > Writing is the most scalable professional networking activity – stay home, don’t go to events/conferences, and just put ideas down -[10 years of professional blogging – what I’ve learned](https://andrewchen.com/professional-blogging/)
@@ -10,6 +10,8 @@
 		- Show the growth process on your blog
 			- This digital garden mindset can be helpful for getting comfortable with sharing more content without getting too caught up in details and never being quite ready to hit publish. [My blog is a digital garden, not a blog](https://joelhooks.com/digital-garden)
 		- The beginner's perspective is usually novel, so don't be afraid to write when you're beginner.
+		- [Obvious to you. Amazing to others. | Derek Sivers](https://sive.rs/obvious)
+		  id:: 62c11a8e-56da-42d3-8cf8-3e601d68714c
 		- [为什么你应该（从现在开始就）写博客](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)
 	- [为什么文章写得好的人都很厉害](https://geekplux.com/posts/why-those-who-write-great-articles-is-so-powerful)
 - ## What

@@ -1,0 +1,60 @@
+- [硅谷旧金山湾区主要划分(南湾-东湾-旧金山-半岛-三谷地区) - Slyar Home](http://www.slyar.com/blog/san-francisco-bay-area-silicon-valley-area-cities.html)
+	- 文章作者：姜南(Slyar) 文章来源：Slyar Home ([www.slyar.com](http://www.slyar.com)) 转载请注明，谢谢合作。
+	- [![](http://www.slyar.com/blog/wp-content/uploads/2022/07/slyar_sf_bay_area_map.png)](https://www.slyar.com/blog/wp-content/uploads/2022/07/slyar%5Fsf%5Fbay%5Farea%5Fmap.png)
+	- ## 前言
+	- 我最近发现虽然我们已经在湾区工作生活了很多年了，但是父母那一辈人似乎对湾区的地理，区域划分以及著名地标之间的相对位置还是不甚了解，由此造成的沟通不畅令我很是头疼。花了点时间整理了一下旧金山湾区的主要区域划分并标在了图上，然后简单介绍一下各个区域的特点，做个不那么正式的小科普。
+	- ## 旧金山湾区 (San Francisco Bay Area)
+	- 旧金山湾区位于加利福尼亚州北部 (北加州)，传统意义上由9个县总计101个城市组成，总面积2多平方公里左右，总人口770万左右 (2018人口普查数据)。湾区一般来说北至旧金山，南至圣何塞，直线距离67公里，开车距离大约80公里。旧金山湾区还有很多海湾大桥，靠近下面的2座桥 (92号桥和84号桥) 横跨的海湾的长度分别大约为13公里和8公里。
+	- ## 旧金山/圣弗朗西斯科 (San Francisco)
+	- 虽然湾区叫做”旧金山湾区”，但是”旧金山”和”湾区”对于大多数湾区人民来说应该算是两个不同的地方。整个旧金山湾区由很多很多大大小小的城市构成，但湾区本地人有时称呼旧金山为 “the city”，意为 “那个城市”而不用加任何城市名称，足以看出旧金山的不同。旧金山更像是一座传统意义上的城市，有很多高层写字楼，建筑密集，停车困难，流浪汉比较多，治安相对没有那么好，比较像美国其他的大城市如纽约、洛杉矶市中心等。湾区人民经常戏称旧金山以外的地方都叫做”村”。其他人我不知道，反正我们很少去旧金山，一年估计也去不了两次而且可能还都是陪外地来的朋友去打卡旅游景点。当然旧金山的生活相对更丰富，不需要开车就可以享受各种各样的美食、酒吧、音乐会等等，很多大公司和创业公司都有办公室在旧金山，可以满足很多喜欢城市生活的朋友。
+	- 对于住在南湾和东湾的人来说，旧金山实际上很遥远：
+	- * 山景城 (Mountain View) – 旧金山：63公里
+	- * 森尼韦尔 (Sunnyvale) – 旧金山：65公里
+	- * 弗里蒙特 (Fremont) – 旧金山：61公里
+	- * 圣何塞 (San Jose) – 旧金山：78公里
+	- ## 南湾 (South Bay)/硅谷 (Silicon Valley)
+	- 旧金山湾南部，简称南湾，核心区域是圣克拉拉谷 (Santa Clara Valley) 地区，19世纪60年代开始这里聚集了很多从事加工制造高精度硅的半导体企业和计算机处理器公司 (仙童半导体、飞兆半导体、英特尔、AMD等等)，所以又叫做”硅谷”。当时大部分的企业都在圣克拉拉县 (Santa Clara County) 设立公司，而圣克拉拉县的首府圣何塞 (San Jose) 就成为了硅谷的中心，这就是传统意义上的硅谷区域。哦对了在美国County (翻译成县) 比市的行政级别高。
+	- 再之后”硅谷”的含义便不仅限于半导体和芯片企业了，随着惠普 (Hewlett-Packard) 的崛起，他们所在的城市帕罗奥图 (Palo Alto)，同时也是斯坦福大学 (Stanford University) 的所在地，开始逐渐成为热门的创业圣地。随着互联网时代的开启，斯坦福大学成为了互联网企业创业的摇篮，越来越多的公司其中不乏大家今天耳熟能详的科技巨头在Palo Alto生根发芽并不断壮大，慢慢地搬出Palo Alto并向周边城市和县扩张，比如谷歌 (Google) 总部所在的山景城 (Mountain View)，Meta/Facebook总部所在的门洛帕克 (Menlo Park)，甲骨文 (Oracle) 总部所在的雷德伍德城 (Redwood City) 等等。今天我们所说的”硅谷”比起几十年以前范围更大，我个人觉得可以包括从圣何塞 (San Jose) 一路往北的圣克拉拉县 (Santa Clara County)、圣马特奥县 (San Mateo County) 甚至旧金山 (San Francisco)。
+	- 维基百科 (Wikipedia) 和一些其他的资料说圣克拉拉县 (Santa Clara) 西北部的一些城市比如山景城 (Mountain View) 和帕罗奥图 (Palo Alto) 算作后面要说的半岛 (The Peninsula)，但实际交流中略有不同。以我跟大部分的华人朋友聊天的经验看来，山景城 (Mountain View) 和帕罗奥图 (Palo Alto) 一般也会被认为是南湾，而从雷德伍德城 (Redwood City) 所在的圣马特奥县 (San Mateo County) 开始算作半岛。
+	- 南湾交通便利去各大公司都近，房价综合来看是相对较贵的，跟中国一样学区房会更贵，很多又老又小的房子 (“老破小”，也被戏称”小黑屋”) 时常会卖到一个不可思议的价格。南湾由于发展的较早，新房比较少，而且由于早年很多半导体工厂都位于圣克拉拉县 (Santa Clara)，地下有很多污染源被称为 “[Superfund](https://en.wikipedia.org/wiki/List%5Fof%5FSuperfund%5Fsites%5Fin%5FCalifornia)“，如果要在这里买房需要注意一下，尤其是森尼韦尔 (Sunnyvale) 这个城市。
+	- 米尔皮塔斯 (Milpitas) 处在南湾和东湾的交界处，查资料的话由于其属于圣克拉拉县 (Santa Clara County)，一般被认为是南湾城市。我个人感觉其实算成东湾更合适，看地图的话Milpitas在湾区东侧而且被I-880和I-680贯穿，这两条高速一般被认为是东湾的主要高速公路。
+	- ## 东湾 (East Bay)
+	- 从圣何塞 (San Jose) 一路向北走I-880和I-680高速经过的城市所组成的就是东湾了，从南湾、半岛、旧金山也有3座大桥可以抵达东湾。东湾由阿拉米达县 (Alameda County) 和 康特拉科斯塔县 (Contra Costa County) 组成，主要城市有弗里蒙特 (Fremont)、纽瓦克 (Newark)、尤宁城 (Union City)、奥克兰 (Oakland)、伯克利(Berkeley)等等。
+	- 利佛摩(Livermore) 、普莱森顿 (Pleasanton) 、都伯林 (Dublin) 因为属于阿拉米达县 (Alameda County) 理论上来说也是东湾城市，但由于地理位置的特殊这些城市所处的区域被称为”三谷地区”，后面单独讲。我个人经验一般聊天说东湾不包括这几个城市。
+	- 东湾建设的比较晚，相较于南湾看起来更宽敞和整齐。我现在住在弗里蒙特 (Fremont)，就是特斯拉 (Tesla) 在加州的超级工厂所在的城市。我个人非常喜欢这个城市，中国超市和中餐馆非常多，开车2分钟上I-880高速去哪都方便。相较于湾区其他地方，东湾的房价比较便宜，而且由于土地富足，所以有很多新房建设和出售，大户型也比南湾要多一些。不过近些年的新房通常使用面积利用率很高，所以土地面积往往不大，对于一些秉持着”买房就是买地”原则的玩家来说可能不太友好。对我而言房子住着舒服最重要，土地面积反而是最次要的了。
+	- 说完优点现在说缺点。东湾的主要问题是上班通勤相对于南湾来说不是那么方便，不论是过桥还是从南面绕，想要到达硅谷各大公司所在的南湾，不堵车的情况下基本也要20-40分钟，如果是上下班高峰期，单程40分钟甚至严重堵车的时候可能需要一个小时都在路上。最近两年由于疫情大多数硅谷公司都开启了在家上班 (WFH, Work From Home) 模式，所以住哪里其实问题不大，现在疫情慢慢好转 (希望吧) 一些公司开始要求员工一周回公司工作若干天，在有刚需通勤的情况下，住东湾和南湾在上班通勤上的差距慢慢就会显现出来了。另外就是过桥要收费，2022年的费率过桥从东湾到南湾一次$7，详见《[关于湾区的五座大桥(Bay Area Toll bridges)](https://www.slyar.com/blog/bay-area-toll-bridges-fastrak.html)》。好在湾区很多大公司都提供往返公司和东湾的班车，倒是也不必自己开车上下班。Meta/Facebook在弗里蒙特 (Fremont) 有一个办公园区，点名表扬，希望各大公司抓紧在东湾开设办公室。
+	- 上下班通勤距离：
+	- * 弗里蒙特 (Fremont) – 谷歌 (Google) 山景城 (Mountain View) 总部：23公里左右
+	- * 山景城 (Mountain View) – 谷歌 (Google) 山景城 (Mountain View) 总部：6公里以内
+	- * 森尼韦尔 (Sunnyvale) – 谷歌 (Google) 山景城 (Mountain View) 总部：10公里以内
+	- * 弗里蒙特 (Fremont) – 脸书 (Meta/Facebook) 门洛帕克 (Menlo Park) 总部：13公里左右
+	- * 山景城 (Mountain View) – 脸书 (Meta/Facebook) 门洛帕克 (Menlo Park) 总部：17公里左右
+	- * 森尼韦尔 (Sunnyvale) – 脸书 (Meta/Facebook) 门洛帕克 (Menlo Park) 总部：19公里左右
+	- ## 半岛 (The Peninsula)
+	- 介于旧金山和南湾的地区是旧金山半岛，简称为”半岛” (The Peninsula)。这地区由圣马特奥县(San Mateo County) 的数个中小型城市所组成，也包含数个太平洋岸边的城镇，比如阿瑟顿 (Atherton)、圣布鲁诺（San Bruno)、圣卡洛斯（San Carlos）、贝尔蒙特 (Belmont)、伯灵格姆 (Burlingame)、戴利城 (Daly City)、福斯特城 (Foster City)、半月湾 (Half Moon Bay) 等等。
+	- 半岛有很多非常著名的富人区，比如Atherton，它是全美最富有的小镇之一，现在已经变成硅谷的董事、高管们，以及风险投资人和富豪们的住宅区，邮编94027，房价中位数900万美元…
+	- ## 三谷地区 (Tri-Valley)
+	- 三谷地区位于奥克兰 (Oakland) 东南18英里，圣何塞 (San Jose) 西北20英里，离旧金山 (San Francisco) 33英里。”三谷”顾名思义指的是三个谷 (Valley)：阿马多尔谷 (Amador Valley)、利弗莫尔山谷 (Livermore Valley) 和圣拉蒙谷 (San Ramon Valley)。主要城市有普莱森顿 (Pleasanton)、都柏林 (Dublin)、利弗莫尔 (Livermore)、圣拉蒙 (San Ramon) 和丹维尔 (Danville)。
+	- 三谷地区的特点是远离核心湾区，房价便宜，学区好。三谷地区有非常多非常好的公立学校，近几年来，随着硅谷和旧金山日益高涨超负荷的房价，越来越多的人搬来三谷地区，因为这里房子新、价格平、占地大，加上环境美，学区好。缺点就是上班通勤时间特别长，如果堵车更是心力交瘁。不过随着越来越多的科技公司允许永久在家工作或者是允许永久远程工作，刨去交通不便的因素，三谷地区可能对一些人的吸引力会越来越大。
+	- 三谷地区有很多风景很好的散步 (hiking) 景点，还有湾区非常著名的打折购物商场旧金山奥特莱斯 (San Francisco Premium Outlets)
+	- * 利弗莫尔 (Livermore) – 谷歌 (Google) 山景城 (Mountain View) 总部：54公里左右
+	- * 利弗莫尔 (Livermore) – 脸书 (Meta/Facebook) 门洛帕克 (Menlo Park) 总部：50-65公里取决于路线
+	- ## 交通
+	- 旧金山湾区主要有几条免费高速公路 (freeway) 贯穿南北，还有一些海湾大桥连接陆地板块。旧金山湾区的高速公路通常比较宽 (双向六车道或八车道，某些路段会有双向十车道)， 限速65英里每小时 (105公里每小时)，但平时快车道车流的速度远高于这个限速，一般会开到 75-80英里每小时 (120-129公里每小时)，跟着车流走通常是安全的，一般也不会因为适当的超速被罚。加州一般没有超速摄像头，警察抓超速通常是靠车载雷达和目测。当然我不鼓励超速，也不建议超速，超速罚单一般在500美元以上。
+	- 880号州际公路 (Interstate 880，简称I-880)，是美国州际公路系统中80号州际公路在加利福尼亚州的辅助线。全线沿旧金山湾东缘呈南北走向，南起圣荷西与280号州际公路、17号加利福尼亚州州道交会，北至奥克兰并入80号州际公路。I-880是东湾的主要高速之一，I-680是去往三谷地区的另一条东湾主要高速。
+	- ![](http://www.slyar.com/blog/wp-content/uploads/2022/07/slyar_sf_bay_area_2.jpg)
+	- 美国国道101 (U.S. Route 101或U.S. Highway 101，缩写为US-101) 是美国国道系统中最西边的南北向公路，全长1,519英里（2,444公里)，1926年挂牌。南起加利福尼亚州洛杉矶，北至华盛顿州奥林匹亚，端点均在5号州际公路上，整条路线亦大致与5号州际公路平行。US-101是南湾的主要高速之一，I-280是另一条更加靠西侧的南湾主要高速。
+	- ![](http://www.slyar.com/blog/wp-content/uploads/2022/07/slyar_sf_bay_area_4.jpg)
+	- 237国道 (SR 237) 连接US-101国道和I-880洲际公路，如果不过桥，这条路基本上就是连接南湾和东湾的最近选择了。237国道会经过湾区很多IT大厂在森尼韦尔 (Sunnyvale) 的办公园区，比如谷歌 (Google)、脸书 (Meta/Facebook)、领英 (LinkedIn) 等等。
+	- ![](http://www.slyar.com/blog/wp-content/uploads/2022/07/slyar_sf_bay_area_3.jpg)
+	- 邓巴顿大桥 (Dumbarton Bridge)，也叫84号桥，是加利福尼亚州旧金山湾最南端的高速公路桥梁。连接弗里蒙特 (Fremont) 和门洛帕克 (Menlo Park)，承载84号加利福尼亚州州道，在北侧有输电线路通过。
+	- ![](http://www.slyar.com/blog/wp-content/uploads/2022/07/slyar_sf_bay_area_5.jpg)
+	- 圣马特奥-海沃德大桥 (San Mateo-Hayward Bridge)，圣马特奥桥，连接东湾海沃德 (Hayward) 和半岛福斯特城 (Foster City)。这座桥是92号州际公路 (SR 92) 的一部分，所以一般也叫做92号桥。
+	- ![](http://www.slyar.com/blog/wp-content/uploads/2022/07/slyar_sf_bay_area_6.jpg)
+	- 金门大桥 (Golden Gate Bridge)，是一座位于美国加利福尼亚州旧金山的悬索桥，它跨越联接旧金山湾和太平洋的金门海峡，南端连接旧金山的北端，北端接通马林县 (Marin County)。
+	- ![](http://www.slyar.com/blog/wp-content/uploads/2022/07/slyar_sf_bay_area_7.jpg)
+	- 旧金山-奥克兰海湾大桥 (San Francisco-Oakland Bay Bridge)，当地多简称为海湾大桥 (Bay Bridge)，是一座位于美国旧金山湾区，连接旧金山、芳草岛 (Yerba Buena Island) 以及奥克兰 (Oakland) 的桥梁。海湾大桥是横跨全美国的80号州际公路一部分；1936年11月12日完工通车，比旧金山另一著名桥梁金门大桥早六个月通车。
+	- ![](http://www.slyar.com/blog/wp-content/uploads/2022/07/slyar_sf_bay_area_8.jpg)
+	- ## 总结
+	- 以上就是旧金山湾区 (San Francisco Bay Area) 的主要区域划分和交通概要了，希望对旧金山湾区不熟悉的童鞋们看完之后能对湾区的地理有个大概的了解。
+	- 转载请注明：[Slyar Home](http://www.slyar.com/blog) » [硅谷旧金山湾区主要划分(南湾-东湾-旧金山-半岛-三谷地区)](http://www.slyar.com/blog/san-francisco-bay-area-silicon-valley-area-cities.html)

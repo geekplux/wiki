@@ -184,6 +184,78 @@
  {:block/name "2022-06-28",
   :block/created-at 1656345652525,
   :block/updated-at 1656391157125}
+ {:block/name "2022-06-29",
+  :block/created-at 1656433029501,
+  :block/updated-at 1656433029501}
+ {:block/name "2022-06-30",
+  :block/created-at 1656524000485,
+  :block/updated-at 1656524000485}
+ {:block/name "2022-07-01",
+  :block/created-at 1656604834567,
+  :block/updated-at 1656688853706}
+ {:block/name "2022-07-02",
+  :block/created-at 1656691201319,
+  :block/updated-at 1656792769031}
+ {:block/name "2022-07-03",
+  :block/created-at 1656777605081,
+  :block/updated-at 1656864656866}
+ {:block/name "2022-07-04",
+  :block/created-at 1656864003153,
+  :block/updated-at 1656864003153}
+ {:block/name "2022-07-06",
+  :block/created-at 1657073604042,
+  :block/updated-at 1657073604042}
+ {:block/name "2022-07-08",
+  :block/created-at 1657251133444,
+  :block/updated-at 1657251133444}
+ {:block/name "2022-07-09",
+  :block/created-at 1657296837995,
+  :block/updated-at 1657365016655}
+ {:block/name "2022-07-10",
+  :block/created-at 1657382429475,
+  :block/updated-at 1657382429475}
+ {:block/name "2022-07-11",
+  :block/created-at 1657468848756,
+  :block/updated-at 1657468848756}
+ {:block/name "2022-07-12",
+  :block/created-at 1657637888414,
+  :block/updated-at 1657637888414}
+ {:block/name "2022-07-13",
+  :block/created-at 1657641636407,
+  :block/updated-at 1657641636407}
+ {:block/name "2022-07-14",
+  :block/created-at 1657728001243,
+  :block/updated-at 1657728001243}
+ {:block/name "2022-07-15",
+  :block/created-at 1657814433774,
+  :block/updated-at 1657858703483}
+ {:block/name "2022-07-16",
+  :block/created-at 1657906433546,
+  :block/updated-at 1657906433546}
+ {:block/name "2022-07-17",
+  :block/created-at 1657988348456,
+  :block/updated-at 1658064894147}
+ {:block/name "2022-07-18",
+  :block/created-at 1658073602982,
+  :block/updated-at 1658073602982}
+ {:block/name "2022-07-19",
+  :block/created-at 1658160001642,
+  :block/updated-at 1658160001642}
+ {:block/name "2022-07-20",
+  :block/created-at 1658246404064,
+  :block/updated-at 1658246404064}
+ {:block/name "2022-07-21",
+  :block/created-at 1658332802966,
+  :block/updated-at 1658332802966}
+ {:block/name "2022-07-22",
+  :block/created-at 1658419201648,
+  :block/updated-at 1658677919485}
+ {:block/name "2022-07-23",
+  :block/created-at 1658505660709,
+  :block/updated-at 1658505660709}
+ {:block/name "2022-07-24",
+  :block/created-at 1658592058728,
+  :block/updated-at 1658677905962}
  {:block/name "3d visualization",
   :block/created-at 1655204429823,
   :block/updated-at 1656049860952}
@@ -199,6 +271,9 @@
  {:block/name "a",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
+ {:block/name "accessibility",
+  :block/created-at 1656823104972,
+  :block/updated-at 1656823104972}
  {:block/name "acquisition",
   :block/created-at 1655265595969,
   :block/updated-at 1655265595969}
@@ -235,12 +310,15 @@
  {:block/name "blockchain programming",
   :block/created-at 1640667298474,
   :block/updated-at 1655436676787}
+ {:block/name "boilerplate",
+  :block/created-at 1657362933628,
+  :block/updated-at 1657362933628}
  {:block/name "books",
   :block/created-at 1640667298474,
   :block/updated-at 1640667298474}
  {:block/name "books review",
   :block/created-at 1640667298474,
-  :block/updated-at 1656063067873}
+  :block/updated-at 1656433180852}
  {:block/name "books worth reading twice",
   :block/created-at 1640667298474,
   :block/updated-at 1640667298474}
@@ -256,6 +334,12 @@
  {:block/name "c",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
+ {:block/name "canceled",
+  :block/created-at 1657075801866,
+  :block/updated-at 1657075801866}
+ {:block/name "cancelled",
+  :block/created-at 1657075801866,
+  :block/updated-at 1657075801866}
  {:block/name "canvas",
   :block/created-at 1653799288259,
   :block/updated-at 1653799288259}
@@ -277,6 +361,12 @@
  {:block/name "collaboration",
   :block/created-at 1655206107680,
   :block/updated-at 1655206107680}
+ {:block/name "communicate",
+  :block/created-at 1656783629498,
+  :block/updated-at 1656783629498}
+ {:block/name "communication",
+  :block/created-at 1656783618007,
+  :block/updated-at 1656783629501}
  {:block/name "complexity analysis",
   :block/created-at 1647501732714,
   :block/updated-at 1647501732714}
@@ -295,9 +385,15 @@
  {:block/name "courses",
   :block/created-at 1642956353273,
   :block/updated-at 1642956353273}
+ {:block/name "creative programming",
+  :block/created-at 1658054605877,
+  :block/updated-at 1658054605877}
  {:block/name "creator economy",
   :block/created-at 1640787177251,
   :block/updated-at 1640787177251}
+ {:block/name "critical thinking",
+  :block/created-at 1656780806473,
+  :block/updated-at 1656780806473}
  {:block/name "crypto capital",
   :block/created-at 1640667298474,
   :block/updated-at 1640767232209}
@@ -310,12 +406,18 @@
  {:block/name "css",
   :block/created-at 1650265846427,
   :block/updated-at 1650265846427}
+ {:block/name "data analytics",
+  :block/created-at 1656485051967,
+  :block/updated-at 1656485051967}
  {:block/name "data structure",
   :block/created-at 1654739754247,
   :block/updated-at 1654739754247}
  {:block/name "data visualization",
   :block/created-at 1651721546089,
   :block/updated-at 1651721546089}
+ {:block/name "debug",
+  :block/created-at 1656783315975,
+  :block/updated-at 1656783315975}
  {:block/name "decile",
   :block/created-at 1647957265163,
   :block/updated-at 1647957265163}
@@ -325,6 +427,9 @@
  {:block/name "design docs",
   :block/created-at 1655205506150,
   :block/updated-at 1655206069101}
+ {:block/name "design pattern",
+  :block/created-at 1656823287612,
+  :block/updated-at 1657553627696}
  {:block/name "digital devices",
   :block/created-at 1639754052852,
   :block/updated-at 1639982095796}
@@ -345,13 +450,16 @@
   :block/updated-at 1654755455061}
  {:block/name "emigration",
   :block/created-at 1636271347540,
-  :block/updated-at 1656416746006}
+  :block/updated-at 1657263403466}
  {:block/name "engineer",
   :block/created-at 1654010291697,
   :block/updated-at 1654743874024}
  {:block/name "english",
   :block/created-at 1635346371330,
   :block/updated-at 1635347333982}
+ {:block/name "estimate",
+  :block/created-at 1656792041136,
+  :block/updated-at 1656792041136}
  {:block/name "experience",
   :block/created-at 1655657330631,
   :block/updated-at 1655657330631}
@@ -361,9 +469,21 @@
  {:block/name "finance",
   :block/created-at 1637244607288,
   :block/updated-at 1637244607288}
+ {:block/name "fluent python",
+  :block/created-at 1656433180850,
+  :block/updated-at 1656434832357}
  {:block/name "font",
   :block/created-at 1640065814402,
   :block/updated-at 1640065814402}
+ {:block/name "front-end interview",
+  :block/created-at 1656582818384,
+  :block/updated-at 1656583220237}
+ {:block/name "fundamental",
+  :block/created-at 1656779208700,
+  :block/updated-at 1656779269153}
+ {:block/name "fundamentals",
+  :block/created-at 1656779269151,
+  :block/updated-at 1656779269151}
  {:block/name "geekplux wiki",
   :block/created-at 1635170480779,
   :block/updated-at 1655437053872}
@@ -385,6 +505,12 @@
  {:block/name "gpu",
   :block/created-at 1649002368194,
   :block/updated-at 1649002368194}
+ {:block/name "graph",
+  :block/created-at 1656843226485,
+  :block/updated-at 1656843226485}
+ {:block/name "graph theory",
+  :block/created-at 1656843269322,
+  :block/updated-at 1656843269322}
  {:block/name "graphic design",
   :block/created-at 1655567134323,
   :block/updated-at 1655567134323}
@@ -403,6 +529,10 @@
  {:block/name "health check",
   :block/created-at 1654160689384,
   :block/updated-at 1654160696786}
+ {:block/name
+  "hls__addyosmani.com_-_software_engineering_-_the_soft_parts_1656782760943_0",
+  :block/created-at 1656782779651,
+  :block/updated-at 1656782779651}
  {:block/name "hong kong",
   :block/created-at 1650207654139,
   :block/updated-at 1650207677938}
@@ -415,6 +545,9 @@
  {:block/name "hustle",
   :block/created-at 1655255016773,
   :block/updated-at 1655255034961}
+ {:block/name "impact",
+  :block/created-at 1656791286304,
+  :block/updated-at 1656791286304}
  {:block/name "in-progress",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
@@ -426,7 +559,7 @@
   :block/updated-at 1655265646523}
  {:block/name "interview",
   :block/created-at 1647500312802,
-  :block/updated-at 1656389781246}
+  :block/updated-at 1656582829587}
  {:block/name "investment",
   :block/created-at 1637244626181,
   :block/updated-at 1641123785989}
@@ -439,6 +572,9 @@
  {:block/name "job offer negotiation",
   :block/created-at 1643812228625,
   :block/updated-at 1650272380490}
+ {:block/name "kindness",
+  :block/created-at 1656788661547,
+  :block/updated-at 1656788661547}
  {:block/name "knowledge",
   :block/created-at 1637054500355,
   :block/updated-at 1655365074103}
@@ -474,7 +610,7 @@
   :block/updated-at 1646892310759}
  {:block/name "luck",
   :block/created-at 1637054378094,
-  :block/updated-at 1637054463095}
+  :block/updated-at 1658026567312}
  {:block/name "make a living from writing a newsletter",
   :block/created-at 1655093604496,
   :block/updated-at 1655093621102}
@@ -502,6 +638,9 @@
  {:block/name "medical",
   :block/created-at 1642331851964,
   :block/updated-at 1642331851964}
+ {:block/name "mentor",
+  :block/created-at 1656790993265,
+  :block/updated-at 1656790993265}
  {:block/name "minimalist shoes",
   :block/created-at 1639149509115,
   :block/updated-at 1639149978442}
@@ -514,6 +653,9 @@
  {:block/name "music",
   :block/created-at 1656315041488,
   :block/updated-at 1656315041488}
+ {:block/name "network",
+  :block/created-at 1656843222695,
+  :block/updated-at 1656843350212}
  {:block/name "newsletter",
   :block/created-at 1654579153687,
   :block/updated-at 1655093627094}
@@ -523,6 +665,9 @@
  {:block/name "newsletters",
   :block/created-at 1636271796876,
   :block/updated-at 1649610208752}
+ {:block/name "next.js",
+  :block/created-at 1657363498916,
+  :block/updated-at 1657363498916}
  {:block/name "now",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
@@ -535,6 +680,12 @@
  {:block/name "option",
   :block/created-at 1654741507034,
   :block/updated-at 1654741507034}
+ {:block/name "pandas",
+  :block/created-at 1656484883631,
+  :block/updated-at 1656485076417}
+ {:block/name "passport",
+  :block/created-at 1656834363352,
+  :block/updated-at 1656834363352}
  {:block/name "percentile",
   :block/created-at 1647957271859,
   :block/updated-at 1647957271859}
@@ -559,6 +710,15 @@
  {:block/name "poker",
   :block/created-at 1643815416493,
   :block/updated-at 1643816037995}
+ {:block/name "policy",
+  :block/created-at 1658669597331,
+  :block/updated-at 1658669597331}
+ {:block/name "pressure",
+  :block/created-at 1656864622188,
+  :block/updated-at 1656864622188}
+ {:block/name "privacy",
+  :block/created-at 1658669618003,
+  :block/updated-at 1658669618003}
  {:block/name "process design",
   :block/created-at 1655206123921,
   :block/updated-at 1655206123921}
@@ -574,9 +734,15 @@
  {:block/name "programming language",
   :block/created-at 1656379458366,
   :block/updated-at 1656379458366}
+ {:block/name "programming principles",
+  :block/created-at 1656782109395,
+  :block/updated-at 1656782109395}
  {:block/name "psychology",
   :block/created-at 1655265672558,
   :block/updated-at 1655265672558}
+ {:block/name "python",
+  :block/created-at 1656437167567,
+  :block/updated-at 1656437308175}
  {:block/name "quantiles",
   :block/created-at 1647957233557,
   :block/updated-at 1647957289318}
@@ -589,6 +755,12 @@
  {:block/name "quotes",
   :block/created-at 1640667298474,
   :block/updated-at 1641394895923}
+ {:block/name "r3f",
+  :block/created-at 1657363516349,
+  :block/updated-at 1657363516349}
+ {:block/name "react three fiber",
+  :block/created-at 1657363490431,
+  :block/updated-at 1657363516352}
  {:block/name "react.js",
   :block/created-at 1654578492031,
   :block/updated-at 1654578492031}
@@ -619,6 +791,12 @@
  {:block/name "running shoes",
   :block/created-at 1639148005028,
   :block/updated-at 1639149812847}
+ {:block/name "runtime",
+  :block/created-at 1657362905571,
+  :block/updated-at 1657362905571}
+ {:block/name "san francisco bay area",
+  :block/created-at 1657261581711,
+  :block/updated-at 1657261733025}
  {:block/name "search engine",
   :block/created-at 1656239476851,
   :block/updated-at 1656239476851}
@@ -637,15 +815,24 @@
  {:block/name "software",
   :block/created-at 1655655451597,
   :block/updated-at 1655655451597}
+ {:block/name "software engineer",
+  :block/created-at 1656777964983,
+  :block/updated-at 1656777964983}
  {:block/name "staff engineer",
   :block/created-at 1654741667302,
   :block/updated-at 1654743831406}
+ {:block/name "starter",
+  :block/created-at 1657363578015,
+  :block/updated-at 1657363578015}
  {:block/name "stock",
   :block/created-at 1641123719406,
   :block/updated-at 1641123719406}
  {:block/name "stockoptions",
   :block/created-at 1654741520767,
   :block/updated-at 1654741520767}
+ {:block/name "stress",
+  :block/created-at 1656864600672,
+  :block/updated-at 1656864600672}
  {:block/name "summary",
   :block/created-at 1641220446819,
   :block/updated-at 1641220446819}
@@ -658,9 +845,15 @@
  {:block/name "template",
   :block/created-at 1646891097369,
   :block/updated-at 1646906333768}
+ {:block/name "terms",
+  :block/created-at 1658669591563,
+  :block/updated-at 1658669591563}
  {:block/name "the pragmatic programmer",
   :block/created-at 1656063067872,
   :block/updated-at 1656063240615}
+ {:block/name "thinking",
+  :block/created-at 1656821362190,
+  :block/updated-at 1656821428949}
  {:block/name "three.js",
   :block/created-at 1655567166752,
   :block/updated-at 1655567456325}
@@ -679,6 +872,12 @@
  {:block/name "twitter operating",
   :block/created-at 1641710189639,
   :block/updated-at 1641710214096}
+ {:block/name "ui library",
+  :block/created-at 1656823078059,
+  :block/updated-at 1656823078059}
+ {:block/name "user experience",
+  :block/created-at 1656783254925,
+  :block/updated-at 1656783254925}
  {:block/name "video editing",
   :block/created-at 1648991541877,
   :block/updated-at 1648991550552}
@@ -726,7 +925,7 @@
   :block/updated-at 1649616050399}
  {:block/name "what i read daily",
   :block/created-at 1646893170794,
-  :block/updated-at 1656431814035}
+  :block/updated-at 1657075943890}
  {:block/name "when we two parted",
   :block/created-at 1640667298475,
   :block/updated-at 1640667298475}
@@ -747,7 +946,7 @@
   :block/updated-at 1641876885772}
  {:block/name "writing",
   :block/created-at 1639757245759,
-  :block/updated-at 1642045199638}
+  :block/updated-at 1656822419558}
  {:block/name "writing economy",
   :block/created-at 1640787099304,
   :block/updated-at 1640787288071}
