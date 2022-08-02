@@ -249,13 +249,34 @@
   :block/updated-at 1658332802966}
  {:block/name "2022-07-22",
   :block/created-at 1658419201648,
-  :block/updated-at 1658677919485}
+  :block/updated-at 1658679629305}
  {:block/name "2022-07-23",
   :block/created-at 1658505660709,
   :block/updated-at 1658505660709}
  {:block/name "2022-07-24",
   :block/created-at 1658592058728,
-  :block/updated-at 1658677905962}
+  :block/updated-at 1658740339835}
+ {:block/name "2022-07-25",
+  :block/created-at 1658678400346,
+  :block/updated-at 1658761755155}
+ {:block/name "2022-07-26",
+  :block/created-at 1658764804831,
+  :block/updated-at 1658764804831}
+ {:block/name "2022-07-27",
+  :block/created-at 1658851254711,
+  :block/updated-at 1658851254711}
+ {:block/name "2022-07-28",
+  :block/created-at 1658937601354,
+  :block/updated-at 1658937601354}
+ {:block/name "2022-07-29",
+  :block/created-at 1659024005010,
+  :block/updated-at 1659164316099}
+ {:block/name "2022-07-30",
+  :block/created-at 1659110450988,
+  :block/updated-at 1659164353632}
+ {:block/name "2022-07-31",
+  :block/created-at 1659199555014,
+  :block/updated-at 1659199555014}
  {:block/name "3d visualization",
   :block/created-at 1655204429823,
   :block/updated-at 1656049860952}
@@ -277,6 +298,12 @@
  {:block/name "acquisition",
   :block/created-at 1655265595969,
   :block/updated-at 1655265595969}
+ {:block/name "advertising",
+  :block/created-at 1658680457219,
+  :block/updated-at 1658680457219}
+ {:block/name "ai",
+  :block/created-at 1658680267960,
+  :block/updated-at 1658680267960}
  {:block/name "algorithm",
   :block/created-at 1635346772652,
   :block/updated-at 1647501732716}
@@ -304,6 +331,9 @@
  {:block/name "barefoot running",
   :block/created-at 1639149839853,
   :block/updated-at 1639149973319}
+ {:block/name "bash",
+  :block/created-at 1659164326483,
+  :block/updated-at 1659164326483}
  {:block/name "blockchain",
   :block/created-at 1640667298474,
   :block/updated-at 1647501521040}
@@ -421,6 +451,9 @@
  {:block/name "decile",
   :block/created-at 1647957265163,
   :block/updated-at 1647957265163}
+ {:block/name "deep learning",
+  :block/created-at 1658680311948,
+  :block/updated-at 1658680311948}
  {:block/name "design",
   :block/created-at 1640065814402,
   :block/updated-at 1651721378197}
@@ -430,6 +463,12 @@
  {:block/name "design pattern",
   :block/created-at 1656823287612,
   :block/updated-at 1657553627696}
+ {:block/name "developer",
+  :block/created-at 1658680460334,
+  :block/updated-at 1658680460334}
+ {:block/name "developer marketing",
+  :block/created-at 1658680475564,
+  :block/updated-at 1658680475564}
  {:block/name "digital devices",
   :block/created-at 1639754052852,
   :block/updated-at 1639982095796}
@@ -602,6 +641,9 @@
  {:block/name "life",
   :block/created-at 1655657319213,
   :block/updated-at 1655657319213}
+ {:block/name "linux",
+  :block/created-at 1659164339602,
+  :block/updated-at 1659164339602}
  {:block/name "listening",
   :block/created-at 1635347195180,
   :block/updated-at 1637054573135}
@@ -611,6 +653,9 @@
  {:block/name "luck",
   :block/created-at 1637054378094,
   :block/updated-at 1658026567312}
+ {:block/name "machine learning",
+  :block/created-at 1658680317013,
+  :block/updated-at 1658680317013}
  {:block/name "make a living from writing a newsletter",
   :block/created-at 1655093604496,
   :block/updated-at 1655093621102}
@@ -668,6 +713,9 @@
  {:block/name "next.js",
   :block/created-at 1657363498916,
   :block/updated-at 1657363498916}
+ {:block/name "nlp",
+  :block/created-at 1658680349498,
+  :block/updated-at 1658680349498}
  {:block/name "now",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
@@ -809,6 +857,9 @@
  {:block/name "shader",
   :block/created-at 1637336170332,
   :block/updated-at 1637338452722}
+ {:block/name "shell",
+  :block/created-at 1659164324884,
+  :block/updated-at 1659164324884}
  {:block/name "social",
   :block/created-at 1640017548108,
   :block/updated-at 1640017559828}
@@ -830,6 +881,9 @@
  {:block/name "stockoptions",
   :block/created-at 1654741520767,
   :block/updated-at 1654741520767}
+ {:block/name "strategy",
+  :block/created-at 1658752472155,
+  :block/updated-at 1658752472155}
  {:block/name "stress",
   :block/created-at 1656864600672,
   :block/updated-at 1656864600672}
@@ -863,6 +917,9 @@
  {:block/name "tools",
   :block/created-at 1639754044753,
   :block/updated-at 1639754389920}
+ {:block/name "trading",
+  :block/created-at 1658752465858,
+  :block/updated-at 1658752465858}
  {:block/name "trail race",
   :block/created-at 1642956353273,
   :block/updated-at 1642956353273}
@@ -875,6 +932,9 @@
  {:block/name "ui library",
   :block/created-at 1656823078059,
   :block/updated-at 1656823078059}
+ {:block/name "unix",
+  :block/created-at 1659164339601,
+  :block/updated-at 1659164339601}
  {:block/name "user experience",
   :block/created-at 1656783254925,
   :block/updated-at 1656783254925}
@@ -895,7 +955,7 @@
   :block/updated-at 1655204457633}
  {:block/name "vlog",
   :block/created-at 1639645062490,
-  :block/updated-at 1641951832556}
+  :block/updated-at 1659200144164}
  {:block/name "wait",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}

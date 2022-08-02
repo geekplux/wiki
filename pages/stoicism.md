@@ -1,0 +1,2 @@
+- 《(Teach Yourself) Donald Robertson - Stoicism and the Art of Happiness_ A Teach Yourself Guide-Hodder & Stoughton (2013)》
+- 《Donald J. Robertson - How to Think Like a Roman Emperor_ The Stoic Philosophy of Marcus Aurelius-St. Martin’s Press (2019)》
