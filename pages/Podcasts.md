@@ -1,3 +1,5 @@
+alias:: 播客, podcast
+
 - Random Sorted
 - ### Tech & Programmer
 	- [Changelog](https://changelog.com/podcasts)  

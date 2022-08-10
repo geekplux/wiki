@@ -1,4 +1,4 @@
-alias:: 图形学
+alias:: 图形学, cg
 
 - [[Shader]]
 - [[WebGL]]
