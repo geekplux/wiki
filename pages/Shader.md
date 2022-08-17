@@ -16,3 +16,4 @@
 ## Learning Resource
 	- ### books
 		- [*The Book of Shaders*](https://thebookofshaders.com) - best learning guide for shaders I think, with practical interactive example and pretty good writing style.
+	- https://blog.maximeheckel.com/posts/the-study-of-shaders-with-react-three-fiber/ #[[React Three Fiber]]

@@ -1,0 +1,1 @@
+- https://twitter.com/TomFrankly/status/1554159870022238210?s=20 Sell Notion Template #Notion #[[experience sharing]]
