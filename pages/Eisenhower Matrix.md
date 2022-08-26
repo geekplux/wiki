@@ -1,0 +1,6 @@
+- The Eisenhower Matrix has four parts, which you use to categorize the work in front of you: #Productive #[[time management]] #time
+	- Important, but not urgent
+	- Urgent and important
+	- Urgent but not important
+	- Not important and not urgent
+- The Eisenhower Matrix helps you [[prioritize]] your time. The real value of the tool is how it helps you distinguish between what is important and what is urgent. As Eisenhower said, “What is important is seldom urgent and what is urgent is seldom important.”

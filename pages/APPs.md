@@ -1,2 +1,2 @@
 - |Name|Function|Platform| Link |
-  | shottr | screenshot| MacOS | https://shottr.cc |
+  | shottr | [[screenshot]]| MacOS | [Shottr – Screenshot Annotation App For Mac](https://shottr.cc) |

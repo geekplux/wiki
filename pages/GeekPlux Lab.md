@@ -1,0 +1,7 @@
+- [GeekPlux Lab](https://geekplux.zhubai.love)
+- 下一步方向 （2022-08-21）：
+	- 提供追踪股票列表
+		- 以某种形式公开 list
+		- 付费群里可以增加投票到 list，也可以对之后更新的 schedule 投票
+	- 把过去输出过的股票内容进行整理
+		- 因为历史数据和分析，对于股票都还算比较有用，整理成文档放出，然后链接回原文即可（原文都是付费）。reference: [美股投資十日談 - 專題介紹 | 方格子](https://vocus.cc/usinvest/introduce)
