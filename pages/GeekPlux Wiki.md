@@ -13,4 +13,3 @@
 - [[Research]]
 - [[Information]]
 - [[Digital Devices]]
-- [[Wiki (archive version, loading pretty slow)]]

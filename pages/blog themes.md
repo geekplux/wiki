@@ -1,0 +1,3 @@
+- [Xie Yuheng](https://xieyuheng.com/)
+- [Blog, from Braden East](https://bradeneast.com/blog/)
+- [Spotlight - Tailwind CSS Personal Website Template](https://tailwindui.com/templates/spotlight) #tailwindcss

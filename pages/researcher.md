@@ -1,0 +1,2 @@
+- [rougier (Nicolas P. Rougier) · GitHub](https://github.com/rougier) #blog #[[blog themes]] #emacs #visualization #science #hacker
+- [Andy Matuschak](https://andymatuschak.org) #emacs
