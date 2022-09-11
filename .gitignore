@@ -1,3 +1,6 @@
 .recycle
 .DS_Store
 bak
+
+*.log
+*.tex

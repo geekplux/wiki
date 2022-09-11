@@ -1,0 +1,4 @@
+#+ALIAS: vscode
+
+* modern [[editor]]
+* [[https://github.com/VSpaceCode/VSpaceCode][GitHub - VSpaceCode/VSpaceCode: Spacemacs like keybindings for Visual Studio Code]] Spacemacs like [[key bindings]] #editor

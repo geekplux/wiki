@@ -386,8 +386,8 @@
   :block/created-at 1662739211146,
   :block/updated-at 1662739211146}
  {:block/name "2022-09-11",
-  :block/created-at 1662864203211,
-  :block/updated-at 1662864203211}
+  :block/created-at 1662864985276,
+  :block/updated-at 1662867065007}
  {:block/name "3d",
   :block/created-at 1662861510964,
   :block/updated-at 1662861510964}
@@ -580,6 +580,9 @@
  {:block/name "css",
   :block/created-at 1650265846427,
   :block/updated-at 1650265846427}
+ {:block/name "custom_id",
+  :block/created-at 1662878932331,
+  :block/updated-at 1662878932331}
  {:block/name "data analytics",
   :block/created-at 1656485051967,
   :block/updated-at 1656485051967}
@@ -636,22 +639,28 @@
   :block/updated-at 1635168671576}
  {:block/name "doomemacs",
   :block/created-at 1662481103868,
-  :block/updated-at 1662549478592}
+  :block/updated-at 1662881836340}
  {:block/name "economy",
   :block/created-at 1640787080344,
   :block/updated-at 1640787167820}
  {:block/name "eczema",
   :block/created-at 1642331944344,
   :block/updated-at 1661162631030}
+ {:block/name "editor",
+  :block/created-at 1662879878665,
+  :block/updated-at 1662879878665}
  {:block/name "eisenhower matrix",
   :block/created-at 1661340110848,
   :block/updated-at 1661340275229}
+ {:block/name "elisp",
+  :block/created-at 1662886231649,
+  :block/updated-at 1662887002319}
  {:block/name "elon musk",
   :block/created-at 1660465852327,
   :block/updated-at 1660465852327}
  {:block/name "emacs",
   :block/created-at 1654755455061,
-  :block/updated-at 1662549465466}
+  :block/updated-at 1662893062750}
  {:block/name "emigration",
   :block/created-at 1636271347540,
   :block/updated-at 1657263403466}
@@ -664,6 +673,9 @@
  {:block/name "estimate",
   :block/created-at 1656792041136,
   :block/updated-at 1656792041136}
+ {:block/name "evil",
+  :block/created-at 1662886523030,
+  :block/updated-at 1662886523030}
  {:block/name "experience",
   :block/created-at 1655657330631,
   :block/updated-at 1655657330631}
@@ -754,9 +766,6 @@
  {:block/name "harmonic mean",
   :block/created-at 1647956982847,
   :block/updated-at 1647956982847}
- {:block/name "heading-level",
-  :block/created-at 1662863338521,
-  :block/updated-at 1662863338521}
  {:block/name "health",
   :block/created-at 1654160640578,
   :block/updated-at 1654160689385}
@@ -824,6 +833,12 @@
  {:block/name "journal",
   :block/created-at 1660465860396,
   :block/updated-at 1660465860396}
+ {:block/name "key binding",
+  :block/created-at 1662879985553,
+  :block/updated-at 1662879985553}
+ {:block/name "key bindings",
+  :block/created-at 1662879915143,
+  :block/updated-at 1662879985553}
  {:block/name "kindness",
   :block/created-at 1656788661547,
   :block/updated-at 1656788661547}
@@ -881,6 +896,9 @@
  {:block/name "machine learning",
   :block/created-at 1658680317013,
   :block/updated-at 1658680317013}
+ {:block/name "macos",
+  :block/created-at 1662892847441,
+  :block/updated-at 1662892847441}
  {:block/name "make a living from writing a newsletter",
   :block/created-at 1655093604496,
   :block/updated-at 1655093621102}
@@ -977,9 +995,12 @@
  {:block/name "option",
   :block/created-at 1654741507034,
   :block/updated-at 1654741507034}
+ {:block/name "org",
+  :block/created-at 1662892876286,
+  :block/updated-at 1662892876286}
  {:block/name "org-mode",
   :block/created-at 1662782653133,
-  :block/updated-at 1662782657902}
+  :block/updated-at 1662892876287}
  {:block/name "org-roam",
   :block/created-at 1662549380616,
   :block/updated-at 1662549413801}
@@ -989,9 +1010,18 @@
  {:block/name "pandas",
   :block/created-at 1656484883631,
   :block/updated-at 1656485076417}
+ {:block/name "pandoc",
+  :block/created-at 1662877716588,
+  :block/updated-at 1662877869164}
  {:block/name "passport",
   :block/created-at 1662861509695,
   :block/updated-at 1662861509695}
+ {:block/name "pdf",
+  :block/created-at 1662892888010,
+  :block/updated-at 1662892888010}
+ {:block/name "pdflatex",
+  :block/created-at 1662892817562,
+  :block/updated-at 1662892817562}
  {:block/name "percentile",
   :block/created-at 1647957271859,
   :block/updated-at 1647957271859}
@@ -1163,6 +1193,9 @@
  {:block/name "software engineer",
   :block/created-at 1656777964983,
   :block/updated-at 1656777964983}
+ {:block/name "spacemacs",
+  :block/created-at 1662881662266,
+  :block/updated-at 1662881662266}
  {:block/name "ssg",
   :block/created-at 1660465860679,
   :block/updated-at 1660465860679}
@@ -1219,16 +1252,10 @@
   :block/updated-at 1648973067609}
  {:block/name "template",
   :block/created-at 1662862366194,
-  :block/updated-at 1662863183480}
- {:block/name "template-including-parent",
-  :block/created-at 1662863050141,
-  :block/updated-at 1662863050141}
+  :block/updated-at 1662864973186}
  {:block/name "terms",
   :block/created-at 1658669591563,
   :block/updated-at 1658669591563}
- {:block/name "test",
-  :block/created-at 1662863682714,
-  :block/updated-at 1662863682714}
  {:block/name "the pragmatic programmer",
   :block/created-at 1656063067872,
   :block/updated-at 1656063240615}
@@ -1298,6 +1325,9 @@
  {:block/name "video editing",
   :block/created-at 1648991541877,
   :block/updated-at 1648991550552}
+ {:block/name "vim",
+  :block/created-at 1662884833020,
+  :block/updated-at 1662892060699}
  {:block/name "vis",
   :block/created-at 1651721549262,
   :block/updated-at 1651721549262}
@@ -1307,6 +1337,9 @@
  {:block/name "visual search engine",
   :block/created-at 1656239476850,
   :block/updated-at 1656239476850}
+ {:block/name "visual studio code",
+  :block/created-at 1662879857019,
+  :block/updated-at 1662879998492}
  {:block/name "visualization",
   :block/created-at 1651721389690,
   :block/updated-at 1655204457633}
@@ -1316,6 +1349,9 @@
  {:block/name "vocabulary",
   :block/created-at 1662861510777,
   :block/updated-at 1662861510777}
+ {:block/name "vscode",
+  :block/created-at 1662879947290,
+  :block/updated-at 1662879947290}
  {:block/name "wait",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
@@ -1344,11 +1380,11 @@
   :block/created-at 1647956966276,
   :block/updated-at 1647956966276}
  {:block/name "what i found out daily",
-  :block/created-at 1646906090106,
-  :block/updated-at 1649616050399}
+  :block/created-at 1662867389993,
+  :block/updated-at 1662867471351}
  {:block/name "what i read daily",
-  :block/created-at 1646893170794,
-  :block/updated-at 1657075943890}
+  :block/created-at 1662867107300,
+  :block/updated-at 1662867292121}
  {:block/name "when we two parted",
   :block/created-at 1640667298475,
   :block/updated-at 1640667298475}
@@ -1371,8 +1407,8 @@
   :block/created-at 1660489719649,
   :block/updated-at 1660489719649}
  {:block/name "writing",
-  :block/created-at 1639757245759,
-  :block/updated-at 1656822419558}
+  :block/created-at 1662887656196,
+  :block/updated-at 1662891905980}
  {:block/name "writing economy",
   :block/created-at 1640787099304,
   :block/updated-at 1640787288071}
@@ -1476,8 +1512,8 @@
   :block/created-at 1649616050398,
   :block/updated-at 1649616050398}
  {:block/name "我每天读了什么",
-  :block/created-at 1649616018205,
-  :block/updated-at 1649616018205}
+  :block/created-at 1662867268909,
+  :block/updated-at 1662867268909}
  {:block/name "摄影",
   :block/created-at 1646889541851,
   :block/updated-at 1646889541851}

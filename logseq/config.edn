@@ -168,7 +168,7 @@
  :publishing/all-pages-public? true
  :feature/enable-journals? true
  :default-home {:page "GeekPlux Wiki"}
- :favorites ["What I read Daily" "What I found out Daily" "Information" "Writing"]
+ :favorites ("GeekPlux Wiki" "Writing" "What I read Daily" "What I found out Daily" "Information")
  :preferred-format :org
  :journal/page-title-format "yyyy-MM-dd"
 

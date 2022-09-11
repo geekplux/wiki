@@ -1,0 +1,4 @@
+* [[https://pandoc.org][Pandoc - About pandoc]]
+* #+BEGIN_SRC bash
+pandoc -f markdown -t org [FILES]
+#+END_SRC
