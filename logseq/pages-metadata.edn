@@ -7,6 +7,306 @@
  {:block/name "1on1",
   :block/created-at 1655264882740,
   :block/updated-at 1655264882740}
+ {:block/name "2022-03-09",
+  :block/created-at 1662784046050,
+  :block/updated-at 1662784046050}
+ {:block/name "2022-03-10",
+  :block/created-at 1662784046024,
+  :block/updated-at 1662784046024}
+ {:block/name "2022-03-14",
+  :block/created-at 1662784045994,
+  :block/updated-at 1662784045994}
+ {:block/name "2022-03-15",
+  :block/created-at 1662784045968,
+  :block/updated-at 1662784045968}
+ {:block/name "2022-03-16",
+  :block/created-at 1662784045936,
+  :block/updated-at 1662784045936}
+ {:block/name "2022-03-17",
+  :block/created-at 1662784045904,
+  :block/updated-at 1662784045904}
+ {:block/name "2022-03-18",
+  :block/created-at 1662784045880,
+  :block/updated-at 1662784045880}
+ {:block/name "2022-03-20",
+  :block/created-at 1662784045848,
+  :block/updated-at 1662784045848}
+ {:block/name "2022-03-23",
+  :block/created-at 1662784045818,
+  :block/updated-at 1662784045818}
+ {:block/name "2022-03-24",
+  :block/created-at 1662784045788,
+  :block/updated-at 1662784045788}
+ {:block/name "2022-03-27",
+  :block/created-at 1662784045753,
+  :block/updated-at 1662784045753}
+ {:block/name "2022-03-28",
+  :block/created-at 1662784045726,
+  :block/updated-at 1662784045726}
+ {:block/name "2022-04-01",
+  :block/created-at 1662784045701,
+  :block/updated-at 1662784045701}
+ {:block/name "2022-04-03",
+  :block/created-at 1662784045669,
+  :block/updated-at 1662784045669}
+ {:block/name "2022-04-10",
+  :block/created-at 1662784045635,
+  :block/updated-at 1662784045635}
+ {:block/name "2022-04-11",
+  :block/created-at 1662784045602,
+  :block/updated-at 1662784045602}
+ {:block/name "2022-04-17",
+  :block/created-at 1662784045570,
+  :block/updated-at 1662784045570}
+ {:block/name "2022-04-18",
+  :block/created-at 1662784045538,
+  :block/updated-at 1662784045538}
+ {:block/name "2022-04-20",
+  :block/created-at 1662784045513,
+  :block/updated-at 1662784045513}
+ {:block/name "2022-04-22",
+  :block/created-at 1662784045486,
+  :block/updated-at 1662784045486}
+ {:block/name "2022-04-27",
+  :block/created-at 1662784045460,
+  :block/updated-at 1662784045460}
+ {:block/name "2022-04-30",
+  :block/created-at 1662784045436,
+  :block/updated-at 1662784045436}
+ {:block/name "2022-05-01",
+  :block/created-at 1662784045407,
+  :block/updated-at 1662784045407}
+ {:block/name "2022-05-04",
+  :block/created-at 1662784045380,
+  :block/updated-at 1662784045380}
+ {:block/name "2022-05-05",
+  :block/created-at 1662784045353,
+  :block/updated-at 1662784045353}
+ {:block/name "2022-05-07",
+  :block/created-at 1662784045326,
+  :block/updated-at 1662784045326}
+ {:block/name "2022-05-08",
+  :block/created-at 1662784045300,
+  :block/updated-at 1662784045300}
+ {:block/name "2022-05-09",
+  :block/created-at 1662784045270,
+  :block/updated-at 1662784045270}
+ {:block/name "2022-05-15",
+  :block/created-at 1662784045245,
+  :block/updated-at 1662784045245}
+ {:block/name "2022-05-16",
+  :block/created-at 1662784045223,
+  :block/updated-at 1662784045223}
+ {:block/name "2022-05-17",
+  :block/created-at 1662784045201,
+  :block/updated-at 1662784045201}
+ {:block/name "2022-05-29",
+  :block/created-at 1662784045171,
+  :block/updated-at 1662784045171}
+ {:block/name "2022-05-30",
+  :block/created-at 1662784045136,
+  :block/updated-at 1662784045136}
+ {:block/name "2022-05-31",
+  :block/created-at 1662784045104,
+  :block/updated-at 1662784045104}
+ {:block/name "2022-06-01",
+  :block/created-at 1662784045076,
+  :block/updated-at 1662784045076}
+ {:block/name "2022-06-02",
+  :block/created-at 1662784045048,
+  :block/updated-at 1662784045048}
+ {:block/name "2022-06-03",
+  :block/created-at 1662784045023,
+  :block/updated-at 1662784045023}
+ {:block/name "2022-06-06",
+  :block/created-at 1662784045000,
+  :block/updated-at 1662784045000}
+ {:block/name "2022-06-07",
+  :block/created-at 1662784044974,
+  :block/updated-at 1662784044974}
+ {:block/name "2022-06-08",
+  :block/created-at 1662784044951,
+  :block/updated-at 1662784044951}
+ {:block/name "2022-06-09",
+  :block/created-at 1662784044915,
+  :block/updated-at 1662784044915}
+ {:block/name "2022-06-10",
+  :block/created-at 1662784044890,
+  :block/updated-at 1662784044890}
+ {:block/name "2022-06-11",
+  :block/created-at 1662784044867,
+  :block/updated-at 1662784044867}
+ {:block/name "2022-06-13",
+  :block/created-at 1662784044846,
+  :block/updated-at 1662784044846}
+ {:block/name "2022-06-14",
+  :block/created-at 1662784044816,
+  :block/updated-at 1662784044816}
+ {:block/name "2022-06-15",
+  :block/created-at 1662784044782,
+  :block/updated-at 1662784044782}
+ {:block/name "2022-06-16",
+  :block/created-at 1662784044751,
+  :block/updated-at 1662784044751}
+ {:block/name "2022-06-17",
+  :block/created-at 1662784044716,
+  :block/updated-at 1662784044716}
+ {:block/name "2022-06-18",
+  :block/created-at 1662784044688,
+  :block/updated-at 1662784044688}
+ {:block/name "2022-06-19",
+  :block/created-at 1662784044657,
+  :block/updated-at 1662784044657}
+ {:block/name "2022-06-20",
+  :block/created-at 1662784044625,
+  :block/updated-at 1662784044625}
+ {:block/name "2022-06-21",
+  :block/created-at 1662784044601,
+  :block/updated-at 1662784044601}
+ {:block/name "2022-06-24",
+  :block/created-at 1662784044571,
+  :block/updated-at 1662784044571}
+ {:block/name "2022-06-26",
+  :block/created-at 1662784044538,
+  :block/updated-at 1662784044538}
+ {:block/name "2022-06-27",
+  :block/created-at 1662784044493,
+  :block/updated-at 1662784044493}
+ {:block/name "2022-06-28",
+  :block/created-at 1662784044452,
+  :block/updated-at 1662784044452}
+ {:block/name "2022-06-29",
+  :block/created-at 1662784044424,
+  :block/updated-at 1662784044424}
+ {:block/name "2022-06-30",
+  :block/created-at 1662784044401,
+  :block/updated-at 1662784044401}
+ {:block/name "2022-07-01",
+  :block/created-at 1662784044378,
+  :block/updated-at 1662784044378}
+ {:block/name "2022-07-02",
+  :block/created-at 1662784044299,
+  :block/updated-at 1662784044299}
+ {:block/name "2022-07-03",
+  :block/created-at 1662784044229,
+  :block/updated-at 1662784044229}
+ {:block/name "2022-07-04",
+  :block/created-at 1662784044192,
+  :block/updated-at 1662784044192}
+ {:block/name "2022-07-06",
+  :block/created-at 1662784044163,
+  :block/updated-at 1662784044163}
+ {:block/name "2022-07-08",
+  :block/created-at 1662784044110,
+  :block/updated-at 1662784044110}
+ {:block/name "2022-07-09",
+  :block/created-at 1662784044074,
+  :block/updated-at 1662784044074}
+ {:block/name "2022-07-10",
+  :block/created-at 1662784044038,
+  :block/updated-at 1662784044038}
+ {:block/name "2022-07-11",
+  :block/created-at 1662784044015,
+  :block/updated-at 1662784044015}
+ {:block/name "2022-07-12",
+  :block/created-at 1662784043993,
+  :block/updated-at 1662784043993}
+ {:block/name "2022-07-13",
+  :block/created-at 1662784043968,
+  :block/updated-at 1662784043968}
+ {:block/name "2022-07-14",
+  :block/created-at 1662784043944,
+  :block/updated-at 1662784043944}
+ {:block/name "2022-07-15",
+  :block/created-at 1662784043918,
+  :block/updated-at 1662784043918}
+ {:block/name "2022-07-16",
+  :block/created-at 1662784043895,
+  :block/updated-at 1662784043895}
+ {:block/name "2022-07-17",
+  :block/created-at 1662784043864,
+  :block/updated-at 1662784043864}
+ {:block/name "2022-07-18",
+  :block/created-at 1662784043834,
+  :block/updated-at 1662784043834}
+ {:block/name "2022-07-19",
+  :block/created-at 1662784043811,
+  :block/updated-at 1662784043811}
+ {:block/name "2022-07-20",
+  :block/created-at 1662784043788,
+  :block/updated-at 1662784043788}
+ {:block/name "2022-07-21",
+  :block/created-at 1662784043762,
+  :block/updated-at 1662784043762}
+ {:block/name "2022-07-22",
+  :block/created-at 1662784043733,
+  :block/updated-at 1662784043733}
+ {:block/name "2022-07-23",
+  :block/created-at 1662784043709,
+  :block/updated-at 1662784043709}
+ {:block/name "2022-07-24",
+  :block/created-at 1662784043664,
+  :block/updated-at 1662784043664}
+ {:block/name "2022-07-25",
+  :block/created-at 1662784043630,
+  :block/updated-at 1662784043630}
+ {:block/name "2022-07-26",
+  :block/created-at 1662784043604,
+  :block/updated-at 1662784043604}
+ {:block/name "2022-07-27",
+  :block/created-at 1662784043580,
+  :block/updated-at 1662784043580}
+ {:block/name "2022-07-28",
+  :block/created-at 1662784043557,
+  :block/updated-at 1662784043557}
+ {:block/name "2022-07-29",
+  :block/created-at 1662784043529,
+  :block/updated-at 1662784043529}
+ {:block/name "2022-07-30",
+  :block/created-at 1662784043499,
+  :block/updated-at 1662784043499}
+ {:block/name "2022-07-31",
+  :block/created-at 1662784043475,
+  :block/updated-at 1662784043475}
+ {:block/name "2022-08-01",
+  :block/created-at 1662784043437,
+  :block/updated-at 1662784043437}
+ {:block/name "2022-08-02",
+  :block/created-at 1662784043405,
+  :block/updated-at 1662784043405}
+ {:block/name "2022-08-03",
+  :block/created-at 1662784043370,
+  :block/updated-at 1662784043370}
+ {:block/name "2022-08-04",
+  :block/created-at 1662784043318,
+  :block/updated-at 1662784043318}
+ {:block/name "2022-08-05",
+  :block/created-at 1662784043287,
+  :block/updated-at 1662784043287}
+ {:block/name "2022-08-06",
+  :block/created-at 1662784043263,
+  :block/updated-at 1662784043263}
+ {:block/name "2022-08-07",
+  :block/created-at 1662784043235,
+  :block/updated-at 1662784043235}
+ {:block/name "2022-08-08",
+  :block/created-at 1662784043204,
+  :block/updated-at 1662784043204}
+ {:block/name "2022-08-09",
+  :block/created-at 1662784043173,
+  :block/updated-at 1662784043173}
+ {:block/name "2022-08-10",
+  :block/created-at 1662784043135,
+  :block/updated-at 1662784043135}
+ {:block/name "2022-08-11",
+  :block/created-at 1662784043100,
+  :block/updated-at 1662784043100}
+ {:block/name "2022-08-12",
+  :block/created-at 1662784043068,
+  :block/updated-at 1662784043068}
+ {:block/name "2022-08-13",
+  :block/created-at 1662784043032,
+  :block/updated-at 1662784043032}
  {:block/name "2022-08-14",
   :block/created-at 1660486465610,
   :block/updated-at 1660489670709}
@@ -76,6 +376,18 @@
  {:block/name "2022-09-07",
   :block/created-at 1662480808030,
   :block/updated-at 1662480808030}
+ {:block/name "2022-09-08",
+  :block/created-at 1662566413977,
+  :block/updated-at 1662566413977}
+ {:block/name "2022-09-09",
+  :block/created-at 1662652812327,
+  :block/updated-at 1662699466289}
+ {:block/name "2022-09-10",
+  :block/created-at 1662739211146,
+  :block/updated-at 1662739211146}
+ {:block/name "2022-09-11",
+  :block/created-at 1662825610148,
+  :block/updated-at 1662825610148}
  {:block/name "3d",
   :block/created-at 1661769918147,
   :block/updated-at 1661769918147}
@@ -121,87 +433,18 @@
  {:block/name "apps",
   :block/created-at 1646889541851,
   :block/updated-at 1661067250830}
- {:block/name "apr 10th, 2022",
-  :block/created-at 1660465855579,
-  :block/updated-at 1660465855579}
- {:block/name "apr 11th, 2022",
-  :block/created-at 1660465855547,
-  :block/updated-at 1660465855547}
- {:block/name "apr 17th, 2022",
-  :block/created-at 1660465855513,
-  :block/updated-at 1660465855513}
- {:block/name "apr 18th, 2022",
-  :block/created-at 1660465855483,
-  :block/updated-at 1660465855483}
- {:block/name "apr 1st, 2022",
-  :block/created-at 1660465855651,
-  :block/updated-at 1660465855651}
- {:block/name "apr 20th, 2022",
-  :block/created-at 1660465855452,
-  :block/updated-at 1660465855452}
- {:block/name "apr 22nd, 2022",
-  :block/created-at 1660465855421,
-  :block/updated-at 1660465855421}
- {:block/name "apr 27th, 2022",
-  :block/created-at 1660465855389,
-  :block/updated-at 1660465855389}
- {:block/name "apr 30th, 2022",
-  :block/created-at 1660465855362,
-  :block/updated-at 1660465855362}
- {:block/name "apr 3rd, 2022",
-  :block/created-at 1660465855616,
-  :block/updated-at 1660465855616}
  {:block/name "arithmetic mean",
   :block/created-at 1647956959973,
   :block/updated-at 1647957504470}
  {:block/name "article worthwhile read",
   :block/created-at 1641876890964,
   :block/updated-at 1641877061961}
+ {:block/name "atlanta",
+  :block/created-at 1662699465952,
+  :block/updated-at 1662699473168}
  {:block/name "atomic habits",
   :block/created-at 1640850331122,
   :block/updated-at 1641715829301}
- {:block/name "aug 10th, 2022",
-  :block/created-at 1660465852247,
-  :block/updated-at 1660465852247}
- {:block/name "aug 11th, 2022",
-  :block/created-at 1660465852192,
-  :block/updated-at 1660465852192}
- {:block/name "aug 12th, 2022",
-  :block/created-at 1660465852108,
-  :block/updated-at 1660465852108}
- {:block/name "aug 13th, 2022",
-  :block/created-at 1660465852049,
-  :block/updated-at 1660488528034}
- {:block/name "aug 14th, 2022",
-  :block/created-at 1660465851988,
-  :block/updated-at 1660465851988}
- {:block/name "aug 1st, 2022",
-  :block/created-at 1660465852736,
-  :block/updated-at 1660465852736}
- {:block/name "aug 2nd, 2022",
-  :block/created-at 1660465852691,
-  :block/updated-at 1660465852691}
- {:block/name "aug 3rd, 2022",
-  :block/created-at 1660465852637,
-  :block/updated-at 1660465852637}
- {:block/name "aug 4th, 2022",
-  :block/created-at 1660465852570,
-  :block/updated-at 1660465852570}
- {:block/name "aug 5th, 2022",
-  :block/created-at 1660465852512,
-  :block/updated-at 1660465852512}
- {:block/name "aug 6th, 2022",
-  :block/created-at 1660465852471,
-  :block/updated-at 1660465852471}
- {:block/name "aug 7th, 2022",
-  :block/created-at 1660465852433,
-  :block/updated-at 1660465852433}
- {:block/name "aug 8th, 2022",
-  :block/created-at 1660465852380,
-  :block/updated-at 1660465852380}
- {:block/name "aug 9th, 2022",
-  :block/created-at 1660465852324,
-  :block/updated-at 1660465852324}
  {:block/name "author",
   :block/created-at 1660465851990,
   :block/updated-at 1660465851990}
@@ -222,10 +465,10 @@
   :block/updated-at 1655436676787}
  {:block/name "blog",
   :block/created-at 1660465852259,
-  :block/updated-at 1660465852259}
- {:block/name "blog theme",
+  :block/updated-at 1662549548251}
+ {:block/name "blog themes",
   :block/created-at 1662341621478,
-  :block/updated-at 1662341621478}
+  :block/updated-at 1662619442786}
  {:block/name "boilerplate",
   :block/created-at 1657362933628,
   :block/updated-at 1657362933628}
@@ -360,7 +603,7 @@
   :block/updated-at 1658680311948}
  {:block/name "design",
   :block/created-at 1640065814402,
-  :block/updated-at 1651721378197}
+  :block/updated-at 1662550088591}
  {:block/name "design docs",
   :block/created-at 1655205506150,
   :block/updated-at 1655206069101}
@@ -393,7 +636,7 @@
   :block/updated-at 1635168671576}
  {:block/name "doomemacs",
   :block/created-at 1662481103868,
-  :block/updated-at 1662481567823}
+  :block/updated-at 1662549478592}
  {:block/name "economy",
   :block/created-at 1640787080344,
   :block/updated-at 1640787167820}
@@ -408,7 +651,7 @@
   :block/updated-at 1660465852327}
  {:block/name "emacs",
   :block/created-at 1654755455061,
-  :block/updated-at 1662481103869}
+  :block/updated-at 1662549465466}
  {:block/name "emigration",
   :block/created-at 1636271347540,
   :block/updated-at 1657263403466}
@@ -533,6 +776,12 @@
  {:block/name "html",
   :block/created-at 1650265853560,
   :block/updated-at 1650265853560}
+ {:block/name "hugo",
+  :block/created-at 1662549497192,
+  :block/updated-at 1662549511607}
+ {:block/name "hugo themes",
+  :block/created-at 1662549511606,
+  :block/updated-at 1662549592148}
  {:block/name "hustle",
   :block/created-at 1655255016773,
   :block/updated-at 1655255034961}
@@ -572,165 +821,6 @@
  {:block/name "journal",
   :block/created-at 1660465860396,
   :block/updated-at 1660465860396}
- {:block/name "jul 10th, 2022",
-  :block/created-at 1660465853565,
-  :block/updated-at 1660465853565}
- {:block/name "jul 11th, 2022",
-  :block/created-at 1660465853532,
-  :block/updated-at 1660465853532}
- {:block/name "jul 12th, 2022",
-  :block/created-at 1660465853502,
-  :block/updated-at 1660465853502}
- {:block/name "jul 13th, 2022",
-  :block/created-at 1660465853465,
-  :block/updated-at 1660465853465}
- {:block/name "jul 14th, 2022",
-  :block/created-at 1660465853436,
-  :block/updated-at 1660465853436}
- {:block/name "jul 15th, 2022",
-  :block/created-at 1660465853403,
-  :block/updated-at 1660465853403}
- {:block/name "jul 16th, 2022",
-  :block/created-at 1660465853373,
-  :block/updated-at 1660465853373}
- {:block/name "jul 17th, 2022",
-  :block/created-at 1660465853337,
-  :block/updated-at 1660465853337}
- {:block/name "jul 18th, 2022",
-  :block/created-at 1660465853303,
-  :block/updated-at 1660465853303}
- {:block/name "jul 19th, 2022",
-  :block/created-at 1660465853277,
-  :block/updated-at 1660465853277}
- {:block/name "jul 1st, 2022",
-  :block/created-at 1660465854015,
-  :block/updated-at 1660465854015}
- {:block/name "jul 20th, 2022",
-  :block/created-at 1660465853249,
-  :block/updated-at 1660465853249}
- {:block/name "jul 21st, 2022",
-  :block/created-at 1660465853224,
-  :block/updated-at 1660465853224}
- {:block/name "jul 22nd, 2022",
-  :block/created-at 1660465853192,
-  :block/updated-at 1660465853192}
- {:block/name "jul 23rd, 2022",
-  :block/created-at 1660465853113,
-  :block/updated-at 1660465853113}
- {:block/name "jul 24th, 2022",
-  :block/created-at 1660465853041,
-  :block/updated-at 1660465853041}
- {:block/name "jul 25th, 2022",
-  :block/created-at 1660465853002,
-  :block/updated-at 1660465853002}
- {:block/name "jul 26th, 2022",
-  :block/created-at 1660465852972,
-  :block/updated-at 1660465852972}
- {:block/name "jul 27th, 2022",
-  :block/created-at 1660465852939,
-  :block/updated-at 1660465852939}
- {:block/name "jul 28th, 2022",
-  :block/created-at 1660465852912,
-  :block/updated-at 1660465852912}
- {:block/name "jul 29th, 2022",
-  :block/created-at 1660465852876,
-  :block/updated-at 1660465852876}
- {:block/name "jul 2nd, 2022",
-  :block/created-at 1660465853887,
-  :block/updated-at 1660465853887}
- {:block/name "jul 30th, 2022",
-  :block/created-at 1660465852833,
-  :block/updated-at 1660465852833}
- {:block/name "jul 31st, 2022",
-  :block/created-at 1660465852800,
-  :block/updated-at 1660465852800}
- {:block/name "jul 3rd, 2022",
-  :block/created-at 1660465853787,
-  :block/updated-at 1660465853787}
- {:block/name "jul 4th, 2022",
-  :block/created-at 1660465853714,
-  :block/updated-at 1660465853714}
- {:block/name "jul 6th, 2022",
-  :block/created-at 1660465853684,
-  :block/updated-at 1660465853684}
- {:block/name "jul 8th, 2022",
-  :block/created-at 1660465853656,
-  :block/updated-at 1660465853656}
- {:block/name "jul 9th, 2022",
-  :block/created-at 1660465853608,
-  :block/updated-at 1660465853608}
- {:block/name "jun 10th, 2022",
-  :block/created-at 1660465854697,
-  :block/updated-at 1660465854697}
- {:block/name "jun 11th, 2022",
-  :block/created-at 1660465854664,
-  :block/updated-at 1660465854664}
- {:block/name "jun 13th, 2022",
-  :block/created-at 1660465854636,
-  :block/updated-at 1660465854636}
- {:block/name "jun 14th, 2022",
-  :block/created-at 1660465854602,
-  :block/updated-at 1660465854602}
- {:block/name "jun 15th, 2022",
-  :block/created-at 1660465854554,
-  :block/updated-at 1660465854554}
- {:block/name "jun 16th, 2022",
-  :block/created-at 1660465854505,
-  :block/updated-at 1660465854505}
- {:block/name "jun 17th, 2022",
-  :block/created-at 1660465854450,
-  :block/updated-at 1660465854450}
- {:block/name "jun 18th, 2022",
-  :block/created-at 1660465854417,
-  :block/updated-at 1660465854417}
- {:block/name "jun 19th, 2022",
-  :block/created-at 1660465854382,
-  :block/updated-at 1660465854382}
- {:block/name "jun 1st, 2022",
-  :block/created-at 1660465854918,
-  :block/updated-at 1660465854918}
- {:block/name "jun 20th, 2022",
-  :block/created-at 1660465854332,
-  :block/updated-at 1660465854332}
- {:block/name "jun 21st, 2022",
-  :block/created-at 1660465854307,
-  :block/updated-at 1660465854307}
- {:block/name "jun 24th, 2022",
-  :block/created-at 1660465854261,
-  :block/updated-at 1660465854261}
- {:block/name "jun 26th, 2022",
-  :block/created-at 1660465854218,
-  :block/updated-at 1660465854218}
- {:block/name "jun 27th, 2022",
-  :block/created-at 1660465854168,
-  :block/updated-at 1660465854168}
- {:block/name "jun 28th, 2022",
-  :block/created-at 1660465854119,
-  :block/updated-at 1660465854119}
- {:block/name "jun 29th, 2022",
-  :block/created-at 1660465854081,
-  :block/updated-at 1660465854081}
- {:block/name "jun 2nd, 2022",
-  :block/created-at 1660465854884,
-  :block/updated-at 1660465854884}
- {:block/name "jun 30th, 2022",
-  :block/created-at 1660465854049,
-  :block/updated-at 1660465854049}
- {:block/name "jun 3rd, 2022",
-  :block/created-at 1660465854857,
-  :block/updated-at 1660465854857}
- {:block/name "jun 6th, 2022",
-  :block/created-at 1660465854830,
-  :block/updated-at 1660465854830}
- {:block/name "jun 7th, 2022",
-  :block/created-at 1660465854806,
-  :block/updated-at 1660465854806}
- {:block/name "jun 8th, 2022",
-  :block/created-at 1660465854777,
-  :block/updated-at 1660465854777}
- {:block/name "jun 9th, 2022",
-  :block/created-at 1660465854738,
-  :block/updated-at 1660465854738}
  {:block/name "kindness",
   :block/created-at 1656788661547,
   :block/updated-at 1656788661547}
@@ -765,8 +855,8 @@
   :block/created-at 1655657319213,
   :block/updated-at 1655657319213}
  {:block/name "linear algebra",
-  :block/created-at 1660524539925,
-  :block/updated-at 1660524539925}
+  :block/created-at 1662861334781,
+  :block/updated-at 1662861334781}
  {:block/name "linux",
   :block/created-at 1659164339602,
   :block/updated-at 1659164339602}
@@ -800,84 +890,12 @@
  {:block/name "map",
   :block/created-at 1660465852257,
   :block/updated-at 1660465852257}
- {:block/name "mar 10th, 2022",
-  :block/created-at 1660465856013,
-  :block/updated-at 1660465856013}
- {:block/name "mar 14th, 2022",
-  :block/created-at 1660465855982,
-  :block/updated-at 1660465855982}
- {:block/name "mar 15th, 2022",
-  :block/created-at 1660465855950,
-  :block/updated-at 1660465855950}
- {:block/name "mar 16th, 2022",
-  :block/created-at 1660465855921,
-  :block/updated-at 1660465855921}
- {:block/name "mar 17th, 2022",
-  :block/created-at 1660465855886,
-  :block/updated-at 1660465855886}
- {:block/name "mar 18th, 2022",
-  :block/created-at 1660465855858,
-  :block/updated-at 1660465855858}
- {:block/name "mar 20th, 2022",
-  :block/created-at 1660465855818,
-  :block/updated-at 1660465855818}
- {:block/name "mar 23rd, 2022",
-  :block/created-at 1660465855782,
-  :block/updated-at 1660465855782}
- {:block/name "mar 24th, 2022",
-  :block/created-at 1660465855743,
-  :block/updated-at 1660465855743}
- {:block/name "mar 27th, 2022",
-  :block/created-at 1660465855708,
-  :block/updated-at 1660465855708}
- {:block/name "mar 28th, 2022",
-  :block/created-at 1660465855677,
-  :block/updated-at 1660465855677}
- {:block/name "mar 9th, 2022",
-  :block/created-at 1660465856043,
-  :block/updated-at 1660465856043}
  {:block/name "marketing",
   :block/created-at 1656315177704,
   :block/updated-at 1656315177704}
  {:block/name "math",
   :block/created-at 1647956832916,
   :block/updated-at 1660524561625}
- {:block/name "may 15th, 2022",
-  :block/created-at 1660465855136,
-  :block/updated-at 1660465855136}
- {:block/name "may 16th, 2022",
-  :block/created-at 1660465855103,
-  :block/updated-at 1660465855103}
- {:block/name "may 17th, 2022",
-  :block/created-at 1660465855073,
-  :block/updated-at 1660465855073}
- {:block/name "may 1st, 2022",
-  :block/created-at 1660465855329,
-  :block/updated-at 1660465855329}
- {:block/name "may 29th, 2022",
-  :block/created-at 1660465855029,
-  :block/updated-at 1660465855029}
- {:block/name "may 30th, 2022",
-  :block/created-at 1660465854991,
-  :block/updated-at 1660465854991}
- {:block/name "may 31st, 2022",
-  :block/created-at 1660465854950,
-  :block/updated-at 1660465854950}
- {:block/name "may 4th, 2022",
-  :block/created-at 1660465855291,
-  :block/updated-at 1660465855291}
- {:block/name "may 5th, 2022",
-  :block/created-at 1660465855260,
-  :block/updated-at 1660465855260}
- {:block/name "may 7th, 2022",
-  :block/created-at 1660465855227,
-  :block/updated-at 1660465855227}
- {:block/name "may 8th, 2022",
-  :block/created-at 1660465855198,
-  :block/updated-at 1660465855198}
- {:block/name "may 9th, 2022",
-  :block/created-at 1660465855168,
-  :block/updated-at 1660465855168}
  {:block/name "mean",
   :block/created-at 1647956909928,
   :block/updated-at 1647957305837}
@@ -929,6 +947,9 @@
  {:block/name "nlp",
   :block/created-at 1658680349498,
   :block/updated-at 1658680349498}
+ {:block/name "note taking",
+  :block/created-at 1662549413797,
+  :block/updated-at 1662549413797}
  {:block/name "notion",
   :block/created-at 1660489770662,
   :block/updated-at 1660489770662}
@@ -953,6 +974,12 @@
  {:block/name "option",
   :block/created-at 1654741507034,
   :block/updated-at 1654741507034}
+ {:block/name "org-mode",
+  :block/created-at 1662782653133,
+  :block/updated-at 1662782657902}
+ {:block/name "org-roam",
+  :block/created-at 1662549380616,
+  :block/updated-at 1662549413801}
  {:block/name "outsourcing",
   :block/created-at 1661055489386,
   :block/updated-at 1661055489386}
@@ -979,7 +1006,7 @@
   :block/updated-at 1660465852576}
  {:block/name "plaintext",
   :block/created-at 1648396864262,
-  :block/updated-at 1648396961843}
+  :block/updated-at 1662782727461}
  {:block/name "podcast",
   :block/created-at 1660465852328,
   :block/updated-at 1660465852328}
@@ -1121,9 +1148,6 @@
  {:block/name "silicon valley",
   :block/created-at 1661256494913,
   :block/updated-at 1661256494913}
- {:block/name "skyrunning",
-  :block/created-at 1661509892642,
-  :block/updated-at 1661509892642}
  {:block/name "social",
   :block/created-at 1640017548108,
   :block/updated-at 1640017559828}
@@ -1178,6 +1202,9 @@
  {:block/name "system design",
   :block/created-at 1655365045774,
   :block/updated-at 1655365045774}
+ {:block/name "tailwindcss",
+  :block/created-at 1662619442785,
+  :block/updated-at 1662619442785}
  {:block/name "tar",
   :block/created-at 1661480985652,
   :block/updated-at 1661481060396}
@@ -1202,6 +1229,9 @@
  {:block/name "three.js",
   :block/created-at 1655567166752,
   :block/updated-at 1655567456325}
+ {:block/name "tiddlywiki",
+  :block/created-at 1662549391126,
+  :block/updated-at 1662549391126}
  {:block/name "time",
   :block/created-at 1661340254047,
   :block/updated-at 1661340254047}
@@ -1316,12 +1346,12 @@
  {:block/name "why people in cities walk fast",
   :block/created-at 1640017568772,
   :block/updated-at 1640017790238}
+ {:block/name "wiki",
+  :block/created-at 1662549386534,
+  :block/updated-at 1662549386534}
  {:block/name "wiki (archive version)",
   :block/created-at 1635172486945,
   :block/updated-at 1635172486945}
- {:block/name "wiki (archive version, loading pretty slow)",
-  :block/created-at 1648971990029,
-  :block/updated-at 1648971990029}
  {:block/name "words i like",
   :block/created-at 1640667298474,
   :block/updated-at 1655264321549}
@@ -1340,6 +1370,9 @@
  {:block/name "year review",
   :block/created-at 1655474971983,
   :block/updated-at 1655474971983}
+ {:block/name "zig",
+  :block/created-at 1662688965572,
+  :block/updated-at 1662688965572}
  {:block/name "zurich",
   :block/created-at 1656047816578,
   :block/updated-at 1656050597638}

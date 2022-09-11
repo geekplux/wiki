@@ -7,7 +7,7 @@
  ;; Preferred workflow style.
  ;; Value is either ":now" for NOW/LATER style,
  ;; or ":todo" for TODO/DOING style.
- :preferred-workflow :now
+ :preferred-workflow :todo
 
  ;; The app will ignore those directories or files.
  ;; E.g. "/archived" "/test.md"
@@ -169,7 +169,7 @@
  :feature/enable-journals? true
  :default-home {:page "GeekPlux Wiki"}
  :favorites ["Information" "Writing" "What I found out Daily" "What I read Daily"]
- :preferred-format :markdown
+ :preferred-format :org
  :journal/page-title-format "yyyy-MM-dd"
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
