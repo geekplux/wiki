@@ -660,7 +660,7 @@
   :block/updated-at 1660465852327}
  {:block/name "emacs",
   :block/created-at 1654755455061,
-  :block/updated-at 1662893062750}
+  :block/updated-at 1662900691638}
  {:block/name "emigration",
   :block/created-at 1636271347540,
   :block/updated-at 1657263403466}
@@ -754,6 +754,9 @@
  {:block/name "gui",
   :block/created-at 1662861510319,
   :block/updated-at 1662861510319}
+ {:block/name "guide",
+  :block/created-at 1662904706756,
+  :block/updated-at 1662904706756}
  {:block/name "habit",
   :block/created-at 1640850203788,
   :block/updated-at 1640850323384}
@@ -1000,7 +1003,7 @@
   :block/updated-at 1662892876286}
  {:block/name "org-mode",
   :block/created-at 1662782653133,
-  :block/updated-at 1662892876287}
+  :block/updated-at 1662904711059}
  {:block/name "org-roam",
   :block/created-at 1662549380616,
   :block/updated-at 1662549413801}

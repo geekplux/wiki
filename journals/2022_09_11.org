@@ -6,6 +6,7 @@
 :PROPERTIES:
 :heading: true
 :END:
+*** [[https://practicaltypography.com/index.html][Butterick’s Practical Typography]] #Typography #guide
 ** What I read Today
 :PROPERTIES:
 :heading: true
