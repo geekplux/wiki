@@ -9,3 +9,4 @@
 	- --with-native-comp is necessary for greater **compatibility**
 - [[doomemacs]]
 - [[org-roam]]
+- [[org-mode]]

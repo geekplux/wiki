@@ -1,5 +1,6 @@
-* DAY [[2022-09-11]]
+* DAY <% today %>
 :PROPERTIES:
+:template: daily
 :author: geekplux 
 :END:
 ** Things I found out Today

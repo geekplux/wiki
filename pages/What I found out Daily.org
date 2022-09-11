@@ -1,0 +1,13 @@
+#+alias: 我每天发现了什么
+
+* #+BEGIN_QUERY
+  {:title "What I found out Daily"
+   :query [:find (pull ?block [*])
+         :where
+         [?block :block/parent ?parent]
+         (or [?parent :block/content "## Things I found out Today"]
+               [?parent :block/content "Things I found out Today\n:PROPERTIES:\n:heading: true\n:END:"])
+         [?parent :block/page ?page]
+         [?page :page/journal? true]]
+  }
+  #+END_QUERY
