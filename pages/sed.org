@@ -1,0 +1,1 @@
+* different behavior for ~sed~ on [[MacOS]] and [[linux]] [[https://stackoverflow.com/questions/16745988/sed-command-with-i-option-in-place-editing-works-fine-on-ubuntu-but-not-mac][linux - sed command with -i option (in-place editing) works fine on Ubuntu but not Mac - Stack Overflow]]

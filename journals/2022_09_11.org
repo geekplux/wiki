@@ -11,6 +11,8 @@
 :PROPERTIES:
 :heading: true
 :END:
+*** [[https://guoyu.mirror.xyz/bPaDKAcrhJGUbaXu9BWDcdD-F46gBFATTvf_qwZ9Bso][日本移居指南 — 郭宇]] #japan #Emigration
+*** [[https://guoyu.mirror.xyz/RD-xkpoxasAU7x5MIJmiCX4gll3Cs0pAd5iM258S1Ek][Web3 DApp 最佳编程实践指南 — 郭宇]] #Web3 #programming #guide
 ** Schedule
 :PROPERTIES:
 :heading: true

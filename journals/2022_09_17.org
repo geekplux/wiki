@@ -1,0 +1,18 @@
+* DAY [[2022-09-17]]
+:PROPERTIES:
+:author: geekplux 
+:END:
+** Things I found out Today
+:PROPERTIES:
+:heading: true
+:END:
+*** [[http://cachestocaches.com/2018/6/org-literate-programming/][Literate Programming with Org-mode]] [[Literate Programming]]
+** What I read Today
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://www.smashingmagazine.com/2022/08/everything-developers-must-know-about-figma/][Everything Developers Must Know About Figma — Smashing Magazine]] [[figma]]
+** Schedule
+:PROPERTIES:
+:heading: true
+:END:

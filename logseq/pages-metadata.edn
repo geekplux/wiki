@@ -387,7 +387,25 @@
   :block/updated-at 1662739211146}
  {:block/name "2022-09-11",
   :block/created-at 1662864985276,
-  :block/updated-at 1662867065007}
+  :block/updated-at 1662907170346}
+ {:block/name "2022-09-12",
+  :block/created-at 1662912004598,
+  :block/updated-at 1662912004598}
+ {:block/name "2022-09-13",
+  :block/created-at 1662998401647,
+  :block/updated-at 1662998401647}
+ {:block/name "2022-09-14",
+  :block/created-at 1663084803029,
+  :block/updated-at 1663084803029}
+ {:block/name "2022-09-15",
+  :block/created-at 1663171202066,
+  :block/updated-at 1663171202066}
+ {:block/name "2022-09-16",
+  :block/created-at 1663257603875,
+  :block/updated-at 1663257603875}
+ {:block/name "2022-09-17",
+  :block/created-at 1663417445464,
+  :block/updated-at 1663419971322}
  {:block/name "3d",
   :block/created-at 1662861510964,
   :block/updated-at 1662861510964}
@@ -468,7 +486,7 @@
   :block/updated-at 1662549548251}
  {:block/name "blog themes",
   :block/created-at 1662341621478,
-  :block/updated-at 1662619442786}
+  :block/updated-at 1662994751012}
  {:block/name "boilerplate",
   :block/created-at 1657362933628,
   :block/updated-at 1657362933628}
@@ -660,7 +678,7 @@
   :block/updated-at 1660465852327}
  {:block/name "emacs",
   :block/created-at 1654755455061,
-  :block/updated-at 1662900691638}
+  :block/updated-at 1662916482123}
  {:block/name "emigration",
   :block/created-at 1636271347540,
   :block/updated-at 1657263403466}
@@ -682,18 +700,18 @@
  {:block/name "experience sharing",
   :block/created-at 1660489789991,
   :block/updated-at 1660489789991}
+ {:block/name "experiment",
+  :block/created-at 1663417449752,
+  :block/updated-at 1663417449752}
  {:block/name "facebook",
   :block/created-at 1662861510575,
   :block/updated-at 1662861510575}
  {:block/name "favorites",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
- {:block/name "file",
-  :block/created-at 1660465860303,
-  :block/updated-at 1660465860303}
- {:block/name "file-path",
-  :block/created-at 1660465860301,
-  :block/updated-at 1660465860301}
+ {:block/name "figma",
+  :block/created-at 1663419971322,
+  :block/updated-at 1663419971322}
  {:block/name "finance",
   :block/created-at 1637244607288,
   :block/updated-at 1637244607288}
@@ -703,6 +721,9 @@
  {:block/name "font",
   :block/created-at 1640065814402,
   :block/updated-at 1640065814402}
+ {:block/name "free software",
+  :block/created-at 1662906491884,
+  :block/updated-at 1662906543604}
  {:block/name "freelancer",
   :block/created-at 1662861510552,
   :block/updated-at 1662861510552}
@@ -775,13 +796,6 @@
  {:block/name "health check",
   :block/created-at 1654160689384,
   :block/updated-at 1654160696786}
- {:block/name "hls__addyosmani",
-  :block/created-at 1660465860311,
-  :block/updated-at 1660465860311}
- {:block/name
-  "hls__addyosmani/com_-_software_engineering_-_the_soft_parts_1656782760943_0",
-  :block/created-at 1660465860310,
-  :block/updated-at 1660465860310}
  {:block/name "hong kong",
   :block/created-at 1650207654139,
   :block/updated-at 1650207677938}
@@ -827,6 +841,9 @@
  {:block/name "ios",
   :block/created-at 1647488908789,
   :block/updated-at 1647488908789}
+ {:block/name "japan",
+  :block/created-at 1662906605110,
+  :block/updated-at 1662906605110}
  {:block/name "javascript",
   :block/created-at 1654578642153,
   :block/updated-at 1654578642153}
@@ -850,7 +867,7 @@
   :block/updated-at 1655365074103}
  {:block/name "l1 visa",
   :block/created-at 1636271614940,
-  :block/updated-at 1636271623787}
+  :block/updated-at 1663245396399}
  {:block/name "large file",
   :block/created-at 1662861510895,
   :block/updated-at 1662861510895}
@@ -884,6 +901,9 @@
  {:block/name "listening",
   :block/created-at 1635347195180,
   :block/updated-at 1637054573135}
+ {:block/name "literate programming",
+  :block/created-at 1663419401863,
+  :block/updated-at 1663419401863}
  {:block/name "live",
   :block/created-at 1662861510873,
   :block/updated-at 1662861510873}
@@ -1015,7 +1035,7 @@
   :block/updated-at 1656485076417}
  {:block/name "pandoc",
   :block/created-at 1662877716588,
-  :block/updated-at 1662877869164}
+  :block/updated-at 1662994956744}
  {:block/name "passport",
   :block/created-at 1662861509695,
   :block/updated-at 1662861509695}
@@ -1061,6 +1081,9 @@
  {:block/name "portfolio",
   :block/created-at 1660465852384,
   :block/updated-at 1660465852384}
+ {:block/name "practical typography",
+  :block/created-at 1663417450099,
+  :block/updated-at 1663417450099}
  {:block/name "pressure",
   :block/created-at 1656864622188,
   :block/updated-at 1656864622188}
@@ -1082,6 +1105,9 @@
  {:block/name "programmer",
   :block/created-at 1656063236358,
   :block/updated-at 1656063236358}
+ {:block/name "programming",
+  :block/created-at 1662907144919,
+  :block/updated-at 1662907144919}
  {:block/name "programming language",
   :block/created-at 1656379458366,
   :block/updated-at 1656379458366}
@@ -1166,6 +1192,9 @@
  {:block/name "second brain",
   :block/created-at 1641704020767,
   :block/updated-at 1641704027042}
+ {:block/name "sed",
+  :block/created-at 1662906009500,
+  :block/updated-at 1662906266807}
  {:block/name "sell",
   :block/created-at 1662861510984,
   :block/updated-at 1662861510984}
@@ -1242,8 +1271,8 @@
   :block/created-at 1655365045774,
   :block/updated-at 1655365045774}
  {:block/name "tailwindcss",
-  :block/created-at 1662619442785,
-  :block/updated-at 1662619442785}
+  :block/created-at 1663075370164,
+  :block/updated-at 1663075370164}
  {:block/name "tar",
   :block/created-at 1661480985652,
   :block/updated-at 1661481060396}
@@ -1322,6 +1351,9 @@
  {:block/name "unix",
   :block/created-at 1659164339601,
   :block/updated-at 1659164339601}
+ {:block/name "uscis",
+  :block/created-at 1663245210852,
+  :block/updated-at 1663245210852}
  {:block/name "user experience",
   :block/created-at 1656783254925,
   :block/updated-at 1656783254925}
@@ -1397,9 +1429,6 @@
  {:block/name "wiki",
   :block/created-at 1662549386534,
   :block/updated-at 1662549386534}
- {:block/name "wiki (archive version)",
-  :block/created-at 1635172486945,
-  :block/updated-at 1635172486945}
  {:block/name "words i like",
   :block/created-at 1640667298474,
   :block/updated-at 1655264321549}

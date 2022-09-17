@@ -16,6 +16,7 @@ $ brew install emacs-plus --with-dragon-icon --with-native-comp
 ** [[https://www.amazon.com/Writing-GNU-Emacs-Extensions-Glickstein/dp/1565922611][Writing GNU Emacs Extensions: 9781565922617: Computer Science Books @ Amazon.com]] #Books
 * emacs life
 ** [[https://planet.emacslife.com][Planet Emacslife]]
+** [[https://alhassy.github.io/emacs.d/][A Life Configuring Emacs]]
 * videos
 ** [[https://cestlaz.github.io/stories/emacs/][Using Emacs Series - C'est la Z]]
 * starter
@@ -34,7 +35,7 @@ $ brew install emacs-plus --with-dragon-icon --with-native-comp
 
 #+BEGIN_SRC elisp
 (after! org
-  (setq org-export-with-broken-links 'mark))
+  (setq org-export-with-broken-links t))
 #+END_SRC
 *** [[pdflatex]] not found
 **** on [[MacOS]] 
