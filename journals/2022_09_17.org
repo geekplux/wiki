@@ -11,7 +11,9 @@
 :PROPERTIES:
 :heading: true
 :END:
-*** [[https://www.smashingmagazine.com/2022/08/everything-developers-must-know-about-figma/][Everything Developers Must Know About Figma — Smashing Magazine]] [[figma]]
+*** https://www.smashingmagazine.com/2022/08/everything-developers-must-know-about-figma/ [[figma]]
+*** [[https://xueqiu.com/1173786903/74123201][1998.10.15 巴菲特在佛罗里达大学商学院的演讲 - 雪球]] [[file:../pages/巴菲特.org][巴菲特]]
+**** 有趣的问题：如果你想要选择认识的人来获取他一辈子 10% 的财富，你会选择有什么品质的人；相反地如果想做空一个人 10% 的财富，你又会选择有什么品质的人。 *想办法让自己拥有前者的品质而远离后者的品质*
 ** Schedule
 :PROPERTIES:
 :heading: true

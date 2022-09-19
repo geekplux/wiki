@@ -1,7 +1,7 @@
+- [[What I read Daily]]
 - [[Books]]
 - [[Words I like]]
 - [[Poetry 诗]]
 - [[Reading Method]]
 - [[Worthwhile Read]]
 - [[Newsletters]]
-- [[What I read Daily]]

@@ -1,0 +1,21 @@
+* DAY [[2022-09-18]]
+:PROPERTIES:
+:author: geekplux 
+:END:
+** Things I found out Today
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://stevejobsarchive.com][The Steve Jobs Archive]] [[Steve Jobs]]
+*** [[https://wenomad.so][WeNomad - World’s Best Location Guides For Digital Nomads]] [[nomad]] [[freelancer]]
+*** [[https://urbook.fordes.de][A Beginner’s Guide to Finding User Needs]] #UX #Business
+*** [[https://openart.ai][Discovery | OpenArt]]
+** What I read Today
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://huangxin.dev/partly-technical/webfont-from-beginner-to-sans-serif][中文 WebFont 小指南 - 从入门到 sans-serif | 惶心博客]]  [[Web Font]] [[file:../pages/Typography.org][Typography]]
+** Schedule
+:PROPERTIES:
+:heading: true
+:END:

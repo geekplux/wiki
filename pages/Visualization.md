@@ -15,7 +15,7 @@ alias:: 可视化, 数据可视化, Data Visualization, vis
 		- [AntV](https://antv.vision) - includes [g2](https://g2.antv.vision), [g6](https://g6.antv.vision) for network vis, [l7](https://l7.antv.vision) for GIS vis
 	- ### Python
 		- [Matplotlib](https://matplotlib.org)
-		- [Dash](https://dash.plotly.com)
+		- [Dash](https://dash.plotly.com) [[Dash]]
 		- [Altair](https://altair-viz.github.io/index.html) - python's [vega-lite](https://vega.github.io/vega-lite/)
 		- [Apache Superset](https://superset.apache.org)
 		- [Streamlit](https://streamlit.io)

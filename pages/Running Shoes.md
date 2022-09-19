@@ -1,5 +1,4 @@
 - {{embed [[Carbon Fiber Plate running shoes]]}}
-- Barefoot shoes
+- Barefoot shoes #[[Barefoot Running]]
 - {{embed [[Minimalist shoes]]}}
 - Toe shoes
-	-

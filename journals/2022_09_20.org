@@ -1,0 +1,16 @@
+* DAY [[2022-09-20]]
+:PROPERTIES:
+:author: geekplux 
+:END:
+** Things I found out Today
+:PROPERTIES:
+:heading: true
+:END:
+** What I read Today
+:PROPERTIES:
+:heading: true
+:END:
+** Schedule
+:PROPERTIES:
+:heading: true
+:END:

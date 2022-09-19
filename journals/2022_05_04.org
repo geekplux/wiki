@@ -1,0 +1,18 @@
+* DAY [[2022-05-04]]
+:PROPERTIES:
+:author: geekplux
+:END:
+** Things I found out Today
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://dash.plotly.com][Dash]] [[file:../pages/dash.org][Dash]]
+** What I read Today
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://medium.com/plotly/dash-is-react-for-python-r-and-julia-c75822d1cc24][Dash is React for Python, R, and Julia]]
+** Schedule
+:PROPERTIES:
+:heading: true
+:END:
