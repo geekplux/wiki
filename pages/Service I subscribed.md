@@ -4,6 +4,8 @@
 	- PS Plus
 	- YouTube Premium
 	- Spotify
+- ## English
+	- [Cambly](https://www.cambly.com/invite/GEEKPLUX)
 - ## Storage
 	- iCloud (max)
 	- Google One (max)
