@@ -78,7 +78,7 @@
   :block/updated-at 1662784045407}
  {:block/name "2022-05-04",
   :block/created-at 1662784045380,
-  :block/updated-at 1662784045380}
+  :block/updated-at 1663574583590}
  {:block/name "2022-05-05",
   :block/created-at 1662784045353,
   :block/updated-at 1662784045353}
@@ -357,7 +357,7 @@
   :block/updated-at 1662861510962}
  {:block/name "2022-08-30",
   :block/created-at 1662861510981,
-  :block/updated-at 1662861510981}
+  :block/updated-at 1663601839550}
  {:block/name "2022-08-31",
   :block/created-at 1662861511002,
   :block/updated-at 1662861511002}
@@ -405,7 +405,31 @@
   :block/updated-at 1663257603875}
  {:block/name "2022-09-17",
   :block/created-at 1663417445464,
-  :block/updated-at 1663419971322}
+  :block/updated-at 1663423009441}
+ {:block/name "2022-09-18",
+  :block/created-at 1663430455357,
+  :block/updated-at 1663498538240}
+ {:block/name "2022-09-19",
+  :block/created-at 1663516853706,
+  :block/updated-at 1663516853706}
+ {:block/name "2022-09-20",
+  :block/created-at 1663603200455,
+  :block/updated-at 1663692955921}
+ {:block/name "2022-09-21",
+  :block/created-at 1663689604243,
+  :block/updated-at 1663689604243}
+ {:block/name "2022-09-22",
+  :block/created-at 1663776002753,
+  :block/updated-at 1663776002753}
+ {:block/name "2022-09-23",
+  :block/created-at 1663862401490,
+  :block/updated-at 1663862401490}
+ {:block/name "2022-09-24",
+  :block/created-at 1663948847051,
+  :block/updated-at 1663948847051}
+ {:block/name "2022-09-25",
+  :block/created-at 1664035203879,
+  :block/updated-at 1664035203879}
  {:block/name "3d",
   :block/created-at 1662861510964,
   :block/updated-at 1662861510964}
@@ -416,11 +440,14 @@
   :block/created-at 1640065814402,
   :block/updated-at 1640065814402}
  {:block/name "61c1d421-e709-44d4-a77e-c686731f6cb5",
-  :block/created-at 1640667298474,
-  :block/updated-at 1640667298474}
+  :block/created-at 1664103905564,
+  :block/updated-at 1664103905564}
  {:block/name "61dd0d97-d4fa-4ae4-9ada-9a79bd5a1420",
   :block/created-at 1642956353273,
   :block/updated-at 1642956353273}
+ {:block/name "6329e615-6acb-458f-bf17-764ea2887dcb",
+  :block/created-at 1663690471695,
+  :block/updated-at 1663690471695}
  {:block/name "a",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
@@ -433,12 +460,18 @@
  {:block/name "advertising",
   :block/created-at 1658680457219,
   :block/updated-at 1658680457219}
+ {:block/name "aerobic",
+  :block/created-at 1663600610926,
+  :block/updated-at 1663600610926}
  {:block/name "ai",
   :block/created-at 1662861510082,
   :block/updated-at 1662861510082}
  {:block/name "algorithm",
   :block/created-at 1635346772652,
   :block/updated-at 1647501732716}
+ {:block/name "anaerobic",
+  :block/created-at 1663600631716,
+  :block/updated-at 1663600631716}
  {:block/name "analysis",
   :block/created-at 1662861511054,
   :block/updated-at 1662861511054}
@@ -471,7 +504,7 @@
   :block/updated-at 1635168671576}
  {:block/name "barefoot running",
   :block/created-at 1639149839853,
-  :block/updated-at 1639149973319}
+  :block/updated-at 1663602756749}
  {:block/name "bash",
   :block/created-at 1659164326483,
   :block/updated-at 1659164326483}
@@ -502,6 +535,9 @@
  {:block/name "browser",
   :block/created-at 1656319411870,
   :block/updated-at 1656319411870}
+ {:block/name "buffett",
+  :block/created-at 1663422739943,
+  :block/updated-at 1663422739943}
  {:block/name "building website",
   :block/created-at 1636270301780,
   :block/updated-at 1642351708254}
@@ -525,7 +561,7 @@
   :block/updated-at 1653799288259}
  {:block/name "carbon fiber plate running shoes",
   :block/created-at 1639148370697,
-  :block/updated-at 1639148513609}
+  :block/updated-at 1663602806687}
  {:block/name "card",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
@@ -601,6 +637,9 @@
  {:block/name "custom_id",
   :block/created-at 1662878932331,
   :block/updated-at 1662878932331}
+ {:block/name "dash",
+  :block/created-at 1663574454416,
+  :block/updated-at 1663575174657}
  {:block/name "data analytics",
   :block/created-at 1656485051967,
   :block/updated-at 1656485051967}
@@ -645,7 +684,7 @@
   :block/updated-at 1660465860399}
  {:block/name "digital devices",
   :block/created-at 1639754052852,
-  :block/updated-at 1639982095796}
+  :block/updated-at 1663690309155}
  {:block/name "discovery bay",
   :block/created-at 1661341075426,
   :block/updated-at 1661341103286}
@@ -712,6 +751,16 @@
  {:block/name "figma",
   :block/created-at 1663419971322,
   :block/updated-at 1663419971322}
+ {:block/name "file:./keyboard.org][keyboard",
+  :block/created-at 1663689566087,
+  :block/updated-at 1663689566087}
+ {:block/name
+  "file:./what i found out daily.org][what i found out daily",
+  :block/created-at 1663602951402,
+  :block/updated-at 1663602951402}
+ {:block/name "file:./what i read daily.org][what i read daily",
+  :block/created-at 1663602936094,
+  :block/updated-at 1663602936094}
  {:block/name "finance",
   :block/created-at 1637244607288,
   :block/updated-at 1637244607288}
@@ -721,6 +770,9 @@
  {:block/name "font",
   :block/created-at 1640065814402,
   :block/updated-at 1640065814402}
+ {:block/name "framework",
+  :block/created-at 1663575034916,
+  :block/updated-at 1663575034916}
  {:block/name "free software",
   :block/created-at 1662906491884,
   :block/updated-at 1662906543604}
@@ -741,7 +793,7 @@
   :block/updated-at 1661097659883}
  {:block/name "geekplux wiki",
   :block/created-at 1635170480779,
-  :block/updated-at 1655437053872}
+  :block/updated-at 1663603977811}
  {:block/name "generative art",
   :block/created-at 1660488435913,
   :block/updated-at 1660488435913}
@@ -814,6 +866,9 @@
  {:block/name "hustle",
   :block/created-at 1655255016773,
   :block/updated-at 1655255034961}
+ {:block/name "id",
+  :block/created-at 1663690427557,
+  :block/updated-at 1663690427557}
  {:block/name "impact",
   :block/created-at 1656791286304,
   :block/updated-at 1656791286304}
@@ -829,6 +884,9 @@
  {:block/name "innovation",
   :block/created-at 1662861510827,
   :block/updated-at 1662861510827}
+ {:block/name "input method",
+  :block/created-at 1663690920865,
+  :block/updated-at 1663691114207}
  {:block/name "interactive",
   :block/created-at 1662861510825,
   :block/updated-at 1662861510825}
@@ -853,12 +911,18 @@
  {:block/name "journal",
   :block/created-at 1660465860396,
   :block/updated-at 1660465860396}
+ {:block/name "julia",
+  :block/created-at 1663575076158,
+  :block/updated-at 1663575076158}
  {:block/name "key binding",
   :block/created-at 1662879985553,
   :block/updated-at 1662879985553}
  {:block/name "key bindings",
   :block/created-at 1662879915143,
   :block/updated-at 1662879985553}
+ {:block/name "keyboard",
+  :block/created-at 1663689616741,
+  :block/updated-at 1663689616741}
  {:block/name "kindness",
   :block/created-at 1656788661547,
   :block/updated-at 1656788661547}
@@ -868,6 +932,9 @@
  {:block/name "l1 visa",
   :block/created-at 1636271614940,
   :block/updated-at 1663245396399}
+ {:block/name "lactic threshold",
+  :block/created-at 1663600627452,
+  :block/updated-at 1663600627452}
  {:block/name "large file",
   :block/created-at 1662861510895,
   :block/updated-at 1662861510895}
@@ -991,6 +1058,9 @@
  {:block/name "nlp",
   :block/created-at 1662861510080,
   :block/updated-at 1662861510080}
+ {:block/name "nomad",
+  :block/created-at 1663487817637,
+  :block/updated-at 1663487919868}
  {:block/name "note taking",
   :block/created-at 1662549413797,
   :block/updated-at 1662549413797}
@@ -1063,6 +1133,9 @@
  {:block/name "plaintext",
   :block/created-at 1648396864262,
   :block/updated-at 1662782727461}
+ {:block/name "plotly.js",
+  :block/created-at 1663575107353,
+  :block/updated-at 1663575107353}
  {:block/name "podcast",
   :block/created-at 1660465852328,
   :block/updated-at 1660465852328}
@@ -1132,18 +1205,30 @@
  {:block/name "quotes",
   :block/created-at 1640667298474,
   :block/updated-at 1641394895923}
+ {:block/name "r",
+  :block/created-at 1663575069765,
+  :block/updated-at 1663575069765}
  {:block/name "r3f",
   :block/created-at 1657363516349,
   :block/updated-at 1657363516349}
+ {:block/name "react",
+  :block/created-at 1663575150350,
+  :block/updated-at 1663575150350}
  {:block/name "react three fiber",
   :block/created-at 1657363490431,
   :block/updated-at 1657363516352}
  {:block/name "react.js",
-  :block/created-at 1654578492031,
-  :block/updated-at 1654578492031}
+  :block/created-at 1663575174653,
+  :block/updated-at 1663575201702}
+ {:block/name "react/js",
+  :block/created-at 1663575150347,
+  :block/updated-at 1663575150347}
+ {:block/name "reactjs",
+  :block/created-at 1663575201702,
+  :block/updated-at 1663575201702}
  {:block/name "reading",
   :block/created-at 1640667298475,
-  :block/updated-at 1646901638412}
+  :block/updated-at 1663606449728}
  {:block/name "reading method",
   :block/created-at 1640667298475,
   :block/updated-at 1640667298475}
@@ -1167,13 +1252,13 @@
   :block/updated-at 1661330269266}
  {:block/name "running",
   :block/created-at 1640066432936,
-  :block/updated-at 1661872885579}
+  :block/updated-at 1663603144054}
  {:block/name "running & hike",
   :block/created-at 1636270912613,
-  :block/updated-at 1639149833755}
+  :block/updated-at 1663690471696}
  {:block/name "running shoes",
   :block/created-at 1639148005028,
-  :block/updated-at 1639149812847}
+  :block/updated-at 1663602773945}
  {:block/name "runtime",
   :block/created-at 1662861509793,
   :block/updated-at 1662861509793}
@@ -1200,7 +1285,7 @@
   :block/updated-at 1662861510984}
  {:block/name "service i subscribed",
   :block/created-at 1641109817391,
-  :block/updated-at 1641110363907}
+  :block/updated-at 1663606781573}
  {:block/name "shader",
   :block/created-at 1637336170332,
   :block/updated-at 1637338452722}
@@ -1249,6 +1334,9 @@
  {:block/name "steroids",
   :block/created-at 1661162405023,
   :block/updated-at 1661163125245}
+ {:block/name "steve jobs",
+  :block/created-at 1663486436331,
+  :block/updated-at 1663486677699}
  {:block/name "stock",
   :block/created-at 1641123719406,
   :block/updated-at 1641123719406}
@@ -1347,7 +1435,7 @@
   :block/updated-at 1656823078059}
  {:block/name "ultra running",
   :block/created-at 1661872872415,
-  :block/updated-at 1661872872415}
+  :block/updated-at 1663601819780}
  {:block/name "unix",
   :block/created-at 1659164339601,
   :block/updated-at 1659164339601}
@@ -1357,6 +1445,9 @@
  {:block/name "user experience",
   :block/created-at 1656783254925,
   :block/updated-at 1656783254925}
+ {:block/name "ux",
+  :block/created-at 1663491900224,
+  :block/updated-at 1663491900224}
  {:block/name "video editing",
   :block/created-at 1648991541877,
   :block/updated-at 1648991550552}
@@ -1377,7 +1468,7 @@
   :block/updated-at 1662879998492}
  {:block/name "visualization",
   :block/created-at 1651721389690,
-  :block/updated-at 1655204457633}
+  :block/updated-at 1663574454417}
  {:block/name "vlog",
   :block/created-at 1639645062490,
   :block/updated-at 1659200144164}
@@ -1393,6 +1484,9 @@
  {:block/name "waiting",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
+ {:block/name "warren buffett",
+  :block/created-at 1663422595861,
+  :block/updated-at 1663422741846}
  {:block/name "wealth",
   :block/created-at 1648971690014,
   :block/updated-at 1655474791557}
@@ -1402,6 +1496,9 @@
  {:block/name "web design",
   :block/created-at 1655567143880,
   :block/updated-at 1655567621821}
+ {:block/name "web font",
+  :block/created-at 1663498530929,
+  :block/updated-at 1663498530929}
  {:block/name "web3",
   :block/created-at 1640767759954,
   :block/updated-at 1641701606774}
@@ -1519,6 +1616,9 @@
  {:block/name "尚拙",
   :block/created-at 1660465861206,
   :block/updated-at 1660465861206}
+ {:block/name "巴菲特",
+  :block/created-at 1664103905563,
+  :block/updated-at 1664103905563}
  {:block/name "开源",
   :block/created-at 1660465858092,
   :block/updated-at 1660465858092}
@@ -1579,6 +1679,9 @@
  {:block/name "江西",
   :block/created-at 1660465861212,
   :block/updated-at 1660465861212}
+ {:block/name "注音输入法",
+  :block/created-at 1663690547219,
+  :block/updated-at 1663690868987}
  {:block/name "清官",
   :block/created-at 1660465861215,
   :block/updated-at 1660465861215}
@@ -1597,6 +1700,9 @@
  {:block/name "瑞士",
   :block/created-at 1656047805716,
   :block/updated-at 1656047805716}
+ {:block/name "神话",
+  :block/created-at 1663692919141,
+  :block/updated-at 1663692923874}
  {:block/name "积善",
   :block/created-at 1660465860830,
   :block/updated-at 1660465860830}
@@ -1648,6 +1754,9 @@
  {:block/name "财富",
   :block/created-at 1648971722984,
   :block/updated-at 1648971722984}
+ {:block/name "超跑",
+  :block/created-at 1663601819779,
+  :block/updated-at 1663601819779}
  {:block/name "超跑笔记",
   :block/created-at 1637053838877,
   :block/updated-at 1637054033133}

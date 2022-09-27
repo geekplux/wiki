@@ -10,6 +10,7 @@ alias:: 播客, podcast
 	  id:: 61878b9a-05c4-4940-b6a6-769821c43a47
 	- [Teahour](https://teahour.fm) - 聚焦于程序、创业以及一切 Geek 话题的中文播客
 	- [Fork It](https://forkit.fm) - 第一个聊区块链技术的中文播客
+	- [What's Next｜科技早知道](https://guiguzaozhidao.fireside.fm) - 硅谷早知道
 	- [捕蛇者说](https://pythonhunter.org) - 聊聊编程、程序员和 Python
 	  id:: 61878e02-b6fc-472e-b597-b7db0683c478
 	- [内核恐慌](https://pan.icu) - 沦为年更节目了，之前每期必听

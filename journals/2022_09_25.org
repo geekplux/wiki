@@ -1,4 +1,4 @@
-* DAY [[2022-09-20]]
+* DAY [[2022-09-25]]
 :PROPERTIES:
 :author: geekplux 
 :END:
@@ -6,11 +6,11 @@
 :PROPERTIES:
 :heading: true
 :END:
+*** [[https://shasta.adobe.com][Project Shasta]] #podcast #tool #AI
 ** What I read Today
 :PROPERTIES:
 :heading: true
 :END:
-*** [[https://www.gcores.com/articles/155507][世界神话体系大盘点 | 机核 GCORES]] #神话
 ** Schedule
 :PROPERTIES:
 :heading: true
