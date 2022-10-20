@@ -1,2 +1,0 @@
-* Dash is the original low-code [[file:./framework.org][framework]] for rapidly building data apps in [[file:./python.md][python]] , [[file:./r.org][R]] , [[file:./julia.org][Julia]]
-* Written on top of [[file:./plotly.js.org][Plotly.js]] and [[file:./react.js.org][react.js]]

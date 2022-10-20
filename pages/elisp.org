@@ -1,2 +1,0 @@
-* [[https://learnxinyminutes.com/docs/elisp/][Learn elisp in Y Minutes]] #tutorial #emacs
-* [[http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html][Stevey's Blog Rants: Emergency Elisp]] #tutorial #emacs

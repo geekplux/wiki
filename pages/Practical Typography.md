@@ -1,0 +1,3 @@
+- > Typography is the visual component of the written word.
+- > But typography can enhance your writing. Typography can create a better first impression. Typography can reinforce your key points. Typography can extend reader attention. When you ignore typography, you’re ignoring an opportunity to improve the effectiveness of your writing.
+- > This book is partly an ongoing [[experiment]] in taking the web seriously as a book-publishing medium.

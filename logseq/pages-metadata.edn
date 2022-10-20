@@ -186,7 +186,7 @@
   :block/updated-at 1662784044378}
  {:block/name "2022-07-02",
   :block/created-at 1662784044299,
-  :block/updated-at 1662784044299}
+  :block/updated-at 1666285633565}
  {:block/name "2022-07-03",
   :block/created-at 1662784044229,
   :block/updated-at 1662784044229}
@@ -388,48 +388,30 @@
  {:block/name "2022-09-11",
   :block/created-at 1662864985276,
   :block/updated-at 1662907170346}
- {:block/name "2022-09-12",
-  :block/created-at 1662912004598,
-  :block/updated-at 1662912004598}
- {:block/name "2022-09-13",
-  :block/created-at 1662998401647,
-  :block/updated-at 1662998401647}
- {:block/name "2022-09-14",
-  :block/created-at 1663084803029,
-  :block/updated-at 1663084803029}
- {:block/name "2022-09-15",
-  :block/created-at 1663171202066,
-  :block/updated-at 1663171202066}
- {:block/name "2022-09-16",
-  :block/created-at 1663257603875,
-  :block/updated-at 1663257603875}
  {:block/name "2022-09-17",
   :block/created-at 1663417445464,
   :block/updated-at 1663423009441}
  {:block/name "2022-09-18",
   :block/created-at 1663430455357,
   :block/updated-at 1663498538240}
- {:block/name "2022-09-19",
-  :block/created-at 1663516853706,
-  :block/updated-at 1663516853706}
  {:block/name "2022-09-20",
   :block/created-at 1663603200455,
   :block/updated-at 1663692955921}
- {:block/name "2022-09-21",
-  :block/created-at 1663689604243,
-  :block/updated-at 1663689604243}
- {:block/name "2022-09-22",
-  :block/created-at 1663776002753,
-  :block/updated-at 1663776002753}
- {:block/name "2022-09-23",
-  :block/created-at 1663862401490,
-  :block/updated-at 1663862401490}
- {:block/name "2022-09-24",
-  :block/created-at 1663948847051,
-  :block/updated-at 1663948847051}
  {:block/name "2022-09-25",
   :block/created-at 1664035203879,
-  :block/updated-at 1664035203879}
+  :block/updated-at 1664119310497}
+ {:block/name "2022-10-03",
+  :block/created-at 1664726410010,
+  :block/updated-at 1664801330663}
+ {:block/name "2022-10-12",
+  :block/created-at 1665890836837,
+  :block/updated-at 1665890836837}
+ {:block/name "2022-10-13",
+  :block/created-at 1665890837033,
+  :block/updated-at 1665890837033}
+ {:block/name "2022-10-21",
+  :block/created-at 1666281619783,
+  :block/updated-at 1666281619783}
  {:block/name "3d",
   :block/created-at 1662861510964,
   :block/updated-at 1662861510964}
@@ -519,7 +501,7 @@
   :block/updated-at 1662549548251}
  {:block/name "blog themes",
   :block/created-at 1662341621478,
-  :block/updated-at 1662994751012}
+  :block/updated-at 1664710613198}
  {:block/name "boilerplate",
   :block/created-at 1657362933628,
   :block/updated-at 1657362933628}
@@ -580,6 +562,9 @@
  {:block/name "collaboration",
   :block/created-at 1655206107680,
   :block/updated-at 1655206107680}
+ {:block/name "color",
+  :block/created-at 1665890836843,
+  :block/updated-at 1665890836843}
  {:block/name "comic",
   :block/created-at 1662861510348,
   :block/updated-at 1662861510348}
@@ -634,9 +619,6 @@
  {:block/name "css",
   :block/created-at 1650265846427,
   :block/updated-at 1650265846427}
- {:block/name "custom_id",
-  :block/created-at 1662878932331,
-  :block/updated-at 1662878932331}
  {:block/name "dash",
   :block/created-at 1663574454416,
   :block/updated-at 1663575174657}
@@ -751,16 +733,12 @@
  {:block/name "figma",
   :block/created-at 1663419971322,
   :block/updated-at 1663419971322}
- {:block/name "file:./keyboard.org][keyboard",
-  :block/created-at 1663689566087,
-  :block/updated-at 1663689566087}
- {:block/name
-  "file:./what i found out daily.org][what i found out daily",
-  :block/created-at 1663602951402,
-  :block/updated-at 1663602951402}
- {:block/name "file:./what i read daily.org][what i read daily",
-  :block/created-at 1663602936094,
-  :block/updated-at 1663602936094}
+ {:block/name "file",
+  :block/created-at 1666281653767,
+  :block/updated-at 1666281653767}
+ {:block/name "file-path",
+  :block/created-at 1666281653768,
+  :block/updated-at 1666281653768}
  {:block/name "finance",
   :block/created-at 1637244607288,
   :block/updated-at 1637244607288}
@@ -793,7 +771,7 @@
   :block/updated-at 1661097659883}
  {:block/name "geekplux wiki",
   :block/created-at 1635170480779,
-  :block/updated-at 1663603977811}
+  :block/updated-at 1666284650843}
  {:block/name "generative art",
   :block/created-at 1660488435913,
   :block/updated-at 1660488435913}
@@ -848,6 +826,10 @@
  {:block/name "health check",
   :block/created-at 1654160689384,
   :block/updated-at 1654160696786}
+ {:block/name
+  "hls__addyosmani.com_-_software_engineering_-_the_soft_parts_1656782760943_0",
+  :block/created-at 1666281653763,
+  :block/updated-at 1666281653763}
  {:block/name "hong kong",
   :block/created-at 1650207654139,
   :block/updated-at 1650207677938}
@@ -856,7 +838,11 @@
   :block/updated-at 1635346585598}
  {:block/name "html",
   :block/created-at 1650265853560,
-  :block/updated-at 1650265853560}
+  :block/updated-at 1665591577118}
+ {:block/name
+  "https://hupili.net/article/ultra-notes-taxonomy/][超跑笔记 | 词汇表",
+  :block/created-at 1666284560120,
+  :block/updated-at 1666284560120}
  {:block/name "hugo",
   :block/created-at 1662549497192,
   :block/updated-at 1662549511607}
@@ -866,9 +852,6 @@
  {:block/name "hustle",
   :block/created-at 1655255016773,
   :block/updated-at 1655255034961}
- {:block/name "id",
-  :block/created-at 1663690427557,
-  :block/updated-at 1663690427557}
  {:block/name "impact",
   :block/created-at 1656791286304,
   :block/updated-at 1656791286304}
@@ -920,9 +903,6 @@
  {:block/name "key bindings",
   :block/created-at 1662879915143,
   :block/updated-at 1662879985553}
- {:block/name "keyboard",
-  :block/created-at 1663689616741,
-  :block/updated-at 1663689616741}
  {:block/name "kindness",
   :block/created-at 1656788661547,
   :block/updated-at 1656788661547}
@@ -1022,6 +1002,9 @@
  {:block/name "mentor",
   :block/created-at 1656790993265,
   :block/updated-at 1656790993265}
+ {:block/name "mercedes-benz",
+  :block/created-at 1666280580863,
+  :block/updated-at 1666280620721}
  {:block/name "minimalist shoes",
   :block/created-at 1639149509115,
   :block/updated-at 1639149978442}
@@ -1141,7 +1124,7 @@
   :block/updated-at 1660465852328}
  {:block/name "podcasts",
   :block/created-at 1636271834507,
-  :block/updated-at 1648972952358}
+  :block/updated-at 1664276802921}
  {:block/name "poetry 诗",
   :block/created-at 1640667298475,
   :block/updated-at 1640667298475}
@@ -1211,18 +1194,12 @@
  {:block/name "r3f",
   :block/created-at 1657363516349,
   :block/updated-at 1657363516349}
- {:block/name "react",
-  :block/created-at 1663575150350,
-  :block/updated-at 1663575150350}
  {:block/name "react three fiber",
   :block/created-at 1657363490431,
   :block/updated-at 1657363516352}
  {:block/name "react.js",
   :block/created-at 1663575174653,
   :block/updated-at 1663575201702}
- {:block/name "react/js",
-  :block/created-at 1663575150347,
-  :block/updated-at 1663575150347}
  {:block/name "reactjs",
   :block/created-at 1663575201702,
   :block/updated-at 1663575201702}
@@ -1250,6 +1227,9 @@
  {:block/name "rsync",
   :block/created-at 1661326150932,
   :block/updated-at 1661330269266}
+ {:block/name "run command by another user",
+  :block/created-at 1665989668040,
+  :block/updated-at 1665990005551}
  {:block/name "running",
   :block/created-at 1640066432936,
   :block/updated-at 1663603144054}
@@ -1379,6 +1359,9 @@
  {:block/name "the pragmatic programmer",
   :block/created-at 1656063067872,
   :block/updated-at 1656063240615}
+ {:block/name "thiel fellowship",
+  :block/created-at 1664210614750,
+  :block/updated-at 1664210708140}
  {:block/name "thinking",
   :block/created-at 1656821362190,
   :block/updated-at 1656821428949}
@@ -1403,6 +1386,9 @@
  {:block/name "todo",
   :block/created-at 1635168671576,
   :block/updated-at 1635168671576}
+ {:block/name "tool",
+  :block/created-at 1664119307250,
+  :block/updated-at 1664119307250}
  {:block/name "tools",
   :block/created-at 1639754044753,
   :block/updated-at 1639754389920}
@@ -1513,10 +1499,10 @@
   :block/updated-at 1647956966276}
  {:block/name "what i found out daily",
   :block/created-at 1662867389993,
-  :block/updated-at 1662867471351}
+  :block/updated-at 1666284957206}
  {:block/name "what i read daily",
   :block/created-at 1662867107300,
-  :block/updated-at 1662867292121}
+  :block/updated-at 1666284935021}
  {:block/name "when we two parted",
   :block/created-at 1640667298475,
   :block/updated-at 1640667298475}
@@ -1586,6 +1572,9 @@
  {:block/name "向上管理",
   :block/created-at 1660465860907,
   :block/updated-at 1660465860907}
+ {:block/name "周刊",
+  :block/created-at 1666281624597,
+  :block/updated-at 1666281624597}
  {:block/name "善",
   :block/created-at 1660465860835,
   :block/updated-at 1660465860835}
@@ -1604,6 +1593,9 @@
  {:block/name "图形学",
   :block/created-at 1647501704226,
   :block/updated-at 1647501704226}
+ {:block/name "奔驰",
+  :block/created-at 1666284557554,
+  :block/updated-at 1666284557554}
  {:block/name "学习方法",
   :block/created-at 1647501407471,
   :block/updated-at 1647501407471}

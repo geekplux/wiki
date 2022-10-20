@@ -1,9 +1,0 @@
-* [[https://pandoc.org][Pandoc - About pandoc]]
-* #+BEGIN_SRC bash
-pandoc -f markdown -t org [FILES]
-#+END_SRC
-* convert logseq markdown to org
-
-#+BEGIN_SRC sh
-pandoc -f markdown -t org --wrap preserve -o pages/<filename>.org pages/<filename>.md
-#+END_SRC

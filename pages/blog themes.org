@@ -1,5 +1,0 @@
-* [[https://xieyuheng.com/][Xie Yuheng]]
-* [[https://bradeneast.com/blog/][Blog, from Braden East]]
-* [[https://tailwindui.com/templates/spotlight][Spotlight - Tailwind CSS Personal Website Template]] #tailwindcss
-* [[https://www.framer.com/templates/portfolio-website/][Framer Templates: Portfolio]]
-example: https://floris.website

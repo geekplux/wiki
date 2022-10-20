@@ -1,2 +1,0 @@
-* Chinese [[https://en.wikipedia.org/wiki/Input_method][input methods]] fall into one of two categories: phonetic readings or root shapes. 拼音与字形
-* [[file:./注音输入法.org][注音输入法]]

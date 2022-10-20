@@ -1,0 +1,18 @@
+* DAY [[2022-10-12]]
+:PROPERTIES:
+:author: geekplux 
+:END:
+** Things I found out Today
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://randoma11y.com][Randoma11y - Accessible color combinations]] #color
+** What I read Today
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://instant.1point3acres.com/thread/932249][一枚FLAG普通码农辞职，回国3年的感受（另，关于国内创业环境的一些吐槽） | 一亩三分地Instant]]
+** Schedule
+:PROPERTIES:
+:heading: true
+:END:

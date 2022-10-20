@@ -169,7 +169,7 @@
  :feature/enable-journals? true
  :default-home {:page "GeekPlux Wiki"}
  :favorites ("GeekPlux Wiki" "Newsletters" "Podcasts" "Writing" "What I read Daily" "What I found out Daily" "Information" "Digital Devices" "Service I subscribed")
- :preferred-format :org
+ :preferred-format :markdown
  :journal/page-title-format "yyyy-MM-dd"
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)

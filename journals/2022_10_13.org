@@ -1,0 +1,17 @@
+* DAY [[2022-10-13]]
+:PROPERTIES:
+:author: geekplux 
+:END:
+** Things I found out Today
+:PROPERTIES:
+:heading: true
+:END:
+** What I read Today
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://jalammar.github.io/illustrated-stable-diffusion/][The Illustrated Stable Diffusion – Jay Alammar – Visualizing machine learning one concept at a time.]] [[file:../pages/machine learning.org][Machine Learning]]
+** Schedule
+:PROPERTIES:
+:heading: true
+:END:
