@@ -1,8 +1,5 @@
-- **Englisg Blog** https://geekplux.me
-- **中文博客** https://geekplux.com
-- links [GeekPlux](https://geekplux.bio.link)
-- CV https://read.cv/geekplux
-- 我自己写的[周刊](https://geekplux.com/newsletters) - [点此订阅](https://geekplux.zhubai.love)
+- **Blog** https://geekplux.com
+- links [GeekPlux](https://geekplux.com/public)
 -
 -
 - [[Productive]]

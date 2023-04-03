@@ -63,7 +63,7 @@
  ;; Set this to true will convert
  ;; `[[Grant Ideas]]` to `[[file:./grant_ideas.org][Grant Ideas]]` for org-mode
  ;; For more, see https://github.com/logseq/logseq/issues/672
- :org-mode/insert-file-link? true
+;; :org-mode/insert-file-link? true
 
  ;; If you prefer to use the file name as the page title
  ;; instead of the first heading's title
@@ -168,7 +168,7 @@
  :publishing/all-pages-public? true
  :feature/enable-journals? true
  :default-home {:page "GeekPlux Wiki"}
- :favorites ("GeekPlux Wiki" "Newsletters" "Podcasts" "Writing" "What I read Daily" "What I found out Daily" "Information" "Digital Devices" "Service I subscribed")
+ :favorites ["geekplux wiki" "newsletters" "podcasts" "writing" "what i read daily" "what i found out daily" "information" "digital devices" "service i subscribed"]
  :preferred-format :markdown
  :journal/page-title-format "yyyy-MM-dd"
 

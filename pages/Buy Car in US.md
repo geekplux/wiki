@@ -1,0 +1,9 @@
+- ## Useful websites
+	- ### car info
+		- https://www.truecar.com
+		- https://www.costcoauto.com/
+	- second hand car info
+		- https://www.carmax.com
+	- dealer comparasion
+		- https://forum.leasehackr.com
+		- https://www.dealerrater.com

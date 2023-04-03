@@ -1,0 +1,1 @@
+- > The more extensive your vocabulary, the better your chances for success, other things being equal-_success in attaining your educational goals, success in moving ahead in your business or professional career, success in achieving your intellectual potential.
