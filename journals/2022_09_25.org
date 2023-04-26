@@ -6,7 +6,7 @@
 :PROPERTIES:
 :heading: true
 :END:
-*** [[https://shasta.adobe.com][Project Shasta]] #podcast #tool #AI
+*** [[https://shasta.adobe.com][Project Shasta]] #podcast #Tools #AI
 ** What I read Today
 :PROPERTIES:
 :heading: true

@@ -1,1 +1,3 @@
 - https://googlecloud.qwiklabs.com/  Qwiklabs
+- [[Google Professional Cloud Architect]]
+- [GCP Flowcharts ·  Missives about mostly GCP related things](https://grumpygrace.dev/posts/gcp-flowcharts/) #flowchart

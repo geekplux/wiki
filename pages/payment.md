@@ -1,0 +1,2 @@
+- https://www.lemonsqueezy.com #sell
+- https://stripe.com

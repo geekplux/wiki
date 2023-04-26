@@ -1,0 +1,3 @@
+- [Fear of missing out - Wikipedia](https://en.wikipedia.org/wiki/Fear_of_missing_out) definition
+	- > **Fear of missing out** (**FOMO**) is the feeling of apprehension that one is either not in the know or missing out on information, events, experiences, or life decisions that could make one's life better.
+-

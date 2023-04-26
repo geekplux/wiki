@@ -1,0 +1,4 @@
+- #Certification
+- [如何在一個月通過 Google Professional Cloud Architect (PCA) 認證 | by Gina Chang | Gemini Open Cloud 雙子星雲端 | Medium](https://medium.com/gemini-open-cloud/如何在一個月通過-google-professional-cloud-architect-pca-認證-5f8ca5cc9db4#3c79)
+- [如何2周拿到Google Cloud专业架构师认证_谷歌云认证-CSDN博客](https://blog.csdn.net/lwiky1234/article/details/124213887)
+- {{video https://www.youtube.com/watch?v=TkfIXm4-V5M}}

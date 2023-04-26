@@ -7,10 +7,10 @@
 - ### Tech
 	- [Hacker News Digest](https://www.hndigest.com)
 	- [Programming Digest](https://programmingdigest.net)
-	- [Software Lead Weekly](https://softwareleadweekly.com) - 适合 Tech Lead #techlead
-	- [Level Up](https://levelup.patkua.com) - 适合Tech Lead 看 #techlead
-	- [tech lead digest](https://techleaddigest.net) - #techlead
-	- [The Weekly Hagakure](https://hagakure.substack.com) - #techlead
+	- [Software Lead Weekly](https://softwareleadweekly.com) - 适合 Tech Lead #[[Tech Lead]]
+	- [Level Up](https://levelup.patkua.com) - 适合Tech Lead 看 #[[Tech Lead]]
+	- [tech lead digest](https://techleaddigest.net) - #[[Tech Lead]]
+	- [The Weekly Hagakure](https://hagakure.substack.com) - #[[Tech Lead]]
 	- [Awesome Self Hosted](https://selfhosted.libhunt.com/newsletter)
 	- [Mobile Dev Weekly](https://mobiledevweekly.com)
 	- [Golang Weekly](https://golangweekly.com)
