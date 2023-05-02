@@ -1,0 +1,1 @@
+- [Deno KV - a global database for global apps](https://deno.com/kv)

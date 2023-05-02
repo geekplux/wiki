@@ -1,0 +1,3 @@
+alias:: AIGC
+
+- [[Image Generator]]

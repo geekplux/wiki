@@ -1,0 +1,3 @@
+- [Image Creator from Microsoft Bing](https://www.bing.com/images/create)
+- [Microsoft Designer - Stunning designs in a flash](https://designer.microsoft.com/)
+- [DeepAI](https://deepai.org/)
