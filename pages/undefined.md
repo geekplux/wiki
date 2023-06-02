@@ -1,0 +1,3 @@
+- **23:05** [[quick capture]]:  [Datapane - Build data products in 100% Python](https://datapane.com/)
+- **23:05** [[quick capture]]:  [Datapane - Build data products in 100% Python](https://datapane.com/)
+- **23:05** [[quick capture]]:  [Datapane - Build data products in 100% Python](https://datapane.com/)

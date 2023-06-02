@@ -1,0 +1,2 @@
+- [Henley Passport Index - Wikipedia](https://en.wikipedia.org/wiki/Henley_Passport_Index) #[[Passport Rank]]
+  > [[travel]] freedom enjoyed by the holders of that country's ordinary passport for its citizens.

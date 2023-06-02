@@ -19,6 +19,7 @@ alias:: 可视化, 数据可视化, Data Visualization, vis
 		- [Altair](https://altair-viz.github.io/index.html) - python's [vega-lite](https://vega.github.io/vega-lite/)
 		- [Apache Superset](https://superset.apache.org)
 		- [Streamlit](https://streamlit.io)
+		- [Datapane - Build data products in 100% Python](https://datapane.com/)
 	- ### GIS
 		- [mapbox](https://docs.mapbox.com)
 		- [Leaflet](https://leafletjs.com)

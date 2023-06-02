@@ -1,2 +1,3 @@
 - [Awwwards - Website Awards - Best Web Design Trends](https://www.awwwards.com)
 - [CSS Design Awards - Website Awards - Best Web Design Inspiration - CSS Awards](https://www.cssdesignawards.com)
+- [Design basics | Figma](https://www.figma.com/resource-library/design-basics/) #tutorial #Courses #figma

@@ -1,1 +1,3 @@
 - https://garden.bradwoods.io 个性 #front-end #[[blog themes]]
+- https://brainbaking.com/
+- https://chester.how/
