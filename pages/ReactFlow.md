@@ -1,0 +1,2 @@
+- https://reactflow.dev/
+- https://www.svelvet.io/ #Svelte alternative

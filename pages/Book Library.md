@@ -1,0 +1,3 @@
+- [[calibre]]
+- [Library Genesis](http://libgen.rs/) #library
+- [The Anarchist Library | The Anarchist Library](https://theanarchistlibrary.org/special/index) #library
