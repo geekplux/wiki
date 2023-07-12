@@ -171,6 +171,7 @@
  :favorites ["geekplux wiki" "newsletters" "podcasts" "writing" "what i read daily" "what i found out daily" "information" "digital devices" "service i subscribed"]
  :preferred-format :markdown
  :journal/page-title-format "yyyy-MM-dd"
+ :editor/logical-outdenting? false
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

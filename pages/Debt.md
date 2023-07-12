@@ -1,0 +1,3 @@
+- [[Knowledge Debt]]
+- [[Tech Debt]]
+- [[Financial Debt]]

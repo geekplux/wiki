@@ -1,0 +1,1 @@
+- A phonetic language is a language where the written form is close to the spoken form. This means that you can look at a written word and know how to pronounce it, or you can hear a word and know how to spell it. In phonetic languages, there is a direct relationship between the spelling and the sound.
