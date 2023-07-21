@@ -1,0 +1,2 @@
+- https://zettelkasten.de/introduction/
+- > The most important aspect of the body of the Zettel is that you write it in your own words.

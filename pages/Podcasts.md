@@ -1,6 +1,7 @@
 alias:: 播客, podcast
 
-- Random Sorted
+- [代码之外 Beyond](https://bento.me/beyondcode)
+- Following is **Random Sorted**
 - ### Tech & Programmer
 	- [Changelog](https://changelog.com/podcasts)  
 	  Weekly shows about software development, developer culture, open source, building startups, artificial intelligence, shipping code to production, and the people involved.

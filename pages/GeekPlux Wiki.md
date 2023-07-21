@@ -1,5 +1,5 @@
 - **Blog** https://geekplux.com
-- links [GeekPlux](https://geekplux.com/public)
+- Contact [GeekPlux](https://geekplux.com/contact)
 -
 -
 -

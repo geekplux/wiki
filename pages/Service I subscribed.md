@@ -10,7 +10,7 @@
 	- iCloud (max)
 	- Google One (max)
 - ## Create
-	- Adobe Lightroom + Photoshop
+	- Adobe Lightroom + Photoshop (土区)
 	- Procreate
 	- Drafts Pro
 	- Day One

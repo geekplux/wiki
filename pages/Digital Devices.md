@@ -1,3 +1,4 @@
+- [好物推荐](https://dub.sh/geek)
 - ### Phone
 	- iPhone (currently using iPhone 12 mini)
 	- Nokia 800 tough
