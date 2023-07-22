@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sed -i '' 's/<\/head>/<script async defer data-website-id="cac6cb9d-c349-486c-bc93-46cb395c8005" src="https:\/\/geekplux.up.railway.app\/umami.js"><\/script><\/head>/' public/index.html
+sed -i '' 's/<\/head>/<script async defer data-website-id="cc453bb8-a919-4e7e-a6f6-f618904082f2" src="https:\/\/umami.geekplux.com\/script.js"><\/script><\/head>/' public/index.html
