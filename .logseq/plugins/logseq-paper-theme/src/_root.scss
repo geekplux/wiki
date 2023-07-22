@@ -1,0 +1,50 @@
+:root {
+  --ct-background: var(--ls-primary-background-color);
+  --ct-page-font-color: var(--ls-primary-text-color);
+  --ls-scrollbar-width: 20px;
+  --ls-right-sidebar-width: 25%;
+}
+
+:root.is-mac.is-electron {
+  --ct-header-height: 48px;
+}
+
+/* Some tweaks on making this theme a bit more compact on mobile.
+   Mobile cap is 640px */
+@media (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+  #main-content-container {
+    padding: 0;
+  }
+  .cp__sidebar-main-content > div {
+    padding: 1px 1em 1em 1em !important;
+    border: none;
+  }
+  a.title h1.title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  .custom-query {
+    padding: 0 1rem;
+  }
+}
+
+.cp__right-sidebar-topbar {
+  // -webkit-backdrop-filter: blur(20px);
+  // backdrop-filter: blur(20px);
+  background-color: var(--ls-primary-background-color);
+  margin-bottom: 8px;
+}
+
+:not(.color-level) .color-level {
+  box-shadow: 0 0 0 1px var(--ls-border-color);
+}
+
+// Fix a issue introduced in 0.4.6
+// See: https://github.com/logseq/logseq/commit/955648beeb98e00aefa167c8001c8fee6ed20cd1#diff-0a1590918f1e6dd3d7a862dd75cac598e0dc1ca3bdd790df91a67b5f5ec89f8b
+.scrollbar-spacing {
+  height: 100%;
+}

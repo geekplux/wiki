@@ -1,0 +1,164 @@
+@import "fonts.scss";
+// fonts need to be the first one
+@import "root.scss";
+@import "views.scss";
+@import "headings.scss";
+@import "blocks.scss";
+@import "embed.scss";
+@import "miscs.scss";
+@import "popups.scss";
+@import "queries.scss";
+@import "markers.scss";
+@import "graph.scss";
+@import "theme_dark.scss";
+@import "theme_light.scss";
+@import "SETTINGS.scss";
+
+:root {
+  --ls-block-bullet-threading-width: 2px;
+}
+
+// Custom code
+.cp__sidebar-help-btn {
+  display: var(--display-help-button);
+}
+
+a.nav-left,
+a.nav-right {
+  display: var(--display-help-button);
+}
+
+#search-button {
+  display: var(--display-search-button);
+}
+
+.recent {
+  display: var(--display-recent-pages);
+}
+
+// Border under heder
+.cp__header::after,
+.cp__right-sidebar-topbar::after {
+  display: none;
+}
+
+#head a.button {
+  color: var(--ls-primary-text-color);
+}
+
+// Fix Left Sidebar Icon
+// .is-electron.is-mac .cp__header {
+//   padding-left: 78px;
+// }
+
+// .is-electron.is-mac.is-fullscreen .cp__header {
+//   padding-left: 0px;
+// }
+
+// Fix vertical lines
+.block-children {
+  transition: border-color 0.2s;
+}
+
+.block-children:focus-within {
+  border-color: var(--ls-tertiary-background-color);
+}
+
+// Left sidebar won't move content
+
+@media (min-width: 640px) {
+  #main-container.is-left-sidebar-open {
+    padding-left: 16px;
+  }
+}
+
+@media (min-width: 640px) {
+  .ls-right-sidebar-open #main-container.is-left-sidebar-open {
+    padding-left: var(--ls-left-sidebar-width) !important;
+  }
+}
+
+// Padding for main container
+#main-container {
+  padding: 16px 16px 0 16px;
+}
+
+// custom scrollbar
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+:root {
+  --ls-scrollbar-foreground-color: 
+  --ls-scrollbar-thumb-hover-color: 
+  --ls-scrollbar-background-color: transparent:
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+// Better left border lines for blocks
+
+.block-children-left-border:hover {
+    background-color: var(--ls-quaternary-background-color);
+}
+
+.block-children:focus-within {
+  border-color: var(--ls-quaternary-background-color);
+}
+
+.block-children-left-border {
+    width: 2px;
+    left: 0;
+}
+
+// Fix heading styling while editing
+
+.editor-inner .uniline-block:is(.h1,.h2,.h3,.h4,.h5.h6), .ls-block :is(h1,h2,h3,h4,h5,h6) {
+    border-bottom: unset;
+}
+
+.editor-inner .multiline-block:is(.h1,.h2,.h3,.h4,.h5,.h6)::first-line, .editor-inner .uniline-block:is(.h1,.h2,.h3,.h4,.h5,.h6), .ls-block :is(h1,h2,h3,h4,h5,h6) {
+    font-weight: 800;
+}
+
+// Remove maring-top from headers
+
+.editor-inner .uniline-block:is(.h1,.h2,.h3,.h4,.h5,.h6), .ls-block :is(h1,h2,h3,h4,h5,h6) {
+    margin: 0;
+    line-height: 1.25;
+}
+
+// Document Mode
+
+.document-mode .ls-block {
+    margin-bottom: 0.5rem;
+}
+
+.document-mode .bullet-container.bullet-closed {
+  background-color:transparent;
+}
+
+.document-mode .editor-inner .h1, .document-mode .ls-block h1{
+    margin: 1.5rem 0 0 0;
+}
+
+.document-mode .editor-inner .h2, .document-mode .ls-block h2, .document-mode .editor-inner .h3, .document-mode .ls-block h3  {
+    margin: 1rem 0 0 0;
+}
+
+.document-mode .editor-inner .h4, .document-mode .ls-block h4, .document-mode .editor-inner .h5, .document-mode .ls-block h5, .document-mode .editor-inner .h6, .document-mode .ls-block h6 {
+    margin: 0.5rem 0 0 0;
+}
+
+// Better visibility for brackets
+
+.page-reference .bracket {
+  opacity: .5;
+}
+
+

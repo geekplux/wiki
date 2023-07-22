@@ -1,0 +1,1 @@
+{"name":"tufte","author":"jones melton","version":"0.0.2","description":"A port of Tufte-CSS based on the principles of Edward Tufte","logseq":{"themes":[{"name":"tufte","url":"./main.css","description":"edward tufte css","mode":"light"}],"id":"tufte","icon":"./icon.png"},"repo":"jonesmelton/logseq-tufte-theme","title":"Tufte Theme","effect":false}

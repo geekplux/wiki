@@ -1,0 +1,732 @@
+@import "fonts/mono.css";
+@import "css/calculator.css";
+
+/* Colours */
+.light, .light-theme, .white-theme, html[data-theme=light] {
+
+	--accent-color: #0b82b9;
+	--accent-color-rgb: 11, 130, 185;
+	--accent-dark-color: #3982C2;
+	--accent-bright-color: #00BFFF;
+	--sidebar-border-color: #DADADA;
+
+	--ls-primary-background-color: #F7F7F7;
+	--ls-secondary-background-color: #EAEAEA;
+	--ls-tertiary-background-color: #FBFBFB;
+	--ls-quaternary-background-color: #C8C9C8;
+
+	--ls-primary-text-color: #1a1a1a;
+	--ls-title-text-color: #1a1a1a;
+
+	--ls-secondary-text-color: #808080;
+
+	--ls-block-ref-link-text-color: #b7bfc5;
+
+	--ls-block-properties-background-color: #EAEAEA;
+	--ls-page-properties-background-color: #EAEAEA;
+	--ls-table-tr-even-background-color: #EAEAEA;
+	--ls-page-inline-code-bg-color: #EAEAEA;
+	--ls-a-chosen-bg: #EAEAEA;
+
+	--ls-link-text-color: #0b82b9;
+	--ls-link-text-hover-color: #1a1a1a;
+	--ls-link-ref-text-color: #747474;
+	--ls-link-ref-text-hover-color: #1a1a1a;
+
+	--ls-block-highlight-color: #ACEBFB;
+	--ls-selection-background-color: #ACEBFB;
+
+	--ls-block-bullet-border-color: #dedede;
+	--ls-block-bullet-color: rgba(62, 62, 62, 0.25);
+
+	--table-border-color: var(--ls-block-bullet-color);
+
+	--ls-cloze-text-color: var(--accent-color);
+
+	--ls-header-button-background: #505050;
+	--ls-warning-background-color: #f56565;
+	--ls-warning-text-color: #fff;
+
+	--ls-highlight-color-gray: #DCDADA;
+	--ls-highlight-color-red: #FB9E9E;
+	--ls-highlight-color-yellow: #FCEB96;
+	--ls-highlight-color-green: #CEF196;
+	--ls-highlight-color-blue: #BAECFA;
+	--ls-highlight-color-purple: #E4C4FA;
+	--ls-highlight-color-pink: #FEC3EA;
+}
+
+/* Note: chosen (i.e., highlighted selection) means we need lighter foreground colors */
+.chosen,
+.dark, .dark-theme, html[data-theme=dark] {
+
+	--accent-color: #18BDEC;
+	--accent-color-rgb: 24, 189, 236;
+	--accent-dark-color: #3982C2;
+	--accent-bright-color: #00BFFF;
+	--sidebar-border-color: #000000;
+
+	--ls-primary-background-color: #18181A;
+	--ls-secondary-background-color: #27272A;
+	--ls-tertiary-background-color: #373737;
+	--ls-quaternary-background-color: #424242;
+
+	--ls-primary-text-color: #CCCCCC;
+	--ls-title-text-color: #CCCCCC;
+
+	--ls-secondary-text-color: #909090;
+
+	--ls-block-ref-link-text-color: #2489a3;
+
+	--ls-block-properties-background-color: #27272A;
+	--ls-page-properties-background-color: #27272A;
+	--ls-table-tr-even-background-color: #27272A;
+	--ls-page-inline-code-bg-color: #27272A;
+	--ls-a-chosen-bg: #27272A;
+
+	--ls-link-text-color: #18BDEC;
+	--ls-link-text-hover-color: var(--ls-primary-text-color);
+	--ls-link-ref-text-color: var(--ls-secondary-text-color);
+	--ls-link-ref-text-hover-color: var(--ls-primary-text-color);
+
+	--ls-page-inline-code-color: var(--ls-primary-text-color);
+
+	--ls-block-highlight-color: #134353;
+	--ls-selection-background-color: #134353;
+
+	--ls-border-color: #555;
+	--ls-block-bullet-color: #555;
+	--ls-block-bullet-border-color: #3A3A3A;
+	--ls-guideline-color: rgba(64,64,64,0.5);
+	--ls-scrollbar-foreground-color: rgba(64,64,64,1);
+	--ls-scrollbar-background-color: r rgba(64,64,64,0.5);
+
+	--table-border-color: var(--ls-block-bullet-color);
+
+	--ls-cloze-text-color: var(--accent-color);
+
+	--ls-header-button-background: #B3B3B3;
+	--ls-warning-background-color: #f56565;
+	--ls-warning-text-color: #fff;
+
+	--ls-highlight-color-gray: #544F4F;
+	--ls-highlight-color-red: #870505;
+	--ls-highlight-color-yellow: #8B7404;
+	--ls-highlight-color-green: #537D11;
+	--ls-highlight-color-blue: #0A6B87;
+	--ls-highlight-color-purple: #530B84;
+	--ls-highlight-color-pink: #8A035C;
+}
+:root {
+  --ls-font-family: var(--content-font-family);
+}
+html {
+	font-family: var(--ls-font-family), -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Roboto", "Oxygen", "Ubuntu", sans-serif !important;
+}
+
+/* Checkbox beautification */
+
+span.inline.done {
+	opacity: 1;
+	color: var(--ls-secondary-text-color);
+}
+
+.form-checkbox {
+	--ls-page-checkbox-color: var(--ls-tertiary-background-color);
+	--ls-page-checkbox-border-color: var(--ls-quaternary-background-color);
+
+	background-color: var(--ls-page-checkbox-color);
+	border: 1px solid var(--ls-page-checkbox-border-color);
+	border-radius: 5px;
+	opacity: 1;
+}
+
+.form-checkbox:checked:focus,
+.form-checkbox:checked {
+	background-color: var(--accent-color);
+	border: 1px solid var(--accent-color) !important;
+	opacity: 1 !important;
+}
+
+
+/* Sidebar */
+/* Border hover colour */
+.block-children-left-border:hover {
+	background-color: var(--accent-color);
+}
+/* Tighten navigation items */
+.left-sidebar-inner > div > nav,
+.nav-header {
+	gap: 0;
+}
+.left-sidebar-inner .nav-content-item .bd ul a {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+/* Borders to main content */
+.left-sidebar-inner {
+	border-right: 1px solid var(--sidebar-border-color);
+}
+.cp__right-sidebar-inner {
+	border-left: 1px solid var(--sidebar-border-color);
+}
+
+
+/* Opacity reduces contrast too much; theme is already lower-contrast */
+.opacity-50 {
+	opacity: 0.666;
+}
+.opacity-20 {
+	opacity: 0.4;
+}
+
+/* Selection lists (search, tag complete, etc.) */
+
+#ui__ac .chosen,
+.chosen {
+	--ls-primary-text-color: #fafafa;
+	--ls-link-ref-text-color: #eaeaea;
+	--ls-link-ref-text-hover-color: #fafafa;
+	--ls-quaternary-background-color: var(--accent-dark-color);
+	--ls-icon-color: var(--ls-primary-text-color);
+}
+
+#ui__ac .chosen {
+	background-color: var(--accent-dark-color);
+}
+
+.menu-link.chosen  {
+	color: var(--ls-primary-text-color) !important;
+}
+
+/* ... make popup menus more visible */
+:not(div.ui__modal-panel, .ui__modal-overlay, #search-in-page > div) > .absolute:not(.editing, .whiteboard-page, .s1),
+#search-in-page,
+.absolute .menu-link,
+#custom-context-menu > div,
+#custom-context-menu .menu-link,
+.menu-links-wrapper {
+	background-color: var(--ls-secondary-background-color);
+}
+.absolute .menu-link:hover,
+#custom-context-menu .menu-link:hover {
+	--ls-link-ref-text-color: var(--ls-link-ref-text-hover-color);
+	background-color: var(--ls-quaternary-background-color);
+}
+/* make border around P, B, etc. in search results clearly visible */
+.search-results-wrap .text-xs.rounded.border {
+	border-color: var(--ls-primary-text-color);
+}
+
+/* links and tags */
+
+a.tag {
+	font-size: 90%;
+	color: var(--ls-link-ref-text-color);
+}
+
+a.tag[data-ref=card] {
+	opacity: 0.5;
+}
+
+.page-ref {
+	color: var(--ls-link-text-color);
+}
+
+.bracket {
+    color: var(--ls-link-ref-text-color) !important;
+    opacity: 0.5 !important;
+}
+
+/* colouring UI */
+
+.cp__right-sidebar-topbar a,
+.cp__header a.button {
+	color: var(--ls-primary-text-color);
+	opacity: 0.6;
+}
+
+#custom-context-menu a {
+	color: var(--ls-primary-text-color);
+}
+
+#custom-context-menu a:hover,
+.cp__right-sidebar-topbar a:hover,
+.cp__header a.button:hover {
+	/*color: var(--ls-link-text-color);*/
+	opacity: 1;
+}
+
+
+/* Fonts and their colours */
+
+/* Base font is system font (San Francisco for macOS). Whack-a-mole. */
+#left-container > #head,
+#main-container > #left-sidebar,
+#right-sidebar .cp__right-sidebar-topbar,
+#global-graph,
+.ui__modal-panel,
+.ui__notifications-content,
+.cp__all_pages,
+#custom-context-menu,
+.absolute:not(.editing),
+.whiteboard, .whiteboard-dashboard-title, .whiteboard-dashboard-title + div,
+.tl-toolbar label, .tl-context-bar label, .tl-button, .tl-select-input-content, .tl-text-label-wrapper, .tl-tooltip-content,
+.draw {
+	font-family: -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+	font-feature-settings: normal;
+}
+/* ...fix font override for user content displayed within modals */
+.ui__modal-panel .cards-review .blocks-container {
+	font-family: var(--ls-font-family), sans-serif !important;
+}
+/* Content font should be set in variable '--content-font-family' */
+.ls-card,
+.sidebar-item .content,
+#main-content-container .content,
+#main-content-container .cp__sidebar-main-content,
+#main-content-container div.page-hierarchy div.initial {
+	font-size: var(--content-font-size, 12pt);
+	line-height: var(--content-line-height, 18pt);
+	font-feature-settings: var(--content-font-stylistic-set, normal);
+}
+
+textarea {
+	line-height: var(--content-line-height, inherit);
+}
+
+.ls-block {
+	padding: var(--block-padding, 2px) 0;
+}
+
+/* Monospace code shall use iA Writer Mono */
+.extensions__code-calc-output-line.CodeMirror-line,
+.extensions__code > .extensions__code-lang,
+:not(pre)>code,
+.CodeMirror {
+	font-family: "iA Writer Mono S", "IBM Plex Mono", Menlo, Monaco, MonoLisa, 'Fira Code',Consolas,'COURIER NEW',monospace;
+	font-feature-settings: normal;
+	font-size: 15px;
+	line-height: 23px;
+}
+
+.ls-card,
+.sidebar-item,
+#main-content-container {
+	--ls-primary-text-color: #1A1A1A;
+	--ls-title-text-color: #1A1A1A;
+	--color-level-1: #EEEEEE;
+	--color-level-2: #E0E0E0;
+}
+
+:is(.dark, .dark-theme) .sidebar-item,
+:is(.dark, .dark-theme) #main-content-container {
+	--ls-primary-text-color: #CCCCCC;
+	--ls-title-text-color: #CCCCCC;
+	--color-level-1: var(--ls-secondary-background-color);
+	--color-level-2: var(--ls-tertiary-background-color);
+}
+
+html[data-theme=light] .cp__right-sidebar .block-content {
+	--ls-page-inline-code-bg-color: #E0E0E0;
+	--ls-page-blockquote-bg-color: #E0E0E0;
+	--ls-page-properties-background-color: #E0E0E0;
+}
+
+:is(.dark, .dark-theme) .cp__right-sidebar .block-content {
+	--ls-page-inline-code-bg-color: var(--ls-tertiary-background-color);
+	--ls-page-blockquote-bg-color: var(--ls-tertiary-background-color);
+	--ls-page-properties-background-color: var(--ls-tertiary-background-color);
+}
+
+
+/* Code and code editing */
+
+.cp__fenced-code-block {
+	margin-bottom: 8px;
+}
+
+.CodeMirror, .CodeMirror-wrap {
+	background-color: var(--ls-tertiary-background-color) !important;
+	text-shadow: none !important;
+}
+
+.CodeMirror::selection {
+	background-color: var(--ls-selection-background-color) !important;
+}
+
+.CodeMirror pre.CodeMirror-line {
+	font-size: 15px;
+}
+
+.CodeMirror-linenumber {
+	color: var(--ls-secondary-text-color) !important;
+	text-shadow: none !important;
+}
+
+.CodeMirror-gutters {
+	background-color: var(--ls-secondary-background-color) !important;
+	opacity: 0.6;
+}
+
+.extensions__code > .extensions__code-lang {
+	font-size: 90%;
+	font-style: italic;
+	padding-right: 1ex;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+	color: var(--ls-primary-text-color);
+	background-color: inherit;
+}
+
+/* default colour when not being styled */
+.CodeMirror pre>span {
+	color: var(--ls-primary-text-color);
+}
+
+/* border around preformatted text to make them stand out just a bit. */
+
+.admonitionblock,
+.CodeMirror {
+	border: 1px dotted var(--ls-quaternary-background-color);
+	background-color: var(--ls-tertiary-background-color);
+}
+.admonition-icon > svg.svg-shadow {
+	filter: grayscale(30%) brightness(110%);
+}
+
+.CodeMirror.CodeMirror-focused {
+	border: 1px solid rgb(var(--accent-color-rgb), 0.7);
+}
+
+/* Slashed zeros for the calculator */
+textarea[data-lang="calc"] + div.CodeMirror,
+div.CodeMirror + div.extensions__code-calc div.CodeMirror-line {
+	font-feature-settings: "ss03" !important;
+}
+
+/* blocks */
+
+blockquote {
+	background: transparent;
+	border-left: none;
+	font-style: italic;
+	font-size: var(--content-font-size, 12pt);
+	margin: 0;
+}
+
+.admonitionblock {
+	margin: 1rem 0;
+	padding: 12px 20px;
+	border: 1px dotted var(--ls-quaternary-background-color);
+}
+
+.admonitionblock div {
+	font-size: 100%;
+}
+
+/* Distinguish flash cards */
+
+div[data-refs-self*='"card"'] {
+	border: 1px dotted var(--ls-quaternary-background-color);
+	background-color: var(--ls-tertiary-background-color);
+	border-radius: 10px;
+}
+
+/* Distinguish right sidebar content */
+
+.sidebar-item {
+	background-color: var(--ls-secondary-background-color);
+	border-bottom: 1px solid var(--ls-quaternary-background-color);
+	box-shadow: none;
+}
+
+/* Tweak left sidebar to use macOS-like colours */
+
+.left-sidebar-inner {
+	--ls-primary-text-color: #505050;
+}
+
+:is(.dark, .dark-theme) .left-sidebar-inner {
+	--ls-primary-text-color: #B3B3B3;
+}
+
+.left-sidebar-inner .fade-link {
+	opacity: 1.0;
+}
+
+.left-sidebar-inner .item.group:hover,
+.left-sidebar-inner .header:hover {
+	background-color: var(--ls-quaternary-background-color) !important;
+}
+
+/* Highlighting is yellow */
+
+mark {
+	background-color: #FDEB95;
+}
+
+:is(.dark, .dark-theme) mark {
+	background-color: #F9E67A;
+}
+
+
+/* Page title, breadcrumbs fonts and styles */
+
+a.page-title,
+.block-parents a,
+#journals > div > div.w-full.p-4 > a.text-4xl, /* "Earlier..." */
+a.journal-title > h1.title,
+h1.title input:focus-within,
+.ls-page-title {
+	font-family: var(--title-font-family,  "_not_a_font"), -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Roboto", "Oxygen", "Ubuntu", sans-serif !important;
+	font-feature-settings: var(--title-font-stylistic-set, normal);
+}
+
+/* Built-in pages and modals should use system font for titles and breadcrumbs */
+.absolute:not(.editing, .whiteboard-page), .cp__palette, #search-wrapper {
+	--title-font-family: ;
+	--title-font-breadcrumb-size: ;
+}
+
+#journals > div > div.w-full.p-4 > a.text-4xl,
+h1.title {
+	font-size: var(--title-font-size, 20pt) !important;
+	font-weight: bold;
+}
+
+/* Give the field a bit of pizazz when it's being edited */
+
+h1.title input:focus-within {
+	color: var(--ls-link-text-color) !important;
+}
+
+a.page-title,
+.block-parents a {
+	color: var(--ls-link-ref-text-color);
+	font-size: var(--title-font-breadcrumb-size, 100%);
+	font-weight: 300;
+	transition: none;
+}
+
+a.page-title:hover,
+.block-parents a:hover,
+.block-parents .menu-link:hover
+{
+	color: var(--ls-link-ref-text-hover-color);
+}
+
+
+/* Headings (in content) */
+
+.blocks-container > div > div > div:not(:first-child)
+:is(.editor-inner .uniline-block:is(.h1,), .ls-block :is(h1)) {
+	margin-top: calc(var(--content-line-height, 18pt) * 1);
+	margin-bottom: 0;;
+}
+.blocks-container > div > div > div:not(:first-child)
+:is(.editor-inner .uniline-block:is(.h2), .ls-block :is(h2)) {
+	margin-top: calc(var(--content-line-height, 18pt) * 0.66);
+	margin-bottom: 0;
+}
+.blocks-container > div > div > div:not(:first-child)
+:is(.editor-inner .uniline-block:is(.h3), .ls-block :is(h3)) {
+	margin-top: calc(var(--content-line-height, 18pt) * 0.25);
+	margin-bottom: 0;
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) *:is(.editor-inner .h1, .ls-block h1) {
+	font-size: var(--content-h1-size, 110%);
+	font-weight: var(--content-h1-font-weight, bold);
+	font-style: var(--content-h1-font-weight, normal);
+	text-decoration: var(--content-h1-text-decoration, underline);
+	text-decoration-thickness: 1px;
+	border-bottom: none;
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) *:is(.editor-inner .h1, .ls-block h1) a {
+	border-bottom: none;
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) *:is(.editor-inner .h2, .ls-block h2) {
+	font-size: var(--content-h2-size, 110%);
+	font-weight: var(--content-h2-font-weight, bold);
+	font-style: var(--content-h2-font-style, normal);
+	border-bottom: none;
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) *:is(.editor-inner .h3, .ls-block h3) {
+	font-size: var(--content-h3-size, 110%);
+	font-weight: var(--content-h3-font-weight, normal);
+	font-style: var(--content-h3-font-style, italic);
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) *:is(.editor-inner .h4, .ls-block h4) {
+	font-size: var(--content-h4-size, 100%);
+	font-weight: var(--content-h4-font-weight, bold);
+	font-style: var(--content-h4-font-style, normal);
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) *:is(.editor-inner .h5, .ls-block h5) {
+	font-size: var(--content-h5-size, 100%);
+	font-weight: var(--content-h5-font-weight, normal);
+	font-style: var(--content-h5-font-style, italic);
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) *:is(.editor-inner .h6, .ls-block h6) {
+	font-size: var(--content-h6-size, 100%);
+	font-weight: var(--content-h6-font-weight, normal);
+	font-style: var(--content-h6-font-style, normal);
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) .block-ref *:is(.editor-inner :is(.h1,.h2,.h3,.h4,.h5,.h6), .ls-block :is(h1,h2,h3,h4,h5,h6)) {
+	font-size: inherit;
+	text-decoration: none;
+}
+
+
+/* In-content plugin icon desaturation */
+#main-content-container .ui-items-container a.button {
+	filter: saturate(0%);
+}
+
+
+/* Make rounding more consistent with macOS */
+.block-properties,
+.admonitionblock,
+.CodeMirror,
+.rounded {
+    border-radius: 6px;
+}
+
+
+/* Table styling */
+
+.table-wrapper > table {
+	table-layout: fixed;
+	width: 100%;
+	border-top: 1px var(--table-border-color) solid;
+	border-bottom: 1px var(--table-border-color) solid;
+	border-collapse: collapse;
+	font-variant-numeric: tabular-nums;
+	font-feature-settings: "tnum";
+}
+
+.table-wrapper :is(tr,tr:nth-child(even)) {
+	background: inherit;
+}
+
+.table-wrapper tbody {
+	border-top: 1px var(--table-border-color) solid;
+}
+
+.table-wrapper tbody > tr:not(:first-child) {
+	border-top: 1px var(--table-border-color) dotted;
+}
+
+.table-wrapper :is(th,td) {
+	font-size: var(--table-font-size, 90%);
+	line-height: calc(var(--content-line-height, 18pt)*0.83);
+	border-bottom: none;
+	vertical-align: top;
+	padding: 7px;
+}
+.table-wrapper :is(th,td) code {
+	font-size: 85%;
+}
+
+.table-wrapper th {
+	font-weight: bold;
+	text-transform: var(--table-heading-transform, "none");
+	font-size: var(--table-heading-font-size, 90%);
+}
+
+
+/* Scrollbar in left sidebar: visible only on mouseover */
+#left-sidebar .nav-contents-container {
+	overflow-y: hidden !important;
+}
+#left-sidebar .nav-contents-container:hover {
+	overflow-y: overlay !important;
+}
+
+
+/* Improve toolbar hover: tertiary bg does not have enough contrast with primary bg */
+:is(.light, .light-theme) :is(#head, .cp__right-sidebar-topbar) :is(button, .button):hover {
+	filter: contrast(110%) brightness(0.88);
+}
+
+
+/* Document mode spacing */
+.document-mode .ls-block,
+.document-mode .ls-block :is(.h4,h4, .h5,h5, h6,.h6) {
+	margin-top: 0;
+}
+.document-mode .ls-block :is(.h1,h1) {
+	margin-top: calc(var(--content-line-height, 18pt) * 1);
+}
+.document-mode .ls-block :is(.h2,h2) {
+	margin-top: calc(var(--content-line-height, 18pt) * 0.66);
+}
+.document-mode .ls-block :is(.h3,h3) {
+	margin-top: calc(var(--content-line-height, 18pt) * 0.33);
+}
+
+.document-mode .ls-block :is(.h1,h1) {
+    margin-bottom: 0.5rem;
+}
+.document-mode .ls-block,
+.document-mode .ls-block :is(.h2,h2) {
+	margin-bottom: 0.25rem;
+}
+.document-mode .ls-block :is(.h3,h3, .h4,h4, .h5,h5, .h6,h6) {
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 900px) {
+	/* line up left edge of content with document title */
+	#root > div > div:not(.ls-wide-mode) #main-content-container .blocks-container.document-mode {
+		margin-left: -8px;
+	}
+}
+
+
+/* Make journal title spacing _identical_ to regular page title,
+   so that when you click title to focus on a day, there is no content shift */
+#journals .journal-item:first-child {
+	margin-top: 0px;
+}
+.journal-title > h1 {
+	padding-left: 8px;
+	margin-left: -6px;
+}
+.journal-title,
+.ls-page-title {
+	padding-top: 1.5px;
+	padding-bottom: 0.5px;
+	line-height: 1.5;
+	margin-bottom: 12px;
+}
+.ls-page-title > h1.title,
+.journal-title > h1 {
+	margin-bottom: 0px;
+}
+
+
+/* Tidy up open cloze */
+a.cloze-revealed {
+	text-decoration: none;
+}
+
+
+/* Make small text a little bigger (for mobile app) */
+.text-sm {
+  font-size: 0.925rem;
+}
+
+
+/* Hide extraneous stuff: help icon (just press ?) */
+.cp__sidebar-help-btn {
+	display: none;
+}
+

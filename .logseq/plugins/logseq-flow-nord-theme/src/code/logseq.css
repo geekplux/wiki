@@ -1,0 +1,176 @@
+/******************************,
+**    Page References    **
+******************************/
+.page-reference .bracket {
+    opacity: 0.3;
+    color: hsl(var(--cl-text-color), 0.5);
+}
+.ls-block .page-reference:hover {
+    background-color: transparent !important;
+    color: hsl(var(--cl-accent));
+    /*filter: brightness(1.2);*/
+}
+.page-ref {
+    color: hsl(var(--cl-primary));
+}
+/******************************,
+**    Block References    **
+******************************/
+/*.block-ref:before {
+    content: " ";
+    color: hsl(var(--cl-primary), 1);
+    vertical-align: middle;
+    background-color: hsl(var(--cl-accent), 1);
+    border-radius: 2px;
+    font-size: 7px;
+    position: relative;
+    top: -1.5px;
+    margin-right: 5px;
+    margin-left: 2px;
+    padding-right: 1px;
+}*/
+:not(.whiteboard-shape) .block-ref {
+    border-bottom: 0px dashed hsl(var(--cl-text-color), 0.15);
+    color: hsl(var(--cl-text-color));
+    background-color: hsl(var(--cl-accent), 0);
+    border-radius: 0px;
+    opacity: 1;
+    transition: 0.2s;
+    margin-top: 0.5em;
+}
+.block-ref:hover {
+    cursor: pointer;
+    color: hsl(var(--cl-accent));
+    border-radius: var(--cl-border-radius);
+    transition: 0.2s;
+}
+.block-ref mark {
+    padding: 0px 1px;
+    border-radius: 0px;
+}
+.block-ref .external-link {
+    text-underline-offset: 4px !important;
+}
+.block-ref .block-ref {
+    border-bottom: 0px solid !important;
+}
+.block-ref a.tag { text-decoration: none; }
+.block-ref a.tag:hover {
+    border-bottom: 0px solid;
+    text-decoration: none !important;
+}
+
+.block-marker + .block-ref-wrap > div > .block-ref .block-marker, .block-marker + .block-ref-wrap > div > .block-ref .form-checkbox {
+    display: none;
+}
+/* Block reference broken links */
+a.warning, div.warning:not(.admonitionblock), p.warning, span.warning {
+    background-color: var(--ls-highlight-color-red-text);
+    color: var(--bg-color);
+    filter:ccontrast(0.5);
+}
+.open-block-ref-link {
+    background-color: hsl(var(--cl-text-color), 0.1);
+    color: hsl(var(--cl-text-color), 1);
+    font-weight: 400;
+}
+/******************************
+**    Reference Panel    **
+******************************/
+
+/******************************
+**    Embeds    **
+******************************/
+
+/******************************
+**    Block Children Border    **
+******************************/
+
+.block-children-left-border {
+    background-color: var(--cl-children-left-border, transparent);
+}
+.block-children {
+    border-left-color: var(--cl-children-border-color, var(--ls-guideline-color));
+}
+/* ==========================================================================
+Block Color Styling
+========================================================================== */
+.inline[style*="color"] .tag {
+    background-color: transparent;
+    padding: 0px;
+}
+
+
+/* ==========================================================================
+ ** PDF
+ ===========================================================================*/
+
+.extensions__pdf-container[data-theme=light],
+.extensions__pdf-container[data-theme=dark] {
+    background-color: hsl(var(--cl-background));
+}
+
+.extensions__pdf-container[data-theme=dark] .pdfViewer .textLayer {
+    background-color: var(--cl-pdf-dark-background, #042f3c);
+    opacity: 1;
+}
+
+.extensions__pdf-container[data-theme=light] .pdfViewer .textLayer {
+    background-color: var(--cl-pdf-light-background, #ffffff);
+    opacity: 1;
+}
+
+.extensions__pdf-container[data-theme=warm] .pdfViewer .textLayer {
+    background-color: #f8eeda;
+    opacity: 1;
+}
+
+.extensions__pdf-container .textLayer {
+    -webkit-filter: invert(0%);
+    filter: invert(0%);
+}
+
+.extensions__pdf-container[data-theme=dark] .extensions__pdf-toolbar .buttons {
+    background-color: var(--cl-pdf-dark-background, #042f3c);
+    opacity: 1;
+}
+
+.extensions__pdf-container[data-theme=light] .extensions__pdf-toolbar .buttons {
+    background-color: var(--cl-pdf-light-background, #ffffff);
+    opacity: 1;
+}
+
+.extensions__pdf-container .extensions__pdf-toolbar>.inner>.r a.button {
+    color: var(--ls-icon-color, #8abbbb);
+    opacity: 1;
+}
+
+.extensions__pdf-toolbar>.inner .pager>.nu input {
+    color: var(--ls-icon-color, #8abbbb);
+    opacity: 1;
+}
+
+.extensions__pdf-toolbar small {
+    color: var(--ls-icon-color, #8abbbb);
+    opacity: 1;
+}
+
+/* ============================================================================
+ MISC
+ =============================================================================*/
+.cp__sidebar-help-btn {
+    display: none;
+}
+
+.asset-ref.is-pdf:after {
+    color: hsl(var(--cl-text-color), 0.5);
+}
+
+.asset-ref.is-pdf:before {
+    color: hsl(var(--cl-text-color), 0.5);
+}
+
+.cp__plugins-item-card .updates-actions {
+    opacity: 0.5;
+}
+

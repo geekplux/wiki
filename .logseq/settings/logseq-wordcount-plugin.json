@@ -1,0 +1,9 @@
+{
+  "wordCountStr": "Word count:",
+  "characterCountStr": "Character count:",
+  "wordTargetStr": "Writing target:",
+  "characterTargetStr": "Character target:",
+  "forceWordCount": false,
+  "toolbar": false,
+  "disabled": false
+}

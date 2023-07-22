@@ -1,0 +1,1 @@
+const t='<strong>${count} journal blocks</strong> on <span class="opacity-70">${originalName}</span>',o="Total journal blocks during this period: ";var a={tooltip_hint:t,total_status_bottom:o};export{a as default,t as tooltip_hint,o as total_status_bottom};

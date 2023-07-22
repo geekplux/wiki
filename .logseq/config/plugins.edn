@@ -1,0 +1,107 @@
+{:logseq-nord
+ {:version "0.1.9",
+  :repo "nmartin84/logseq-nord",
+  :effect false,
+  :theme true},
+ :logseq-web-parser
+ {:version "1.0.4",
+  :repo "sawhney17/logseq-web-parser",
+  :effect true,
+  :theme false},
+ :logseq-plugin-automatic-url-title
+ {:version "v1.1.0",
+  :repo "0x7b1/logseq-plugin-automatic-url-title",
+  :effect true,
+  :theme false},
+ :logseq-move-block
+ {:version "v0.1.0", :repo "vipzhicheng/logseq-plugin-move-block", :effect true, :theme false},
+ :logseq-paper-theme
+ {:version "v0.2.2",
+  :repo "wirtzdan/logseq-paper-theme",
+  :effect false,
+  :theme true},
+ :logseq-doc
+ {:version "v1.14.10", :repo "sethyuan/logseq-plugin-doc", :effect true, :theme false},
+ :logseq-tweet-extractor
+ {:version "1.0.15",
+  :repo "sawhney17/logseq-twitter-extractor",
+  :effect true,
+  :theme false},
+ :logseq-luma
+ {:version "0.3.1", :repo "gavinmn/logseq-luma", :effect false, :theme true},
+ :logseq-journals-calendar
+ {:version "v0.10.10", :repo "xyhp915/logseq-journals-calendar", :effect false, :theme false},
+ :logseq-heatmap
+ {:version "v2.4.3", :repo "pengx17/logseq-plugin-heatmap", :effect true, :theme false},
+ :logseq-bullet-threading
+ {:version "v1.1.4", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false},
+ :logseq-webpage-title
+ {:version "v1.3.0",
+  :repo "paulkinlan/logseq-webpage-title",
+  :effect true,
+  :theme false},
+ :logseq-laurel-theme
+ {:version "v1.8.8",
+  :repo "pengx17/logseq-laurel-theme",
+  :effect false,
+  :theme true},
+ :logseq-banners-plugin
+ {:version "v3.4.2",
+  :repo "yoyurec/logseq-banners-plugin",
+  :effect true,
+  :theme false},
+ :logseq-tidy-blocks-plugin
+ {:version "v.1.2.1", :repo "vyleung/logseq-tidy-blocks-plugin", :effect true, :theme false},
+ :logseq-pdf-export-plugin
+ {:version "2.2.8", :repo "sawhney17/logseq-pdf-export", :effect true, :theme false},
+ :logseq-vim-shortcuts
+ {:version "v0.1.19", :repo "vipzhicheng/logseq-plugin-vim-shortcuts", :effect true, :theme false},
+ :logseq-bonofix-theme
+ {:version "v3.8.6", :repo "sansui233/logseq-bonofix-theme", :effect false, :theme true},
+ :logseq-plugin-gpt3-openai
+ {:version "v1.10.0", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false},
+ :logseq-tabs
+ {:version "v1.19.1", :repo "pengx17/logseq-plugin-tabs", :effect true, :theme false},
+ :logseq-link-preview
+ {:version "v2.2.10", :repo "pengx17/logseq-plugin-link-preview", :effect true, :theme false},
+ :logseq-solarized-extended-theme
+ {:version "v3.7.1", :repo "yoyurec/logseq-solarized-extended-theme", :effect true, :theme false},
+ :logseq-focus-mode
+ {:version "v1.0.3",
+  :repo "sethfair/logseq-focus-mode",
+  :effect false,
+  :theme false},
+ :logseq-automatic-linker
+ {:version "1.2.3",
+  :repo "sawhney17/logseq-automatic-linker",
+  :effect false,
+  :theme false},
+ :logseq-unsplash
+ {:version "v1.0.0",
+  :repo "clearlysid/logseq-unsplash",
+  :effect false,
+  :theme false},
+ :logseq-tags
+ {:version "v0.1.2",
+  :repo "gidongkwon/logseq-plugin-tags",
+  :effect false,
+  :theme false},
+ :logseq-wordcount-plugin
+ {:version "2.4.14", :repo "hkgnp/logseq-wordcount-plugin", :effect false, :theme false},
+ :logseq-mia-theme
+ {:version "v1.5.2", :repo "playerofgames/logseq-mia-theme", :effect false, :theme true},
+ :logseq-dev-theme
+ {:version "v1.26.17", :repo "pengx17/logseq-dev-theme", :effect false, :theme true},
+ :logseq-mark-map
+ {:version "v0.3.17", :repo "vipzhicheng/logseq-plugin-mark-map", :effect false, :theme false}
+ :nord-theme {:version "0.0.15", :repo "Bad3r/Logseq-Nord-Theme", :effect false, :theme true}
+ :logseq-flow-nord-theme {:version "v0.9.17", :repo "henices/logseq-flow-nord", :effect false, :theme true}
+ :logseq-dracula-theme {:version "0.0.5", :repo "dracula/logseq", :effect false, :theme true}
+ :logseq-ozean-theme {:version "v0.1.1", :repo "hisea/logseq-ozean-theme", :effect false, :theme true}
+ :logseq-bujo-theme {:version "0.7.1", :repo "stdword/logseq-bujo-theme", :effect false, :theme true}
+ :logseq-catppuccin {:version "v0.2.3", :repo "catppuccin/logseq", :effect false, :theme true}
+ :cobra-kai-fira-theme {:version "v1.0", :repo "Martin1887/CobraKaiFira", :effect false, :theme true}
+ :harmony-theme {:version "v.1.3.0", :repo "dmytrodubinin/Harmony-theme-for-Logseq", :effect false, :theme true}
+ :logseq-panic-theme {:version "v1.0.1", :repo "kirso/logseq-panic-theme", :effect false, :theme true}
+ :logseq-quattro-theme {:version "v0.0.18", :repo "rcvd/logseq-quattro-theme", :effect false, :theme true}
+ :tufte-theme {:version "0.0.2", :repo "jonesmelton/logseq-tufte-theme", :effect false, :theme true}}

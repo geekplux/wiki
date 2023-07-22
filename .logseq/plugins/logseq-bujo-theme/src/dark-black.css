@@ -1,0 +1,357 @@
+@import './base.css';
+
+
+.dark-theme, html[data-theme=dark] {
+    /* ------- */
+    /* PALETTE */
+    /* ------- */
+
+    --bujo-highlight-dimmed:    hsl(331, 50%, 24%);
+    --bujo-highlight-normal_hsl: /*hsl(331, 64%, 28%)*/ 331, 64%, 28%;
+
+    --bujo-highlight-normal:  hsl(var(--bujo-highlight-normal_hsl));
+
+    --bujo-highlight-clean:   hsl(355, 52%, 44%);
+    --bujo-highlight-lit:     hsl(355, 55%, 56%);
+    --bujo-highlight-bright:  hsl(355, 83%, 63%);
+
+    --bujo-accent-dark:       hsl(80, 55%, 48%);
+    --bujo-accent-dimmed:     hsl(80, 55%, 55%);
+    --bujo-accent-normal:     hsl(80, 61%, 65%);
+    --bujo-accent-clean:      hsl(80, 90%, 77%);
+
+    --bujo-foreground1:       hsl(45, 100%,  74%);
+    --bujo-foreground2_hsl:    /*hsl(40, 100%, 83%)*/ 40, 100%, 83%;
+    --bujo-foreground3:       hsl(40, 100%, 94%);
+    --bujo-foreground4:       hsl(40, 100%, 100%);
+
+    --bujo-foreground2: hsl(var(--bujo-foreground2_hsl));
+
+    --bujo-background1:       hsl(0, 0%,  9%);
+    --bujo-background2:       hsl(0, 0%, 13%);
+    --bujo-background3:       hsl(0, 0%, 15%);
+    --bujo-background4:       hsl(0, 0%, 19%);
+    --bujo-background5:       hsl(0, 0%, 22%);
+    --bujo-background6:       hsl(0, 0%, 25%);
+    --bujo-background7:       hsl(0, 0%, 35%);
+    --bujo-background8_hsl:    /*hsl(0, 0%, 40%)*/ 0, 0%, 40%;
+
+    --bujo-background8: hsl(var(--bujo-background8_hsl));
+
+    --bujo-fill1:             hsl(333,  8%, 15%);
+    --bujo-fill2:             hsl(333, 21%, 17%);
+    --bujo-fill3:             hsl(353, 23%, 47%);
+
+
+    /* ---------- */
+    /* COLOR VARS */
+    /* ---------- */
+
+    /* background */
+    --bujo-dots: var(--bujo-background6);
+    --bujo-dots-background: var(--bujo-background1);
+
+    --ls-primary-background-color: var(--bujo-background1);
+    --ls-secondary-background-color: var(--bujo-background2);
+    --ls-tertiary-background-color: var(--bujo-background4);
+    --ls-quaternary-background-color: var(--bujo-background6);
+
+
+    /* menu & sidebars */
+    --ls-header-button-background: var(--bujo-foreground2);
+    --ls-menu-hover-color: var(--bujo-background3);
+    --bujo-menu-icon: var(--ls-secondary-text-color);
+    --bujo-menu-text: var(--ls-primary-text-color);
+
+    --bujo-left-sidebar-background: var(--bujo-background2);
+    --bujo-left-sidebar-page-icon: var(--ls-primary-text-color);
+    --bujo-left-sidebar-page-text: var(--ls-primary-text-color);
+
+    --ls-slide-background-color: var(--ls-primary-background-color);
+
+
+    /* text */
+    --bujo-caret: var(--bujo-highlight-lit);
+
+    --ls-title-text-color: var(--bujo-foreground1);
+    --ls-primary-text-color: var(--bujo-foreground2);
+    --ls-secondary-text-color: var(--bujo-foreground3);
+    --bujo-text-accent: var(--bujo-foreground4);
+
+    --bujo-header-with-bg-text: var(--ls-primary-text-color);
+
+    --ls-selection-text-color: var(--ls-secondary-text-color);
+    --ls-selection-background-color: var(--bujo-highlight-clean);
+    --bujo-code-selection-background: var(--bujo-highlight-normal);
+    --ls-block-highlight-color: var(--bujo-highlight-normal);
+
+    --ls-page-mark-color: var(--ls-secondary-text-color);
+    --ls-page-mark-bg-color: var(--bujo-highlight-clean);
+
+    --ls-page-inline-code-color: var(--ls-primary-text-color);
+    --ls-page-inline-code-bg-color: var(--bujo-fill1);
+    --bujo-page-inline-code-mark-color: var(--ls-block-highlight-color);
+
+    --ls-page-blockquote-color: var(--ls-primary-text-color);
+    --ls-page-blockquote-bg-color: var(--bujo-fill1);
+    --ls-page-blockquote-border-color: var(--bujo-highlight-dimmed);
+
+
+    /* block parts */
+    --ls-block-bullet-color: var(--bujo-background6);
+    --ls-block-bullet-border-color: var(--bujo-background8);
+
+    --bujo-block-ref-text: var(--ls-secondary-text-color);
+    --bujo-block-ref-background: hsla(var(--bujo-background8_hsl), .4);
+    --bujo-block-ref-background-hover: hsla(var(--bujo-background8_hsl), .5);
+
+
+    /* search results palette */
+    --bujo-search-item-text-hover: var(--bujo-accent-normal);
+
+    --bujo-search-item-background: var(--ls-primary-background-color);
+    --ls-a-chosen-bg: var(--ls-tertiary-background-color);
+
+    --ls-search-icon-color: var(--bujo-accent-normal);
+    --bujo-search-item-new-page-icon-text: var(--bujo-text-accent);
+    --bujo-search-item-new-page-icon-background: hsla(var(--bujo-highlight-normal_hsl), .8);
+    --bujo-search-item-new-page-icon-border: var(--bujo-highlight-normal);
+
+
+    /* external links */
+    --ls-link-text-color: var(--bujo-accent-normal);
+    --ls-link-text-hover-color: var(--bujo-accent-clean);
+
+
+    /* internal links */
+    --bujo-link-ref-brackets: var(--color-gray-500);
+    --ls-link-ref-text-color: var(--bujo-highlight-lit);
+    --ls-link-ref-text-hover-color: var(--bujo-highlight-bright);
+
+    --bujo-link-ref-hover: var(--bujo-tiny-shadow-white);
+    --bujo-link-ref-block-ref-hover: var(--bujo-half-shadow-white);
+    --bujo-link-ref-mark-hover: var(--bujo-shadow-black);
+    --bujo-link-ref-selected-hover: var(--bujo-half-shadow-black);
+
+    --ls-tag-text-color: var(--ls-link-ref-text-color);
+    --ls-tag-text-hover-color: var(--ls-link-ref-text-hover-color);
+
+    --ls-cloze-text-color: var(--ls-link-ref-text-color);
+
+
+    /* task */
+    --ls-marker-text-color: var(--bujo-foreground1);
+    --ls-marker-text-bg-color: var(--bujo-background7);
+    --ls-marker-text-bg-hover-color: var(--bujo-background8);
+
+
+    /* checkboxes and radio buttons */
+    --ls-page-checkbox-color: var(--bujo-accent-dimmed);
+    --ls-page-checkbox-border-color: var(--ls-primary-background-color);
+
+
+    /* properties */
+    --ls-page-properties-background-color: var(--bujo-background3);
+    --ls-block-properties-background-color: var(--ls-page-properties-background-color);
+    --bujo-right-sidebar-properties-background: var(--bujo-background3);
+    --bujo-property-text-hover: var(--ls-link-text-color);
+
+
+    /* scrollbars, table header and various ui borders */
+    --ls-table-tr-even-background-color: var(--bujo-fill1);
+    --bujo-right-sidebar-table-even-background: var(--ls-table-tr-even-background-color);
+
+    --ls-border-color: var(--bujo-fill1);
+    --ls-secondary-border-color: var(--bujo-fill2);
+    --ls-tertiary-border-color: var(--bujo-fill3);
+
+
+    /* settings */
+    --bujo-settings-background: var(--bujo-background3);
+
+    --bujo-ui-border-focus: var(--bujo-accent-normal);
+
+    --bujo-toggle-switcher-off: var(--bujo-foreground2);
+    --bujo-toggle-switcher-on:  var(--bujo-foreground3);
+    --bujo-toggle-off: var(--bujo-background5);
+    --bujo-toggle-off-hover: var(--bujo-background6);
+    --bujo-toggle-on: var(--bujo-accent-dimmed);
+    --bujo-toggle-on-hover: var(--bujo-accent-normal);
+
+    --bujo-button-accent-text: var(--bujo-foreground3);
+    --bujo-button-accent-background: var(--bujo-accent-dark);
+    --bujo-button-accent-background-hover: var(--bujo-accent-normal);
+    --bujo-button-accent-border: var(--bujo-accent-dimmed);
+    --bujo-button-accent-border-focus: var(--bujo-accent-clean);
+
+    --bujo-button-text: var(--ls-secondary-text-color);
+    --bujo-button-background: var(--bujo-background6);
+    --bujo-button-background-hover: var(--bujo-background7);
+    --bujo-button-border: var(--bujo-background6);
+    --bujo-button-border-focus: var(--bujo-accent-normal);
+
+    /* whiteboards */
+    --bujo-whiteboard-text-accent: var(--bujo-background5);
+    --bujo-whiteboard-background: var(--bujo-background5);
+    --bujo-whiteboard-background-accent: var(--bujo-background8);
+
+    --bujo-whiteboard-border: var(--bujo-background4);
+    --bujo-whiteboard-border-accent: var(--bujo-background7);
+
+    --bujo-whiteboard-input-select-background: var(--bujo-background7);
+    --bujo-whiteboard-input-select-background-accent: var(--bujo-accent-dimmed);
+    --bujo-whiteboard-input-select-border-accent: var(--bujo-accent-clean);
+
+    --ls-wb-stroke-color-default: var(--bujo-background7);
+
+
+    /* pdf extension */
+    --bujo-pdf-menu-background: var(--ls-tertiary-background-color);
+    --bujo-pdf-menu-background-hover: var(--bujo-background6);
+    --bujo-pdf-menu-highlight-accent: var(--bujo-foreground4);
+
+    --bujo-pdf-pin-red: var(--color-red-400);
+    --bujo-pdf-pin-yellow: var(--color-yellow-400);
+    --bujo-pdf-pin-green: var(--color-green-500);
+    --bujo-pdf-pin-blue: var(--color-blue-500);
+    --bujo-pdf-pin-purple: var(--color-purple-500);
+
+
+    /* other ui */
+    --bujo-resizer: var(--bujo-background7);
+    --bujo-hover-shadow: var(--bujo-tiny-shadow-white);
+
+    --bujo-progress-bar-done: var(--bujo-accent-dark);
+    --bujo-progress-bar-rest: var(--bujo-accent-clean);
+
+    /* pdf extension toolbar, filter & edit buttons on main layout */
+    --ls-icon-color: var(--bujo-foreground2);
+
+    /* on-boarding and some unknown ui */
+    --ls-active-primary-color: var(--bujo-fill2);
+    --ls-active-secondary-color: var(--bujo-fill3);
+
+    --ls-guideline-color: var(--bujo-background3);
+    --bujo-guideline-hover: var(--bujo-fill2);
+
+    --ls-scrollbar-foreground-color: var(--bujo-tiny-shadow-white);
+    --ls-scrollbar-background-color: var(--bujo-fill1);
+    --ls-scrollbar-thumb-hover-color: var(--bujo-shadow-white);
+
+    /* block references border color and slash-commands group color */
+    --ls-block-ref-link-text-color: var(--bujo-highlight-normal); /* !confusing name */
+
+    /* days plugin  */
+    --bujo-days-plugin-today-text: var(--ls-primary-text-color);
+    --bujo-days-plugin-today-background: var(--bujo-highlight-clean);
+
+
+    /* block background highlights */
+    --ls-highlight-color-gray:   hsl(  0,  0%, 36%);
+    --ls-highlight-color-red:    hsl(  0, 71%, 34%);
+    --ls-highlight-color-yellow: hsl( 57, 83%, 33%);
+    --ls-highlight-color-green:  hsl(101, 75%, 28%);
+    --ls-highlight-color-blue:   hsl(217, 80%, 38%);
+    --ls-highlight-color-purple: hsl(274, 58%, 34%);
+    --ls-highlight-color-pink:   hsl(336, 70%, 30%);
+
+
+    /* embedded block levels */
+    --color-level-1: var(--bujo-background2);
+    --color-level-2: var(--bujo-background3);
+    --color-level-3: var(--bujo-background4);
+    --color-level-4: var(--bujo-background5);
+    --color-level-5: var(--bujo-background6);
+    --color-level-6: var(--bujo-background7);
+
+    --ls-error-text-color: var(--color-red-500);
+    --ls-warning-text-color: var(--color-yellow-400);
+    --ls-success-text-color: var(--color-green-500);
+    --bujo-info-text: hsl(199, 89%, 48%);
+
+    --ls-error-background-color: var(--ls-highlight-color-red);
+    --ls-warning-background-color: var(--ls-highlight-color-yellow);
+    --ls-success-background-color: var(--ls-highlight-color-green);
+    --bujo-info-background: var(--ls-highlight-color-blue);
+}
+
+
+/* ---------- */
+/* CODE BLOCK */
+/* ---------- */
+
+html[data-theme="dark"] .CodeMirror {
+    color: hsla(var(--bujo-foreground2_hsl), .7);
+}
+html[data-theme=dark] .CodeMirror .CodeMirror-activeline-background  {
+    background: var(--bujo-tiny-shadow-white);
+}
+html[data-theme=dark] .CodeMirror {
+    background-color: var(--ls-primary-background-color);
+}
+html[data-theme=dark] .CodeMirror .CodeMirror-gutters {
+    background-color: var(--ls-secondary-background-color);
+}
+
+html[data-theme="dark"] .CodeMirror .cm-keyword {
+    color: var(--ls-secondary-text-color);
+}
+html[data-theme="dark"] .CodeMirror .cm-operator {
+    color: var(--ls-primary-text-color);
+    opacity: 0.7;
+}
+html[data-theme="dark"] .CodeMirror .cm-property {
+    color: var(--ls-primary-text-color);
+}
+html[data-theme="dark"] .CodeMirror .cm-builtin {
+    color: var(--bujo-accent-dimmed);
+}
+html[data-theme="dark"] .CodeMirror .cm-number {
+    color: var(--bujo-highlight-lit);
+}
+html[data-theme="dark"] .CodeMirror .cm-meta {
+    color: var(--bujo-highlight-lit);
+}
+html[data-theme="dark"] .CodeMirror .cm-string,
+html[data-theme="dark"] .CodeMirror .cm-string-2 {
+    color: var(--bujo-fill3);
+}
+html[data-theme="dark"] .CodeMirror .cm-comment {
+    color: var(--bujo-background6);
+}
+html[data-theme="dark"] .CodeMirror .cm-variable,
+html[data-theme="dark"] .CodeMirror .cm-qualifier,
+html[data-theme="dark"] .CodeMirror .cm-variable-3,
+html[data-theme="dark"] .CodeMirror .cm-type {
+    color: var(--ls-primary-text-color);
+}
+html[data-theme="dark"] .CodeMirror .cm-variable-2 {
+    color: var(--ls-primary-text-color);
+    font-style: italic;
+    opacity: 0.7;
+}
+html[data-theme="dark"] .CodeMirror .cm-def,
+html[data-theme="dark"] .CodeMirror .cm-attribute,
+html[data-theme="dark"] .CodeMirror .cm-atom,
+html[data-theme="dark"] .CodeMirror .cm-tag {
+    color: var(--ls-secondary-text-color);
+    font-style: italic;
+}
+
+
+/* settings ui:  checkbox and radio */
+/*
+   we can't use variables in svg images
+   so... change colors here to --bujo-foreground4: #FFFFFF;
+*/
+.form-radio:checked {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23FFFFFF' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E")
+}
+
+.form-checkbox:checked {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23FFFFFF' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E");
+}
+
+.form-checkbox:indeterminate {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E");
+}

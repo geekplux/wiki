@@ -1,0 +1,6 @@
+{
+  "InsertionTemplateForBlock1": "{TWEET} {Date}, [[{Name}]]",
+  "InsertionTemplateForBlock2": "",
+  "KeyboardShortcut": "mod+shift+x",
+  "disabled": false
+}

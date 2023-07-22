@@ -1,0 +1,8 @@
+{
+  "DeleteEmptyBlocks": false,
+  "KeyboardShortcut_LineBreak": "alt+t",
+  "KeyboardShortcut_RemoveAll": "alt+r",
+  "ToggleBlockProperties": "manual",
+  "KeyboardShortcut_ToggleBlockProperties": "mod+ctrl+x",
+  "disabled": false
+}

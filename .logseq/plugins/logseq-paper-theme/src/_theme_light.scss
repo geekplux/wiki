@@ -1,0 +1,67 @@
+.white-theme,
+html[data-theme="light"] {
+  --ct-primary-color: #3b82f6;
+  --ct-secondary-color: #1d4ed8;
+  --ct-warning-color: #e54d2e;
+  --ct-warning-color-text: white;
+  --ct-success-color: #46a857;
+  --ct-success-color-text: white;
+  --ct-highlight-color: #f4d909;
+  --ct-highlight-color-text: black;
+
+  --ls-primary-background-color: #ffffff;
+  --ls-secondary-background-color: #f8f8f8;
+  --ls-tertiary-background-color: #ededed;
+  --ls-quaternary-background-color: #e8e8e8;
+
+  --ls-border-color: var(--ls-tertiary-background-color);
+
+  --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
+
+  --color-level-4: #ced4da;
+  --color-level-5: #adb5bd;
+
+  // --ls-primary-text-color: #181818;
+  --ls-primary-text-color: #3f3f46;
+  --ls-secondary-text-color: #6f6f6f;
+
+  --ct-bold-color: #000;
+
+  --ls-link-text-color: var(--ct-primary-color);
+  --ls-link-ref-text-color: var(--ct-primary-color);
+  --ls-link-ref-text-hover-color: var(--ct-secondary-color);
+
+  --ls-active-primary-color: var(--ct-primary-color);
+  --ls-active-secondary-color: var(--ct-secondary-color);
+  --ls-external-link-color: var(--ct-primary-color);
+
+  --ls-guideline-color: var(--ls-tertiary-background-color);
+  --ls-block-bullet-color: #858585;
+  --ls-bullet-closed-color: var(--ls-quaternary-text-color);
+  --ls-block-bullet-border-color: #e8e8e8;
+  --ct-block-arrow-color: #858585;
+
+  --ct-page-reference-color: var(--ls-active-primary-color);
+
+  --ls-icon-color: var(--ls-primary-text-color);
+
+  --ct-block-reference-background: var(--ls-secondary-background-color);
+  --ct-block-reference-background-hover: var(--ls-tertiary-background-color);
+
+  --ls-page-properties-background-color: var(--ls-tertiary-background-color);
+
+  --ls-menu-hover-color: var(--ls-tertiary-background-color);
+
+  --ls-selection-color: #fff;
+
+  --ls-block-highlight-color: var(--ls-quaternary-background-color);
+  --ls-selection-background-color: rgba(255, 255, 0, 0.3);
+
+  /* Will be used if backdrop-filter not supported */
+  --ct-header-bg-color: rgba(255, 255, 255, 0.9);
+
+  // Styling scrollbar
+  --ls-scrollbar-foreground-color: var(--ls-tertiary-background-color);
+  --ls-scrollbar-background-color: transparent;
+  --ls-scrollbar-thumb-hover-color: var(--ls-quaternary-background-color);
+}

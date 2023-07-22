@@ -1,0 +1,25 @@
+{
+  "hidePluginProps": "false",
+  "bannerHeight": "30%",
+  "useDefaultBanner": true,
+  "defaultPageBanner": "https://wallpaperaccess.com/full/1146672.jpg",
+  "defaultJournalBanner": "https://images.unsplash.com/photo-1646026371686-79950ceb6daa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1034&q=80",
+  "useDefaultIcon": true,
+  "defaultPageIcon": "📄",
+  "defaultJournalIcon": "📅",
+  "customPropsConfig": {
+    "pageType": {
+      "evrgrn": {
+        "pageIcon": "🌳",
+        "banner": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      },
+      "seed": {
+        "pageIcon": "🌱",
+        "banner": "https://images.unsplash.com/photo-1631949454967-6c6d07fb59cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      }
+    },
+    "anotherCamalCasedPropName": {}
+  },
+  "timeout": "100",
+  "disabled": true
+}

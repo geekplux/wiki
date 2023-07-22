@@ -1,0 +1,39 @@
+{
+  "theme": {
+    "name": "panic-theme",
+    "url": "assets:///Users/geekplux/.logseq/plugins/logseq-panic-theme/custom.css",
+    "description": "Dark blue theme inspired by Panic Mode template",
+    "pid": "logseq-panic-theme"
+  },
+  "themes": {
+    "mode": "light",
+    "light": {
+      "name": "Paper Theme",
+      "url": "assets:///Users/geekplux/.logseq/plugins/logseq-paper-theme/custom.css",
+      "description": "A paper like Logseq theme",
+      "pid": "logseq-paper-theme",
+      "group-first": false,
+      "group-desc": null,
+      "mode": "light",
+      "selected": false
+    },
+    "dark": {
+      "name": "Flow Nord Theme - dark",
+      "url": "assets:///Users/geekplux/.logseq/plugins/logseq-flow-nord-theme/src/palettes/nord-dark.css",
+      "description": "Flow Nord Theme - dark",
+      "mode": "dark",
+      "pid": "logseq-flow-nord-theme",
+      "selected": false
+    }
+  },
+  "externals": [],
+  "pinnedToolbarItems": [
+    "logseq-doc:kef-doc-doc",
+    "logseq-focus-mode:logseq-focus-toolbar",
+    "logseq-pdf-export-plugin:logseq-pdf-export-plugin",
+    "logseq-journals-calendar:open-calendar",
+    "logseq-tags:tags-plugin-open",
+    "logseq-journals-calendar:goto-today",
+    "logseq-heatmap:heatmap-plugin-open"
+  ]
+}
