@@ -13,7 +13,7 @@ Bad3r, just wanted to let you know about the amazing NordTheme. When combined wi
 
 ## 🚀 Features
 
-### ⚙️ Custom Settings
+### ⚙️  Custom Settings
 
 The custom.css file can take the following options to tweak the visuals.
 ```css
@@ -51,92 +51,66 @@ The custom.css file can take the following options to tweak the visuals.
 - `--cl-font-weight`  :  set font weight
 - `--cl-font-family-code`  :  set code font famliy
 
-Valid color options you can specify are `--cl-primary`, `--cl-secondary`, `--cl-accent`,
-`--background-color-h`, `--background-color-s`, `--background-color-l`, or `--cl-text-color`.
-
-
 ```css
 :root {
     --cl-font-family: "Source Han Sans SC VF", sans-serif;
     /*--cl-font-family: "PingFang SC", sans-serif;*/
 
     --cl-font-family-code: "Fira Code"; /* code font */
-    --cl-font-size: 18px;
+    --cl-font-size: 1.2rem;
     --cl-font-weight: 500;
 }
-
-.dark-theme,
-html[data-theme='dark'] {
-  --background-color-h: 210 !important;
-  --background-color-s: 12% !important;
-  --background-color-l: 16% !important;
-
-  --cl-primary: 212, 100%, 74% !important;
-  --cl-secondary: 261, 76%, 76% !important;
-  --cl-accent: 135, 68%, 72% !important;
-
-  --cl-text-color: 0,0%,100% !important;
-}
-
-.white-theme,
-.light-theme,
-html[data-theme='light'] {
-  --background-color-h: 0 !important;
-  --background-color-s: 0% !important;
-  --background-color-l: 100% !important;
-
-  --cl-primary: 212, 100%, 39% !important;
-  --cl-secondary: 261, 51%, 51% !important;
-  --cl-accent: 134, 60%, 33% !important;
-
-  --cl-text-color: 210, 12%, 16% !important;
-}
 ```
 
-[palettes](https://github.com/henices/logseq-flow-nord/tree/main/src/palettes) provides a large variety of color palettes,
-copy the css code and paste to the custom.css :)
+### 🎨️ Custom Color Palette
 
+[palettes](https://github.com/henices/logseq-flow-nord/tree/main/src/palettes) provides a large variety of color palettes, select your favorite one.
 
-The following color options will only affect custom theme `--ct-bg-color-h`, `--ct-bg-color-s`, `--ct-bg-color-l`,
-`--ct-primariy-color`, `--ct-secondary-color`, `--ct-accent-color`, or `--ct-text-color`.
+1. copy the css code and paste to the custom.css
+2. select `Flow Nord Theme-custom` theme, enjoy :)
+
+The [default color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/default.css) is similar to Logseq's default theme.
+
+- [monokai-pro color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/monokai-pro.css)
+- [gruvbox color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/gruvbox.css)
+- [bear color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/bear.css)
+
+The following color options will only affect custom theme `--ct-primariy-color` (required), `--ct-secondary-color` (required), `--ct-accent-color` (required), `--ct-text-color` (required), `--ct-bg-color-h` (optional), `--ct-bg-color-s` (optional), `--ct-bg-color-l` (optional), or `--ct-bg-color` (optional)
+
 
 ```css
-:root {}
+
+:root {
+}
 
 .dark-theme,
 html[data-theme='dark'] {
-  --ct-bg-color-h: 210;
-  --ct-bg-color-s: 12%;
-  --ct-bg-color-l: 16%;
-
-  --ct-primariy-color: 212, 100%, 74%;
-  --ct-secondary-color: 261, 76%, 76%;
-  --ct-accent-color: 135, 68%, 72%;
-
-  --ct-text-color: 0,0%,100%;
+    --ct-bg-color-h: 210;
+    --ct-bg-color-s: 16%;
+    --ct-bg-color-l: 17%;
+    --ct-bg-color: 210, 16%, 27%;
+    --ct-text-color: 213, 22%, 92%;
+    --ct-primariy-color: 186, 47%, 58%;
+    --ct-secondary-color: 186, 63%, 36%;
+    --ct-accent-color: 140, 39%, 77%;
 }
 
 .white-theme,
-.light-theme,
 html[data-theme='light'] {
-  --ct-bg-color-h: 0;
-  --ct-bg-color-s: 0%;
-  --ct-bg-color-l: 100%;
-
-  --ct-primariy-color: 212, 100%, 39%;
-  --ct-secondary-color: 261, 51%, 51%;
-  --ct-accent-color: 134, 60%, 33%;
-
-  --ct-text-color: 210, 12%, 16%;
+    --ct-bg-color-h: 0;
+    --ct-bg-color-s: 0%;
+    --ct-bg-color-l: 100%;
+    --ct-bg-color: 0, 0%, 90%;
+    --ct-text-color: 210, 16%, 33%;
+    --ct-primariy-color: 186, 63%, 36%;
+    --ct-secondary-color: 186, 47%, 58%;
+    --ct-accent-color: 140, 33%, 42%;
 }
 ```
-
 
 https://github.com/henices/logseq-flow-nord/assets/929715/6a20e799-548a-4bc2-99f3-3e477f1aab8d
 
-
-
-#### Syntax Highlight Custom Settings
+### Custom Syntax highlight
 
 Logseq Flow Nord use Nord theme Syntax highlight by default. You can use monokai theme syntax highlight
 by put the following code in custom.css
@@ -170,12 +144,12 @@ by put the following code in custom.css
 .dark-theme .cm-s-solarized span.cm-error { background: #f92672; color: #f8f8f0; }
 ```
 
-#### PDF Custom Settings
+### 📄️ Custom PDF Settings
 
 
 Valid color options you can specify are `--cl-pdf-light-background`, `--cl-pdf-dark-background`, or `--ls-icon-color`.
 
-```
+```css
 .dark-theme, .light-theme {
     --cl-pdf-light-background: transparent;
     --cl-pdf-dark-background: transparent;
@@ -184,6 +158,16 @@ Valid color options you can specify are `--cl-pdf-light-background`, `--cl-pdf-d
 ```
 
 If you find that the text in a PDF is unclear, setting the background to "transparent" can improve the display. This may also resolve issues with displaying PDFs in Logseq's default theme under certain conditions.
+
+
+https://github.com/henices/logseq-flow-nord/assets/929715/52d5d486-27fe-4f3a-aede-541e8826e71c
+
+###  Parallel blocks
+
+This pure css parallel blocks solution is base on elgatopanzon's great work. You can now put any blocks side by side in a column view, simply by adding the tags #parallel-2 to the 2 blocks, or #parallel-3 to the 3 blocks. Additionally, the tags #parallel-small and #parallel-big work to have 2 blocks side by side with one taking more space than the other, similar to having a sidebar.
+
+<img width="950" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/99b397fa-98a1-4e7f-bf6b-9a02708a3b00">
+
 
 ## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy
@@ -220,3 +204,4 @@ Logseq Marketplace:
 - [Tabler Icons](https://github.com/tabler/tabler-icons)
 - [CodeMirror](https://github.com/codemirror/codemirror5)
 - [Logseq Dev Theme](https://github.com/pengx17/logseq-dev-theme/)
+- [logseq-logtools-custom](https://github.com/elgatopanzon/logseq-logtools-custom)

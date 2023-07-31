@@ -60,7 +60,7 @@
 
 /* Highlights */
 mark {
-    background-color: hsl(var(--cl-mark-background-color, var(--cl-background)));
+    background-color: hsl(var(--cl-mark-background-color, var(--nord-aurora-nord13)));
     padding: 0px !important;
     border-radius: 1px;
     /*
@@ -68,7 +68,7 @@ mark {
     text-decoration-color: hsl(var(--cl-primary));
     text-decoration-thickness: var(--cl-mark-decoration-thickness, 4px);
     */
-    color: var(--cl-mark-color, hsl(var(--cl-primary)));
+    color: var(--cl-mark-color, hsl(var(--nord-polar-night-nord0)));
     text-underline-offset: 0px;
     text-decoration-skip-ink: none;
 }
@@ -91,26 +91,27 @@ mark>code:after {
 
 /* Blockquotes */
 blockquote {
-    background-color: hsl(var(--cl-accent), 0.05);
+    background-color: hsl(var(--cl-background), 0.4);
     color: var(--ls-primary-text-color);
     display: flex;
     /* padding-left: 0px; */
-    border-left: 2px solid hsl(var(--cl-accent));
+    border-left: 1px solid hsl(var(--cl-primary, var(--cl-text-color)), 0.6);
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 blockquote:before {
-    content: "\ee09";
+    content: "\efbe";
     font-family: 'tabler-icons';
     align-self: center;
-    color: hsl(var(--cl-accent));
+    color: hsl(var(--cl-primary), 0.8);
     position: relative;
     left: -25px;
     z-index: 3;
     background-color: var(--bg-color);
     padding-bottom: 2px;
     border-radius: 1px;
+    font-size: calc(var(--ls-font-size) * 0.90);
 }
 
 /* === Font settings === */
@@ -136,13 +137,13 @@ html[data-theme="dark"] #main-content-container {
 /* Page Titles */
 .white-theme h1.title,
 html[data-theme='white'] h1.title {
-    color: hsl(var(--cl-primary, var(--nord-frost-nord10)));
+    color: hsl(var(--cl-primary, var(--ct-primary-color, var(--nord-frost-nord10))));
     font-family: var(--cl-title-font, var(--ls-font-family));
 }
 
 .dark-theme h1.title,
 html[data-theme='dark'] h1.title {
-    color: hsl(var(--cl-primary, var(--nord-frost-nord7)));
+    color: hsl(var(--cl-primary, var(--ct-primary-color, var(--nord-frost-nord7))));
     font-family: var(--cl-title-font, var(--ls-font-family));
 }
 
@@ -231,7 +232,6 @@ a[priority]:not(a[priority=""])::before,
 a.priority::before {
     font-size: 16px;
     font-family: 'tabler-icons';
-    vertical-align: bottom;
 }
 
 a[priority]:not(a[priority=""]),
@@ -239,31 +239,31 @@ a.priority {
     font-size: 0px;
     opacity: 0.8;
     font-weight: 500;
-    margin-right: 0px !important;
+    margin-right: 1px !important;
 }
 
 a[priority="A"]::before,
 a.priority[href="#/page/A" i]::before {
     content: "\f6e7";
-    color: #ef4444;
+    color: hsl(var(--nord-aurora-nord11));
 }
 
 a[priority="B"]::before,
 a.priority[href="#/page/B" i]::before {
     content: "\f6e0";
-    color: #f59e0b;
+    color: hsl(var(--nord-aurora-nord12));
 }
 
 a[priority="C"]::before,
 a.priority[href="#/page/C" i]::before {
     content: "\f6e4";
-    color: #3b82f6;
+    color: hsl(var(--nord-aurora-nord14));
 }
 
 /*  === Checkboxes ===  */
 .form-checkbox {
     background-color: var(--bg-color-1);
-    border: 1.7px solid hsl(var(--cl-text-color), 0.15);
+    border: 1px solid hsl(var(--cl-text-color), 0.15);
     border-style: solid;
     border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.3));
     border-radius: var(--cl-checkbox-radius, 2px);
@@ -274,11 +274,15 @@ a.priority[href="#/page/C" i]::before {
 
 .form-checkbox:checked {
     background-color: var(--bg-color-6);
-    border: 1.7px solid hsl(var(--cl-text-color), 0.15);
+    border: 1px solid hsl(var(--cl-text-color), 0.15);
     border-style: solid;
     border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.3));
     border-radius: var(--cl-checkbox-radius, 2px);
     opacity: 1;
+}
+
+.form-radio {
+    border: 1px solid hsl(var(--cl-text-color), 0.15);
 }
 
 /* TASK NAMES */
@@ -613,7 +617,7 @@ svg.h-4.w-4 {
     color: hsl(var(--cl-primary));
     border: 0px solid;
     font-weight: 400;
-    font-size: calc(var(--ls-font-size) * 0.75);
+    font-size: calc(var(--ls-font-size) * 0.8);
 }
 
 .block-properties:not(.page-properties) a.tag:hover {
@@ -638,6 +642,11 @@ svg.h-4.w-4 {
     background: hsl(var(--cl-background));
 }
 
+html[data-theme=light] input.form-input,
+html[data-theme=dark] input.form-input {
+    background: hsl(var(--cl-background));
+}
+
 /* Textarea  */
 
 .dark-theme textarea,
@@ -654,7 +663,7 @@ svg.h-4.w-4 {
 
 /* Tags */
 a.tag {
-    background-color: hsl(var(--cl-tag-background-color, var(--cl-background)), 0.1);
+    /*background-color: hsl(var(--cl-tag-background-color, var(--cl-background)), 0.1);*/
     color: hsl(var(--cl-tag-color, var(--cl-secondary, var(--cl-text-color))));
     opacity: 1;
     padding: 0px 5px;
@@ -666,7 +675,7 @@ a.tag {
     transition: 0.2s;
     vertical-align: middle;
     font-weight: 400;
-    font-size: 14px;
+    font-size: calc(var(--ls-font-size) * 0.8);
     position: relative;
     text-transform: lowercase;
 }
@@ -705,6 +714,9 @@ body {
     font-weight: var(--ls-font-weight);
     line-height: var(--ls-line-height);
     letter-spacing: 0.02em;
+
+    content-visibility: auto;
+    contain-intrinsic-size: auto 500px; /* Explained in the next section. */
 }
 
 /* Tables */

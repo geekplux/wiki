@@ -89,13 +89,13 @@
  :logseq-wordcount-plugin
  {:version "2.4.14", :repo "hkgnp/logseq-wordcount-plugin", :effect false, :theme false},
  :logseq-mia-theme
- {:version "v1.5.2", :repo "playerofgames/logseq-mia-theme", :effect false, :theme true},
+ {:version "v1.5.3", :repo "playerofgames/logseq-mia-theme", :effect false, :theme true},
  :logseq-dev-theme
  {:version "v1.26.17", :repo "pengx17/logseq-dev-theme", :effect false, :theme true},
  :logseq-mark-map
  {:version "v0.3.17", :repo "vipzhicheng/logseq-plugin-mark-map", :effect false, :theme false}
- :nord-theme {:version "0.0.15", :repo "Bad3r/Logseq-Nord-Theme", :effect false, :theme true}
- :logseq-flow-nord-theme {:version "v0.9.17", :repo "henices/logseq-flow-nord", :effect false, :theme true}
+ :nord-theme {:version "0.0.17", :repo "Bad3r/Logseq-Nord-Theme", :effect false, :theme true}
+ :logseq-flow-nord-theme {:version "v0.9.27", :repo "henices/logseq-flow-nord", :effect false, :theme true}
  :logseq-dracula-theme {:version "0.0.5", :repo "dracula/logseq", :effect false, :theme true}
  :logseq-ozean-theme {:version "v0.1.1", :repo "hisea/logseq-ozean-theme", :effect false, :theme true}
  :logseq-bujo-theme {:version "0.7.1", :repo "stdword/logseq-bujo-theme", :effect false, :theme true}

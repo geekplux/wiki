@@ -2,6 +2,7 @@
 @import './markdown.css';
 @import './live-query.css';
 @import './logseq.css';
+@import './plugins.css';
 
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code");
 
@@ -577,7 +578,6 @@ Code Mirror Settings
 
 .extensions__code-lang {
     margin: 2px;
-    background-color: transparent;
     color: hsl(var(--cl-secondary));
 }
 
@@ -586,9 +586,16 @@ Code Mirror Settings
     margin-bottom: 10px;
 }
 
+.CodeMirror,
+.cm-s-solarized.CodeMirror,
+.cm-s-solarized.cm-s-light,
+.cm-s-solarized.cm-s-dark {
+    box-shadow: none !important;
+}
+
 .cm-s-solarized.cm-s-light div.CodeMirror-selected,
 .cm-s-solarized.cm-s-dark div.CodeMirror-selected {
-    background-color: hsl(var(--cl-selected-background-color, var(--cl-primary), 0.1));
+    background-color: hsl(var(--cl-selected-background-color, var(--cl-primary, var(--nord-frost-nord8)), 0.1));
 }
 
 .cm-s-solarized.cm-s-dark, .cm-s-solarized.cm-s-light {
@@ -596,7 +603,6 @@ Code Mirror Settings
     color: var(--ls-primary-text-color);
     border: 0px solid var(--bg-color-2);
     border-radius: 3px;
-    padding-right: 10px;
 }
 
 .cm-s-solarized.cm-s-light {
@@ -615,8 +621,14 @@ Code Mirror Settings
 }
 .cm-s-solarized.cm-s-dark .CodeMirror-linenumber, .cm-s-solarized.cm-s-light .CodeMirror-linenumber {
     text-shadow: none;
-    color: transparent;
+    color: slategray;
     text-align: -webkit-center;
+}
+
+.cm-s-solarized.CodeMirror pre.CodeMirror-line,
+.cm-s-solarized.cm-s-dark pre.CodeMirror-line,
+.cm-s-solarized.cm-s-light pre.CodeMirror-line {
+    padding: 0 1.5em;
 }
 
 /* === Coloring CodeMirror Keywords === */

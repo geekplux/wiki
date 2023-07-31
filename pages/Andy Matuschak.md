@@ -1,0 +1,1 @@
+- worked for iOS and Khan Academy

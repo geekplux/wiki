@@ -200,7 +200,7 @@ span.inline.done {
 }
 
 /* ... make popup menus more visible */
-:not(div.ui__modal-panel, .ui__modal-overlay, #search-in-page > div) > .absolute:not(.editing, .whiteboard-page, .s1),
+:not(div.ui__modal-panel, .ui__modal-overlay, #search-in-page > div) > .absolute:not(.editing, .whiteboard-page, .s1, .s2),
 #search-in-page,
 .absolute .menu-link,
 #custom-context-menu > div,
@@ -393,6 +393,9 @@ html[data-theme=light] .cp__right-sidebar .block-content {
 }
 .admonition-icon > svg.svg-shadow {
 	filter: grayscale(30%) brightness(110%);
+}
+.CodeMirror {
+	box-shadow: none !important;
 }
 
 .CodeMirror.CodeMirror-focused {

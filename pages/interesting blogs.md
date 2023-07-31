@@ -3,3 +3,6 @@
 - https://chester.how/
 - http://ratfactor.com/
 - https://iximiuz.com/en/ #[[Computer Science]]
+- https://gto76.github.io/
+- https://gwern.net/index nice #typography
+- https://michaelbach.de/ prof , has a lot of interests..
