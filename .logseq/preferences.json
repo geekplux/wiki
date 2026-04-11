@@ -8,13 +8,11 @@
   "themes": {
     "mode": "light",
     "light": {
-      "name": "Paper Theme",
-      "url": "assets:///Users/geekplux/.logseq/plugins/logseq-paper-theme/custom.css",
-      "description": "A paper like Logseq theme",
-      "pid": "logseq-paper-theme",
-      "group-first": false,
-      "group-desc": null,
+      "name": "Nord",
+      "url": "file:///Users/geekplux/.logseq/plugins/logseq-nord/nord.css",
+      "description": "Nord Theme",
       "mode": "light",
+      "pid": "logseq-nord",
       "selected": false
     },
     "dark": {
@@ -32,8 +30,8 @@
     "logseq-focus-mode:logseq-focus-toolbar",
     "logseq-pdf-export-plugin:logseq-pdf-export-plugin",
     "logseq-journals-calendar:open-calendar",
-    "logseq-tags:tags-plugin-open",
     "logseq-journals-calendar:goto-today",
-    "logseq-heatmap:heatmap-plugin-open"
+    "logseq-heatmap:heatmap-plugin-open",
+    "logseq-solarized-extended-theme:AwesomeStyler"
   ]
 }

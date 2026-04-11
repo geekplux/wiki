@@ -5,14 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Markmap Integration For Logseq</title>
-    <script type="module" crossorigin src="./assets/index-725c11b6.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/logseq-bef39437.js">
-    <link rel="modulepreload" crossorigin href="./assets/markmap-bbb92b8c.js">
-    <link rel="stylesheet" href="./assets/index-594183e8.css">
+    <script type="application/javascript">
+      async function rollTaskStatus(el, event) {
+        event.stopPropagation()
+        const config = await logseq.App.getUserConfigs()
+        const uuid = el.getAttribute('data-uuid')
+        const block = await logseq.Editor.getBlock(uuid)
+        if (block) {
+          if (event.altKey || event.metaKey) {
+            const tasks = [
+              'TODO',
+              'DOING',
+              'DONE',
+              'LATER',
+              'NOW',
+              'WAITING',
+              'CANCELLED',
+            ]
+            const regx = new RegExp(`^${tasks.join('|')}`, 'gm')
+            let content = regx.test(block.content)
+              ? block.content.replace(regx, '').trimStart()
+              : block.content
+            await logseq.Editor.updateBlock(uuid, 'DONE ' + content)
+          } else {
+            if (block.content && block.content.startsWith('TODO')) {
+              await logseq.Editor.updateBlock(
+                uuid,
+                block.content.replace(/^TODO/, 'DOING')
+              )
+            } else if (block.content && block.content.startsWith('DOING')) {
+              await logseq.Editor.updateBlock(
+                uuid,
+                block.content.replace(/^DOING/, 'DONE')
+              )
+            } else if (block.content && block.content.startsWith('NOW')) {
+              await logseq.Editor.updateBlock(
+                uuid,
+                block.content.replace(/^NOW/, 'LATER')
+              )
+            } else if (block.content && block.content.startsWith('LATER')) {
+              await logseq.Editor.updateBlock(
+                uuid,
+                block.content.replace(/^LATER/, 'DONE')
+              )
+            } else if (block.content && block.content.startsWith('WAITING')) {
+              if (config.preferredWorkflow === 'todo') {
+                await logseq.Editor.updateBlock(
+                  uuid,
+                  block.content.replace(/^WAITING/, 'TODO')
+                )
+              } else {
+                await logseq.Editor.updateBlock(
+                  uuid,
+                  block.content.replace(/^WAITING/, 'NOW')
+                )
+              }
+            } else if (block.content && block.content.startsWith('CANCELLED')) {
+              if (config.preferredWorkflow === 'todo') {
+                await logseq.Editor.updateBlock(
+                  uuid,
+                  block.content.replace(/^CANCELLED/, 'TODO')
+                )
+              } else {
+                await logseq.Editor.updateBlock(
+                  uuid,
+                  block.content.replace(/^CANCELLED/, 'NOW')
+                )
+              }
+            } else if (block.content && block.content.startsWith('DONE')) {
+              if (config.preferredWorkflow === 'todo') {
+                await logseq.Editor.updateBlock(
+                  uuid,
+                  block.content.replace(/^DONE/, 'TODO')
+                )
+              } else {
+                await logseq.Editor.updateBlock(
+                  uuid,
+                  block.content.replace(/^DONE/, 'NOW')
+                )
+              }
+            }
+          }
+
+          logseq.hideMainUI()
+          logseq.showMainUI()
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-BUHyaJVF.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/logseq-BokHSzYP.js">
+    <link rel="modulepreload" crossorigin href="./assets/markmap-SUItZKQv.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-ChSExVvu.css">
   </head>
   <body>
     <div id="app"></div>
-    
     <script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"></script>
   </body>
 </html>

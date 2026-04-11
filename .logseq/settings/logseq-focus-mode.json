@@ -1,5 +1,6 @@
 {
   "keyboard": "f f",
+  "zoom_factor": 150,
   "disabled": false,
   "fullscreen": true,
   "init": true,

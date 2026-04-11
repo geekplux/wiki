@@ -1,0 +1,3 @@
+- https://badgirlsbible.com/
+- https://www.reddit.com/r/sex/wiki/index/
+- https://www.ohjoysextoy.com/introduction/

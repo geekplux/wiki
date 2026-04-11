@@ -1,5 +1,5 @@
 # Focus Mode
-The purpose of the Focus Mode plugin is to quickly switch into a distraction-free mode or "zen" mode.  This plugin allows you to quickly toggle into fullscreen mode and hide elements like the sidebar or properties section.
+The Focus Mode plugin for Logseq allows you to quickly switch into a distraction-free "zen" mode by toggling into full-screen and hiding elements like the sidebar or properties section.
 
 # Settings
  Settings -> Plugin Settings -> Focus Mode
@@ -17,10 +17,12 @@ The purpose of the Focus Mode plugin is to quickly switch into a distraction-fre
 | Hide Right Side Bar    | On Focus    | Hide the right sidebar when you enter into focus mode.                        |
 | Hide Help              | On Focus    | Hides the help icon in the lower right corner when you enter into focus mode. |
 | Custom Hide Elements   | On Focus    | Custom CSS selector to hide elements when enter into focus mode.              |
+| Zoom                   | On Focus    | Applys custom zoom factor when enter into focus mode.                         |
 | Show Left Side Bar     | On Unfocus  | Show the right sidebar when you exit from focus mode.                         |
 | Show Right Side Bar    | On Unfocus  | Show the right sidebar when you exit from focus mode.                         |
 | Show Help              | On Unfocus  | Shows the help icon in the lower right corner when you exit from focus mode.  |
 | Custom Show Elements   | On Unfocus  | Custom CSS selector to show elements when you exit from focus mode.           |
+| Unzoom                 | On Unfocus  | Removes custom zoom factor when you exit from focus mode.                     |
 
 ## License
 

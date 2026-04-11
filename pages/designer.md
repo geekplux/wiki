@@ -1,1 +1,2 @@
 - [Rauno Freiberg](https://rauno.me) #blog #[[blog themes]] #[[Web Design]] #[[Graphic Design]]
+- [Kuldar Kalvik](https://kuldar.com/) #blog #[[blog themes]] #[[Web Design]]

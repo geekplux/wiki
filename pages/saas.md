@@ -1,0 +1,11 @@
+- https://www.tinybird.co/ build [[api]] by SQL
+- https://turso.tech/ [[edge]]
+- https://orm.drizzle.team/ #orm
+- https://resend.com/ #email
+- https://clerk.com/ #auth #authentication #[[user management]]
+- https://fixer.io exchange rates and #currency
+-
+- https://www.revenuecat.com/
+- https://www.profitkit.io/
+-
+- #server https://www.hetzner.com/

@@ -1,5 +1,6 @@
 {
   "CtpAccent": "Full palette",
-  "CtpReloadCss": false,
-  "disabled": false
+  "CtpWhiteboard": false,
+  "disabled": false,
+  "CtpReloadCss": false
 }

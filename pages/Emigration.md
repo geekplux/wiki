@@ -4,7 +4,9 @@ alias:: 移民
   id:: 618784d8-f4a7-450f-9d93-8c53f56c03f3
 	- {{embed [[L1 VISA]]}}
 	- ## Steps
-		- [How to Apply for a Green Card | USCIS](https://www.uscis.gov/green-card/how-to-apply-for-a-green-card)
+		- [How to Apply for a Green Card | USCIS](https://www.uscis.gov/green-card/how-to-apply-for-a-green-card) #greencard
+		- https://ebgreencard.com/wiki/首页 #greencard
+		-
 		- ![h1b_to_green_card.png](../assets/h1b_to_green_card_1657262242829_0.png)
 		  [从工作签证(H1B)到绿卡(Green Card) - Slyar Home](http://www.slyar.com/blog/usa-from-h1b-visa-to-green-card.html)
 		- ### PERM 劳工证

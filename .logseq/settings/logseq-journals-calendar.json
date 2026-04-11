@@ -6,5 +6,6 @@
   "hotkey": null,
   "keepOpenOnSelect": false,
   "showWeekNumbers": false,
+  "showIsoWeeknumbers": false,
   "disabled": false
 }

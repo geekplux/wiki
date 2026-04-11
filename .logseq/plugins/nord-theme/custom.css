@@ -1,6 +1,6 @@
 /* Based on Dev theme by @pengx17 */
 @import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@latest/custom.min.css");
-@import url("https://www.monolisa.dev/api/fonts/preview");
+@import url("https://www.monolisa.dev/api/fonts/initial/latest");
 
 :root {
   --ls-tag-text-opacity: 0.8;
@@ -1742,10 +1742,20 @@ html[data-theme="dark"] {
   color: var(--bg-grey-100);
 }
 
+/* Journal */
+.journals .journal-item {
+  border-top: 1px solid rgba(67, 76, 94, 0.5) !important;
+}
+
+.journals .journal-item:first-child {
+  border-top: none !important;
+}
+
 /* left sidebar */
 
 .left-sidebar-inner {
-  background-color: var(--ls-primary-background-color);
+  background-color: var(--ls-primary-background-color) !important;
+  border-right: 1px solid rgba(67, 76, 94, 0.5);
 }
 
 /* Hide flashcards count */
@@ -1792,6 +1802,11 @@ html[data-theme="light"] .cp__file-sync-indicator-progress-pane > .c {
 }
 
 /* page reference & properties */
+
+.references-blocks-item {
+  background-color: var(--ls-primary-background-color) !important;
+  border: 1px solid var(--ls-border-color) !important;
+}
 
 .page-ref {
   color: var(--ls-link-ref-text-color);
@@ -2473,4 +2488,8 @@ body
   background-color: transparent !important;
   color: var(--ls-active-secondary-color) !important;
   border: none;
+}
+
+.page-title-sizer-wrapper {
+  font-size: 1em !important;
 }

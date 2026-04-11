@@ -1,5 +1,6 @@
 {
   "showReferences": false,
+  "showPageProps": false,
   "unindentLevel": "1",
   "shortcut": "mod+shift+d",
   "graphLinks": true,

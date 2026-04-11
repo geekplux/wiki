@@ -1,0 +1,458 @@
+/*
+================================================================
+   Xypora Print Theme for Logseq
+================================================================
+  - An academic, sane-priting, paper-like theme for Logseq, inspired by Typora.
+  - By Xyvir
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,300&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,400..900;1,400..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* === Global Font & Style Definitions === */
+:root {
+  --font-body: 'Vollkorn', 'Georgia', serif;
+  --font-header: 'Source Sans 3', sans-serif;
+  --font-code: 'IBM Plex Mono', monospace;
+
+  /* --- Page Break Visualization --- */
+  /* Approx. US Letter height by trial an error */
+  --page-break-height: 1360px; 
+  --page-break-line-color: #a6b1c9; /* A neutral blue */
+}
+
+/* --- Excalidraw Elements --- */
+.draw-wrap {
+  border: 1px solid var(--color-text-main);
+  display: block;       /* Treat the container as a block */
+  margin: 0 auto;       /* Apply auto side margins to center it */
+  position: relative;   /* For consistency, in case of future overlays/absolute positioning */
+  width: fit-content;   /* Allow the container to shrink to its content's width */
+}
+
+/* === Light-Mode Palette  === */
+.light-theme, .white-theme, html[data-theme=light] {
+  --color-text-main: #333;
+  --color-code-text: #343a40;
+  --color-code-bg: #f1f3f5;
+  --ls-border-color: #ddd;
+  --ls-link-text-color: #2484c1;
+
+  /* -- GENERAL BODY & PAGE STYLES -- */
+  --ls-font-family: var(--font-body);
+  --ls-font-size: 19px;
+  line-height: 1.4;
+  
+  /* --- Minimized UI --- */
+  .page-hierarchy { display: none; }
+  .page-title { display: none; }
+  /* Hide breadcrumbs when drilled into a block */
+  .breadcrumb.block-parents { display: none; }
+  /* Hide references section */
+  .references { display: none; }
+  /* Hide embed headers */
+  .embed-header { display: none; }
+
+
+  --ls-primary-background-color: #fefefe;
+  --ls-secondary-background-color: #f7f7f7;
+  --ls-tertiary-background-color: #ffffff;
+  --ls-page-background-color: #fefefe;
+  --ls-block-background-color: #fefefe;
+  --ls-block-properties-background-color: #fefefe;
+}
+
+/* === Dark-Mode Palette === */
+.dark-theme, html[data-theme=dark] {
+  --color-text-main: #c9c9c9;
+  --color-code-text: #e2e2e2;
+  --color-code-bg: #2c2c2c;
+  --ls-border-color: #4a4a4a;
+  --ls-link-text-color: #57a6d9;
+
+  --ls-font-family: var(--font-body);
+  --ls-font-size: 19px;
+  line-height: 1.4;
+
+  --ls-primary-background-color: #222222;
+  --ls-secondary-background-color: #282828;
+  --ls-tertiary-background-color: #333333;
+  --ls-page-background-color: #222222;
+  --ls-block-background-color: #222222;
+  --ls-block-properties-background-color: #222222;
+
+  /* --- Dark Mode Image Filter --- */
+  /* Add a semi-transparent orange overlay to images to reduce blue light */
+  .image-resize::after {
+    --overlay-top-offset: 8px; /* Define the top offset as a variable */
+
+    content: '';
+    position: absolute;
+    top: var(--overlay-top-offset);
+    left: 0;
+    width: 100%;
+    height: calc(100% - var(--overlay-top-offset)); /* Calculate height automatically */
+    background-color: rgba(187, 107, 2, 0.38); /* Orange at 70% opacity */
+    mix-blend-mode: multiply;
+    border-radius: inherit; /* Match the image's border-radius if it has one */
+    transition: background-color 0.3s ease;
+  }
+
+  /* --- Slash Command Menu (Corrected) --- */
+  /* Main command menu panel */
+  div[data-modal-name="commands"] #ui__ac {
+    background-color: var(--ls-secondary-background-color) !important;
+    border: 1px solid var(--ls-border-color);
+  }
+
+  /* Text color for all items and group headers */
+  div[data-modal-name="commands"] #ui__ac,
+  div[data-modal-name="commands"] .ui__ac-group-name {
+    color: var(--color-text-main);
+  }
+
+  /* Highlighted/selected item in the list */
+  div[data-modal-name="commands"] .menu-link.chosen {
+    background-color: var(--ls-tertiary-background-color);
+  }
+}
+
+/*
+================================================================
+  GLOBAL ACADEMIC THEME STYLES (Apply to both modes)
+================================================================
+*/
+
+/* Constrain content width for the academic paper look */
+#main-content-container:not(.is-wide) .page.relative {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Add top padding to the content area */
+#main-content-container .page.relative {
+  padding-top: 40px;
+}
+
+/* Justify text in blocks */
+.block-content {
+  text-align: justify;
+}
+
+/*
+================================================================
+  NEW: Page Break Visualization
+================================================================
+*/
+
+/* 1. Initial page break line from the top */
+/* Target only the main content area, not references */
+/* Only apply to .page-blocks-inner that does NOT contain a .document-mode element */
+/* Also, do not apply inside #journals */
+#main-content-container:not(:has(#journals)) .page-blocks-inner:not(:has(.document-mode)) {
+  position: relative;
+}
+
+#main-content-container:not(:has(#journals)) .page-blocks-inner:not(:has(.document-mode))::before {
+  content: '';
+  position: absolute;
+  top: var(--page-break-height);
+  left: 0;
+  right: 0;
+  border-top: 2px dashed var(--page-break-line-color);
+  z-index: 100;
+  /* Shift the hue of the line to differentiate it from manual breaks */
+  filter: hue-rotate(120deg);
+}
+
+/* 2. Page break lines after manual breaks (---) */
+.block-body:has(> hr:only-child) {
+  position: relative;
+}
+
+.block-body:has(> hr:only-child)::after {
+  content: '';
+  position: absolute;
+  top: var(--page-break-height);
+  left: 0;
+  right: 0;
+  border-top: 2px dashed var(--page-break-line-color);
+  z-index: 100;
+}
+
+/* Hide indicators in doc-mode */
+/* The static indicator is now handled by the :not(:has()) selector above */
+.doc-mode .block-body:has(> hr:only-child)::after {
+  display: none;
+}
+
+
+/* --- HEADERS (Unified for Rendered & Editor view) --- */
+/* Target all headers within the main content to ensure styles apply correctly */
+#main-content-container .ls-block .heading,
+#main-content-container h1, #main-content-container h2, #main-content-container h3,
+#main-content-container h4, #main-content-container h5, #main-content-container h6 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-text-main);
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0 !important;
+  border-bottom: none !important; /* Use !important to override Logseq defaults */
+}
+
+.ls-block .heading-1, h1 { font-size: 2.0rem; margin-top: 1.2rem; }
+.ls-block .heading-2, h2 { font-size: 1.8rem; }
+.ls-block .heading-3, h3 { font-size: 1.5rem; font-style: italic; }
+
+
+
+/* Style H4 and H5 with a simple underline and align left */
+.ls-block .heading-4, h4,
+.ls-block .heading-5, h5 {
+  
+  text-align: left !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+  text-decoration-color: var(--ls-border-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2rem; /* Adjust space between text and line */
+}
+
+.ls-block .heading-5, h5 {
+  font-size: 1.05em !important;
+  font-weight: 400 !important;
+  text-indent: .75em;
+}
+
+/* Page Title: Override global header centering */
+h1.page-title {
+  text-align: left !important;
+  margin-bottom: 1.5rem; /* Add some space below the title */
+  text-decoration: underline;
+  text-decoration-color: var(--ls-border-color); /* Use theme's border color */
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.3rem; /* Adjust space between text and line */
+}
+
+/* Re-create the distinctive H2 underline */
+.ls-block .heading-2::after, h2::after {
+  content: '';
+  display: block;
+  width: 100px;
+  border-bottom: 1px solid var(--color-text-main);
+  margin: 10px auto 0;
+  opacity: 0.7;
+}
+
+/* Styles for headers WHILE editing a block */
+.cm-header {
+  font-family: var(--font-body) !important;
+  font-weight: 700 !important;
+}
+
+/* --- OTHER ELEMENTS --- */
+/* Style blockquotes */
+blockquote {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid var(--ls-border-color);
+}
+
+/* Style inline code */
+:not(pre) > code {
+  font-family: var(--font-code);
+  background-color: var(--color-code-bg);
+  color: var(--color-code-text);
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+/* Style code editor blocks (fenced code) */
+.CodeMirror {
+  font-family: var(--font-code) !important;
+  background-color: var(--color-code-bg) !important;
+  line-height: 1.5;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--ls-border-color);
+}
+
+/* Style tables */
+.table-auto {
+  margin-bottom: 1.5rem;
+}
+.table-auto th,
+.table-auto td {
+  border-top: 1px solid var(--ls-border-color);
+  padding: 8px;
+}
+.table-auto th {
+  font-weight: bold;
+}
+
+/* Center Logseq's resizable image container */
+.block-content .image-resize {
+  display: block;       /* Treat the container as a block */
+  margin: 0 auto;       /* Apply auto side margins to center it */
+  position: relative;   /* Required for the overlay pseudo-element */
+  width: fit-content;   /* <-- This is the crucial missing piece! */
+}
+
+/* --- H6 as Image Caption --- */
+/* Overrides the default h6 style to be used as an image caption. */
+.ls-block .heading-6, h6 {
+  position: relative; /* Allow positioning relative to its normal place */
+  
+  /* --- Alegreya Sans SC Style --- */
+  font-family: 'Alegreya Sans SC', sans-serif !important;
+  font-weight: 700 !important;  /* Light weight */
+  font-style: italic !important;  /* Italic style */
+  letter-spacing: 0.05rem;      /* Good for readability */
+
+  /* --- Sizing & Positioning --- */
+  font-size: .9rem !important; /* Kept from last version */
+  top: -2.2rem !important;       /* Kept from last version */
+  padding: 0 !important;
+  text-align: center;
+  color: var(--color-text-main);
+}
+
+/* Ensure the underline from H2 doesn't appear on H6 captions */
+.ls-block .heading-6::after, h6::after {
+  display: none !important;
+}
+
+/*
+============================================================
+  AGGRESSIVE RESET FOR A PURE WHITE BACKGROUND
+============================================================
+*/
+html[data-theme=light] #main-content-container {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  filter: none !important;
+  border: none !important;
+}
+
+/*
+============================================================
+  DOCUMENT MODE TWEAKS
+============================================================
+*/
+
+/* Make embedded pages blend in with the parent document */
+.doc-mode .embed-page {
+  background-color: var(--ls-primary-background-color) !important;
+  padding: 0 !important;
+}
+
+/* Hide the border around Excalidraw blocks */
+.doc-mode .draw-wrap {
+  border: none;
+}
+
+/* --- Hide Excalidraw UI in Document Mode --- */
+
+/* Make Excalidraw non-interactive */
+.doc-mode .draw {
+  pointer-events: none;
+}
+
+/* --- Hide Excalidraw UI in Document Mode --- */
+
+/* .my-1 spacer div above the drawing */
+/* #block-content-.... > div > div > span > div > div > div.my-1 */
+.doc-mode .my-1 {
+  display: none;
+}
+
+/* Top-left menu button */
+/* #block-content-... > div > div > span > div > div > div.draw-wrap > div > div.layer-ui__wrapper > div > div > div.Stack.Stack_vertical.App-menu_top__left > div > button */
+.doc-mode .draw-wrap .App-menu_top__left {
+  display: none;
+}
+
+/* Bottom-left zoom controls */
+/* #block-content-... > div > div > span > div > div > div.draw-wrap > div > div.layer-ui__wrapper > footer > div.layer-ui__wrapper__footer-left... > div > section > div.Stack.Stack_vertical.zoom-actions > div */
+.doc-mode .draw-wrap .zoom-actions {
+  display: none;
+}
+
+.doc-mode .draw-wrap .layer-ui__wrapper > button {
+  display: none;
+}
+
+/* Top-right menu (e.g., "Open in Excalidraw" or similar) */
+/* #block-content-68f79673-d999-41bc-816a-f6b614d959fc > div > div > span > div > div > div.draw-wrap > div > div.layer-ui__wrapper > div > div > section > div > div > div > div > div.Stack.Stack_horizontal */
+.doc-mode .draw-wrap .layer-ui__wrapper .Stack_horizontal {
+  display: none;
+}
+/*
+============================================================
+  PRINT-SPECIFIC STYLES
+============================================================
+*/
+@media print {
+  /* Turns any horizontal rule (---) into a manual page break. */
+  hr {
+    page-break-before: always;
+    visibility: hidden;
+  }
+
+  /* Rule for H1: Flexible for long content */
+  h1 { page-break-after: avoid; }
+
+  /* Rule for H2: Strict "keep-together" block */
+  h2 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+  /* Hide page break indicators when printing */
+  #main-content-container:not(:has(#journals)) .page-blocks-inner:not(:has(.document-mode))::before {
+    display: none !important;
+  }
+
+  .block-body:has(> hr:only-child)::after {
+    display: none !important;
+  }
+
+
+
+     /* Hides elements that might add extra space at the end; prevents trailing blank pages */
+  .ls-block:last-child {
+    page-break-after: auto !important;
+    page-break-before: auto !Important;
+  }
+
+
+  .page-journal-footer {
+    display: none !important;
+  }
+  
+  .pb-24 {
+    padding-bottom: 0rem !important;
+  }
+
+  .pb-24::after {
+    
+    /* This creates the 'dummy' element */
+    content: ""; 
+    
+    /* Make it a block-level element */
+    display: block; 
+    
+    /* This is the key: force the width you want */
+    width: 1000px !important; 
+    
+    /* Make it invisible  opacity: 0; */
+    height: 1px;
+   
+  }
+}

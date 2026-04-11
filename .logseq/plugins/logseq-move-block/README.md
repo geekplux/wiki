@@ -27,21 +27,11 @@ Better choice.
 
 ## Inspiration and Thanks
 
-The inspiration of this plugin comes from our community.
-
-> Possible new feature - while on any page, right click a block and send the block ref to today's journal. This can be useful for todo created in pages -- danzu on 2021/10/26
-
-At the same time, I have similar thinking about this, but I want to copy ref to any page, Then I found Logseq command API can not receive parameters for now, So I realize that It's better to implment "copying to today's journal" first.
-
-My code borrowed greatly from two other open source projects as followed, thank you guys.
+Part of my inspiration comes from the following plugins:
 
 - [logseq-extract-plugin](https://github.com/sidharth-panwar/logseq-extract-plugin)
 - [logseq-plugin-block-to-page](https://github.com/hyrijk/logseq-plugin-block-to-page)
 
-## Buy me a coffee
+## Notice
 
-If my plugin solve your situation a little bit and you will, you can choose to buy me a coffee via [this](https://www.buymeacoffee.com/vipzhicheng) and [this](https://afdian.net/@vipzhicheng).
-
-## Licence
-
-MIT
+If you want to move multiple selected blocks at once, you must use the shortcut way. The icon top right corner is not recommended. Because it will lose the selected blocks state.

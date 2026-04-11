@@ -1,6 +1,4 @@
 - **Blog** https://geekplux.com
-- Contact [GeekPlux](https://geekplux.com/contact)
--
 -
 -
 - [[Productive]]

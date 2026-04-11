@@ -36,6 +36,10 @@
     --bujo-background6:       hsl(38, 25%, 87%);
     --bujo-background7:       hsl(38, 23%, 86%);
     --bujo-background8:       hsl(39, 22%, 85%);
+    --bujo-background8_5:     hsl(39, 21%, 82%);
+    --bujo-background8_7:     hsl(39, 21%, 79%);
+    --bujo-background8_9:     hsl(38, 21%, 76%);
+
     --bujo-background9:       hsl(42, 20%, 81%);
     --bujo-background10:      hsl(38, 25%, 80%);
     --bujo-background11:      hsl(47, 21%, 74%);
@@ -100,19 +104,31 @@
 
 
     /* block parts */
-    --ls-block-bullet-color: var(--bujo-background9);
-    --ls-block-bullet-border-color: hsla(var(--bujo-foreground2_hsl), 0.25);
+    --ls-block-bullet-color: var(--color-level-4);
+    --bujo-block-bullet-level1: var(--color-level-4);
+    --bujo-block-bullet-level2: var(--color-level-5);
+    --bujo-block-bullet-level3: var(--color-level-5);
+    --bujo-block-bullet-level4: var(--color-level-6);
+    --bujo-block-bullet-level5: var(--color-level-3);
+    --bujo-block-bullet-level6: var(--color-level-3);
 
-    --bujo-block-ref-text: var(--bujo-fill2);
-    --bujo-block-ref-background: hsla(var(--bujo-highlight_hsl), .5);
-    --bujo-block-ref-background-hover: hsla(var(--bujo-highlight_hsl), .6);
+    --ls-block-bullet-border-color: hsla(var(--bujo-foreground2_hsl), 0.25);
+    --bujo-block-bullet-border-level1: var(--ls-block-bullet-border-color);
+    --bujo-block-bullet-border-level2: var(--ls-block-bullet-border-color);
+    --bujo-block-bullet-border-level3: var(--ls-block-bullet-border-color);
+    --bujo-block-bullet-border-level4: var(--ls-block-bullet-border-color);
+    --bujo-block-bullet-border-level5: var(--ls-block-bullet-border-color);
+    --bujo-block-bullet-border-level6: var(--ls-block-bullet-border-color);
+
+    --bujo-block-ref-background: hsla(var(--bujo-highlight_hsl), .3);
+    --bujo-block-ref-background-hover: hsla(var(--bujo-highlight_hsl), .4);
 
 
     /* search results palette */
     --bujo-search-item-text-hover: var(--bujo-accent-normal);
 
-    --bujo-search-item-background: var(--ls-primary-background-color);
-    --ls-a-chosen-bg: var(--bujo-background3);
+    --bujo-search-item-background: var(--bujo-background4);
+    --bujo-search-item-chosen-background: var(--bujo-background7);
 
     --ls-search-icon-color: var(--bujo-accent-normal);
     --bujo-search-item-new-page-icon-text: var(--bujo-background4);
@@ -159,6 +175,8 @@
 
 
     /* scrollbars, table header and various ui borders */
+    --bujo-right-sidebar-item-header-background: var(--color-level-2);
+
     --ls-table-tr-even-background-color: var(--bujo-background4);
     --bujo-right-sidebar-table-even-background: var(--bujo-background4);
 
@@ -168,7 +186,8 @@
 
 
     /* settings */
-    --bujo-settings-background: var(--bujo-background3);
+    --bujo-settings-menu-background: var(--bujo-background4);
+    --bujo-settings-background: var(--bujo-background2);
 
     --bujo-ui-border-focus: var(--bujo-accent-normal);
 
@@ -193,6 +212,8 @@
 
 
     /* whiteboards */
+    --bujo-whiteboard-fill: var(--bujo-button-accent-background);
+
     --bujo-whiteboard-text-accent: var(--bujo-background5);
     --bujo-whiteboard-background: var(--bujo-background9);
     --bujo-whiteboard-background-accent: var(--bujo-background1);
@@ -208,6 +229,7 @@
 
 
     /* pdf extension */
+    --bujo-pdf-menu-icon: var(--bujo-foreground4);
     --bujo-pdf-menu-background: var(--bujo-background3);
     --bujo-pdf-menu-background-hover: var(--bujo-background7);
     --bujo-pdf-menu-highlight-accent: var(--bujo-background1);
@@ -220,13 +242,19 @@
 
 
     /* other ui */
+    --bujo-audio-control: var(--bujo-background8_5);
+
     --bujo-resizer: var(--bujo-fill1);
     --bujo-hover-shadow: var(--bujo-tiny2-shadow-black);
 
     --bujo-progress-bar-done: var(--bujo-accent-normal);
     --bujo-progress-bar-rest: var(--bujo-accent-dimmed);
 
-    /* pdf extension toolbar, filter & edit buttons on main layout */
+    /* themes switch ui */
+    --bujo-themes-switch-background: var(--bujo-background1);
+    --bujo-themes-switch-selected-background: var(--bujo-background5);
+
+    /* filter & edit buttons on main layout */
     --ls-icon-color: var(--bujo-foreground4);
 
     /* on-boarding and some unknown ui */
@@ -243,9 +271,16 @@
     /* block references border color and slash-commands group color */
     --ls-block-ref-link-text-color: var(--bujo-highlight-clean); /* !confusing name */
 
-    /* days plugin  */
+
+    /* tabbed sidebar plugin */
+    --bujo-tabbed-sidebar-plugin-active-background: var(--ls-quaternary-background-color);
+
+
+    /* days plugin */
     --bujo-days-plugin-today-text: var(--ls-primary-text-color);
-    --bujo-days-plugin-today-background: var(--bujo-accent);
+    --bujo-days-plugin-today-background: var(--bujo-background9);
+    --bujo-days-plugin-selected-text: var(--ls-primary-text-color);
+    --bujo-days-plugin-selected-background: var(--bujo-accent);
 
 
     /* block background highlights */
@@ -256,16 +291,19 @@
     --ls-highlight-color-blue:   hsl(205, 25%, 53%);
     --ls-highlight-color-purple: hsl(260, 18%, 53%);
     --ls-highlight-color-pink:   hsl(345, 25%, 60%);
-/*     --ls-highlight-color-pink:   hsl(305 23% 53%); */
 
 
     /* embedded block levels */
     --color-level-1: var(--bujo-background4);
     --color-level-2: var(--bujo-background6);
     --color-level-3: var(--bujo-background8);
-    --color-level-4: var(--bujo-background9);
-    --color-level-5: var(--bujo-background10);
-    --color-level-6: var(--bujo-background11);
+    --color-level-4: var(--bujo-background8_5);
+    --color-level-5: var(--bujo-background8_7);
+    --color-level-6: var(--bujo-background8_9);
+
+
+    /* notifications */
+    --bujo-notification-background: var(--ls-tertiary-background-color);
 
     --ls-error-text-color: var(--ls-highlight-color-red);
     --ls-warning-text-color: var(--ls-highlight-color-yellow);

@@ -1,7 +1,7 @@
 {
-  "enableVisualModeIndicator": false,
   "showRecentEmojis": false,
   "disabled": false,
+  "enableVisualModeIndicator": false,
   "bottom": "shift+g",
   "changeCase": "mod+shift+u",
   "changeCaseUpper": "g shift+u",
@@ -51,7 +51,7 @@
   "markJump": "'",
   "markJumpSidebar": "mod+'",
   "command": "mod+shift+;",
-  "settingsVersion": "v4",
+  "settingsVersion": "v5",
   "keyBindings": {
     "bottom": "shift+g",
     "changeCase": "mod+shift+u",
@@ -65,9 +65,11 @@
     "down": "j",
     "extend": "z o",
     "extendAll": "z shift+o",
-    "highlightFocusIn": "l",
-    "highlightFocusOut": "h",
-    "indent": "shift+l",
+    "highlightFocusIn": "shift+l",
+    "highlightFocusOut": "shift+h",
+    "indent": [
+      "shift+."
+    ],
     "insert": [
       "shift+a",
       "a"
@@ -78,7 +80,9 @@
     ],
     "nextNewBlock": "o",
     "nextSibling": "shift+j",
-    "outdent": "shift+h",
+    "outdent": [
+      "shift+,"
+    ],
     "pasteNext": "p",
     "pastePrev": "shift+p",
     "prevNewBlock": "shift+o",
@@ -103,7 +107,7 @@
     ],
     "jumpInto": "mod+shift+enter",
     "joinNextLine": "mod+alt+j",
-    "toggleVisualMode": "ctrl+v",
+    "toggleVisualMode": "v",
     "markSave": "m",
     "markJump": "'",
     "markJumpSidebar": "mod+'",
@@ -117,6 +121,24 @@
     ],
     "emoji": "mod+/",
     "deleteCurrentAndNextSiblingBlocks": "d j",
-    "deleteCurrentAndPrevSiblingBlocks": "d k"
-  }
+    "deleteCurrentAndPrevSiblingBlocks": "d k",
+    "changeCurrentBlock": "d c",
+    "left": "h",
+    "right": "l",
+    "wordForward": "w",
+    "wordBackward": "b",
+    "wordEnd": "e",
+    "lineEnd": "shift+4",
+    "findChar": "f",
+    "findCharBackward": "shift+f",
+    "repeatCharSearch": ";",
+    "repeatCharSearchReverse": ",",
+    "visualLineMode": "shift+v",
+    "markPageSave": "shift+m",
+    "markPageJump": "shift+'",
+    "markPageJumpSidebar": "mod+shift+'",
+    "replace": "r",
+    "openSettings": ""
+  },
+  "disabledKeyBindings": []
 }
