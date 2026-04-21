@@ -1,3 +1,6 @@
+title:: Decatur
+alias:: 迪凯特
+
 - Decatur
   - Pre-K application
     - https://dekalbschoolsgacpk.scriborder.com/family

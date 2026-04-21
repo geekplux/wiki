@@ -1,1 +1,1 @@
-alias:: 日记, diary
+alias:: 日记, diary, journaling, 写日记

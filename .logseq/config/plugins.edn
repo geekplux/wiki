@@ -86,7 +86,7 @@
  :logseq-wordcount-plugin
  {:version "2.4.14", :repo "hkgnp/logseq-wordcount-plugin", :effect false, :theme false},
  :logseq-mia-theme
- {:version "v1.6.0", :repo "playerofgames/logseq-mia-theme", :effect false, :theme true},
+ {:version "v1.7.1", :repo "playerofgames/logseq-mia-theme", :effect false, :theme true},
  :logseq-dev-theme
  {:version "v1.26.17", :repo "pengx17/logseq-dev-theme", :effect false, :theme true},
  :logseq-mark-map
@@ -96,7 +96,7 @@
  :logseq-dracula-theme {:version "0.0.5", :repo "dracula/logseq", :effect false, :theme true}
  :logseq-ozean-theme {:version "v0.1.1", :repo "hisea/logseq-ozean-theme", :effect false, :theme true}
  :logseq-bujo-theme {:version "1.2.0", :repo "stdword/logseq-bujo-theme", :effect false, :theme true}
- :logseq-catppuccin {:version "v0.6.3", :repo "catppuccin/logseq", :effect false, :theme true}
+ :logseq-catppuccin {:version "v0.6.4", :repo "catppuccin/logseq", :effect false, :theme true}
  :cobra-kai-fira-theme {:version "v1.0", :repo "Martin1887/CobraKaiFira", :effect false, :theme true}
  :harmony-theme {:version "v.1.3.0", :repo "dmytrodubinin/Harmony-theme-for-Logseq", :effect false, :theme true}
  :logseq-panic-theme {:version "v1.0.1", :repo "kirso/logseq-panic-theme", :effect false, :theme true}
