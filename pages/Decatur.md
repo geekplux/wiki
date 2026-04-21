@@ -1,5 +1,4 @@
 title:: Decatur
-alias:: 迪凯特
 
 - Decatur
   - Pre-K application
