@@ -1,0 +1,8 @@
+- Decatur
+  - Pre-K application
+    - https://dekalbschoolsgacpk.scriborder.com/family
+    - DeKalb County School District 的 Family Dashboard / Pre-K 申请入口。
+    - 首次使用需要先创建 guardian account，登录后添加 student，再完成申请。
+  - Reddit discussion
+    - https://www.reddit.com/r/DecaturGA/comments/1oaco1o/how_does_georgia_prek_lottery_work/
+    - 简要总结：这页主要在讨论 Georgia Pre-K lottery 是怎么运作的，核心关注点大致包括申请流程、抽签/录取顺序、是否有优先级，以及没抽中后是否进入 waitlist 或后续补录。
