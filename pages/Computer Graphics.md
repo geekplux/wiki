@@ -2,6 +2,7 @@ alias:: 图形学, cg
 
 - [[Shader]]
 - [[WebGL]]
+- [[WebGPU]]
 - ## Learning Resource
 	- https://www.scratchapixel.com/
 	  http://ogldev.atspace.co.uk/
