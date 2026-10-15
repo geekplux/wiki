@@ -1,5 +1,7 @@
 alias:: 设计
 
+- [[brand]]：品牌不是 logo，是你是谁、你不妥协什么。展开在 [[2026-10-14]]。
+
 - [Digital City](https://exp-digital-city.lusion.co) - 数字城市设计
 - [[designer]]
 - ### [[Visualization]]
