@@ -1,0 +1,26 @@
+alias:: 工程师个人网站, 个人站, personal site
+
+- 2026-10-12 的参考集，2026-10-17 收进图。每个站一句。见 [[Web Design]]、[[designer]]、[[data narrative]]。
+- 先看这五个：[wattenberger.com](https://wattenberger.com)、[rauno.me](https://rauno.me) 的 Craft、[emilkowal.ski](https://emilkowal.ski) 的一篇文章、[maximeheckel.com](https://maximeheckel.com)、[ciechanow.ski](https://ciechanow.ski)。
+- ## A 极简文字
+	- [Paco Coursey](https://paco.me) 一屏五段链接，没有装饰，靠留白把一个人说清楚。
+	- [Emil Kowalski](https://emilkowal.ski) 首页克制，手艺藏在文章里可交互的动画 demo。
+	- [Brian Lovin](https://brianlovin.com) 头像、一行 bio、两个列表，页面几乎不设计，内容自己说话。
+	- [Linus Lee](https://thesephist.com) 首页是几段带内链的散文，用写作代替作品列表。
+	- [Shu Ding](https://shud.in) 四个入口，真正要看的是中英文混排和字体。
+	- [Anthony Fu](https://antfu.me) 入口很多仍不乱，大量开源项目靠分组和 Demos 页撑住。
+- ## B 工艺交互
+	- [Rauno Freiberg](https://rauno.me) 首页只有名字和几行字，Craft 页每个 demo 都可玩。旧条目在 [[designer]]。
+	- [Rasmus Andersson](https://rsms.me) 全站用自己的 Inter，排版细到字重和行高。
+	- [Lynn Fisher](https://lynnandtonic.com) 窗口宽度一变，首页就变成另一件作品，Archive 里有历年。
+	- [Maxime Heckel](https://maximeheckel.com) 长文里嵌可交互的 WebGL demo，并公开了自己的设计系统。
+- ## C 数据可视化从业者
+	- [Amelia Wattenberger](https://wattenberger.com) 不用卡片网格，按正在想什么分段，用短视频代替截图。
+	- [Shirley Wu](https://www.shirleywu.studio/) 项目直接嵌进页面，不靠缩略图。旧域名 [sxywu.com](https://sxywu.com) 现在跳到这里。
+	- [Nadieh Bremer](https://www.visualcinnamon.com) 深色发光的数据作品排成横向作品集，客户和奖项都在页面上。视觉另见 [[data narrative]]。
+	- [Santiago Ortiz](https://moebio.com) 首页就是一件全屏 Canvas，一个介绍字都没有。
+- ## D 可解释长文
+	- [Bartosz Ciechanowski](https://ciechanow.ski) 没有作品集首页，滑块嵌在段落里，一篇文章就是整个站。
+	- [Josh Comeau](https://www.joshwcomeau.com) 每篇文章配一个可拖动的教学组件，交互就是品牌。渐变工具另记在 [[Building Website]]。
+	- [Nicky Case](https://ncase.me) 首页按能玩、能读、能看分组，不按作者做了什么。
+- 展开在 [[2026-10-17]]。

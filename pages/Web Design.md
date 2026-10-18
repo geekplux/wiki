@@ -1,3 +1,4 @@
 - [Awwwards - Website Awards - Best Web Design Trends](https://www.awwwards.com)
+- [[engineer websites]]：工程师个人站参考，不是奖项站。展开在 [[2026-10-17]]。
 - [CSS Design Awards - Website Awards - Best Web Design Inspiration - CSS Awards](https://www.cssdesignawards.com)
 - [Design basics | Figma](https://www.figma.com/resource-library/design-basics/) #tutorial #Courses #figma

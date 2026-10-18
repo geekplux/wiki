@@ -1,2 +1,3 @@
 - [Rauno Freiberg](https://rauno.me) #blog #[[blog themes]] #[[Web Design]] #[[Graphic Design]]
+- [[engineer websites]]：16 个工程师个人站，按做法分组。展开在 [[2026-10-17]]。
 - [Kuldar Kalvik](https://kuldar.com/) #blog #[[blog themes]] #[[Web Design]]

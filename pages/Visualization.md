@@ -41,3 +41,5 @@ alias:: 可视化, 数据可视化, Data Visualization, vis
 -
 - ## Intereseting Project
 	- [little-big-city](https://github.com/pissang/little-big-city) #[[3D Visualization]] #[[GIS]]
+- ## References
+	- [[data narrative]]：个人数据报告、数据艺术、新闻叙事。展开在 [[2026-10-17]]。
