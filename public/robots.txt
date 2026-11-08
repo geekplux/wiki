@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# The wiki is one page: Logseq routes its notes in the hash (/#/page/…), which crawlers do not
+# request separately, so the sitemap lists the home page only.
+Sitemap: https://wiki.geekplux.com/sitemap.xml
